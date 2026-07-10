@@ -1,0 +1,129 @@
+{
+  "template_name": "ghibli art ai",
+  "template_slug": "ghibli-art-ai",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:28:44",
+  "hero": {
+    "title": "ghibli art ai",
+    "description": "Transform your images into the iconic hand-drawn animation style inspired by Studio Ghibli. This effect is ideal for creating dreamy social media posts, cinematic Reels, Shorts, product reveals, and artistic visual storytelling.",
+    "template_name": "ghibli art ai Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-quality professional photograph of a peaceful countryside landscape, featuring a small wooden cottage with a thatched roof nestled among rolling green hills, a winding dirt path leading to the cottage through patches of colorful wildflowers, a bright blue sky with soft white clouds, warm natural sunlight, sharp focus, vibrant colors, 16:9 landscape orientation, 1536x1024 pixels, realistic photo.",
+    "image_prompt_after": "The exact same countryside scene after applying the Ghibli art AI effect, now transformed into a breathtaking Studio Ghibli-style anime background. The cottage, hills, path, wildflowers, and sky are all rendered in a soft hand-painted aesthetic with delicate line art, watercolor-like washes, and a warm, dreamy golden-hour glow. The color palette is vibrant yet pastel-tinged, evoking a whimsical nostalgic mood. Details are stylized with expressive brush strokes, the clouds are fluffy and illustrated, and the entire composition carries the iconic magical, serene atmosphere of a Miyazaki film, presented in a 16:9 landscape layout.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a ghibli art ai video work?",
+    "intro": "The Ghibli art AI effect turns ordinary footage into hand-drawn animation by applying soft, painterly textures, gentle color palettes, and subtle character motion. It mimics the iconic Studio Ghibli look—diffuse lighting, dreamlike backgrounds, and a warm, nostalgic tone. The result feels like a moving watercolor painting, ideal for storytelling and emotional connection.",
+    "cards": [
+      {
+        "title": "A clear, softly lit portrait",
+        "description": "Front-facing subjects with soft, even lighting and simple backgrounds help the AI render a clean, painterly Ghibli-style portrait without distortion.",
+        "icon": "upload"
+      },
+      {
+        "title": "Gentle, deliberate character motion",
+        "description": "Small head tilts, slow blinks, and understated gestures mirror the iconic Ghibli character animation, making the effect feel authentic and emotional.",
+        "icon": "motion"
+      },
+      {
+        "title": "Painterly texture and soft edges",
+        "description": "The effect applies a watercolor-like filter with subtle outline wobble and diffuse backgrounds, creating the iconic hand-painted Ghibli atmosphere frame by frame.",
+        "icon": "layers"
+      },
+      {
+        "title": "Nostalgic, shareable aesthetic",
+        "description": "The Ghibli style triggers emotional recall and curiosity, helping clips stand out in social feeds and making promotional content feel warm and artful.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how the Ghibli Art AI effect transforms everyday creator moments into stronger visual stories across short-video platforms.",
+    "scenarios": [
+      {
+        "title": "Coffee Break Pause",
+        "description": "Turn a simple café moment into a story-driven short-video hook with soft, animated detail.",
+        "category": "lifestyle",
+        "image_prompt": "A realistic lifestyle photo of a young woman in a cozy café, wearing a casual beige sweater, sitting by the window with a ceramic coffee cup, looking outside with a calm expression. The image is transformed into a Studio Ghibli-style hand-drawn animation still, featuring soft pastel watercolor textures, delicate line art, warm afternoon light, and subtle character blushing, preserving the real setting while adding a dreamlike, nostalgic anime aesthetic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-scenario-1.png"
+      },
+      {
+        "title": "Mid-Dance Spin",
+        "description": "Add hand-drawn motion trails and fluid energy around a dancer for a dynamic short-video clip.",
+        "category": "motion",
+        "image_prompt": "A realistic action shot of a street dancer mid-spin in a sunlit urban plaza, wearing loose streetwear, arms extended, hair flowing. The scene is reinterpreted in Ghibli art style: swirling leaves and dust motes drawn with soft brush strokes, motion blur transformed into gentle watercolor trails, the background buildings simplified into sketchy architectural lines, and overall a warm, whimsical color palette that amplifies the movement without losing the real expression.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-scenario-2.png"
+      },
+      {
+        "title": "Scenic Lookout Pose",
+        "description": "Highlight your travel outfit and the city view with a painterly, animated-style frame.",
+        "category": "travel",
+        "image_prompt": "A realistic travel photo of a young man standing on a hilltop viewpoint overlooking a coastal city at golden hour, wearing a light linen shirt and folding sunglasses, one hand resting on a railing. The image is converted into a Ghibli art-inspired frame: hand-painted textures on the clothing, soft glowing sky with layered clouds, the distant city rendered as delicate ink-wash silhouettes, and a nostalgic film-grain warmth enveloping the composition, emphasizing the pose and the location.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the ghibli art ai effect?",
+        "answer": "The ghibli art ai effect transforms your photos or short videos into a hand-drawn art style inspired by Studio Ghibli animations. It applies soft colors, gentle lighting, and painterly textures to create a nostalgic anime look."
+      },
+      {
+        "question": "Why is ghibli art ai useful for TikTok, Reels, or Shorts?",
+        "answer": "This effect stands out in short-form feeds because of its recognizable, cozy aesthetic. It can increase viewer retention and engagement by tapping into a widely loved visual trend without needing advanced editing skills."
+      },
+      {
+        "question": "Can I create ghibli art ai from one uploaded image?",
+        "answer": "Yes. Most tools let you upload a single image and generate the effect automatically. No multiple angles or video clips are required, though some platforms also support short video input for a moving anime result."
+      },
+      {
+        "question": "What type of image or video works best?",
+        "answer": "Clear, well-lit photos with a single main subject produce the best results. Avoid dark, cluttered, or low-resolution images. Portraits, landscapes, and simple compositions translate best into the ghibli style."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect works well for showcasing products in a storybook context, styling fashion looks with a dreamy vibe, or turning travel scenes into anime-like moments. It helps creator content feel more personal and visually distinctive."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Make Ghibli art from a photo, frame, or template",
+    "supporting_text": "Start from a prompt, uploaded media, or template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for ghibli art ai",
+    "description": "Looking for that signature hand-drawn animation feel? You might know this style by a few different names across the creative community. Whether you call it a Studio Ghibli-inspired filter, an anime watercolor scene, or a whimsical painted portrait, the goal is the same: turning your photos into dreamy, storybook-style visuals. At LazyKiwi, we instantly transform your prompts into short-video-ready clips that capture this nostalgic aesthetic, no matter what search term you use.",
+    "keywords": [
+      "ghibli filter",
+      "studio ghibli style",
+      "anime watercolor art",
+      "ghibli landscape generator",
+      "turn photo into ghibli",
+      "hayao miyazaki filter",
+      "anime background art",
+      "whimsical anime scene",
+      "ghibli portrait maker",
+      "ghibli-inspired AI",
+      "pastel anime dreamscape",
+      "totoro aesthetic filter"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ghibli-art-ai-hero-after.png"
+  }
+}

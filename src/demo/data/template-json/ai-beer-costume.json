@@ -1,0 +1,129 @@
+{
+  "template_name": "AI Beer Costume",
+  "template_slug": "ai-beer-costume",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:15:55",
+  "hero": {
+    "title": "AI Beer Costume",
+    "description": "Transform any outfit into a transparent inflatable beer costume with a built-in drinking straw. Ideal for social content, product reveals, outfit edits, and action shots on TikTok, Reels, and Shorts.",
+    "template_name": "AI Beer Costume Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A full-body portrait of a young adult wearing casual streetwear (jeans and a t-shirt) standing against a clean studio background, neutral expression, natural lighting, sharp focus, photorealistic.",
+    "image_prompt_after": "The same person with their clothing transformed into a transparent inflatable suit filled with golden beer, bubbles visible, a flexible straw extending from the chest area to the person's mouth, background unchanged, photorealistic detail.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Beer Costume video work?",
+    "intro": "The AI Beer Costume effect turns ordinary clothing into a fully transparent, beer-filled inflatable suit, with a functional straw that lets the subject drink directly from the costume. The trick works through detailed liquid simulation, crisp transparency, and accurate motion tracking that syncs the suit’s movement with the body. The result is a short, funny video that feels like a real-life party stunt.",
+    "cards": [
+      {
+        "title": "Clear, full-body starting frame",
+        "description": "Use a well-lit, front-facing shot where the person’s entire outfit is visible. Solid, simple clothing and a plain background help the AI map the suit accurately.",
+        "icon": "upload"
+      },
+      {
+        "title": "Natural drinking and posing",
+        "description": "The subject should act as if sipping via the straw, with slight body sways. Subtle, playful movements make the liquid slosh and the suit feel alive.",
+        "icon": "subject"
+      },
+      {
+        "title": "Realistic liquid and transparency",
+        "description": "The effect relies on dynamic beer sloshing, bubble details, and refractive transparency. These elements create the illusion of a wearable beer container that moves with the body.",
+        "icon": "motion"
+      },
+      {
+        "title": "Instant attention for short-form video",
+        "description": "The absurd, shareable premise grabs viewers in the first second. Perfect for Reels, TikTok, and ads, it drives high engagement and brand recall in party or beverage campaigns.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how the AI Beer Costume effect is used in real content across social media, events, and brand promotions.",
+    "scenarios": [
+      {
+        "title": "Party Photo Boosts",
+        "description": "Turn house party photos into shareable content with a wearable beer suit for fun group shots.",
+        "category": "Social Media",
+        "image_prompt": "A group of friends at a lively house party, one person wearing a transparent inflatable suit filled with golden beer, drinking from a straw attached to the suit, others laughing and raising glasses, colorful party lights, candid smartphone photography style.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-scenario-1.png"
+      },
+      {
+        "title": "Festival Highlights",
+        "description": "Festival-goers use the beer costume to stand out in crowd photos and capture the fun vibe.",
+        "category": "Events",
+        "image_prompt": "A young woman at an outdoor music festival, wearing a clear inflatable suit filled with beer, straw in her mouth, crowd and stage with colorful lights in background, sunset lighting, vibrant festival atmosphere, realistic lifestyle photography.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-scenario-2.png"
+      },
+      {
+        "title": "Brand Activations",
+        "description": "Beer brands create eye-catching promotional content with the effect for social media and tasting events.",
+        "category": "Commercial",
+        "image_prompt": "A person at a beer tasting event, wearing a branded inflatable suit filled with beer, holding a sign with a craft beer logo, festival tents and banners in background, bright daylight, professional commercial photography.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI Beer Costume effect?",
+        "answer": "It transforms a person’s clothes into a transparent inflatable suit filled with beer, with the person shown drinking from it through a straw. It’s a digital effect applied to an uploaded image or video."
+      },
+      {
+        "question": "Why is AI Beer Costume useful for TikTok, Reels, or Shorts?",
+        "answer": "The unusual outfit and drinking action catch attention quickly in short-form feeds. It’s a simple way to create a shareable, humorous clip that stands out without complex editing."
+      },
+      {
+        "question": "Can I create AI Beer Costume from one uploaded image?",
+        "answer": "Yes, a single clear photo is enough to apply the effect. The tool generates the inflatable suit and straw drinking pose based on the person in the picture."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "A front-facing full-body shot with good lighting and an uncluttered background gives the most accurate result. Avoid loose, bulky clothing or heavy accessories that can interfere with the placement of the costume."
+      },
+      {
+        "question": "Can I use it for product, fashion, or creator content?",
+        "answer": "Yes. Creators use it to engage audiences with fun content. Brands sometimes turn it into a meme-style promotion for drinks or events. It fits into comedic, lifestyle, and social media trend formats."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn a photo into a beer costume in seconds",
+    "supporting_text": "Start with a prompt, a photo, or a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Beer Costume",
+    "description": "People often search for this effect using different terms like 'beer bottle costume', 'Oktoberfest AI outfit', or 'beer lover avatar'. Whether you want a fun pub crawl look or a quirky party video, LazyKiwi turns these ideas into short-video-ready visuals that instantly match your vision.",
+    "keywords": [
+      "beer bottle costume",
+      "Oktoberfest outfit AI",
+      "ai beer suit",
+      "beer keg outfit",
+      "hop costume generator",
+      "pub crawl avatar",
+      "beer lover photo effect",
+      "beer-themed attire",
+      "beer drinking costume",
+      "ai beer can outfit",
+      "beer glass costume",
+      "beer pilsner avatar"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-beer-costume-scenario-3.png"
+    ]
+  }
+}

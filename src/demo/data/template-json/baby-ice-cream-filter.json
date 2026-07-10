@@ -1,0 +1,129 @@
+{
+  "template_name": "Baby Ice Cream Filter",
+  "template_slug": "baby-ice-cream-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:05:06",
+  "hero": {
+    "title": "Baby Ice Cream Filter",
+    "description": "Turn ordinary baby photos into playful ice cream-themed creations. The filter adds soft pastel tones, creamy textures, and sweet dessert details that are perfect for family vlogs, social media posts, baby announcements, and lighthearted brand content on TikTok, Reels, or Shorts.",
+    "template_name": "Baby Ice Cream Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, natural-light portrait of a smiling baby against a simple neutral background, wearing a plain white onesie, with soft focus and warm skin tones.",
+    "image_prompt_after": "The same baby portrait transformed with the Baby Ice Cream Filter: pastel ice cream hues overlay the image, a waffle cone texture frames the head like a hat, whipped cream swirls and colorful sprinkles appear around the baby's cheeks, and a soft, creamy blur gives the whole shot a dessert-inspired dreamy feel.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Baby Ice Cream Filter video work?",
+    "intro": "A baby's innocent expression meets playful ice cream textures—soft swirls, colorful sprinkles, and a cone-shaped frame. The filter uses facial tracking to seamlessly blend the child's face with dessert elements, creating a whimsical hybrid that feels both adorable and shareable. The pastel palette and gentle motion effects make it instantly eye-catching for short-form video.",
+    "cards": [
+      {
+        "title": "Start with a clear, front-facing photo",
+        "description": "A well-lit, straight-on shot of the baby's face with no obstructions gives the filter a clean canvas to map the ice cream cone and toppings accurately.",
+        "icon": "camera"
+      },
+      {
+        "title": "Let the baby's natural expression shine",
+        "description": "A calm smile or curious wide eyes enhance the sweet effect, while minimal head movement keeps the ice cream elements perfectly aligned and centered.",
+        "icon": "subject"
+      },
+      {
+        "title": "Layered visuals with soft motion",
+        "description": "Real-time face tracking wraps the baby's face in a scoop, while animated drips and floating sprinkles create a gentle, hypnotic motion that holds attention.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for short-form social engagement",
+        "description": "The cute-baby-meets-food mashup triggers instant likes, comments, and shares, making it ideal for TikTok, Reels, parenting content, and playful brand ads.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real-world examples of how creators use the Baby Ice Cream Filter across social media, marketing, and personal content.",
+    "scenarios": [
+      {
+        "title": "Parent Social Shares",
+        "description": "Parents share adorable baby photos with the ice cream effect on Instagram and Facebook.",
+        "category": "Social Media",
+        "image_prompt": "A split screen showing a regular baby photo on the left, and the same photo transformed with the Baby Ice Cream Filter on the right, where the baby is playfully merged with a colorful ice cream cone, with sprinkles and a cute expression. The background is a bright, cheerful nursery, and the social media interface mockup shows likes and hearts.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-scenario-1.png"
+      },
+      {
+        "title": "Baby Brand Campaigns",
+        "description": "Baby product brands use the filter for playful marketing visuals that attract parents.",
+        "category": "Marketing",
+        "image_prompt": "A branded Instagram post by a baby food company, featuring a baby with the Baby Ice Cream Filter, the baby's head is the scoop of ice cream with a waffle cone body, surrounded by fresh fruits and the brand's product packaging. The caption reads 'Sweet as our new organic puree!' with a pastel color scheme.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-scenario-2.png"
+      },
+      {
+        "title": "Birthday Invitation Design",
+        "description": "The filter turns a baby's photo into a unique ice cream-themed birthday invitation.",
+        "category": "Event Planning",
+        "image_prompt": "A digital birthday invitation card with a baby's face on a triple-scoop ice cream cone, each scoop a different flavor (strawberry, vanilla, chocolate), with sprinkles and a cherry on top. The invitation text says 'You're invited to Max's 1st Birthday Ice Cream Party!' with a festive background of balloons and confetti.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Baby Ice Cream Filter effect?",
+        "answer": "It is an AI-powered photo and video effect that blends a baby's face or image with ice cream elements, creating a playful, whimsical fusion where the baby appears as part of an ice cream cone or treat."
+      },
+      {
+        "question": "Why is Baby Ice Cream Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "The filter adds a cute, eye-catching twist that helps short videos stand out in feeds, often increasing engagement, shares, and watch time on platforms like TikTok, Instagram Reels, and YouTube Shorts."
+      },
+      {
+        "question": "Can I create the Baby Ice Cream Filter from one uploaded image?",
+        "answer": "Yes, most tools let you upload a single photo of a baby's face, and the AI will automatically generate the ice cream fusion effect without needing multiple images or complex editing."
+      },
+      {
+        "question": "What kind of image or video works best for the filter?",
+        "answer": "A front-facing, well-lit photo with a clear, unobstructed face gives the most accurate result. Avoid dim lighting, blurry shots, or heavy shadows for the best fusion effect."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "The filter is best for personal, fun, and family-oriented content. Creators can use it for product promotions targeting a playful or parent-focused audience, but it is less suited for formal fashion or serious travel content."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Transform your photo into a baby ice cream character",
+    "supporting_text": "Start with a prompt, upload an image, or use a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Baby Ice Cream Filter",
+    "description": "You might see this adorable style described in a few different ways. Some people call it the \"ice cream baby effect,\" while others search for a \"baby with ice cream photo filter\" or \"cute ice cream baby face app.\" No matter which term you prefer, the goal is the same: turning an ordinary shot into a sweet, baby-themed ice cream moment. With LazyKiwi, you can quickly transform these ideas into polished short-video-ready visuals that feel just right for social sharing or branding.",
+    "keywords": [
+      "baby ice cream effect",
+      "ice cream baby filter",
+      "baby eating ice cream filter",
+      "cute baby with ice cream app",
+      "baby ice cream face changer",
+      "infant ice cream photo effect",
+      "newborn ice cream overlay",
+      "baby dessert filter",
+      "sweet baby ice cream portrait effect",
+      "baby cone filter",
+      "ice cream toddler filter",
+      "baby sundae effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/baby-ice-cream-filter-scenario-3.png"
+    ]
+  }
+}

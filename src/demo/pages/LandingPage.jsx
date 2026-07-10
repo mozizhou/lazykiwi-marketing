@@ -4,7 +4,7 @@ import StartAnythingSection from '../components/landing/StartAnythingSection.jsx
 import TemplateLibrary from '../components/landing/TemplateLibrary.jsx';
 import ModelsWallSection from '../components/landing/ModelsWallSection.jsx';
 import { CommunitySection, IdeasSection, FinalCTASection } from '../components/landing/IdeasAndCTASection.jsx';
-import { siteNav, siteNavHubs } from '../data/siteNav.js';
+import { siteNav, siteNavHubs, footerNav } from '../data/siteNav.js';
 import MegaMenuContent from '../components/site/MegaMenuContent.jsx';
 import MarketingNavAuth from '../components/site/MarketingNavAuth.jsx';
 
@@ -89,8 +89,21 @@ function LandingNav({ onCreateNow, onNavigatePage, onOpenAuth }) {
   const handleDropdownItemClick = (event, item) => {
     event.stopPropagation();
     setActiveDropdown(null);
-    if (item.href) window.location.href = item.href;
-    else if (item.action === 'video-generator') onCreateNow();
+    if (item.href) {
+      // Generator/Image links point at the workbench (on the app subdomain in
+      // production). Route them through onNavigatePage so the query string
+      // (mode=template / start-end / etc.) is preserved and mapped to the app
+      // origin directly, instead of relying on the marketing redirect pages.
+      if (item.href.startsWith('/image-generator')) {
+        onNavigatePage?.('image-generator', item.href);
+      } else if (item.href.startsWith('/video-generator')) {
+        onNavigatePage?.('video-generator', item.href);
+      } else {
+        window.location.href = item.href;
+      }
+      return;
+    }
+    if (item.action === 'video-generator') onCreateNow();
     else if (item.action === 'image-generator') onNavigatePage?.('image-generator', '/image-generator');
   };
 
@@ -453,12 +466,9 @@ function FAQSection() {
 
 // ─── Footer ───────────────────────────────────────────────────────────────────
 
-function LandingFooter({ onCreateNow }) {
-  const cols = [
-    { title: 'Product', items: ['Video Generator', 'Image Generator', 'Templates', 'Models', 'Pricing'] },
-    { title: 'Company', items: ['About', 'Blog', 'Careers', 'Press'] },
-    { title: 'Legal', items: ['Privacy', 'Terms', 'Contact'] },
-  ];
+function LandingFooter() {
+  const linkClass =
+    'text-[14px] font-medium transition-colors text-left hover:text-[var(--lk-ink)]';
 
   return (
     <footer
@@ -468,28 +478,39 @@ function LandingFooter({ onCreateNow }) {
       <div className="max-w-[1240px] mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-12 gap-12 mb-16">
           <div className="col-span-2 md:col-span-5 max-w-[360px]">
-            <div className="flex items-center gap-2.5 mb-5">
+            <a href="/" className="flex items-center gap-2.5 mb-5 w-fit">
               <img src="https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/kiwi-logo.svg" alt="" width={26} height={26} />
               <span className="lk-display text-[20px] font-semibold tracking-[-0.04em]" style={{ color: 'var(--lk-ink)' }}>
                 LazyKiwi
               </span>
-            </div>
+            </a>
             <p className="text-[14.5px] leading-[1.65]" style={{ color: 'var(--lk-ink-soft)' }}>
               An all-in-one AI creative studio for makers, marketers, and dreamers.
             </p>
           </div>
 
-          {cols.map(col => (
+          {footerNav.map(col => (
             <div key={col.title} className="md:col-span-2 lg:col-span-2">
               <h4 className="lk-mono text-[10px] tracking-[0.2em] uppercase mb-4" style={{ color: 'var(--lk-ink-mute)' }}>
                 {col.title}
               </h4>
               <ul className="flex flex-col gap-2.5">
                 {col.items.map(item => (
-                  <li key={item}>
-                    <button type="button" className="text-[14px] font-medium transition-colors text-left" style={{ color: 'var(--lk-ink-soft)' }}>
-                      {item}
-                    </button>
+                  <li key={item.label}>
+                    {item.href ? (
+                      <a
+                        href={item.href}
+                        className={linkClass}
+                        style={{ color: 'var(--lk-ink-soft)' }}
+                        {...(item.href.startsWith('mailto:') ? {} : item.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                      >
+                        {item.label}
+                      </a>
+                    ) : (
+                      <span className={linkClass} style={{ color: 'var(--lk-ink-mute)' }}>
+                        {item.label}
+                      </span>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -713,7 +734,7 @@ export default function LandingPage({ onEnterApp, onNavigatePage, onOpenAuth }) 
         <FinalCTASection onCreateNow={handleCreateNow} />
       </main>
 
-      <LandingFooter onCreateNow={handleCreateNow} />
+      <LandingFooter />
     </div>
   );
 }

@@ -1,0 +1,129 @@
+{
+  "template_name": "Anime Fusion Filter",
+  "template_slug": "anime-fusion-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:01:05",
+  "hero": {
+    "title": "Anime Fusion Filter",
+    "description": "Blend real photography with hand-drawn anime aesthetics. This filter retains natural lighting and expressions while adding soft linework, cel-shading, and character-like stylization. Ideal for TikTok posts, Reels, Shorts, outfit edits, product teasers, and dynamic social content.",
+    "template_name": "Anime Fusion Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, high-resolution portrait of a young adult in a casual urban setting, soft daylight, neutral expression, sharp focus, realistic photo, no filter, natural skin texture and clothing details.",
+    "image_prompt_after": "The same portrait and scene transformed with the Anime Fusion Filter: subtle cel-shading, fine ink-like outlines over facial features and fabric, vibrant yet natural colors, anime-style hair highlights and eye glints, soft screen-tone texture, seamless blend of real photo structure and 2D character art.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Anime Fusion Filter video work?",
+    "intro": "The Anime Fusion Filter blends your real footage with hand-drawn anime styling by intelligently mapping facial features, shading contours, and background elements. It preserves natural expressions while adding clean line art, soft color gradients, and subtle screen tones for a seamless, living painting effect that feels both authentic and stylized.",
+    "cards": [
+      {
+        "title": "Best Input Frames: Clear, Front-Lit Portraits",
+        "description": "Start with a well-lit front-facing shot where the subject’s face is clearly visible. Avoid busy backgrounds and harsh shadows; even lighting helps the filter track features cleanly.",
+        "icon": "camera"
+      },
+      {
+        "title": "Steady Subjects, Natural Expressions",
+        "description": "Keep the subject relatively still with subtle, natural movements. Sudden motion can break the anime overlay, so slow blinks and gentle head turns work best for consistent styling.",
+        "icon": "subject"
+      },
+      {
+        "title": "Real-Time Style Mapping & Line Art",
+        "description": "The filter dynamically applies anime line work, flat-color shading, and texture filtering frame by frame, preserving facial structure while adding bold, illustrative contours that react to light and motion.",
+        "icon": "layers"
+      },
+      {
+        "title": "Built for Short-Form Viral Moments",
+        "description": "This effect instantly transforms ordinary clips into eye-catching anime loops, perfect for Reels, TikTok trends, and ads. The blend of real and animated worlds hooks viewers in the first second.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real creator use cases showing how the Anime Fusion Filter is applied across different channels.",
+    "scenarios": [
+      {
+        "title": "Cosplay Character Previews",
+        "description": "See how you'd look as an anime character before committing to a full cosplay outfit.",
+        "category": "Cosplay & Entertainment",
+        "image_prompt": "A cosplayer in casual clothes holding a smartphone displaying the Anime Fusion Filter applied to their face, transforming it into an anime character with vibrant hair and large, expressive eyes, mirror reflection visible.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-scenario-1.png"
+      },
+      {
+        "title": "Anime-Style Profile Avatars",
+        "description": "Create unique anime avatars for social media profiles that stand out from the crowd.",
+        "category": "Social Media & Personal Branding",
+        "image_prompt": "Close-up of a person taking a selfie with a smartphone, the screen showing the Anime Fusion Filter effect turning their portrait into an anime avatar with soft cel-shading, bright eyes, and a stylized background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-scenario-2.png"
+      },
+      {
+        "title": "Anime Event Promotional Content",
+        "description": "Generate eye-catching promotional posts for anime conventions, themed parties, and fan gatherings.",
+        "category": "Marketing & Promotions",
+        "image_prompt": "A content creator at a desk, editing a promotional banner on a laptop screen that features their own photo transformed by the Anime Fusion Filter into a vibrant anime-style character, with event details and neon accents.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Anime Fusion Filter effect?",
+        "answer": "It blends a real photo with a hand-drawn anime style, keeping the original subject recognizable while adding soft line art, cel-shaded colors, and a layered 2D look."
+      },
+      {
+        "question": "Why is Anime Fusion Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "The effect creates a distinctive visual style that helps short videos stand out in fast-scrolling feeds, increasing watch time and engagement without needing advanced editing skills."
+      },
+      {
+        "question": "Can I create Anime Fusion Filter from one uploaded image?",
+        "answer": "Yes, the tool processes a single image upload. You choose your photo, apply the fusion, and get the anime-styled result immediately."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Clear, front-facing shots with even lighting and a single main subject produce the most natural fusion. Avoid heavily cluttered backgrounds or extreme low-light shots."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Yes. The filter adds a playful anime layer to product presentations, outfit photos, travel scenes, and creator content, making the visuals more shareable and memorable on social platforms."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn your photo into anime-style art in seconds",
+    "supporting_text": "Use a text prompt, upload your own image, or pick a template to get started.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Anime Fusion Filter",
+    "description": "People often search for the Anime Fusion Filter using different phrases, such as 'anime selfie filter', 'cartoon anime effect', or 'anime portrait generator'. With LazyKiwi, you can quickly turn your ideas into eye-catching short-video visuals, no matter what you call the effect.",
+    "keywords": [
+      "anime selfie filter",
+      "cartoon anime effect",
+      "photo to anime converter",
+      "anime portrait generator",
+      "anime fusion filter online",
+      "convert photo to anime style",
+      "anime art AI filter",
+      "anime face filter",
+      "anime stylization effect",
+      "anime transformation filter",
+      "manga cartoon filter",
+      "LazyKiwi anime fusion"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/anime-fusion-filter-scenario-3.png"
+    ]
+  }
+}

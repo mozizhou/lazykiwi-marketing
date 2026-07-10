@@ -1,0 +1,187 @@
+{
+  "slug": "bald-filter",
+  "seo_title": "Bald Filter — See Yourself Bald Online Free | LazyKiwi",
+  "seo_description": "Try the bald filter from LazyKiwi. Upload one photo and see a realistic bald version of yourself in seconds — for fun, curiosity or planning the shave.",
+  "hero": {
+    "title": "See yourself bald in seconds.",
+    "description": "Curious how you’d look without hair? Upload one photo and the bald filter shows a realistic bald version of you — head shape, skin and lighting kept natural.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "A realistic bald you, no razor required.",
+    "intro": "The LazyKiwi bald filter removes hair from your photo and reconstructs a believable scalp and head shape, so the bald look reads as real — whether you’re joking around or seriously considering the shave.",
+    "checks": [
+      "Realistic head shape",
+      "Natural scalp and skin",
+      "Fun or for planning"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick a bald style",
+        "description": "Choose a fully bald or receding look and apply it."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Preview the result, try a few more, then download your favourite."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Believable",
+      "title": "A bald look that fits your head",
+      "description": "The AI reconstructs your scalp and head shape with natural skin and lighting, not a flat erase.",
+      "bullets": [
+        "Natural head shape",
+        "Matched skin tone",
+        "Keeps your face"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Your call",
+      "title": "Fully bald or receding",
+      "description": "Preview a clean shave or a thinning look to see the full range.",
+      "bullets": [
+        "Bald and balding options",
+        "Compare side by side",
+        "High-res download"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Just for fun",
+      "title": "A share-worthy reveal",
+      "description": "Prank a friend or plan your own shave — either way it’s a great before-and-after.",
+      "bullets": [
+        "Funny and shareable",
+        "Risk-free",
+        "Unlimited tries"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "Hair off, head on",
+    "subtitle": "See a realistic bald version of your photo.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-1.jpg",
+        "caption": "Clean shave"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-2.jpg",
+        "caption": "Receding"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-3.jpg",
+        "caption": "Buzzed scalp"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-4.jpg",
+        "caption": "Side profile"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-5.jpg",
+        "caption": "With beard"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-6.jpg",
+        "caption": "No beard"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-7.jpg",
+        "caption": "Sunlit"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/bald-filter/gallery-8.jpg",
+        "caption": "Studio"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the bald look actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is the bald filter free?",
+        "answer": "Yes. Upload a photo and see yourself bald for free."
+      },
+      {
+        "question": "Will it look realistic?",
+        "answer": "Yes. The AI reconstructs a believable scalp and head shape with natural skin and lighting."
+      },
+      {
+        "question": "Can I try a receding look too?",
+        "answer": "Yes — choose fully bald or a thinning/receding option."
+      },
+      {
+        "question": "What photo works best?",
+        "answer": "A clear, front-facing photo with your full head and face visible."
+      }
+    ]
+  },
+  "cta": {
+    "title": "See yourself bald in one tap.",
+    "description": "Upload one photo and reveal a realistic bald version of yourself in seconds — free."
+  }
+}

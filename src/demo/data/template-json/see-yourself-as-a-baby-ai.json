@@ -1,0 +1,129 @@
+{
+  "template_name": "see yourself as a baby ai",
+  "template_slug": "see-yourself-as-a-baby-ai",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:51:44",
+  "hero": {
+    "title": "see yourself as a baby ai",
+    "description": "Turn your current photo into a realistic baby portrait with the see yourself as a baby AI effect. Ideal for creating engaging TikTok, Reels, and Shorts, or sharing fun, nostalgic personal content. Just upload your image and the AI transforms your look instantly.",
+    "template_name": "see yourself as a baby ai Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-quality professional photograph, 16:9 landscape (1536x1024), vibrant colors, natural soft daylight. The scene is a sunny outdoor park with blurred green foliage in the background. A young woman in her late 20s, with shoulder-length wavy brown hair and warm brown eyes, smiles warmly at the camera. She is sitting on a picnic blanket, wearing a casual yellow sundress. The composition is centered on her face and upper body, with shallow depth of field keeping the subject sharp while the background is softly out of focus. The lighting is even and flattering, highlighting her natural skin texture and genuine expression. The image is unprocessed, candid, and perfectly suitable for a 'see yourself as a baby' AI transformation.",
+    "image_prompt_after": "The same scene and composition as the before photo, 16:9 landscape, vibrant colors, identical lighting and park background. After applying the 'see yourself as a baby AI' effect, the adult woman has been seamlessly transformed into a realistic baby version of herself. The subject is now a cute infant, approximately 6-9 months old, sitting on the same picnic blanket and wearing a tiny yellow sundress. The baby has the same warm brown eyes and wavy light brown hair, but with soft baby skin, chubby cheeks, and an adorable joyful smile that mirrors the original expression. The AI effect preserves the original's facial identity while de-aging it into a baby likeness, with oversized eyes, small nose, and rounded features. The transformation is flawless, photorealistic, and heartwarming, demonstrating the AI's ability to show you as a baby.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a see yourself as a baby ai video work?",
+    "intro": "The see-yourself-as-a-baby effect combines facial recognition with age regression AI. It takes your current photo and reimagines your facial structure, skin texture, and proportions as an infant’s. The result is a lifelike, often hilarious or heartwarming version of you that feels both personal and instantly shareable.",
+    "cards": [
+      {
+        "title": "Clear, front-facing portrait",
+        "description": "Upload a well-lit, front-facing photo with a neutral expression. No hats or glasses that block facial landmarks—this helps the AI accurately map your features to a baby face.",
+        "icon": "camera"
+      },
+      {
+        "title": "Steady, natural expression",
+        "description": "Keep your head relatively still with a soft smile or neutral look. Abrupt movements can cause misalignment or jitter in the final video, so a calm pose ensures a clean transformation.",
+        "icon": "subject"
+      },
+      {
+        "title": "Frame-by-frame age morphing",
+        "description": "The AI generates intermediate frames between your adult and baby face, smoothing out the transition. This motion blur-like effect makes the age regression feel fluid and believable.",
+        "icon": "motion"
+      },
+      {
+        "title": "Instant emotional hook",
+        "description": "Baby transformations create a strong emotional reaction—surprise, laughter, nostalgia. This makes the effect ideal for short-form videos that need a quick hook to stop scrollers and encourage shares.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of the baby AI effect used across different creator content formats.",
+    "scenarios": [
+      {
+        "title": "Street Moment, Baby Turn",
+        "description": "A casual sidewalk look becomes an instant scroll‑stopper when the subject is a baby.",
+        "category": "lifestyle",
+        "image_prompt": "A realistic baby, about 12 months old with soft round face and wispy hair, dressed in a beige oversized hoodie and relaxed jeans, walking along a gray urban sidewalk. The baby is turning to look over its shoulder with a curious expression, motion blurred slightly as if in mid-action. Daylight, shallow depth of field, cinematic photo, baby AI effect applied making the baby appear in an adult street scene—no adults visible, only the baby figure.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-scenario-1.png"
+      },
+      {
+        "title": "Dance Clip, Baby Energy",
+        "description": "Expressive dance moves gain a lighthearted feel when the creator appears as a baby.",
+        "category": "motion",
+        "image_prompt": "A baby, around 18 months, with chubby cheeks and bright eyes, captured mid‑jump in a sunlit park. The baby wears a colorful graphic tee and quick‑dry shorts, arms raised, smiling, hair flying. Motion blur on the limbs suggests dynamic movement. Natural outdoor light, green grass background, a few blurred trees. Photorealistic, baby AI effect showing the baby as the only subject in an otherwise normal outdoor action shot.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-scenario-2.png"
+      },
+      {
+        "title": "City Viewpoint, Baby Look",
+        "description": "Travel outfit edits highlight the location while the baby AI twist keeps the feed fresh.",
+        "category": "travel",
+        "image_prompt": "A baby, about 2 years old, posed at a famous city overlook with a skyline in the background during golden hour. The baby wears a tiny linen travel outfit, sunhat slightly tilted, standing with one hand on the railing and looking back toward the camera. Warm light, soft focus on the distant buildings, the baby appearing as a miniature traveler. Realistic, baby AI effect seamlessly integrated, no other people visible, emphasizing the outfit and the scenic view.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the see yourself as a baby AI effect?",
+        "answer": "The see yourself as a baby AI effect uses artificial intelligence to transform a photo or video of a person into a baby version of themselves. It analyzes facial features and generates a realistic baby face while preserving identity cues."
+      },
+      {
+        "question": "Why is the see yourself as a baby AI effect popular for TikTok, Reels, or Shorts?",
+        "answer": "It creates highly shareable, nostalgic content that surprises viewers and boosts engagement. The transformation is quick and visually striking, making it ideal for short-form video platforms where emotional reactions and before/after reveals perform well."
+      },
+      {
+        "question": "Can I create a see yourself as a baby AI effect from a single image?",
+        "answer": "Yes, the tool typically works with one clear front-facing photo. Some versions also accept short videos for more dynamic results, but a single high-quality image is enough to generate the baby version."
+      },
+      {
+        "question": "What kind of image or video works best for this effect?",
+        "answer": "A well-lit, front-facing portrait with a neutral expression and no obstructions like hats or glasses works best. The AI needs a clear view of the entire face to accurately map and transform features."
+      },
+      {
+        "question": "Can I use the see yourself as a baby AI effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Brands use it for nostalgic marketing campaigns, fashion creators show baby versions in vintage styles, and travel influencers create playful 'baby me traveling' concepts. It adds a fun, personal twist to various content niches."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn your picture into a baby portrait",
+    "supporting_text": "Upload a photo, use a text prompt, or start with a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for see yourself as a baby ai",
+    "description": "When people search for ways to see themselves as a baby using AI, they often use a variety of terms to describe the same idea. You might call it a baby AI filter, an infant face generator, or even a “what would I look like as a baby” query. LazyKiwi understands these different search habits and transforms your curiosity into short‑video‑ready visuals—so no matter what you name the effect, you can turn the concept into a shareable clip in seconds.",
+    "keywords": [
+      "baby AI filter",
+      "AI baby face generator",
+      "turn yourself into a baby AI",
+      "see what you looked like as a baby",
+      "infant me AI",
+      "baby transformation effect",
+      "AI baby version of me",
+      "ai that makes you look like a baby",
+      "baby selfie AI generator",
+      "what would I look like as a baby filter",
+      "baby growth AI trend",
+      "infant face swap AI"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/see-yourself-as-a-baby-ai-hero-after.png"
+  }
+}

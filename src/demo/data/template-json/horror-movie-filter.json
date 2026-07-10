@@ -1,0 +1,129 @@
+{
+  "template_name": "Horror Movie Filter",
+  "template_slug": "horror-movie-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:20:01",
+  "hero": {
+    "title": "Horror Movie Filter",
+    "description": "Apply a dark cinematic horror look to your photos. Ideal for TikTok, Reels, and social content that needs a tense, eerie atmosphere—perfect for storytelling, product reveals, or outfit edits with a thriller twist.",
+    "template_name": "Horror Movie Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, well-lit portrait of a person in casual attire against a simple studio background, neutral colors, soft daylight, natural expression, high-resolution photography.",
+    "image_prompt_after": "The same portrait with a Horror Movie Filter applied: desaturated colors, heavy film grain, deep shadows, greenish-blue cold undertones, slight vignette, subtle chromatic aberration, character's eyes slightly darkened, eerie mood reminiscent of a psychological thriller still frame.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Horror Movie Filter video work?",
+    "intro": "The Horror Movie Filter transforms ordinary footage into a spine-chilling scene by applying dark color grading, film grain, and flickering light effects. It mimics the look of classic horror films, adding tension and a cinematic dread that instantly grabs attention.",
+    "cards": [
+      {
+        "title": "Best starting shots",
+        "description": "A well-lit, steady close-up or medium shot of a person against a plain background lets the filter add maximum dread.",
+        "icon": "camera"
+      },
+      {
+        "title": "How to move for impact",
+        "description": "Slow, intentional movements, then sudden, sharp gestures. Direct eye contact with the camera amplifies the unsettling tone.",
+        "icon": "motion"
+      },
+      {
+        "title": "The horror effect engine",
+        "description": "Desaturated color grading, heavy vignette, and realistic film grain combine with light flicker and frame jitter to simulate damaged horror film stock.",
+        "icon": "layers"
+      },
+      {
+        "title": "Built for short-form platforms",
+        "description": "Horror content triggers curiosity and suspense, driving high watch time. Perfect for TikTok, Reels, Shorts, and Halloween ads.",
+        "icon": "scene"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the Horror Movie Filter across platforms to build dark, cinematic moods.",
+    "scenarios": [
+      {
+        "title": "Halloween Social Content",
+        "description": "Add cinematic horror tones to Reels, TikToks, and stories for seasonal engagement.",
+        "category": "Seasonal Content",
+        "image_prompt": "A realistic smartphone screen showing Instagram Reels in edit mode, previewing a video of a person walking through a foggy cemetery at dusk, the Horror Movie Filter applied with deep shadows, desaturated colors, and film grain, held in a hand with a dark autumn background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-scenario-1.png"
+      },
+      {
+        "title": "Thriller Short Films",
+        "description": "Upgrade low-budget horror shorts with realistic dark visual effects and chilling atmosphere.",
+        "category": "Entertainment",
+        "image_prompt": "Screenshot of a video editing timeline on a computer monitor, a dimly lit hallway frame displayed with a shadowy figure at the end, Horror Movie Filter effect with cold blue/green tint, vignette, and subtle grain, professional editing software interface visible.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-scenario-2.png"
+      },
+      {
+        "title": "Horror Cosplay Photography",
+        "description": "Transform cosplay portraits into terrifying movie stills using dramatic lighting and dark tones.",
+        "category": "Photography",
+        "image_prompt": "Close-up photograph of a cosplayer in a detailed horror character costume, makeup blending with shadow, Horror Movie Filter applied with high contrast, red undertones, and vintage texture, shown as a DSLR camera screen preview with an abandoned factory setting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Horror Movie Filter effect?",
+        "answer": "The Horror Movie Filter turns your photos or videos into a dark, cinematic horror style. It adds grainy textures, desaturated colors, high contrast, and off-color lighting to create an eerie horror movie atmosphere."
+      },
+      {
+        "question": "Why is Horror Movie Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It makes short videos stand out quickly. The stark, unsettling look grabs attention in a crowded feed, perfect for suspense clips, Halloween content, or any video that needs a dramatic, creepy edge."
+      },
+      {
+        "question": "Can I create Horror Movie Filter from one uploaded image?",
+        "answer": "Yes. Upload a single image and the filter processes it instantly. You get a complete horror-styled photo without filming new footage or editing multiple layers."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Portraits with sharp facial features, low-light scenes, close-up shots, and settings with contrast or shadows. Images with a slightly moody tone often produce the most authentic horror film result."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Brands use it for edgy product reveals, fashion for dark-themed lookbooks, travel for eerie landscapes, and creators for suspense storytelling or horror-themed posts."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn your photos into horror movie stills",
+    "supporting_text": "Start with a prompt, an uploaded image, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Horror Movie Filter",
+    "description": "When searching for a way to turn your photos into creepy, cinematic scenes, you might not always use the term 'Horror Movie Filter.' Many users describe this effect with alternative names like 'scary movie filter,' 'creepy filter,' or 'horror film effect.' LazyKiwi helps you turn these ideas into short-video-ready visuals, so no matter what you call it, you can easily create spine-chilling content.",
+    "keywords": [
+      "scary movie filter",
+      "creepy filter",
+      "horror film effect",
+      "horror photo filter",
+      "horror video effect",
+      "scary photo filter",
+      "creepy video filter",
+      "horror movie look",
+      "thriller filter",
+      "slasher film effect",
+      "ghostly filter",
+      "spooky movie effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/horror-movie-filter-scenario-3.png"
+    ]
+  }
+}

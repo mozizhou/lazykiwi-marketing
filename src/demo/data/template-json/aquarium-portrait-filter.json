@@ -1,0 +1,129 @@
+{
+  "template_name": "Aquarium Portrait Filter",
+  "template_slug": "aquarium-portrait-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:09:06",
+  "hero": {
+    "title": "Aquarium Portrait Filter",
+    "description": "Transform ordinary portraits into immersive underwater scenes with soft caustic light and drifting fish. Ideal for eye-catching TikTok transitions, Reels, Shorts, product reveals, fashion edits, and social media ads that need a dreamy, aquatic mood.",
+    "template_name": "Aquarium Portrait Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, well-lit front-facing portrait of a young adult against a neutral grey background, sharp focus, natural skin tones, minimal makeup, simple casual clothing, shot with a 50mm lens, studio lighting, no special effects.",
+    "image_prompt_after": "The same portrait subject with the Aquarium Portrait Filter: soft underwater light rays, gentle caustic patterns on the face and clothing, subtle blue-cyan color grading, a school of small translucent fish circling gracefully around the subject, bubbles, and a slight ethereal glow, creating a serene underwater atmosphere.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Aquarium Portrait Filter video work?",
+    "intro": "A dreamy blend of drifting fish, caustic light rays, and soft blue-green tones turns any portrait into an immersive underwater scene. The effect relies on layered motion, gentle water optics, and a subject that feels at home in the depths.",
+    "cards": [
+      {
+        "title": "A Clear, Front-Facing Portrait",
+        "description": "Start with a well-lit, front-facing shot against a simple background. Strong contrast helps the filter separate the subject and place fish naturally around the face and shoulders.",
+        "icon": "upload"
+      },
+      {
+        "title": "Slow, Floating Subject Motion",
+        "description": "Small, fluid head tilts or gentle swaying mimics underwater drift. The filter tracks the face, so restrained movement keeps the fish and light effects exactly where they need to be.",
+        "icon": "subject"
+      },
+      {
+        "title": "Layered Light and Fish Animation",
+        "description": "The effect works by overlaying animated fish, shimmering water caustics, and soft bubbles. Parallax motion between layers creates depth and the feeling of being submerged.",
+        "icon": "layers"
+      },
+      {
+        "title": "A Scroll-Stopping Dreamscape",
+        "description": "The surreal aquarium look grabs attention in fast feeds. It fits fantasy trends, adds intrigue to product teasers, and invites longer watch time on TikTok, Reels, and Shorts.",
+        "icon": "scene"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the Aquarium Portrait Filter to craft immersive aquatic visuals across different content channels.",
+    "scenarios": [
+      {
+        "title": "Mermaid & Ocean Fantasy Cosplay",
+        "description": "Cosplayers add realistic fish schools and underwater light to transform portraits into mermaid character shoots.",
+        "category": "Fantasy & Cosplay",
+        "image_prompt": "A cosplayer dressed as a mermaid with iridescent tail and shell top, face illuminated by soft dreamy water light rays, surrounded by a swirling school of colorful tropical fish, immersed in a deep blue aquarium atmosphere, realistic portrait photo, ethereal glow, shallow depth of field.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-scenario-1.png"
+      },
+      {
+        "title": "Dreamy Instagram Aesthetic Posts",
+        "description": "Lifestyle creators use the filter to produce soft, flowing portraits that stand out in social feeds.",
+        "category": "Social Media Aesthetic",
+        "image_prompt": "A young woman with a calm expression, wearing a flowing white dress, submerged in crystal-clear water with gentle caustic light patterns dancing on her skin, a group of koi fish circling gracefully around her, wide-angle composition, airy and tranquil mood, editorial style.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-scenario-2.png"
+      },
+      {
+        "title": "Artistic Portrait Sessions",
+        "description": "Photographers apply the filter to offer clients a unique, painterly aquatic portrait experience.",
+        "category": "Artistic Photography",
+        "image_prompt": "A close-up portrait of a person with water droplets on their face, soft diffused underwater light creating a halo effect, small neon tetras and a gentle jellyfish drifting near the lens, blurred background suggesting deep water, ethereal and modern fine-art portrait, high detail.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Aquarium Portrait Filter effect?",
+        "answer": "The Aquarium Portrait Filter adds soft water light and fish that appear to circle around the subject, giving photos or videos an underwater portrait feel."
+      },
+      {
+        "question": "Why is Aquarium Portrait Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It creates a distinctive visual that grabs attention in a fast-scrolling feed, helping short-form content stand out and increase viewer engagement."
+      },
+      {
+        "question": "Can I create the Aquarium Portrait Filter effect from one uploaded image?",
+        "answer": "Yes, most tools that offer this effect let you apply it to a single photo. The filter isolates the subject and blends it into an aquarium-themed scene automatically."
+      },
+      {
+        "question": "What kind of image works best with the Aquarium Portrait Filter?",
+        "answer": "Portraits or images with a clear main subject and decent lighting deliver the most natural result. Strong contrast between the subject and background helps the filter blend water and fish more seamlessly."
+      },
+      {
+        "question": "Can I use the Aquarium Portrait Filter for product, fashion, travel, or creator content?",
+        "answer": "Yes, it works well across content types. It can give product shots a fresh look, add a creative layer to fashion editorials, make travel photos more playful, or help creator posts catch the eye on social media."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Make an aquarium portrait from any photo",
+    "supporting_text": "Start from a prompt, upload your own photo, or use a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Aquarium Portrait Filter",
+    "description": "You might come across this effect under different names depending on what catches your eye first — the drifting fish, the soft underwater glow, or the bubble-filled backdrop. Some people search for it as an underwater portrait filter, while others call it a fish tank photo effect or an aquatic selfie filter. Whatever phrase comes to mind, LazyKiwi makes it easy to transform those ideas into polished, short-video-ready visuals that look like they were filmed inside a dreamy aquarium.",
+    "keywords": [
+      "underwater portrait filter",
+      "fish tank photo effect",
+      "aquatic selfie filter",
+      "ocean portrait effect",
+      "fish bowl portrait filter",
+      "marine life portrait effect",
+      "underwater world photo filter",
+      "bubble portrait effect",
+      "sea life selfie filter",
+      "aquarium style photo effect",
+      "submerged portrait filter",
+      "tropical fish portrait effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/aquarium-portrait-filter-scenario-3.png"
+    ]
+  }
+}

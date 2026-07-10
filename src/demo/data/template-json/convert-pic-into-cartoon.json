@@ -1,0 +1,129 @@
+{
+  "template_name": "convert pic into cartoon",
+  "template_slug": "convert-pic-into-cartoon",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:55:59",
+  "hero": {
+    "title": "convert pic into cartoon",
+    "description": "Transform any photo into a playful cartoon illustration in seconds. Perfect for eye-catching TikTok videos, Instagram Reels, YouTube Shorts, product reveals, outfit edits, and action shots. Give your social content and ads a unique, animated look that stands out.",
+    "template_name": "convert pic into cartoon Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-quality realistic photograph of a joyful young woman with bouncy curly red hair, wearing a vibrant yellow sundress, standing in a blooming sunflower field during golden hour. Soft, natural sunlight illuminates her smiling face with gentle highlights and subtle skin texture. The background features a shallow depth of field with out-of-focus sunflowers and a warm sunset sky. Shot in sharp focus on her eyes, with crisp fabric folds and natural hair strands, unprocessed and true-to-life. 16:9 landscape composition, ultra-detailed, professional photography, vibrant colors.",
+    "image_prompt_after": "A cartoon illustration of the same scene: a joyful young woman with curly red hair in a yellow sundress, transformed into a bold cartoon style. Features clean, thick black outlines defining every shape, flat and vibrant cel-shaded colors with little to no gradients. Hair simplified into chunky, stylized curls, skin smooth and flawless, dress rendered as crisp solid shapes with minimal wrinkle lines. Sunflowers and field turned into stylized flat elements with strong outlines, background sky a smooth gradient of warm orange and pink. No photorealistic textures, no pores, pure cartoon vector art look with playful exaggerated charm. 16:9 landscape, high-contrast, vivid and eye-catching.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a convert pic into cartoon video work?",
+    "intro": "This effect reimagines a static still photo as a hand-drawn animated loop. By combining intelligent face tracking, art-style filters, and micro-motion, it turns portraits into expressive cartoon characters with subtle head tilts, blinking eyes, and flowing hair—all from a single image.",
+    "cards": [
+      {
+        "title": "A Sharp, Well-Lit Portrait",
+        "description": "Start with a front-facing photo where the subject’s face is clearly visible and evenly lit. Avoid busy backgrounds; a plain backdrop helps the cartoon filter apply cleanly.",
+        "icon": "camera"
+      },
+      {
+        "title": "Expressive, Centered Subject",
+        "description": "The subject should face the camera with eyes open and mouth relaxed. Distinct facial features—like brows and lip line—give the cartoon render more character during motion synthesis.",
+        "icon": "subject"
+      },
+      {
+        "title": "Lifelike, Hand-Drawn Motion",
+        "description": "The effect uses subtle tracking to generate micro-expressions: a slight head sway, blinking, and hair movement. The frame-by-frame style keeps it looking like a custom animation, not a filter.",
+        "icon": "motion"
+      },
+      {
+        "title": "Instantly Social-Ready",
+        "description": "The cartoon video feels personal and playful, grabbing attention in crowded feeds. Perfect for TikTok intros, Reels showcases, or product ads that need a quick, shareable hook.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators apply the cartoon photo effect to everyday moments, motion content, and travel edits.",
+    "scenarios": [
+      {
+        "title": "Street Scene Pull",
+        "description": "Turn an everyday street scene into a cartoon-style opener that grabs attention instantly.",
+        "category": "lifestyle",
+        "image_prompt": "A candid shot of a male creator in a cafe window, holding a coffee cup, looking into the camera with a slight smile. The image is processed into a cartoon effect: flat, graphic shading, crisp black outlines, and subtle halftone texture on the skin. The background features bokeh lights through the glass, stylized as soft pastel circles. The overall look is like a frame from a slice-of-life anime, capturing a relaxed, relatable moment turned into an engaging reel opener.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-scenario-1.png"
+      },
+      {
+        "title": "Mid-Air Energy Burst",
+        "description": "Transform a mid-dance burst photo into a cartoon with energetic motion lines and pops of color.",
+        "category": "motion",
+        "image_prompt": "A female dancer leaping in the air with arms raised, wearing a neon workout set, against a graffiti wall. The cartoon conversion adds dynamic speed lines, exaggerated highlights on her sneakers, and a cel-shaded look that makes her silhouette stand out. Colors are saturated and punchy, with the background simplified into bold blocks of color. The image feels like a high-energy cartoon frame perfect for a viral dance clip.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-scenario-2.png"
+      },
+      {
+        "title": "Travel Outfit Highlight",
+        "description": "Make your outfit pop against a scenic backdrop by applying a clean cartoon finish to travel photos.",
+        "category": "travel",
+        "image_prompt": "A couple posing at the Colosseum in Rome at golden hour, wearing coordinated outfits. The cartoon effect applies a soft, illustrative style with watercolor-like washes and delicate outlines, giving the photo a travel sketchbook feel. The ancient stone texture is simplified into smooth tones, while their outfits and expressions remain clear and charming. The sky is rendered in golden gradients with stylized sun rays, ideal for a travel diary post.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the convert pic into cartoon effect?",
+        "answer": "It transforms your regular photo into a cartoon-style image by applying drawn or illustrated filters. The result looks like a hand-drawn or animated version of the original photo."
+      },
+      {
+        "question": "Why is the cartoon effect useful for TikTok, Reels, or Shorts?",
+        "answer": "A cartoon look makes your content stand out in busy social feeds. It adds a creative, playful feel that often leads to higher watch time and interaction, especially for short-form videos."
+      },
+      {
+        "question": "Can I create a cartoon effect from just one uploaded image?",
+        "answer": "Yes. You only need a single photo. Our tool processes that one image and outputs one or more cartoon versions instantly."
+      },
+      {
+        "question": "What kind of image works best for the cartoon effect?",
+        "answer": "Photos with good lighting, a clear subject, and moderate contrast produce the most recognizable cartoon results. Portraits, objects, and scenes with defined edges work particularly well. Avoid extremely blurry or very dark images."
+      },
+      {
+        "question": "Can I use the cartoon effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect adds a distinctive visual style to any subject. It works for showcasing products, styling fashion shots, giving travel photos a unique twist, or making creator content more engaging."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn Your Photo into a Cartoon in One Click",
+    "supporting_text": "Start with an uploaded image, a text prompt, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for convert pic into cartoon",
+    "description": "Users often search for this effect with different phrases—whether it’s turning a photo into a cartoon, applying an anime‑style filter, or creating a comic‑style portrait. Whatever name you use, LazyKiwi transforms these ideas into striking, short‑video‑ready visuals that stand out.",
+    "keywords": [
+      "cartoonize photo",
+      "turn photo into cartoon",
+      "cartoon filter online",
+      "anime filter",
+      "photo to cartoon converter",
+      "cartoon effect app",
+      "picture to cartoon animation",
+      "cartoon avatar from photo",
+      "comic style photo",
+      "toon me",
+      "cartoon portrait maker",
+      "Pixar filter"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/convert-pic-into-cartoon-hero-after.png"
+  }
+}

@@ -4,6 +4,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
+import { SOCIAL_PLATFORMS, SimpleIcon } from '../common/SocialPlatformIcons';
 import { blogPosts } from '../../data/blogPosts';
 
 const IDEAS = Object.entries(blogPosts).slice(0, 4).map(([slug, post]) => ({
@@ -193,33 +194,7 @@ export function IdeasSection({ onNavigate }) {
   );
 }
 
-// ─── Community / social placeholder ──────────────────────────────────────────
-const SOCIAL_PLATFORMS = [
-  {
-    label: 'Discord',
-    icon: (
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path fill="currentColor" d="M19.5 5.35A16.3 16.3 0 0 0 15.46 4l-.5 1.02a15.35 15.35 0 0 0-5.91 0L8.54 4A16.36 16.36 0 0 0 4.5 5.36C1.95 9.1 1.26 12.76 1.6 16.37a16.6 16.6 0 0 0 4.96 2.5l1.2-1.64a10.8 10.8 0 0 1-1.88-.91l.46-.36a11.72 11.72 0 0 0 11.32 0l.46.36c-.6.35-1.23.66-1.88.91l1.2 1.64a16.57 16.57 0 0 0 4.96-2.5c.4-4.18-.68-7.8-2.9-11.02ZM8.47 14.17c-1.1 0-2-1-2-2.22s.88-2.22 2-2.22c1.13 0 2.02 1.01 2 2.22 0 1.22-.88 2.22-2 2.22Zm7.06 0c-1.1 0-2-1-2-2.22s.88-2.22 2-2.22c1.13 0 2.02 1.01 2 2.22 0 1.22-.87 2.22-2 2.22Z" />
-      </svg>
-    ),
-  },
-  {
-    label: 'X',
-    icon: <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.9 2H22l-6.77 7.74L23.2 22h-6.24l-4.89-6.4L6.48 22H3.36l7.26-8.3L1.2 2h6.4l4.42 5.84L18.9 2Zm-1.1 17.84h1.73L6.66 4.05H4.8L17.8 19.84Z" /></svg>,
-  },
-  {
-    label: 'YouTube',
-    icon: <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.56A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.12 2.14C4.5 20.5 12 20.5 12 20.5s7.5 0 9.38-.56a3 3 0 0 0 2.12-2.14C24 15.9 24 12 24 12s0-3.9-.5-5.8ZM9.55 15.57V8.43L15.82 12l-6.27 3.57Z" /></svg>,
-  },
-  {
-    label: 'Instagram',
-    icon: <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" strokeWidth="2.2" /><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" strokeWidth="2.2" /><circle cx="17.4" cy="6.7" r="1.2" fill="currentColor" /></svg>,
-  },
-  {
-    label: 'TikTok',
-    icon: <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.6 6.7a4.84 4.84 0 0 1-3.78-4.26V2h-3.45v13.67a2.9 2.9 0 1 1-2-2.76V9.4a6.85 6.85 0 1 0 5.49 6.27v-7a8.15 8.15 0 0 0 4.77 1.52V6.8c-.36 0-.7-.04-1.03-.1Z" /></svg>,
-  },
-];
+// ─── Community / social links (Simple Icons) ─────────────────────────────────
 
 export function CommunitySection() {
   return (
@@ -233,15 +208,17 @@ export function CommunitySection() {
           </h2>
           <div className="lk-community-socials" aria-label="LazyKiwi social channels">
             {SOCIAL_PLATFORMS.map((platform) => (
-              <button
-                key={platform.label}
-                type="button"
+              <a
+                key={platform.id}
+                href={platform.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="lk-community-social"
-                aria-label={`${platform.label} — coming soon`}
-                title={`${platform.label} — coming soon`}
+                aria-label={platform.label}
+                title={platform.label}
               >
-                {platform.icon}
-              </button>
+                <SimpleIcon path={platform.path} />
+              </a>
             ))}
           </div>
         </div>
@@ -301,7 +278,7 @@ export function CommunitySection() {
           background: transparent;
           border: 1px solid var(--lk-line-strong);
           border-radius: 12px;
-          cursor: default;
+          cursor: pointer;
           transition: background 0.2s ease, border-color 0.2s ease;
         }
         .lk-community-social:hover {

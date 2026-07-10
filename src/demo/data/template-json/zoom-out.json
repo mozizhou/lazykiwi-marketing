@@ -1,0 +1,124 @@
+{
+  "template_name": "Zoom Out",
+  "template_slug": "zoom-out",
+  "template_type": "video",
+  "created_at": "2026-06-11 17:20:15",
+  "hero": {
+    "title": "Zoom Out",
+    "description": "The Zoom Out effect starts from a tight close-up and smoothly pulls back to reveal the full scene, creating a dramatic and eye-catching reveal. Perfect for product launches, outfit transitions, action shots, and social content on TikTok, Reels, and Shorts.",
+    "template_name": "Zoom Out Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split-comparison hero image illustrating the Zoom Out video effect. Left side shows an extreme close-up of a sneaker's details against a blurred background, with an arrow indicating the zoom direction. Right side shows the same sneaker now fully visible on a model's foot, surrounded by a vibrant street-style setting. Modern, clean, and bright, with subtle motion blur lines suggesting the camera pull-back.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Zoom Out video work?",
+    "intro": "Zoom Out works by starting on a tight, intriguing detail and then pulling back to reveal a wider context. The contrast between the initial crop and the full scene creates visual impact, surprise, and a sense of scale that instantly hooks viewers and holds attention.",
+    "cards": [
+      {
+        "title": "A tight, detail-focused start",
+        "description": "Start with a high-resolution frame of a key subject or detail, leaving ample surrounding content to explore as the frame expands.",
+        "icon": "upload"
+      },
+      {
+        "title": "A stationary anchor point",
+        "description": "The main subject stays still and centered, acting as a visual anchor that grounds the eye while the world grows around it.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smooth, accelerating reveal",
+        "description": "Movement starts slowly then speeds up with ease-out interpolation, creating a polished, cinematic pull-back that emphasizes depth and scale.",
+        "icon": "motion"
+      },
+      {
+        "title": "Hooks with scale and surprise",
+        "description": "The expanding view surprises viewers and keeps them watching until the full scene is revealed, ideal for product teasers, travel, and before-and-after clips.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators apply the Zoom Out effect across different channels to craft stronger visual hooks.",
+    "scenarios": [
+      {
+        "title": "Street Style Freeze Frame",
+        "description": "A casual walk pauses into a pulled-back scene, turning a simple street moment into a tight short-video opener.",
+        "category": "lifestyle",
+        "image_prompt": "Young creator in neutral-toned casual outfit walking down a sunlit city sidewalk, turns back to glance at the camera. The Zoom Out effect expands the frame to reveal the full street scene with soft motion blur on the edges, creating a freeze-frame feel and drawing focus to the subject in the center.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Energy Burst",
+        "description": "A quick motion-led sequence where the Zoom Out intensifies body movement and keeps the beat visually strong.",
+        "category": "motion",
+        "image_prompt": "Dancer in streetwear performing a sharp spin-and-jump move on an outdoor basketball court. The Zoom Out effect pulls the view outward at the peak of the jump, widening the background to show surrounding motion trails that emphasize the energy and direction of the action.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-scenario-2.png"
+      },
+      {
+        "title": "Rooftop Travel Look Highlight",
+        "description": "A scenic city viewpoint shot where the Zoom Out reveals the full location and outfit at once.",
+        "category": "travel",
+        "image_prompt": "Travel creator standing on a rooftop terrace at golden hour, wearing a flowing outfit with sunglasses, city skyline behind them. The camera starts close on the pose and applies the Zoom Out effect to smoothly reveal the full skyline vista and the outfit silhouette, centering the subject sharply against the wide scenery.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Zoom Out effect?",
+        "answer": "The Zoom Out effect creates a video that starts tight on a subject and smoothly pulls back to reveal more of the scene. It adds motion and context to a still image or video clip by simulating camera movement."
+      },
+      {
+        "question": "Why is the Zoom Out effect useful for TikTok, Reels, or Shorts?",
+        "answer": "A Zoom Out holds viewer attention by slowly revealing details. It works well on short-form platforms because it builds curiosity in the first seconds and fits the vertical format without requiring complex edits."
+      },
+      {
+        "question": "Can I create a Zoom Out effect from one uploaded image?",
+        "answer": "Yes. You can upload a single image and the tool generates the zoom-out motion automatically. The result is a video that appears to move outward from your starting photo."
+      },
+      {
+        "question": "What kind of image or video works best for a Zoom Out?",
+        "answer": "High-resolution images with a clear main subject and some surrounding background produce the best results. Avoid tightly cropped shots where there is little extra scene to reveal during the zoom."
+      },
+      {
+        "question": "Can I use the Zoom Out effect for product, fashion, travel, or creator content?",
+        "answer": "Yes. It suits product reveals, outfit showcases, travel scene expansions, and creator intros. The effect adds simple movement that makes the content feel more polished without distracting from the subject."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Make a cinematic zoom out from any clip",
+    "supporting_text": "Start with a prompt, upload your own media, or choose a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Zoom Out",
+    "description": "Users often search for the Zoom Out effect using different names or phrases. You might know it as a reverse zoom, camera pull-back, scale down effect, or dolly out transition. No matter what you call it, LazyKiwi makes it easy to transform your ideas into captivating short-video-ready visuals—perfect for reels, TikToks, and more.",
+    "keywords": [
+      "reverse zoom effect",
+      "camera pull back",
+      "scale down video",
+      "dolly out transition",
+      "zoom out filter",
+      "zoom backward",
+      "shrink video effect",
+      "pull back transition",
+      "reverse zoom animation",
+      "zoom out video maker"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-out-scenario-3.png"
+    ]
+  }
+}

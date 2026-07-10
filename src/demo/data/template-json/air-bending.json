@@ -1,0 +1,129 @@
+{
+  "template_name": "Air bending",
+  "template_slug": "air-bending",
+  "template_type": "video",
+  "created_at": "2026-06-11 15:44:12",
+  "hero": {
+    "title": "Air bending",
+    "description": "Air bending adds controlled wind and air distortion around subjects, making objects or clothing appear to move with invisible force. It works well for action shots, outfit edits, and surreal product reveals on TikTok, Reels, and Shorts.",
+    "template_name": "Air bending Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A 16:9 landscape professional photograph (1536x1024) of a martial artist in a serene mountaintop clearing at golden hour. The subject, a focused young woman in simple flowing training clothes, stands in a balanced horse stance with one arm extended forward, palm open. The air is completely still, no wind, with vibrant green grass, a few scattered autumn leaves resting motionless on the ground, and a soft warm sunset sky in the background. Natural sunlight illuminates the scene, sharp focus on the subject, vibrant colors, high detail, realistic photography.",
+    "image_prompt_after": "Same 16:9 landscape scene (1536x1024) after applying the Air bending video effect. The martial artist now channels a powerful swirling air current around her body, visible as translucent spiraling wind gusts with subtle cyan-white motion streaks. The previously motionless autumn leaves are caught up in a dynamic, swirling vortex, suspended mid-air and tracing the path of the airbending. Her extended hand forms a focal point where a compressed sphere of compressed air glows softly. Her hair and clothing whip with the gust, and the grass bends outward in a radial pattern. The vibrant lighting remains, but now enhanced with ethereal highlights and motion blur on the wind trails, creating a cinematic, high-impact visual transformation.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Air bending video work?",
+    "intro": "Air bending effects rely on visible air currents, compressed wind lines, and displaced particles to sell the motion. The illusion forms around a clear subject, combining directional blur, debris trails, and subtle atmosphere shifts that read fast on screen—perfect for social feeds where motion clarity drives engagement.",
+    "cards": [
+      {
+        "title": "Full-body or half-body starting frame",
+        "description": "A clean, uncropped subject with empty space around the limbs works best. Busy backgrounds can muddy the wind lines, so a simple scene helps the air trails read instantly.",
+        "icon": "upload"
+      },
+      {
+        "title": "Sharp, deliberate limb movements",
+        "description": "The subject should move with controlled sweeps or circular gestures. Slow-motion follow-through on arms and hands gives the effect time to build recognizable air patterns.",
+        "icon": "subject"
+      },
+      {
+        "title": "Particle trails and density shifts",
+        "description": "Curling dust, leaves, or light streaks pulled into a vortex create the core illusion. Quick compression and release of mist or debris makes the air feel heavy and directional.",
+        "icon": "motion"
+      },
+      {
+        "title": "Short-loop appeal for Reels and ads",
+        "description": "The effect peaks in under three seconds, making it ideal for auto-looping social formats. Strong visual contrast against the background helps thumbnails and hooks perform better in-feed.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the Air bending effect across different content styles to make everyday moments more engaging.",
+    "scenarios": [
+      {
+        "title": "Casual Street Look",
+        "description": "Turns a simple walk into a scroll-stopping video hook by bending the air around the subject.",
+        "category": "lifestyle",
+        "image_prompt": "A realistic video preview showing a young woman in casual streetwear walking along a city sidewalk, the air around her subtly warping and swirling as she turns back to look at the camera, leaves and dust particles bending around her figure, cinematic lighting, urban background, shot on a smartphone, vertical format.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-scenario-1.png"
+      },
+      {
+        "title": "Dynamic Dance Spin",
+        "description": "Adds fluid air trails to a dancer's spin, emphasizing motion and creating visual impact.",
+        "category": "motion",
+        "image_prompt": "A dancer in an outdoor urban setting spinning rapidly, the Air bending effect generating visible streams of bending air that wrap around her body, amplifying the motion, with street art background, energetic, shot from low angle, vertical video aesthetic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-scenario-2.png"
+      },
+      {
+        "title": "Sunset Scenic Look",
+        "description": "Highlights the outfit and location as gentle air distortions frame the subject against a golden sky.",
+        "category": "travel",
+        "image_prompt": "A content creator posing on a cliff overlooking a deep blue ocean at sunset, wearing a flowing dress, the air around her subtly bending and shimmering like heat haze, highlighting her silhouette and the scenic view, cinematic travel footage, vertical format, warm tones.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Air bending effect?",
+        "answer": "The Air bending effect is a visual filter that adds realistic air currents, wind swirls, and motion distortions around a subject, making it look like they can control the air. It's popular for short videos to create superhero-style or dynamic scenes."
+      },
+      {
+        "question": "Why is Air bending useful for TikTok, Reels, or Shorts?",
+        "answer": "The Air bending effect instantly captures viewer attention with dynamic motion, making your content stand out in fast-scrolling feeds. It works well for transitions, dance videos, and storytelling, increasing watch time and shares."
+      },
+      {
+        "question": "Can I create Air bending from one uploaded image?",
+        "answer": "Yes, you can upload a single photo, and the Air bending effect will animate wind motion around the subject, turning a still image into an engaging short video clip."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Images or videos with a clear subject, preferably with some empty space around them, work best. Avoid cluttered backgrounds, as the wind effect needs room to flow naturally. High contrast between subject and background helps the effect track better."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Use Air bending to add dynamic motion to product reveals, fashion lookbooks, travel scenery, or creator monologues. It adds a cinematic feel that works across many content styles."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create an air bending video effect from one frame",
+    "supporting_text": "Start from a prompt, uploaded media, or a ready-made template",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Air bending",
+    "description": "While this effect is commonly called Air bending, users often search for related terms like wind manipulation, air whip, or elemental air control to find the perfect visual. LazyKiwi helps you turn these descriptions into polished short-video-ready effects with ease.",
+    "keywords": [
+      "air bending effect",
+      "wind bending visual",
+      "air manipulation filter",
+      "aerokinesis video effect",
+      "air blast effect",
+      "swirling wind effect",
+      "air current control",
+      "elemental air power",
+      "wind gust effect",
+      "air whip effect",
+      "floating air animation",
+      "atmospheric bending visual"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/air-bending-hero-after.png"
+  }
+}

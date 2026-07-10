@@ -267,17 +267,20 @@
       {
         "quote": "The motion quality is surprisingly natural. I can iterate on concepts fast without burning through my entire budget on test footage.",
         "name": "Maya Chen",
-        "role": "Independent filmmaker"
+        "role": "Independent filmmaker",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/hailuo/avatar-1.png"
       },
       {
         "quote": "We use it for quick social cuts and B-roll. Saves us hours compared to stock libraries, and the results fit our brand better.",
         "name": "Jordan Miles",
-        "role": "Content lead"
+        "role": "Content lead",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/hailuo/avatar-2.png"
       },
       {
         "quote": "Finally, a video model that handles camera movement well. The physics feel right, which matters when you're prototyping scenes.",
         "name": "Alex Reeves",
-        "role": "VFX artist"
+        "role": "VFX artist",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/hailuo/avatar-3.png"
       }
     ]
   },

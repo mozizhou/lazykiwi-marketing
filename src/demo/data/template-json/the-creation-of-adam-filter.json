@@ -1,0 +1,127 @@
+{
+  "template_name": "The Creation of Adam Filter",
+  "template_slug": "the-creation-of-adam-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:13:32",
+  "hero": {
+    "title": "The Creation of Adam Filter",
+    "description": "Transform your photos with the iconic touch composition and Renaissance atmosphere of Michelangelo’s masterpiece. Ideal for TikToks, Reels, Shorts, product reveals, outfit edits, action shots, and social content that demand a dramatic, art-inspired look.",
+    "template_name": "The Creation of Adam Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "Clean, natural portrait in soft daylight, subject reaching out with one hand toward the camera, neutral expression, unedited, modern casual clothing, plain background, shot on a smartphone.",
+    "image_prompt_after": "Same portrait now rendered with The Creation of Adam Filter effect: the subject is embedded into a classical fresco scene with a dramatic sky and billowing divine figures behind them. The composition mirrors Michelangelo's touch imagery—two hands nearly meeting, one human, one divine. Warm Renaissance color palette, textured plaster-like surface, aged patina, soft chiaroscuro lighting, artistic depth.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a The Creation of Adam Filter video work?",
+    "intro": "The Creation of Adam Filter video effect recreates Michelangelo’s iconic hand-touch composition with painterly textures, dramatic framing, and an artistic Renaissance atmosphere. A carefully aligned subject and motion path simulate the fresco’s tension, making everyday clips feel like classical art.",
+    "cards": [
+      {
+        "title": "Clean Hand-Reaching Frame",
+        "description": "Start with a horizontal composition where one hand extends toward the other or toward the lens, leaving ample negative space for the painted overlay and Adam’s reaching hand.",
+        "icon": "upload"
+      },
+      {
+        "title": "Slow, Intentional Gesture",
+        "description": "Move the subject’s hand or body with deliberate slowness, holding near-touch stillness. Rapid motion breaks the illusion; subtle control sells the eternal, sacred moment.",
+        "icon": "motion"
+      },
+      {
+        "title": "Layered Renaissance Overlay",
+        "description": "The effect blends Adam’s hand, a celestial void, and textured brushwork over your footage. Warm highlights and soft grain mimic the Sistine Chapel’s timeless, divine glow.",
+        "icon": "layers"
+      },
+      {
+        "title": "Shareable Art-History Hook",
+        "description": "Audiences instantly recognize the masterpiece, sparking comments and shares. The contrast between classical art and short-form video boosts retention on TikTok, Reels, and ad creatives.",
+        "icon": "camera"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators apply the The Creation of Adam Filter to craft iconic Renaissance-inspired visuals for different content goals.",
+    "scenarios": [
+      {
+        "title": "Romantic Couple Announcements",
+        "description": "Highlight a relationship milestone with the iconic almost-touching hands pose, giving the moment a classical, timeless feel.",
+        "category": "Relationship & Lifestyle",
+        "image_prompt": "A smartphone held in front of a sunset cityscape, the screen showing a photo of a modern couple in casual clothes, their hands reaching toward each other with the The Creation of Adam Filter applied. The filter transforms the image into a fresco-like painting with soft golden lighting, draped fabric, and a cloud-filled sky, the fingers almost touching at the center.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-scenario-1.png"
+      },
+      {
+        "title": "Creative Partnership Launch",
+        "description": "Announce a collaboration between two creators or brands by framing the handshake as a moment of artistic creation.",
+        "category": "Business & Collaboration",
+        "image_prompt": "A desktop monitor displaying a social media post draft: two young entrepreneurs, one in a hoodie and one in a blazer, extend their hands towards each other. The The Creation of Adam Filter is applied, turning the scene into a Renaissance painting complete with dramatic chiaroscuro, a divine light beam, and the caption 'The Creation of a New Venture' in elegant serif font.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-scenario-2.png"
+      },
+      {
+        "title": "Artist Personal Branding Portraits",
+        "description": "Elevate a creative professional's profile picture by turning a simple portrait into a classical masterpiece.",
+        "category": "Art & Personal Branding",
+        "image_prompt": "A close-up of a tablet screen showing a filtered portrait of a female painter wearing a beret and holding a brush. The The Creation of Adam Filter has been applied, softening the image into oil-painting textures, with the painter's hand reaching towards a canvas as if in the iconic pose, surrounded by a warm gallery atmosphere and subtle Renaissance ornamentation.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the The Creation of Adam Filter effect?",
+        "answer": "The The Creation of Adam Filter applies the iconic hand-touch composition and warm, classical painting style from Michelangelo's 'The Creation of Adam' to your photo or video. It recreates the Renaissance art atmosphere while keeping your own subject as the focal point."
+      },
+      {
+        "question": "Why is The Creation of Adam Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It helps videos catch attention quickly because the art-inspired visual is instantly recognizable. The filter adds a refined, creative layer to your content, which can lead to higher watch time and more engagement on short-form platforms."
+      },
+      {
+        "question": "Can I create The Creation of Adam Filter from one uploaded image?",
+        "answer": "Yes. Most tools that offer this effect work with a single image upload. For the best composition, choose a photo where a hand or profile is clearly visible so the filter can align the pose with the classic artwork."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Photos with a clear hand gesture or side profile give the most convincing result. Good lighting, clean backgrounds, and reasonable contrast help the filter detect edges and blend the art style smoothly without distortion."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The filter can give product shots a classic, museum-like feel, add visual interest to fashion portraits, frame travel moments in an artistic way, and differentiate creator content with a memorable Renaissance-inspired look."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Recreate The Creation of Adam with your photo.",
+    "supporting_text": "Start from a text prompt, an uploaded image, or a template to apply the effect instantly.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for The Creation of Adam Filter",
+    "description": "Users often describe this iconic visual effect with different phrases, searching for everything from 'God’s hand filter' to 'Sistine Chapel aesthetic.' Whether you call it the Creation of Adam photo effect, Michelangelo hands template, or Adam and God touch meme filter, LazyKiwi helps turn your idea into a short‑video‑ready visual. Explore the most common alternative names to find exactly the look you want.",
+    "keywords": [
+      "Creation of Adam effect",
+      "God's hand filter",
+      "Sistine Chapel filter",
+      "Michelangelo hands effect",
+      "Adam and God reaching filter",
+      "Renaissance painting photo filter",
+      "finger of God template",
+      "Creation of Adam meme filter",
+      "TikTok Adam and God touch effect",
+      "CapCut Creation of Adam template"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/the-creation-of-adam-filter-scenario-3.png"
+    ]
+  }
+}

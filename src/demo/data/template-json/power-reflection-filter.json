@@ -1,0 +1,129 @@
+{
+  "template_name": "Power Reflection Filter",
+  "template_slug": "power-reflection-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:20:40",
+  "hero": {
+    "title": "Power Reflection Filter",
+    "description": "This filter uses mirrored reflections and aura composition to give your subject a commanding, powerful presence. Ideal for social media clips like TikTok, Reels, and Shorts, product reveals, outfit edits, and action shots that need a bold, high-impact look.",
+    "template_name": "Power Reflection Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A medium full-body shot of a confident person in a sleek, modern outfit, standing on a polished dark floor under soft but directional key light. The background is minimal and dark, with no reflections visible. Clean, professional portrait style, shot with a 50mm lens, shallow depth of field, natural skin tones, no special effects.",
+    "image_prompt_after": "The same person and scene as before, but now with a strong power reflection effect applied: a sharp mirror reflection appears directly below on the polished floor, doubling the silhouette and creating perfect vertical symmetry. A faint, shimmering aura of light outlines the figure, adding a feeling of authority and pressure. The lighting intensifies into a moody, high-contrast setup with cool tones and subtle lens flare. The overall feel is cinematic and commanding, suitable for social media hero content.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Power Reflection Filter video work?",
+    "intro": "A precision mirror reflection splits the frame, doubling the subject while an aura-like composition amplifies authority and pressure. Strong front-facing lighting, clean lines, and a commanding central presence transform an ordinary clip into a visually dominant moment that demands attention.",
+    "cards": [
+      {
+        "title": "Clean, centered starting frame",
+        "description": "Begin with a well-lit, front-facing subject against an uncluttered background. A centered composition and strong contrast let the mirror effect align precisely and maximize visual impact.",
+        "icon": "upload"
+      },
+      {
+        "title": "Composed, direct subject posture",
+        "description": "Hold a steady stance with minimal movement and direct eye contact. The duplication reinforces a sense of control and quiet dominance without needing exaggerated gestures.",
+        "icon": "subject"
+      },
+      {
+        "title": "Symmetrical reflection split",
+        "description": "A vertical or horizontal mirror line doubles the figure, often with a subtle drift or light bloom. This layered duplication creates an imposing, confrontational visual that feels almost architectural.",
+        "icon": "layers"
+      },
+      {
+        "title": "Scroll-stopping social presence",
+        "description": "The bold symmetry and authoritative mood naturally halt the feed. Ideal for personal branding, thought leadership snippets, product reveals, or ad hooks that need instant credibility and weight.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore real-world creative applications of the Power Reflection Filter across different content channels.",
+    "scenarios": [
+      {
+        "title": "Executive Leadership Portraits",
+        "description": "Command authority in boardroom-ready headshots with mirrored reflections that double the impact.",
+        "category": "Professional Branding",
+        "image_prompt": "A high-end corporate portrait of a CEO standing in a sleek office, polished floor reflecting a perfect mirror image of the person, creating a symmetrical composition. The person wears a dark suit, confident expression, arms crossed. Lighting is dramatic spotlight effect, enhancing a sense of power. Background slightly blurred. Realistic photo.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-scenario-1.png"
+      },
+      {
+        "title": "Cinematic Character Showcase",
+        "description": "Create movie poster-style images that radiate dominance with mirrored reflections and intense poses.",
+        "category": "Entertainment & Media",
+        "image_prompt": "A dramatic low-angle shot of an actor in a long coat on a wet city street at night, perfect reflection in a puddle doubling the figure. Stern expression, powerful stance. Neon lights reflecting in the water. Symmetrical composition, atmospheric tension, cinematic color grading.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-scenario-2.png"
+      },
+      {
+        "title": "Stage Authority Shots",
+        "description": "Captivate audiences with speaker portraits that mirror your presence and amplify your influence.",
+        "category": "Influencer Content",
+        "image_prompt": "A motivational speaker on a dark stage, low-angle shot, glossy stage floor reflecting a perfect mirror image. The speaker gestures outward with commanding presence, spotlights behind creating a silhouette effect with reflected light. Symmetrical composition, sense of grandeur and power. Realistic, high-contrast photography.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Power Reflection Filter effect?",
+        "answer": "The Power Reflection Filter creates a mirrored reflection of your subject and adjusts the composition to strengthen a sense of authority and presence. It works on both photos and short videos."
+      },
+      {
+        "question": "Why is the Power Reflection Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It quickly adds a dramatic, high-impact look that helps your content stand out in a fast-scrolling feed. The vertical mirror composition fits short-form formats and holds viewer attention right away."
+      },
+      {
+        "question": "Can I apply the Power Reflection Filter to a single uploaded image?",
+        "answer": "Yes. Upload one image or video clip, and the tool will detect the main subject and generate the mirrored effect automatically. No manual editing is needed."
+      },
+      {
+        "question": "What kind of image or video works best with the Power Reflection Filter?",
+        "answer": "Images or clips with a clear main subject, simple backgrounds, and good contrast produce the most natural-looking reflection. Subjects with strong vertical lines, such as a person standing upright, often work particularly well."
+      },
+      {
+        "question": "Can I use the Power Reflection Filter for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. It adds a clean, mirror-like presentation to products, enhances the sense of presence in fashion shots, creates dramatic symmetry for travel scenes, and gives a bold visual style to creator content."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Add a bold reflection effect to your images",
+    "supporting_text": "Start from a prompt, upload your own media, or customize a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Power Reflection Filter",
+    "description": "Users may describe the Power Reflection Filter with different names or search terms, such as intense reflection overlay, glossy shine effect, or dynamic reflective glow. Whether you call it a mirror reflection filter, an energy glare effect, or a powerful light reflection, LazyKiwi helps turn these ideas into stunning short-video-ready visuals with ease.",
+    "keywords": [
+      "intense reflection overlay",
+      "glossy shine effect",
+      "dynamic reflective glow",
+      "mirror reflection filter",
+      "energy glare effect",
+      "powerful light reflection",
+      "high-gloss reflection effect",
+      "luminous reflection filter",
+      "reflection boost overlay",
+      "electric reflection effect",
+      "glare and reflection filter",
+      "video reflection enhancement"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/power-reflection-filter-scenario-3.png"
+    ]
+  }
+}

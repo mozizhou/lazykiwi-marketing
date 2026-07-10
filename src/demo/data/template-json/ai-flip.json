@@ -1,0 +1,129 @@
+{
+  "template_name": "Ai flip",
+  "template_slug": "ai-flip",
+  "template_type": "video",
+  "created_at": "2026-06-11 16:33:54",
+  "hero": {
+    "title": "Ai flip",
+    "description": "The Ai flip effect instantly mirrors your video horizontally, creating a flipped perspective that feels dynamic and engaging. Ideal for TikTok, Reels, Shorts, product reveals, outfit edits, and action shots where a mirrored twist adds visual interest. Simply upload your clip and apply the template to transform ordinary footage into attention-grabbing social content.",
+    "template_name": "Ai flip Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A realistic professional photograph in 16:9 landscape orientation (1536x1024), vibrant colors, soft golden hour lighting. A young woman stands on a grassy clifftop overlooking the ocean, facing to the left side of the frame. She wears a casual white t-shirt with the word 'EXPLORE' printed clearly across the chest, reading correctly from left to right. Her long brown hair is blown by the wind to the right. The sun sets on the left side of the sky, casting a warm glow over the sea. The composition is well-balanced, with sharp focus on the subject in the foreground and a slightly blurred background of waves and distant mountains. Natural, unprocessed look.",
+    "image_prompt_after": "The same scene after applying the Ai flip effect. A high-quality 16:9 photograph, same golden hour lighting and composition. The woman now stands facing to the right side of the frame, as if her pose has been horizontally mirrored by the AI. However, everything else in the image remains unchanged: the sunset is still on the left, the ocean waves and mountains keep their original positions, and the text 'EXPLORE' on her t-shirt remains perfectly correct and readable (not mirrored). Her hair now blows to the left, following the same wind direction but reversed for her new orientation. The effect creates a surreal yet seamless transformation, highlighting the intelligent AI flip that repositions the subject while preserving background integrity and text readability. Vibrant colors, sharp focus on the subject, showcasing the powerful visual impact of the effect.",
+    "image_before": "/static/templates/ai-flip-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Ai flip video work?",
+    "intro": "Ai flip combines face detection, frame interpolation, and motion smoothing to turn a static shot into a dynamic rotation. A clean subject, steady framing, and AI-driven motion modeling produce a seamless flip that feels organic. This effect delivers instant visual surprise, perfect for looping videos and shareable moments.",
+    "cards": [
+      {
+        "title": "Clean starting frame",
+        "description": "Use a well-lit, high-resolution image with crisp subject outlines and minimal background clutter. A stable, front-facing composition ensures the AI can track features accurately before the flip begins.",
+        "icon": "upload"
+      },
+      {
+        "title": "Defined subject silhouette",
+        "description": "The person or object should be clearly separated from the background. Even lighting and sharp edges help the AI maintain a natural contour throughout the rotation, avoiding smearing or distortion.",
+        "icon": "subject"
+      },
+      {
+        "title": "Seamless 3D motion interpolation",
+        "description": "The AI generates in-between frames that mimic a real camera rotation, smoothing the transition. This creates a fluid, dimensional flip rather than a simple mirror effect, making the movement feel physical and engaging.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for short-form engagement",
+        "description": "The unexpected reversal hooks viewers instantly, while the loop-friendly result encourages replays and shares. It fits TikTok, Reels, and ad creatives where visual novelty drives higher watch time and conversion.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore real creator examples using the Ai flip effect across lifestyle, motion, and travel content.",
+    "scenarios": [
+      {
+        "title": "Casual Street Moment Flip",
+        "description": "A simple walking shot becomes a seamless transition that grabs attention instantly.",
+        "category": "lifestyle",
+        "image_prompt": "A smartphone vertical video: a young creator in casual outfit walks down a sunlit city street, turns back and smiles at the camera. As they turn, the Ai flip effect seamlessly rotates the frame to show the same moment from a reversed angle, creating a smooth loop-like transition with subtle motion blur. Natural lighting, urban background, short clip for a hook.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Energy Flip",
+        "description": "An expressive dance routine gets an instant dynamic boost with a rotating frame transition.",
+        "category": "motion",
+        "image_prompt": "Vertical video: a dancer in streetwear performs a quick spin and jump in an outdoor skate park. Mid-spin, the Ai flip effect instantly mirrors and rotates the footage, adding a second perspective that doubles the motion energy, synced to a beat. Clear action, vibrant colors, energetic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-scenario-2.png"
+      },
+      {
+        "title": "Travel View Outfit Flip",
+        "description": "A travel pose at a scenic viewpoint instantly becomes a polished outfit reveal.",
+        "category": "travel",
+        "image_prompt": "Vertical video: a travel creator stands on a mountain viewpoint overlooking a city skyline at golden hour. They turn from facing away to the camera, revealing an outfit. The Ai flip effect applies a smooth axis rotation, flipping from back to front view in a single fluid motion, highlighting the pose and the location. Cinematic lighting, soft bokeh background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Ai flip effect?",
+        "answer": "The Ai flip effect uses artificial intelligence to create a smooth, automated flip transition in videos. It typically reverses or mirrors a visual element, making subjects, products, or scenes appear to rotate seamlessly."
+      },
+      {
+        "question": "Why is Ai flip useful for TikTok, Reels, or Shorts?",
+        "answer": "Ai flip grabs attention with quick transformation transitions that match the fast pace of short-form video. It helps boost engagement, watch time, and shareability on platforms where visual impact matters most."
+      },
+      {
+        "question": "Can I create an Ai flip from one uploaded image?",
+        "answer": "Yes, many Ai flip tools let you upload a single still image and generate the flip animation. The AI fills in the motion to create a full video effect from your photo."
+      },
+      {
+        "question": "What kind of image or video works best for Ai flip?",
+        "answer": "High-resolution images or clips with a clear main subject and simple backgrounds give the most reliable results. Good lighting and minimal clutter help the AI track the flip accurately."
+      },
+      {
+        "question": "Can I use Ai flip for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Ai flip works well for product demos, outfit swaps, travel scene transitions, and any creator content where you want to add a dynamic before-and-after or reveal effect."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Make an AI flip from one frame, clip, or template",
+    "supporting_text": "Start with a prompt, upload your media, or pick a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Ai flip",
+    "description": "Many creators search for this stunning effect using different terms. Whether you call it an AI flip transition, face flip effect, or AI-powered mirror flip, LazyKiwi's tool lets you instantly transform your clips into eye-catching short-video visuals that wow your audience.",
+    "keywords": [
+      "AI flip transition",
+      "face flip AI",
+      "AI mirror flip effect",
+      "AI flip filter",
+      "AI turn effect",
+      "AI flip animation",
+      "video flip with AI",
+      "AI-powered flip",
+      "AI face morph flip",
+      "AI style flip",
+      "AI transformation flip",
+      "AI flip video maker"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-scenario-3.png"
+    ],
+    "hero_before": "/static/templates/ai-flip-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-flip-hero-after.png"
+  }
+}

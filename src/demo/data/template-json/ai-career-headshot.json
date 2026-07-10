@@ -1,0 +1,129 @@
+{
+  "template_name": "AI Career Headshot",
+  "template_slug": "ai-career-headshot",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:04:39",
+  "hero": {
+    "title": "AI Career Headshot",
+    "description": "Transform casual portraits into polished, professional headshots tailored to specific job roles and industries. Ideal for LinkedIn profiles, corporate websites, resumes, and business cards. The AI automatically adjusts attire, background, and lighting to match your desired career image while preserving natural facial features and expressions.",
+    "template_name": "AI Career Headshot Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A casual, well-lit outdoor portrait of a person in everyday clothing, neutral background, natural expression, soft daylight, looking directly at camera, smartphone photo quality, unedited",
+    "image_prompt_after": "The same person transformed into a professional studio headshot with a tailored blazer, clean white background, soft diffused lighting, confident but approachable expression, sharp focus, corporate styling, high-resolution, magazine-quality edit",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Career Headshot video work?",
+    "intro": "A clear, front-facing photo, professional clothing, and subtle, natural motion create a polished headshot that feels authentic. The AI blends your features with realistic career backgrounds and refined lighting, producing a video that works like a high-end corporate portrait session.",
+    "cards": [
+      {
+        "title": "Clean, front-facing photo",
+        "description": "A well-lit, straight-on portrait with a neutral expression and no accessories blocking the face gives the AI the most accurate starting point.",
+        "icon": "upload"
+      },
+      {
+        "title": "Professional posture and subtle motion",
+        "description": "The subject appears in refined attire with a slight head turn or gentle smile, mimicking a live photo session without obvious stiffness.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smooth style transfer and realism",
+        "description": "The effect layers your face onto a career-appropriate template with cohesive lighting, skin tone matching, and a soft, looping motion for a natural look.",
+        "icon": "layers"
+      },
+      {
+        "title": "Built for social bios and ads",
+        "description": "Short, polished headshot videos stand out on LinkedIn, Instagram Reels, or TikTok ads, boosting personal brand credibility and engagement in seconds.",
+        "icon": "camera"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators across platforms use the AI Career Headshot effect to produce professional-grade photos for modern career needs.",
+    "scenarios": [
+      {
+        "title": "LinkedIn Profile Refresh",
+        "description": "A sales manager updates her LinkedIn photo with a crisp, industry-appropriate headshot.",
+        "category": "Professional Branding",
+        "image_prompt": "A laptop screen displaying a LinkedIn profile page, the main profile photo is a realistic, high-quality headshot of a confident sales manager with a subtle smile, wearing a blazer, soft office background, natural lighting, the photo clearly looks like it was created by an AI career headshot tool, no exaggerated retouching, believable and clean.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-scenario-1.png"
+      },
+      {
+        "title": "Resume-Ready ID Photo",
+        "description": "A freelance developer generates a formal headshot that meets standard resume photo requirements.",
+        "category": "Job Search",
+        "image_prompt": "A printed resume lying on a wooden desk, next to a smartphone showing the AI Career Headshot interface, the resume features a professional headshot of a young male developer with a neutral expression, wearing a collared shirt, white background, passport-style framing, soft studio lighting, realistic print texture.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-scenario-2.png"
+      },
+      {
+        "title": "Team Page Consistency",
+        "description": "A small business owner unifies all employee headshots into a consistent, professional look for the company website.",
+        "category": "Corporate Identity",
+        "image_prompt": "A browser window open to a company 'About Us' page, with a grid of six circular employee headshots, all styled identically: head-and-shoulders crop, warm gray background, friendly expressions, similar lighting, each face looks distinct but the AI-generated effect gives them a cohesive visual identity, the rest of the page is clean and minimal.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI Career Headshot effect?",
+        "answer": "The AI Career Headshot effect automatically generates a professional portrait or ID-style photo from your uploaded image, adjusting lighting, background, and attire to match a corporate look."
+      },
+      {
+        "question": "Why is AI Career Headshot useful for TikTok, Reels, or Shorts?",
+        "answer": "It helps creators quickly produce a clean, consistent headshot for profile pictures, intros, or branding elements in short-form video content without needing a photo studio."
+      },
+      {
+        "question": "Can I create an AI Career Headshot from just one uploaded image?",
+        "answer": "Yes, a single clear portrait is usually enough. The effect uses that reference to generate a polished career-oriented version while preserving your likeness."
+      },
+      {
+        "question": "What kind of image works best with AI Career Headshot?",
+        "answer": "A front-facing photo with even lighting, a neutral background, and no heavy filters or obstructions gives the most accurate and natural-looking result."
+      },
+      {
+        "question": "Can I use AI Career Headshot for product, fashion, travel, or creator content?",
+        "answer": "While designed for professional portraits, you can apply it to any personal branding scenario where a clean headshot is needed—like for an about page, resume, or social bio."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Your Professional Headshot, from One Photo or Prompt",
+    "supporting_text": "Start with a selfie, a template, or just a text description to get a polished career headshot in minutes.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Career Headshot",
+    "description": "Users often describe this effect with different names or search terms, such as AI professional headshot, business portrait, or LinkedIn photo. Whether you need a corporate avatar, a job application image, or a polished profile picture, LazyKiwi helps turn these ideas into short-video-ready visuals that look great on any career platform.",
+    "keywords": [
+      "AI professional headshot",
+      "AI business portrait",
+      "AI LinkedIn photo",
+      "AI corporate headshot",
+      "AI job application photo",
+      "AI resume picture",
+      "AI executive portrait",
+      "AI formal headshot",
+      "AI workplace headshot",
+      "AI professional profile picture",
+      "AI career portrait generator",
+      "AI headshot for LinkedIn"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-headshot-scenario-3.png"
+    ]
+  }
+}

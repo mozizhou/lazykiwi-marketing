@@ -1,0 +1,125 @@
+{
+  "template_name": "JoJo’s Bizarre Adventure Filter",
+  "template_slug": "jojos-bizarre-adventure-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:16:24",
+  "hero": {
+    "title": "JoJo’s Bizarre Adventure Filter",
+    "description": "Transform your photos into the iconic JoJo’s Bizarre Adventure manga style, complete with signature dramatic poses and bold comic shading. Ideal for TikTok, Reels, Shorts, action shots, outfit edits, and social media content that demands attention.",
+    "template_name": "JoJo’s Bizarre Adventure Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, well-lit portrait of a person in casual attire standing against a plain urban wall, facing forward with a neutral expression, sharp focus, natural colors, no filters or effects.",
+    "image_prompt_after": "The same portrait converted into a JoJo’s Bizarre Adventure manga panel, with the person striking an exaggerated dramatic pose, bold black outlines, high-contrast cel shading, speed lines, and the iconic 'ゴゴゴ' text floating in the background, pure manga style.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a JoJo’s Bizarre Adventure Filter video work?",
+    "intro": "The JoJo’s Bizarre Adventure Filter reimagines your video through the iconic visual language of Hirohiko Araki’s manga: bold black outlines, dynamic cross-hatching, and hyper-saturated color pops. It exaggerates angles, adds dramatic shading, and transforms ordinary movements into legendary ‘menacing’ moments—making you look like a true Stand user in every frame.",
+    "cards": [
+      {
+        "title": "Sharp subject, clean backdrop",
+        "description": "A crisp, high-contrast shot with a simple background helps the filter detect your silhouette, then apply bold comic outlines and intense shading without distraction.",
+        "icon": "upload"
+      },
+      {
+        "title": "Strike exaggerated JoJo poses",
+        "description": "Adopt the iconic angular stances, pointed fingers, or flexed poses. The filter amplifies tense body lines and dramatic tension, turning natural movement into a manga sequence.",
+        "icon": "motion"
+      },
+      {
+        "title": "Real-time manga rendering engine",
+        "description": "Thick, dynamic line art, vivid halftone textures, and dramatic shadow planes are overlaid live. The effect applies cross-hatching and speed lines with every motion for instant comic effect.",
+        "icon": "layers"
+      },
+      {
+        "title": "Built for short-form virality",
+        "description": "The filter’s stylized, over-the-top visuals grab attention in the first frame. It injects personality into ads, Reels, and TikToks, making any product or message feel iconic and shareworthy.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of how creators use the JoJo’s Bizarre Adventure Filter across social media, cosplay, and creative projects.",
+    "scenarios": [
+      {
+        "title": "Manga-Style Selfies",
+        "description": "Turn everyday photos into dramatic JoJo portraits with bold lines and comic shading.",
+        "category": "Social Media",
+        "image_prompt": "A young person in casual streetwear, striking an exaggerated JoJo-style pose with one hand pointing forward and face in a determined expression, transformed by the JoJo filter into a manga panel aesthetic: sharp ink lines, cross-hatch shading, and vibrant action lines on a neon city background at night.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-scenario-1.png"
+      },
+      {
+        "title": "Cosplay Transformation",
+        "description": "Apply authentic manga effects to cosplay shots, matching the iconic art style of the series.",
+        "category": "Fan Content",
+        "image_prompt": "A cosplayer dressed as a JoJo character, mid-motion with a dynamic punching pose, the filter adding dramatic black outlines, manga screentone textures, and 'menacing' impact effects, set against a stylized background of speed lines and half-tone dots.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-scenario-2.png"
+      },
+      {
+        "title": "Music Cover Art",
+        "description": "Create striking promo visuals for singles or albums with a manga-inspired aesthetic.",
+        "category": "Creative Marketing",
+        "image_prompt": "A musician holding an electric guitar, leaning forward with intense expression, the JoJo filter rendering the image in high-contrast manga style with bold hatch shading and stark white highlights, overlaid with Japanese onomatopoeia text and a grainy album cover texture.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the JoJo’s Bizarre Adventure Filter?",
+        "answer": "It is an image effect that transforms photos or videos into the classic manga art style of JoJo’s Bizarre Adventure, featuring bold outlines, halftone shading, and iconic exaggerated poses."
+      },
+      {
+        "question": "Why is the JoJo’s Bizarre Adventure Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "The filter delivers a distinctive, instantly recognizable look that helps short-form content grab attention, align with anime trends, and increase engagement on social platforms."
+      },
+      {
+        "question": "Can I create the JoJo’s Bizarre Adventure Filter effect from one uploaded image?",
+        "answer": "Yes, a single portrait or full-body photo is enough. The tool processes the uploaded image and applies the manga-style transformation automatically."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Well-lit, high-contrast images with clear facial features or dynamic poses produce the best results. Blurry, dark, or heavily cropped photos may not convert as cleanly."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Transform your photos into JoJo’s Bizarre Adventure scenes",
+    "supporting_text": "Begin with a text prompt, an uploaded image, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for JoJo’s Bizarre Adventure Filter",
+    "description": "People often describe this effect with different phrases, searching for terms like 'JoJo anime filter' or 'JoJo manga style'. Whether you know it as a JoJo’s Bizarre Adventure art filter or a bizarre adventure photo effect, LazyKiwi helps turn these creative ideas into short-video-ready visuals, capturing that iconic Araki-inspired look effortlessly.",
+    "keywords": [
+      "JoJo anime filter",
+      "JoJo manga filter",
+      "JoJo art style filter",
+      "bizarre adventure filter",
+      "Araki style filter",
+      "JoJo pose filter",
+      "JoJo’s Bizarre Adventure photo effect",
+      "turn yourself into JoJo character",
+      "JoJo aesthetic filter",
+      "manga JoJo effect",
+      "anime JoJo style photo",
+      "JoJo’s Bizarre Adventure art filter online"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/jojo’s-bizarre-adventure-filter-scenario-3.png"
+    ]
+  }
+}

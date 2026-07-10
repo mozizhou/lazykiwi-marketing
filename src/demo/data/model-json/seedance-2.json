@@ -268,17 +268,20 @@
       {
         "quote": "The motion quality is what sold me. I can finally generate product demos that don't look floaty or disconnected from physics.",
         "name": "Maya Chen",
-        "role": "Product video creator"
+        "role": "Product video creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedance-2/avatar-1.png"
       },
       {
         "quote": "We cut our preview turnaround from two days to twenty minutes. That's the difference between making deadline and missing it.",
         "name": "Jordan Mills",
-        "role": "Content lead"
+        "role": "Content lead",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedance-2/avatar-2.png"
       },
       {
         "quote": "I was skeptical about AI video, but Seedance handles camera movement better than anything I've tested. It just works.",
         "name": "Alex Kowalski",
-        "role": "Short-form creator"
+        "role": "Short-form creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedance-2/avatar-3.png"
       }
     ]
   },

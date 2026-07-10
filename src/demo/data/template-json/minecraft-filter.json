@@ -1,0 +1,129 @@
+{
+  "template_name": "Minecraft Filter",
+  "template_slug": "minecraft-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:56:50",
+  "hero": {
+    "title": "Minecraft Filter",
+    "description": "Transform any photo into a blocky, pixel-art world inspired by Minecraft. Ideal for creating eye-catching social content on TikTok, Reels, and Shorts, or giving product reveals and outfit edits a playful, retro-gaming twist.",
+    "template_name": "Minecraft Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-resolution photograph of a person with a relaxed smile, standing in a grassy field under soft daylight, wearing modern casual wear, natural skin tones, sharp details, clean background.",
+    "image_prompt_after": "The exact same scene reimagined with the Minecraft Filter: the person and the field turned into a 3D blocky voxel world, every surface composed of colorful square pixels, grass blocks, clear sky blocks, character modeled from Minecraft-style cubes, recognizable but fully pixelated.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Minecraft Filter video work?",
+    "intro": "The Minecraft filter instantly reimagines any photo or video as a blocky, pixelated realm reminiscent of the iconic game. This effect works by converting flat images into 3D-like cubes, creating a playful, retro aesthetic. A clear subject, strong lighting, and subtle motion amplify the transformation, making your content stand out in feeds with a touch of nostalgic charm.",
+    "cards": [
+      {
+        "title": "Clear, High-Contrast Source",
+        "description": "Start with a photo or frame where the main subject is well-lit and separate from the background. Soft, even lighting prevents blocks from blending into noise.",
+        "icon": "upload"
+      },
+      {
+        "title": "Bold Outlines, Steady Movement",
+        "description": "Keep the person or object framed clearly. Slight, smooth motion helps the block effect read better than static shots, but fast blur disrupts the grid.",
+        "icon": "subject"
+      },
+      {
+        "title": "Live Voxel Grid Rendering",
+        "description": "Every frame is split into a mosaic of cubes that update as you move. The slight parallax between blocks gives depth, turning a flat scene into a tangible miniature world.",
+        "icon": "layers"
+      },
+      {
+        "title": "Instant Nostalgia, High Shareability",
+        "description": "The familiar blocky look stands out in crowded feeds, boosting watch time. It's ideal for brand teasers, product reveals, or personal clips that need a playful, memorable twist.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how real creators use the Minecraft Filter to level up their content across platforms.",
+    "scenarios": [
+      {
+        "title": "Minecraft Let's Play Thumbnail",
+        "description": "Create eye-catching YouTube thumbnails that instantly show your blocky adventure.",
+        "category": "Gaming",
+        "image_prompt": "A bright YouTube thumbnail mockup featuring a real person turned into a pixelated Minecraft Steve character holding a diamond sword, fighting a Creeper in a blocky forest, with bold gaming overlay text 'Day 1' and vibrant, high-contrast lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-scenario-1.png"
+      },
+      {
+        "title": "Cosplayer Profile Picture",
+        "description": "Turn your real Minecraft cosplay into authentic block art for social media.",
+        "category": "Cosplay",
+        "image_prompt": "Split-screen Instagram profile view: left half shows a real person in a detailed Steve costume, right half shows the same pose transformed into a fully blockified Minecraft character via the filter, set against a pixelated dirt block wall.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-scenario-2.png"
+      },
+      {
+        "title": "Streamer Face Cam Overlay",
+        "description": "Add a blocky twist to live streams with a Minecraft-style face cam filter.",
+        "category": "Livestreaming",
+        "image_prompt": "A Twitch streamer setup on a monitor, showing a live broadcast with the streamer's face cam transformed into a animated blocky Minecraft head, overlaying a gameplay scene of a block building in a green biome, chat visible on the side.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Minecraft Filter effect?",
+        "answer": "The Minecraft Filter transforms your photo or video into a blocky, pixelated style inspired by the Minecraft game. It turns real-world scenes into cube-based visuals with a retro game look."
+      },
+      {
+        "question": "Why is the Minecraft Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It grabs attention fast with a recognizable game aesthetic, which helps your content stand out in feeds. The pixel art style fits trending challenges, transitions, and humor-based short videos."
+      },
+      {
+        "question": "Can I create a Minecraft Filter from one uploaded image?",
+        "answer": "Yes, you can apply the effect to a single photo. Upload your image, and the tool converts it into a Minecraft-style block composition ready to download or share."
+      },
+      {
+        "question": "What kind of image works best with the Minecraft Filter?",
+        "answer": "Images with clear subjects, strong contrast, and simple backgrounds produce the most readable block conversion. Portraits, landscapes, and objects with distinct shapes work well."
+      },
+      {
+        "question": "Can I use the Minecraft Filter for product, fashion, travel, or creator content?",
+        "answer": "Yes, you can use it across these categories. It adds a playful, game-inspired twist to product showcases, outfit posts, travel scenes, and creator branding without needing complex editing."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create Minecraft Art from Photos, Frames, or Templates",
+    "supporting_text": "Start with a prompt, upload an image, or choose a template to instantly apply the iconic blocky look.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Minecraft Filter",
+    "description": "Looking for the Minecraft Filter effect? You might know it by a handful of different names—blocky filter, cubic character style, or even that signature pixelated look from Mojang's universe. Whatever you call it, LazyKiwi makes it simple to turn your ideas into eye-catching, short‑video‑ready visuals that capture the iconic, retro charm of a Minecraft world.",
+    "keywords": [
+      "Minecraft effect",
+      "blocky filter",
+      "pixelated game filter",
+      "Minecraft style transformation",
+      "cubic character effect",
+      "Mojang filter",
+      "Minecraft world filter",
+      "turn photo into Minecraft",
+      "Minecraft filter app",
+      "Minecraft photo effect online",
+      "block character filter",
+      "Minecraft video filter"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/minecraft-filter-scenario-3.png"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "template_name": "AI Career Challenge",
+  "template_slug": "ai-career-challenge",
+  "template_type": "image",
+  "created_at": "2026-06-24 17:57:20",
+  "hero": {
+    "title": "AI Career Challenge",
+    "description": "Transform a single portrait into a high-energy career assembly poster. This effect arranges multiple stylized versions of the subject in action-packed poses with dramatic lighting and motion effects, ideal for TikTok, Reels, Shorts, product reveals, and social campaigns that need an intense, team-battle look.",
+    "template_name": "AI Career Challenge Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-quality, unprocessed professional photograph in 16:9 landscape orientation (1536x1024). A young professional is seated at a wooden desk in a softly lit office interior, looking down thoughtfully at a printed resume and a notepad filled with scribbled career ideas. A laptop and a half-empty coffee cup are on the desk. Warm, natural daylight pours through a window on the left, creating gentle shadows. The subject wears business casual attire and appears slightly uncertain about their career future. The image has clear subject focus, vibrant yet natural colors, and a shallow depth of field that blurs the background. Realistic photography, no digital manipulation, suitable for a before-effect career transformation scene.",
+    "image_prompt_after": "The exact same scene and subject transformed by the AI Career Challenge effect. A vibrant, futuristic professional photograph in 16:9 landscape orientation. The desk now glows with holographic career pathway maps, floating skill badges, and AI-driven job match projections in luminous blue and purple. The resume has become a dynamic, semi-transparent digital interface with scrolling data. Augmented reality glasses on the subject display an 'AI Career Coach' overlay. The lighting shifts to an energizing neon-infused palette, with scattered light particles and soft bokeh. The person now radiates confidence, with a subtle smile and a sleek, tech-accented outfit. The entire image emphasizes a dramatic transformation from ordinary to extraordinary, blending hyper-realistic detail with vivid, glowing AI effects while keeping the original composition and subject clearly in focus.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Career Challenge video work?",
+    "intro": "This effect transforms a single portrait into a squad of career-driven characters in a stylized poster. Layered cloning, dramatic lighting, and motion accents create a high-energy, battle-ready look. Perfect for creators wanting to showcase ambition or team spirit with a cinematic, scroll-stopping visual.",
+    "cards": [
+      {
+        "title": "Clean Portrait Upload",
+        "description": "Start with a high-quality solo photo taken in even light, with the subject clearly visible and facing forward. A simple background ensures smoother AI cloning and sharper output.",
+        "icon": "upload"
+      },
+      {
+        "title": "Confident Subject Stance",
+        "description": "The effect clones the subject into multiple roles, each with slight pose or gaze changes. A forward-facing, assertive expression produces the strongest team energy.",
+        "icon": "subject"
+      },
+      {
+        "title": "Layered Motion & Energy",
+        "description": "Motion blur streaks, dynamic light trails, and staggered clone placements create a sense of urgent action. The depth layering mimics a cinematic movie poster.",
+        "icon": "motion"
+      },
+      {
+        "title": "Made for Short-Form Feeds",
+        "description": "Vertical framing, fast pacing, and bold text overlays are tailored for TikTok, Reels, and Shorts. The effect grabs attention instantly and drives higher completion rates.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of how the AI Career Challenge effect is used by creators, teams, and professionals across platforms.",
+    "scenarios": [
+      {
+        "title": "Startup Team Branding",
+        "description": "Showcase your founding team as a battle-ready squad for investor decks and social announcements.",
+        "category": "Corporate Branding",
+        "image_prompt": "A dynamic group photo of five diverse startup founders in modern business attire, striking heroic poses with glowing career icons like rocket, shield, and code brackets, arranged in a V-formation on a futuristic battlefield backdrop with neon lights and motivational taglines, capturing a team ready to launch their venture.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-scenario-1.png"
+      },
+      {
+        "title": "University Career Fair Promotion",
+        "description": "Students create attention-grabbing posters to stand out at career events and job hunts.",
+        "category": "Education & Recruitment",
+        "image_prompt": "A vibrant career fair poster featuring three graduating students in business casual, each holding personalized career attribute cards like 'AI Architect' or 'Marketing Strategist', with epic energy sparks and a campus landmark in the background, designed to attract recruiter attention in a job fair setting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-scenario-2.png"
+      },
+      {
+        "title": "Esports Guild Recruitment",
+        "description": "Gaming teams and clans turn professional profiles into powerful recruitment posters.",
+        "category": "Gaming & Tech",
+        "image_prompt": "An esports-themed career assembly poster with four gamers in sleek gaming jerseys, each assigned competitive roles like 'Strategist' or 'Captain', holding gaming accessories, set against a digital arena with laser lights, scoreboards, and team logo, conveying a professional gaming squad atmosphere.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI Career Challenge effect?",
+        "answer": "It's an AI-powered tool that turns your portrait into a professional career-themed poster with a bold, battle-ready atmosphere. You upload a photo and the effect generates an action-style lineup image, placing you in a team poster scenario."
+      },
+      {
+        "question": "Why is the AI Career Challenge effect popular for TikTok or Reels?",
+        "answer": "It creates shareable, high-energy career persona posters in seconds. Creators use it to join trending challenges, show creative self-intros, or make dynamic content that stands out in short-form video feeds."
+      },
+      {
+        "question": "Can I create the effect from one uploaded image?",
+        "answer": "Yes. You only need a single portrait photo. The system processes that image and applies the career challenge style automatically, no multiple uploads or manual editing required."
+      },
+      {
+        "question": "What kind of image works best for this effect?",
+        "answer": "A clear front-facing upper-body shot with even lighting and a plain or simple background gives the most accurate result. Avoid heavy filters, extreme angles, or group photos."
+      },
+      {
+        "question": "Can I use it for product, fashion, or travel content?",
+        "answer": "Yes, it adapts to different content types. For product or fashion shots, choose an image with the item visible. For travel, use a solo traveler portrait. The effect focuses on turning any subject into a battle-ready poster, so it works across niches."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create your AI career challenge portrait",
+    "supporting_text": "Simply upload a photo, use a prompt, or choose a template to get started.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Career Challenge",
+    "description": "Users often search for this effect using different terms like career transformation filter, professional challenge visualizer, or AI success portrait. Whether you call it a dream job photo effect or an AI career path generator, LazyKiwi helps you turn any idea into short‑video‑ready visuals in seconds.",
+    "keywords": [
+      "AI career transformation",
+      "professional challenge photo effect",
+      "career goal visualizer",
+      "job success AI effect",
+      "motivational career image generator",
+      "future career AI filter",
+      "career path photo maker",
+      "AI professional avatar challenge",
+      "dream job photo effect",
+      "career glow-up AI"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-career-challenge-scenario-3.png"
+    ]
+  }
+}

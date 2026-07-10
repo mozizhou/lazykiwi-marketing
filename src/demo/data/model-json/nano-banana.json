@@ -284,17 +284,20 @@
       {
         "quote": "Finally, an image model that doesn't need three attempts to get hands right. Nano Banana just works on the first try.",
         "name": "Sarah Chen",
-        "role": "Product designer"
+        "role": "Product designer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/nano-banana/avatar-1.png"
       },
       {
         "quote": "We switched from our old workflow because Nano Banana handles text in images without the usual artifacts. Saves us hours weekly.",
         "name": "Marcus Webb",
-        "role": "Marketing lead"
+        "role": "Marketing lead",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/nano-banana/avatar-2.png"
       },
       {
         "quote": "The speed is what sold me. I can iterate on concepts in real-time during client calls instead of making them wait.",
         "name": "Priya Malhotra",
-        "role": "Brand consultant"
+        "role": "Brand consultant",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/nano-banana/avatar-3.png"
       }
     ]
   },

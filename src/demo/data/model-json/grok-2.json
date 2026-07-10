@@ -270,17 +270,20 @@
       {
         "quote": "The motion quality surprised me. I can finally prototype ideas fast enough to actually test them with my audience before committing.",
         "name": "Maya Chen",
-        "role": "Brand content director"
+        "role": "Brand content director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/grok-2/avatar-1.png"
       },
       {
         "quote": "I was skeptical about AI video, but Grok 2 handles camera movement better than tools I've paid way more for.",
         "name": "Jordan Reyes",
-        "role": "Short-form creator"
+        "role": "Short-form creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/grok-2/avatar-2.png"
       },
       {
         "quote": "What sold me was consistency. Same character, different scenes, no weird morphing. That's actually useful for serialized content.",
         "name": "Priya Sutton",
-        "role": "Animation producer"
+        "role": "Animation producer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/grok-2/avatar-3.png"
       }
     ]
   },

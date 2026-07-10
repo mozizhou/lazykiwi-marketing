@@ -1,0 +1,126 @@
+{
+  "template_name": "Seamless Transition",
+  "template_slug": "seamless-transition",
+  "template_type": "video",
+  "created_at": "2026-06-11 14:26:17",
+  "hero": {
+    "title": "Seamless Transition",
+    "description": "Create smooth, professional-grade transitions between clips that keep viewer attention locked. Ideal for TikTok, Reels, Shorts, product reveals and outfit edits where fluid motion makes content feel polished and intentional.",
+    "template_name": "Seamless Transition Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "Split-screen hero image showing seamless transition effect: left half shows a person in casual outfit mid-motion, right half shows same person in formal outfit continuing the same motion seamlessly. Smooth blur line at center where clips join. Clean studio lighting, neutral gray background, professional color grading. Diagonal motion blur connecting both sides. 16:9 composition, modern video editor aesthetic with subtle interface overlay hints at bottom.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Seamless Transition video work?",
+    "intro": "A seamless transition connects two video clips with a fluid motion that hides the cut, making it feel like one continuous shot. It relies on matched movement, well-timed masking, and motion blur to create a polished, professional edit. The result is an engaging visual trick that feels smooth and dynamic.",
+    "cards": [
+      {
+        "title": "Matching Motion Direction",
+        "description": "Use clips where the camera or subject moves in the same direction at the cut point. This creates a natural flow that hides the edit.",
+        "icon": "motion"
+      },
+      {
+        "title": "Consistent Subject Placement",
+        "description": "Keep the main subject centered or following a predictable path across frames. Abrupt jumps break the illusion, so plan a smooth trajectory.",
+        "icon": "subject"
+      },
+      {
+        "title": "Motion Blur & Whip Pans",
+        "description": "Fast camera movements with motion blur help mask the transition. A quick pan or zoom blends two scenes into one seamless moment.",
+        "icon": "lightning"
+      },
+      {
+        "title": "Retains Viewer Attention",
+        "description": "Seamless edits create a hypnotic flow that discourages scrolling. Ideal for TikTok, Reels, and ads where holding attention is critical.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the seamless transition effect across different content formats and channels.",
+    "scenarios": [
+      {
+        "title": "Coffee Run Cut",
+        "description": "A casual street moment transforms into a smooth hook that holds viewer attention instantly.",
+        "category": "lifestyle",
+        "image_prompt": "Split-screen video preview: left side shows a creator walking down a city street in a beige trench coat holding a coffee cup in slow motion, right side shows the same creator suddenly appearing closer to camera mid-stride after a seamless frame wipe transition, natural morning light, 9:16 vertical format, modern city background with blurred pedestrians, casual everyday mood.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Glide",
+        "description": "A rotation move gains extra visual energy through a clean motion-driven cut.",
+        "category": "motion",
+        "image_prompt": "Vertical video frame showing a dancer mid-spin in an outdoor plaza, the seamless transition effect creates a smooth body-morph from one angle to another as the rotation completes, motion blur trails connecting the two poses, concrete ground and blue sky background, dynamic energy, athletic casual outfit, 9:16 format.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-scenario-2.png"
+      },
+      {
+        "title": "Viewpoint Outfit Reveal",
+        "description": "A travel moment highlights both the scenic background and the outfit in one flowing edit.",
+        "category": "travel",
+        "image_prompt": "Video preview on a mountain viewpoint terrace at golden hour, a creator stands facing away then turns toward camera, the seamless transition effect smoothly shifts the scene from a wide landscape shot to a medium outfit-focused frame as the turn completes, warm sunset tones, layered vacation clothing, distant city skyline below, 9:16 vertical format, travel content aesthetic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Seamless Transition effect?",
+        "answer": "The Seamless Transition effect smoothly blends the end of one clip into the beginning of the next, using motion-based cuts or morphing techniques to hide the edit. It makes scene changes feel fluid and continuous, as if the video was filmed in one unbroken shot."
+      },
+      {
+        "question": "Why is Seamless Transition useful for TikTok, Reels, or Shorts?",
+        "answer": "On fast-paced platforms, seamless transitions keep viewers engaged by removing awkward jumps between clips. They help maintain visual flow, increase watch time, and make creative edits—like outfit changes or location switches—feel polished and professional without breaking the rhythm."
+      },
+      {
+        "question": "Can I create a Seamless Transition from one uploaded image?",
+        "answer": "Yes. You can apply a seamless transition effect using a single static image by animating a zoom, pan, or rotation and then blending the motion into another clip. The tool generates intermediate frames to make the move appear continuous, even from a still photo."
+      },
+      {
+        "question": "What kind of image or video works best for Seamless Transitions?",
+        "answer": "Clips with similar framing, consistent lighting, and matching motion direction produce the cleanest results. For product or fashion content, keeping the subject in roughly the same position across clips helps the transition feel natural. High-contrast elements or fast camera moves can sometimes confuse the effect, so moderate, steady motion is ideal."
+      },
+      {
+        "question": "Can I use Seamless Transition for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Seamless transitions are widely used to showcase product variations, outfit changes, travel highlights, and quick scene switches in creator videos. They add a professional look without requiring complex editing, making them suitable for almost any content category."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create smooth, professional cuts with Seamless Transition",
+    "supporting_text": "Start from a prompt, upload your media, or pick a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Seamless Transition",
+    "description": "Creators often search for this effect using different terms like smooth video transition, invisible cut, or fluid scene change. No matter what you call it, LazyKiwi helps transform those ideas into polished short-video-ready visuals with just a few clicks, making your edits look effortlessly professional.",
+    "keywords": [
+      "smooth video transition",
+      "invisible cut effect",
+      "match cut transition",
+      "whip pan transition",
+      "morph cut video",
+      "fluid scene change",
+      "seamless edit effect",
+      "continuous shot transition",
+      "no-cut transition",
+      "blend transition video",
+      "jump cut alternative",
+      "seamless scene merge"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/seamless-transition-scenario-3.png"
+    ]
+  }
+}

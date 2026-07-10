@@ -1,0 +1,124 @@
+{
+  "template_name": "Bullet Time",
+  "template_slug": "bullet-time",
+  "template_type": "video",
+  "created_at": "2026-06-11 11:52:26",
+  "hero": {
+    "title": "Bullet Time",
+    "description": "Add a dramatic 360-degree rotational freeze-frame effect to your footage. Ideal for highlighting action moments, product reveals, outfit transitions, or dynamic edits on TikTok, Reels, Shorts, and social ads.",
+    "template_name": "Bullet Time Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A hero image demonstrating the Bullet Time video effect: a dynamic scene of a person mid-jump in an urban setting, frozen in a rotating 360-degree perspective with multiple camera angles seamlessly stitched around the subject. The background shows a slight motion blur and stretched light trails to convey rotation. The subject is sharp, with the surrounding environment softly swirling. Clean, modern composition with high contrast and vivid colors, suitable for a tech landing page.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Bullet Time video work?",
+    "intro": "Bullet Time combines a frozen action pose with a sweeping camera rotation around the subject. The effect relies on sharp subject isolation, visible depth, and smooth parallax movement to create a dramatic 3D moment that feels both cinematic and hyper-real.",
+    "cards": [
+      {
+        "title": "A sharp, high-contrast source frame",
+        "description": "Start with a clear photo or video frame where the subject is distinct from the background, ideally mid-action for a dynamic freeze.",
+        "icon": "camera"
+      },
+      {
+        "title": "Subject locked in a strong pose",
+        "description": "The person or object should appear suspended in motion—legs extended, arms wide, or mid-turn—so the stillness amplifies the rotating camera.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smooth parallax rotation",
+        "description": "AI simulates a rig of virtual cameras arcing around the subject, shifting foreground and background at different speeds to build realistic depth.",
+        "icon": "layers"
+      },
+      {
+        "title": "Designed for short-form feeds",
+        "description": "The instant cinematic hook stops thumbs on TikTok, Reels, and ads. It highlights product details or dance moves with a polished, shareable finish.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore how creators use Bullet Time to turn everyday moments, motion shots, and travel edits into engaging short-form video hooks.",
+    "scenarios": [
+      {
+        "title": "Street Freeze Moment",
+        "description": "A simple sidewalk turn becomes a strong visual hook with a rotating time-freeze.",
+        "category": "lifestyle",
+        "image_prompt": "Realistic video of a young man in a casual jacket and jeans walking down a busy city sidewalk. He glances back over his shoulder and the frame freezes, while the camera smoothly arcs around him in a semi-circle. The Bullet Time effect is achieved with a multi-camera rig feel, slow motion, natural daylight, urban background with pedestrians blurred.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-scenario-1.png"
+      },
+      {
+        "title": "Dance Motion Spin",
+        "description": "A mid-air dance jump gains extra energy as the camera rotates around the subject.",
+        "category": "motion",
+        "image_prompt": "Dynamic video of a female dancer leaping in an outdoor plaza, arms and legs in a expressive pose. The camera rotates 180 degrees around her at the peak of the jump using a bullet time effect, with motion blur on the surroundings and crisp detail on her movement. Daytime, concrete and glass building backdrop, energetic vibe.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Highlight",
+        "description": "A scenic viewpoint pose gets cinematic emphasis with a sweeping rotation freeze.",
+        "category": "travel",
+        "image_prompt": "Video of a traveler standing at a mountain overlook during golden hour, wearing a flowy dress and tilting her head slightly. The camera arcs around her in a bullet time effect while the moment freezes, capturing the sunset-lit landscape and her outfit in detail. Soft lens flare, warm tones, vast valley background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Bullet Time effect?",
+        "answer": "Bullet Time is a visual effect that rotates the camera around a subject while it appears frozen or in slow motion, giving viewers a 360-degree view. It creates a dramatic, cinematic moment that highlights the subject."
+      },
+      {
+        "question": "Why is Bullet Time useful for TikTok, Reels, or Shorts?",
+        "answer": "The rotating, pause-like look grabs attention in the first seconds, which helps stop the scroll. It adds motion and depth to short vertical videos, making clips feel more dynamic without complicated edits."
+      },
+      {
+        "question": "Can I create Bullet Time from one uploaded image?",
+        "answer": "Yes. Many Bullet Time tools use depth maps and interpolation to simulate camera movement around a single photo. The result is a smooth rotating effect that can work well for portraits, products, or lifestyle shots."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "A clear subject with some distance from the background gives the best result. Sharp focus, even lighting, and a simple or separated background help the effect look clean and realistic."
+      },
+      {
+        "question": "Can I use Bullet Time for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Bullet Time works across all those categories. It emphasizes a product’s details, adds flair to outfit reveals, brings dimension to travel clips, and makes creator intros more memorable."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create Bullet Time From a Frame, Clip, or Template",
+    "supporting_text": "Start with a text prompt, upload your own video or image, or choose a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Bullet Time",
+    "description": "Sometimes video creators search for this mesmerizing effect using different terms. You might know it as the Matrix-style frozen time shot, a 360-degree slow-mo sequence, or simply the bullet dodge effect. Whatever you call it, LazyKiwi helps you transform these concepts into stunning, short-video-ready visuals with ease.",
+    "keywords": [
+      "Matrix effect",
+      "time-slice photography",
+      "frozen time effect",
+      "360 slow motion",
+      "bullet dodge effect",
+      "camera array slow mo",
+      "rotating bullet effect",
+      "sliding time effect",
+      "temporal freeze",
+      "multi-camera slow motion"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/bullet-time-scenario-3.png"
+    ]
+  }
+}

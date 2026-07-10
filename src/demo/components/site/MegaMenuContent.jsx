@@ -10,9 +10,9 @@ export default function MegaMenuContent({
 }) {
   const menuConfig = {
     Generator: { max: 6, flat: false, columns: 'grid-cols-2', expandLabel: 'See all generators' },
-    Tools: { max: 8, flat: true, columns: 'grid-cols-4', expandLabel: 'See all tools' },
+    Tools: { max: 8, maxPerGroup: 4, flat: false, columns: 'grid-cols-2', expandLabel: 'See all tools' },
     Models: { max: 8, maxPerGroup: 4, flat: false, columns: 'grid-cols-2', expandLabel: 'See all models' },
-    Templates: { max: 8, flat: false, columns: 'grid-cols-2', expandLabel: 'See all templates' },
+    Templates: { max: 8, maxPerGroup: 4, flat: false, columns: 'grid-cols-2', expandLabel: 'See all templates' },
     Blog: { max: 4, flat: false, columns: 'grid-cols-1', expandLabel: 'See all posts' },
   }[menuKey];
   const isManagedMenu = !!menuConfig;

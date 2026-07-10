@@ -1,0 +1,187 @@
+{
+  "slug": "ai-photo-colorizer",
+  "seo_title": "AI Photo Colorizer — Add Color to Black & White Photos | LazyKiwi",
+  "seo_description": "Colorize black-and-white photos online with the LazyKiwi AI photo colorizer. Add natural, realistic color to old and grayscale images in seconds — free.",
+  "hero": {
+    "title": "Add color to black & white memories.",
+    "description": "Upload a black-and-white or faded photo and let LazyKiwi add natural, realistic color in seconds — skin, skies, clothing and scenery, intelligently restored.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "See the past in full color.",
+    "intro": "The LazyKiwi AI photo colorizer studies each photo and adds believable color — natural skin tones, accurate skies and lifelike scenery — turning grayscale history into a vivid image that feels alive.",
+    "checks": [
+      "Natural, believable color",
+      "Keeps the original detail",
+      "Great for old family photos"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick colorize",
+        "description": "Let the AI add natural color automatically."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Compare before and after, then download the colorized photo."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Natural color",
+      "title": "Lifelike tones, not guesswork",
+      "description": "The AI recognises skin, sky, foliage and fabric to apply color that looks like it was always there.",
+      "bullets": [
+        "Realistic skin tones",
+        "Accurate skies and scenery",
+        "Subtle, not oversaturated"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Detail-safe",
+      "title": "Color without losing the photo",
+      "description": "Original detail and contrast are preserved, so colorizing never smears the image.",
+      "bullets": [
+        "Keeps sharpness",
+        "No washed-out look",
+        "Faithful to the scene"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Pair it up",
+      "title": "Even better with restoration",
+      "description": "Combine with photo restoration to repair damage and add color for a full revival.",
+      "bullets": [
+        "Works with restoration",
+        "High-res exports",
+        "Share with the family"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "Grayscale in, color out",
+    "subtitle": "Old photos brought to life with natural color.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-1.jpg",
+        "caption": "1950s portrait"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-2.jpg",
+        "caption": "Wedding day"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-3.jpg",
+        "caption": "City street"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-4.jpg",
+        "caption": "Landscape"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-5.jpg",
+        "caption": "Childhood"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-6.jpg",
+        "caption": "Military photo"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-7.jpg",
+        "caption": "Family group"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-photo-colorizer/gallery-8.jpg",
+        "caption": "Pet photo"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the photo actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is the colorizer free?",
+        "answer": "Yes. Upload a black-and-white photo and colorize it for free."
+      },
+      {
+        "question": "Will the colors be accurate?",
+        "answer": "The AI applies natural, believable color based on the scene; results are realistic though not historically guaranteed."
+      },
+      {
+        "question": "Can it colorize faded color photos?",
+        "answer": "Yes, it can refresh faded color as well as add color to grayscale images."
+      },
+      {
+        "question": "Does it change the photo’s detail?",
+        "answer": "No. Original detail and contrast are preserved while color is added."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Add color to your black & white photos.",
+    "description": "Upload a grayscale photo and let LazyKiwi colorize it naturally in seconds — free."
+  }
+}

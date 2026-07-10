@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowLeft, Check, Info, Minus, X } from 'lucide-react';
+import { ArrowLeft, Check, Minus, X } from 'lucide-react';
 import clsx from 'clsx';
-import { PRICING_PLANS, PRICING_FAQS, COMPARISON_FEATURES, CREDIT_RULES, TOP_UP_PACKS } from '../data/pricingData';
+import { PRICING_PLANS, PRICING_FAQS } from '../data/pricingData';
 import { billingService } from '@/lib/billing/service';
 import { notifyBillingUpdated } from '@/lib/billing/events';
 import { authService } from '@/lib/auth/service';
@@ -403,113 +403,6 @@ export default function Pricing({ navigateToPage, onRequireAuth }) {
         </div>
       </section>
 
-      {/* Credit Usage Rules */}
-      <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mb-20">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-8">How Credits Work</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-          {CREDIT_RULES.map((rule, idx) => (
-            <div key={idx} className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm flex flex-col h-full">
-              <h3 className="text-lg font-bold text-gray-900 mb-2">{rule.title}</h3>
-              <div className="text-xl font-extrabold text-kiwi-green-dark mb-2">{rule.cost}</div>
-              <p className="text-sm text-gray-500">{rule.description}</p>
-            </div>
-          ))}
-        </div>
-        <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-4">
-          <Info className="text-kiwi-yellow shrink-0 mt-1" size={24} />
-          <div>
-            <p className="text-gray-900 font-bold mb-1">
-              Add-on credits: Available for Lite, Pro, and Max plans. Top up anytime without changing your subscription.
-            </p>
-            <p className="text-sm text-gray-500">
-              Subscription renews automatically unless canceled before the next billing cycle.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Top-up Credits */}
-      <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mb-20">
-        <div className="text-center mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Need more credits?</h2>
-          <p className="text-gray-500 text-lg">Top up anytime without changing your current subscription.</p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {TOP_UP_PACKS.map((pack, idx) => (
-            <div 
-              key={idx} 
-              className={clsx(
-                "bg-white rounded-2xl p-6 shadow-sm border relative flex flex-col h-full",
-                pack.isPopular ? "border-kiwi-yellow ring-2 ring-kiwi-yellow/50" : "border-gray-200"
-              )}
-            >
-              {pack.isPopular && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-kiwi-yellow text-black text-[11px] font-bold uppercase tracking-wider py-1 px-3 rounded-full whitespace-nowrap">
-                  Popular
-                </div>
-              )}
-              <div className="text-center mb-6">
-                <div className="text-4xl font-extrabold text-gray-900 mb-1">{pack.credits}</div>
-                <div className="text-sm font-bold text-gray-500 uppercase tracking-wide">credits</div>
-              </div>
-              <div className="text-center mb-6">
-                <div className="text-3xl font-extrabold text-gray-900 mb-1">${pack.price}</div>
-                <div className="text-xs text-gray-500">{pack.description}</div>
-              </div>
-              <div className="mt-auto pt-4">
-                <button
-                  onClick={() => {}}
-                  className={clsx(
-                    "w-full py-2.5 px-4 rounded-xl font-bold transition-all text-sm",
-                    pack.isPopular ? "bg-kiwi-yellow hover:bg-yellow-400 text-black" : "bg-gray-100 hover:bg-gray-200 border border-gray-200 text-gray-900"
-                  )}
-                >
-                  Buy Now
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Feature Comparison */}
-      <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mb-20 hidden md:block">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">Compare Plans</h2>
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
-          <table className="w-full text-left border-collapse">
-            <thead>
-              <tr className="bg-gray-50 border-b border-gray-200">
-                <th className="py-4 px-6 font-bold text-gray-900 w-1/5">Features</th>
-                <th className="py-4 px-6 font-bold text-gray-900 w-1/5 text-center">Free</th>
-                <th className="py-4 px-6 font-bold text-gray-900 w-1/5 text-center">Lite</th>
-                <th className="py-4 px-6 font-bold text-gray-900 w-1/5 text-center">Pro</th>
-                <th className="py-4 px-6 font-bold text-gray-900 w-1/5 text-center">Max</th>
-              </tr>
-            </thead>
-            <tbody>
-              {COMPARISON_FEATURES.map((section, sIdx) => (
-                <React.Fragment key={sIdx}>
-                  <tr className="bg-gray-50/50 border-y border-gray-200">
-                    <td colSpan={5} className="py-3 px-6 text-xs font-bold uppercase tracking-wider text-gray-500">
-                      {section.category}
-                    </td>
-                  </tr>
-                  {section.features.map((feature, fIdx) => (
-                    <tr key={fIdx} className="border-b border-gray-100 last:border-0 hover:bg-gray-50/50 transition-colors">
-                      <td className="py-4 px-6 text-sm text-gray-700 font-medium">{feature.name}</td>
-                      <td className="py-4 px-6 text-sm text-gray-600 text-center">{feature.free}</td>
-                      <td className="py-4 px-6 text-sm text-gray-600 text-center">{feature.lite}</td>
-                      <td className="py-4 px-6 text-sm text-gray-900 font-bold text-center">{feature.pro}</td>
-                      <td className="py-4 px-6 text-sm text-gray-900 font-bold text-center">{feature.max}</td>
-                    </tr>
-                  ))}
-                </React.Fragment>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section className="px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto mb-20">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">Frequently Asked Questions</h2>
@@ -544,9 +437,8 @@ export default function Pricing({ navigateToPage, onRequireAuth }) {
               Join thousands of creators using LazyKiwi to bring their imagination to life with unparalleled quality.
             </p>
             <button 
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
+              type="button"
+              onClick={() => navigateToPage?.('video-generator', '/video-generator')}
               className="bg-kiwi-yellow text-black font-bold py-3 px-8 rounded-xl hover:bg-yellow-400 transition shadow-lg"
             >
               Get Started Now

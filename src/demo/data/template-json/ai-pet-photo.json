@@ -1,0 +1,127 @@
+{
+  "template_name": "AI Pet Photo",
+  "template_slug": "ai-pet-photo",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:05:25",
+  "hero": {
+    "title": "AI Pet Photo",
+    "description": "Create warm, realistic portraits of you and your pet in a single frame. Ideal for pet-focused social content, adoption profiles, brand ads, and family moments across TikTok, Reels, and Shorts.",
+    "template_name": "AI Pet Photo Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, naturally lit portrait of a young woman sitting on a cozy sofa in a modern living room. She wears a soft sweater and smiles gently at the camera. No animals are present. The scene is crisp, unedited, and photorealistic.",
+    "image_prompt_after": "The same woman on the sofa, now with a fluffy golden retriever resting its head on her lap. Both look at the camera with gentle, content expressions. The lighting is soft and warm, creating a seamless, natural pet-owner portrait.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Pet Photo video work?",
+    "intro": "The AI Pet Photo effect blends your photo with a pet photo into a single, natural-looking portrait. It relies on matching lighting, framing, and positioning to create a warm, believable scene. For best results, use clear, front-facing shots with minimal background clutter.",
+    "cards": [
+      {
+        "title": "High-Quality Portraits",
+        "description": "Start with sharp, well-lit photos of you and your pet facing the camera. Avoid heavy shadows or cluttered backgrounds so the AI blends both subjects cleanly.",
+        "icon": "upload"
+      },
+      {
+        "title": "Natural Poses & Expressions",
+        "description": "Position yourself and your pet in calm, affectionate poses. The AI recognizes eye contact and gentle interaction, resulting in a cohesive, candid look.",
+        "icon": "subject"
+      },
+      {
+        "title": "Seamless AI Blending",
+        "description": "The effect uses advanced alignment and lighting matching to merge the two photos into one frame, preserving texture and depth for a realistic, photo-like finish.",
+        "icon": "layers"
+      },
+      {
+        "title": "Short-Form Social Appeal",
+        "description": "Warm, pet-human moments drive high engagement on TikTok, Reels, and ads. This effect creates shareable content that feels authentic and emotionally resonant.",
+        "icon": "camera"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of how creators apply the AI Pet Photo effect to produce natural, heartwarming person-and-pet portraits across different channels.",
+    "scenarios": [
+      {
+        "title": "Social Pet Influencer Content",
+        "description": "Style consistent, affectionate post photos of you and your dog or cat for Instagram and TikTok.",
+        "category": "Content Creation",
+        "image_prompt": "A cozy living room scene with warm sunlight streaming through windows. A young woman with a gentle smile sits on a rug, arm around a golden retriever; both look at the camera. Soft blankets, plants, and a coffee mug create an inviting atmosphere. The image feels authentic and unposed, capturing the bond between them.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-scenario-1.png"
+      },
+      {
+        "title": "Adoption Profile Portraits",
+        "description": "Help shelter animals connect with potential families by showing them with a caring human companion.",
+        "category": "Animal Welfare",
+        "image_prompt": "A bright, minimal backdrop of a modern adoption center. A staff member in a branded polo shirt kneels beside a mixed-breed dog wearing a bandana. The person looks down at the dog with a kind expression, while the dog gazes happily toward the camera. Clean, uplifting, and reassuring mood.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-scenario-2.png"
+      },
+      {
+        "title": "Custom Holiday Pet Cards",
+        "description": "Design festive greeting cards featuring you and your pet in a single, polished photo.",
+        "category": "Personalized Gifts",
+        "image_prompt": "A wintry scene outside a log cabin, with soft snow falling. A man in a red sweater stands next to a small fluffy cat in a tiny festive collar, both facing forward. Twinkling lights wrap around a wooden fence in the background, and a tasteful 'Happy Holidays' text placeholder floats subtly at the bottom. The photo feels candid yet professionally composed.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI Pet Photo effect?",
+        "answer": "It's a tool that uses AI to create realistic, warm photos of you and your pet together. Upload images and the effect blends them into a single portrait-style image with natural lighting and poses."
+      },
+      {
+        "question": "Why is AI Pet Photo useful for TikTok, Reels, or Shorts?",
+        "answer": "The effect generates eye-catching visual content that shows the bond with your pet. It's perfect for short video platforms where expressive, personal images help increase engagement and shares."
+      },
+      {
+        "question": "Can I create an AI Pet Photo from one uploaded image?",
+        "answer": "Yes, you can. The AI can work with a single photo of your pet or yourself, though using two source images—one of you and one of your pet—often gives more accurate blending and composition."
+      },
+      {
+        "question": "What kind of image works best with this effect?",
+        "answer": "Clear, well-lit photos with visible faces and neutral backgrounds produce the best results. Avoid heavy shadows, blur, or objects covering the face or body for optimal blending quality."
+      },
+      {
+        "question": "Can I use AI Pet Photo for product, fashion, travel, or creator content?",
+        "answer": "Yes, the effect is versatile. Creators use it to humanize pet brands, add a personal touch to travel posts, or create relatable fashion and lifestyle content featuring pet companionship."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create AI pet portraits from a photo, prompt, or template",
+    "supporting_text": "Upload a pet photo, describe what you want, or pick a template — and get a custom AI pet image in moments.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Pet Photo",
+    "description": "When searching for this effect, you might use different terms like pet portrait generator or animated pet picture. LazyKiwi helps you turn these ideas into short-video-ready visuals, bringing your furry friends to life with stunning AI-driven styles.",
+    "keywords": [
+      "AI pet portrait",
+      "pet photo to cartoon",
+      "animal photo filter",
+      "turn pet into artwork",
+      "AI dog filter",
+      "cat photo effect",
+      "pet animation generator",
+      "animated pet picture",
+      "AI pet stylization",
+      "pet photo magic"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-pet-photo-scenario-3.png"
+    ]
+  }
+}

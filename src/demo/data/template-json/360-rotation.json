@@ -1,0 +1,127 @@
+{
+  "template_name": "360 Rotation",
+  "template_slug": "360-rotation",
+  "template_type": "video",
+  "created_at": "2026-06-11 15:11:22",
+  "hero": {
+    "title": "360 Rotation",
+    "description": "Create a seamless 360-degree rotation effect around your subject. Ideal for product reveals, outfit edits, action shots, and engaging social content on TikTok, Reels, and Shorts.",
+    "template_name": "360 Rotation Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-quality realistic photograph of a sleek sports car in a vibrant red finish, captured from a low three-quarter front angle on a glossy studio floor against a gradient gray backdrop. The car is sharply focused, with crisp reflections, rich saturated color, and balanced studio lighting that highlights every curve. The composition is a 16:9 landscape, professional automotive photography, unprocessed and natural.",
+    "image_prompt_after": "The same red sports car after applying the 360 Rotation effect. The car now appears to spin dynamically around its vertical axis, rendered as a multi-exposure stroboscopic sequence that shows the car at multiple angles from front to side to rear and back to front in a continuous circular motion. Ghosted translucent outlines and motion-blurred trails sweep in a full 360-degree arc, with the original front view still faintly visible as the anchor point. The effect creates a high-energy, time-sliced transformation with vibrant colors, dramatic lighting, and a sense of seamless rotation, all in a 16:9 landscape composition.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a 360 Rotation video work?",
+    "intro": "A 360 Rotation video turns a subject into a smooth, orbiting showcase by blending multiple angles into one continuous motion. The effect relies on consistent framing, even lighting, and frame interpolation to create a seamless spin that reveals every side. It makes static products or people feel tangible and dynamic, holding viewer attention instantly.",
+    "cards": [
+      {
+        "title": "360° Source Footage",
+        "description": "Use a series of equally spaced photos or a steady video clip capturing your subject from all sides with uniform lighting and a clean background.",
+        "icon": "upload"
+      },
+      {
+        "title": "Subject Stays Centered",
+        "description": "Keep the subject solid in the middle of the frame as it rotates, avoiding drift or sudden jumps so the spin feels continuous and controlled.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smooth Spin Interpolation",
+        "description": "Frame blending connects each angle into a fluid, looping rotation with no visible cuts, delivering an organic motion that feels almost 3D.",
+        "icon": "motion"
+      },
+      {
+        "title": "Platform-Ready Immersion",
+        "description": "The always-spinning view grips scrollers on TikTok, Reels, or product pages, boosting watch time and showing off details without a single tap.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the 360 Rotation effect across lifestyle, motion, and travel content.",
+    "scenarios": [
+      {
+        "title": "Street Style Freeze",
+        "description": "Capture a casual walk and spin the frame for a clean, eye-catching transition.",
+        "category": "lifestyle",
+        "image_prompt": "A young creator in a relaxed streetwear outfit walks through a sunlit urban street. Mid-stride, the camera executes a smooth 360-degree rotation around them, freezing the motion at the peak of the spin. Natural light, subtle lens flare, realistic handheld feel, no slow-motion, modern city background with blurred pedestrians.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Spin Highlight",
+        "description": "Add energy to a dance clip by rotating the angle around a key move.",
+        "category": "motion",
+        "image_prompt": "A dancer performs a dynamic turn in an open industrial studio. The camera orbits them in a full 360-degree circle at the exact moment of the spin, keeping the subject centered. Concrete floors, natural daylight from large windows, motion blur on edges, vibrant but not saturated colors, authentic movement energy.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-scenario-2.png"
+      },
+      {
+        "title": "Rooftop Look Reveal",
+        "description": "Show off a travel outfit with a rotating angle that highlights both pose and scenery.",
+        "category": "travel",
+        "image_prompt": "A content creator poses at a scenic rooftop overlooking a coastal city at golden hour. The camera performs a steady 360-degree orbit around them, gradually revealing the ocean view and skyline. Soft warm light, flowing outfit detail, realistic depth of field, subtle wind movement in hair, calm and polished mood.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the 360 Rotation effect?",
+        "answer": "The 360 Rotation effect automatically spins your subject around a central axis, creating a seamless looping animation that looks like a full 360-degree view."
+      },
+      {
+        "question": "Why is 360 Rotation useful for TikTok, Reels, or Shorts?",
+        "answer": "It quickly grabs attention, makes static images dynamic, and keeps viewers watching the loop—perfect for short-form platforms where first-second impact matters."
+      },
+      {
+        "question": "Can I create a 360 Rotation from one uploaded image?",
+        "answer": "Yes, our tool can generate a full 360-degree spin from a single photo using AI depth estimation, so you don't need multiple angles."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Images with a clear subject and minimal background clutter work best—front-facing shots of people, products, or objects with some depth produce the most convincing spin."
+      },
+      {
+        "question": "Can I use 360 Rotation for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. It’s ideal for showcasing products from all angles, adding movement to fashion looks, highlighting travel landmarks, or making creator intros more dynamic."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn any clip into a smooth 360° rotation",
+    "supporting_text": "Start with a prompt, your own media, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for 360 Rotation",
+    "description": "Users often search for this dynamic motion effect using different terms. Whether you call it a full spin, object rotation, or a 360-degree turnaround, LazyKiwi helps you transform any footage into a smooth, social-ready video that grabs attention.",
+    "keywords": [
+      "spin effect video",
+      "rotate clip 360",
+      "object rotation effect",
+      "full spin transition",
+      "360-degree product view",
+      "revolving animation effect",
+      "seamless spin loop",
+      "turnaround video effect",
+      "circular motion clip",
+      "3D rotation effect"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/360-rotation-hero-after.png"
+  }
+}

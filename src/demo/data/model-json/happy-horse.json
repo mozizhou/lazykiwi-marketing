@@ -267,17 +267,20 @@
       {
         "quote": "Happy Horse nails motion consistency in ways other models just don't. My characters actually move like I intended them to.",
         "name": "Marcus Chen",
-        "role": "Animation director"
+        "role": "Animation director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/happy-horse/avatar-1.png"
       },
       {
         "quote": "I was skeptical about AI video, but the output quality here is solid enough for client work after minimal cleanup.",
         "name": "Priya Desai",
-        "role": "Freelance video editor"
+        "role": "Freelance video editor",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/happy-horse/avatar-2.png"
       },
       {
         "quote": "Finally, a model that doesn't turn hands into eldritch horrors. Still has quirks, but way fewer than what I've used before.",
         "name": "Jake Morrison",
-        "role": "Short-form creator"
+        "role": "Short-form creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/happy-horse/avatar-3.png"
       }
     ]
   },

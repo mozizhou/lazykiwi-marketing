@@ -284,17 +284,20 @@
       {
         "quote": "Schnell's speed changed our workflow completely. We prototype concepts in real-time during client calls now instead of waiting hours.",
         "name": "Maya Chen",
-        "role": "Creative Director"
+        "role": "Creative Director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/flux-1-schnell/avatar-1.png"
       },
       {
         "quote": "Finally a model fast enough for iteration. I generate dozens of variations before settling on the right composition.",
         "name": "Alex Kowalski",
-        "role": "Concept Artist"
+        "role": "Concept Artist",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/flux-1-schnell/avatar-2.png"
       },
       {
         "quote": "The quality-to-speed ratio is unmatched. We replaced our render farm with local machines running Schnell and cut costs by 60%.",
         "name": "Jordan Park",
-        "role": "Production Lead"
+        "role": "Production Lead",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/flux-1-schnell/avatar-3.png"
       }
     ]
   },

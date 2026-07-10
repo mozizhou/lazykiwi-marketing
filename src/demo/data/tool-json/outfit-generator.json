@@ -1,0 +1,187 @@
+{
+  "slug": "outfit-generator",
+  "seo_title": "AI Outfit Generator — Try On New Outfits From One Photo | LazyKiwi",
+  "seo_description": "Generate new outfits on your own photo with the LazyKiwi AI outfit generator. Restyle any look — streetwear, formal, cottagecore and more — in seconds, no fitting room needed.",
+  "hero": {
+    "title": "Restyle your look without the fitting room.",
+    "description": "Upload one photo and dress it in a brand-new outfit. Try streetwear, formalwear, cottagecore or vacation looks on yourself in seconds.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "Plan an outfit before you buy a thing.",
+    "intro": "The LazyKiwi AI outfit generator restyles the clothes in your photo while keeping your face and pose, so you can preview a whole new look for an event, a shoot or a shopping list — without trying anything on.",
+    "checks": [
+      "Keeps your face and pose",
+      "Dozens of style presets",
+      "Great for outfit planning"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick an outfit style",
+        "description": "Pick a style preset or describe the outfit, fabric and vibe you want."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Preview the result, try a few more, then download your favourite."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Style on demand",
+      "title": "Any aesthetic, fitted to you",
+      "description": "From minimalist to maximalist, the AI dresses your photo in a coherent look that actually fits your body and pose.",
+      "bullets": [
+        "Streetwear, formal, casual, themed",
+        "Natural fabric and fit",
+        "Keeps your identity intact"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Plan ahead",
+      "title": "Preview event looks in seconds",
+      "description": "See how a wedding-guest, interview or date-night outfit reads on you before committing to a purchase.",
+      "bullets": [
+        "Compare multiple options",
+        "Build a shopping shortlist",
+        "Share for a friend’s vote"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Content-ready",
+      "title": "Fresh looks for your feed",
+      "description": "Generate a styled set without a photoshoot — perfect for fashion creators and lookbooks.",
+      "bullets": [
+        "High-res exports",
+        "Endless variations",
+        "No wardrobe required"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "Every aesthetic, one upload",
+    "subtitle": "Restyle your photo across looks and occasions.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-1.jpg",
+        "caption": "Streetwear"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-2.jpg",
+        "caption": "Formal suit"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-3.jpg",
+        "caption": "Cottagecore"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-4.jpg",
+        "caption": "Y2K"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-5.jpg",
+        "caption": "Vacation"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-6.jpg",
+        "caption": "Athleisure"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-7.jpg",
+        "caption": "Old money"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/outfit-generator/gallery-8.jpg",
+        "caption": "Festival"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the outfit actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is the outfit generator free?",
+        "answer": "Yes. Upload a photo and generate new outfits for free."
+      },
+      {
+        "question": "Does my face stay the same?",
+        "answer": "Yes. Only the clothing and styling change; your face and pose are kept."
+      },
+      {
+        "question": "Can I describe a specific outfit?",
+        "answer": "Yes. Use a preset or describe the exact garment, color and vibe you want."
+      },
+      {
+        "question": "What photo works best?",
+        "answer": "A clear full-body or upper-body photo with your outfit visible and good lighting."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Restyle your look in one upload.",
+    "description": "Upload a photo and let LazyKiwi dress it in a brand-new outfit in seconds — no fitting room."
+  }
+}

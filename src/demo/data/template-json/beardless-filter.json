@@ -1,0 +1,129 @@
+{
+  "template_name": "beardless filter",
+  "template_slug": "beardless-filter",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:59:22",
+  "hero": {
+    "title": "beardless filter",
+    "description": "Smoothly remove facial hair in photos and videos. Ideal for TikTok, Reels, and Shorts where a clean-shaven look elevates product reveals, outfit edits, and social ads.",
+    "template_name": "beardless filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "Professional 16:9 landscape photograph, 1536x1024, vibrant natural lighting, sharp focus. A handsome man in his early 30s with a full, well-groomed dark beard, sitting at a sunlit rustic wooden table outdoors, softly blurred greenery in background. He wears a casual chambray shirt, forearms resting on the table, leaning slightly forward, looking directly into the camera with a warm confident smile. Shot with a 50mm lens, shallow depth of field, skin texture visible, natural unprocessed raw photo style.",
+    "image_prompt_after": "Same exact scene, composition, lighting, and subject as before, but after applying the beardless filter effect. The man's full beard is completely removed, revealing a clean-shaven face with smooth, natural skin where the beard used to be. The jawline and chin appear freshly shaved, no stubble, no trace of facial hair, seamlessly blended skin tone matching the rest of his complexion. The effect is flawless and photorealistic, as if he never had a beard, while everything else—pose, expression, lighting, background—remains unchanged. Professional 16:9 landscape, 1536x1024, vibrant colors, same sharp focus and shallow depth of field.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a beardless filter video work?",
+    "intro": "A beardless filter simulates a clean-shaven appearance by digitally removing facial hair in real time. The effect analyzes facial geometry, masks hair regions, and blends exposed skin with accurate tone and texture. It works best on well-lit, front-facing subjects, creating a seamless visual prank or grooming preview that grabs attention on short-form video platforms.",
+    "cards": [
+      {
+        "title": "Clear, front-facing portrait",
+        "description": "A high-resolution shot with even lighting and visible facial hair ensures the filter accurately maps and replaces beard or stubble without artifacts.",
+        "icon": "camera"
+      },
+      {
+        "title": "Minimal movement, direct gaze",
+        "description": "Steady framing and a neutral, forward-facing pose help the filter maintain a stable face mesh, reducing edge flicker and keeping the shaved look believable.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smart skin texture synthesis",
+        "description": "The effect subtracts hair using facial landmark detection and fills areas with synthesized skin tone and subtle texture, preserving natural shadows and contours.",
+        "icon": "layers"
+      },
+      {
+        "title": "High retention hook",
+        "description": "The instant transformation from bearded to smooth face creates a strong before-and-after contrast that stops the scroll, perfect for product demos, reactions, and social ads.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real-world examples of how creators apply the beardless filter across lifestyle, motion, and travel content.",
+    "scenarios": [
+      {
+        "title": "Street Style Clean Look",
+        "description": "A casual street clip instantly refreshed with a clean-shaven face for a sharper everyday vibe.",
+        "category": "lifestyle",
+        "image_prompt": "A mid-shot of a young man in a casual hoodie walking through a city alley, turning back with a slight smile, his face completely smooth and hairless, natural lighting, realistic photography style.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-scenario-1.png"
+      },
+      {
+        "title": "Jump Cut Performance",
+        "description": "A dance jump clip gains visual focus with a smooth, hair-free face that keeps attention on motion.",
+        "category": "motion",
+        "image_prompt": "An action shot of a young male dancer jumping in an urban outdoor setting, mid-air, arms wide, face completely clean-shaven and smooth, bright daylight, dynamic angle, realistic photography.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-scenario-2.png"
+      },
+      {
+        "title": "Travel Style Fresh Face",
+        "description": "A travel outfit post stands out with a clean-shaven look that complements the location and fashion.",
+        "category": "travel",
+        "image_prompt": "A full-body shot of a fashionable young man posing on a mountain viewpoint overlooking a valley, wearing stylish travel attire, his face completely smooth without any beard or stubble, golden hour lighting, realistic travel photography.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the beardless filter effect?",
+        "answer": "The beardless filter is an image effect that digitally removes facial hair, giving a clean-shaven look. It works on photos and videos, often used for fun transformations or to preview a shaved appearance."
+      },
+      {
+        "question": "Why is the beardless filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It grabs attention quickly, creates a surprising before-and-after moment, and fits into trending transformation challenges. This can help boost engagement, views, and follower interaction across short-form video platforms."
+      },
+      {
+        "question": "Can I generate a beardless filter effect from one uploaded image?",
+        "answer": "Yes. Many tools let you upload a single photo and apply the beardless effect instantly. Just make sure the face is clear, front-facing, and well-lit for the best result."
+      },
+      {
+        "question": "What kind of image or video works best with this effect?",
+        "answer": "High-resolution, front-facing portraits with even lighting work best. Avoid heavy obstructions like masks, sunglasses, or hands covering the chin and jawline. Videos benefit from steady head movement and minimal motion blur."
+      },
+      {
+        "question": "Can I use the beardless filter for product, fashion, travel, or creator content?",
+        "answer": "Definitely. It’s popular in fashion try-on hauls, travel face-swap jokes, creator reaction videos, and even grooming product demos. The effect adds a playful twist that fits many content styles."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Get a beardless photo in one click",
+    "supporting_text": "Start from a prompt, upload a photo, or choose a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for beardless filter",
+    "description": "Users often search for this visual transformation using a variety of terms. Whether you call it a clean-shaven look, a beard removal effect, or a shaved face filter, LazyKiwi helps you turn these descriptions into short-video-ready visuals in seconds.",
+    "keywords": [
+      "beardless filter",
+      "clean-shaven filter",
+      "beard removal effect",
+      "shaved face filter",
+      "no beard AI",
+      "virtual shave online",
+      "beard eraser photo",
+      "baby face filter",
+      "smooth face effect",
+      "shave beard simulator",
+      "facial hair remover app",
+      "beard off filter"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/beardless-filter-hero-after.png"
+  }
+}

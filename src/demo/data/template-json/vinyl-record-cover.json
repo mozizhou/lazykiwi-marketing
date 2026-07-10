@@ -1,0 +1,129 @@
+{
+  "template_name": "Vinyl Record Cover",
+  "template_slug": "vinyl-record-cover",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:56:11",
+  "hero": {
+    "title": "Vinyl Record Cover",
+    "description": "Transform your photos into authentic vinyl record sleeves and vintage music posters. This effect recreates the look of classic album artwork with retro textures, bold typography, and warm analog tones. Perfect for music promo, throwback social content, artist branding, and eye-catching Reels or Shorts.",
+    "template_name": "Vinyl Record Cover Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "Clean, natural portrait photo of a person standing against a simple studio backdrop, neutral expression, soft daylight lighting, high resolution, no heavy editing, suitable as an original image before applying a music album cover effect.",
+    "image_prompt_after": "The same portrait transformed into a 1970s-style vinyl record cover: the subject is framed inside a square album sleeve layout, a large black vinyl record overlaps from the bottom, retro typography with fake band name and tracklist appears on the left, warm sepia and muted color grading, subtle film grain, slightly worn paper texture edges, vintage music poster aesthetic.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Vinyl Record Cover video work?",
+    "intro": "Vinyl Record Cover videos combine grainy film textures, saturated retro color shifts, and bold typography to turn a still frame into a nostalgic record sleeve. The effect layers halftone patterns, light leaks, and subtle motion to mimic a spinning record, making any portrait or product image feel like a vintage album cover from the 70s or 80s.",
+    "cards": [
+      {
+        "title": "Centered, high-contrast portraits",
+        "description": "Start with a well-lit subject against a simple background to let the retro color grading and grainy overlay take center stage.",
+        "icon": "upload"
+      },
+      {
+        "title": "Static subject with simulated motion",
+        "description": "Keep the subject still to allow the vinyl spin and light leaks to create a hypnotic, looping movement reminiscent of a turntable.",
+        "icon": "motion"
+      },
+      {
+        "title": "Halftone patterns and slow rotation",
+        "description": "The effect overlays rotating halftone dots, film scratches, and warm glow transitions to mimic the feel of a record spinning on a turntable.",
+        "icon": "layers"
+      },
+      {
+        "title": "Nostalgic hook for music content",
+        "description": "The retro album cover aesthetic taps into music nostalgia, grabbing attention in feeds and making it ideal for artist promos, merch teasers, or retro product ads.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the Vinyl Record Cover effect across social media, music promotion, and event branding to give their visuals a timeless retro look.",
+    "scenarios": [
+      {
+        "title": "Single Release Teaser",
+        "description": "A singer teases a new single with a custom vintage vinyl cover on Instagram.",
+        "category": "Music Promotion",
+        "image_prompt": "A smartphone held in hand, screen displaying an Instagram post. The post shows a square image of a vinyl record cover design. The cover features a young female singer with a retro 1970s aesthetic: flared jeans, big sunglasses, posing with a microphone, warm film-like grain. The title 'Summer Nights' is in bold retro serif font with a vinyl ring border. The post has 2,340 likes and comments like 'Can't wait!'. Soft natural light, realistic phone screen reflection, shallow depth of field.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-scenario-1.png"
+      },
+      {
+        "title": "Retro Aesthetic Post",
+        "description": "An influencer turns a beach photo into a dreamy 80s album cover for Instagram.",
+        "category": "Lifestyle Content",
+        "image_prompt": "A laptop screen on a wooden desk showing a graphic design tool with a before-and-after split. Left side: modern color photo of a person walking on a beach at sunset. Right side: the same photo transformed into a vintage album cover with warm sepia tones, halftone grain, title 'Endless Summer' in retro cursive, and a vinyl record overlay. The desk holds a coffee cup, sunglasses, and an actual vinyl record. Bright daylight from a window, realistic screen glare.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-scenario-2.png"
+      },
+      {
+        "title": "Vintage Event Flyer",
+        "description": "A DJ transforms a party flyer into a vintage record cover to promote a 90s night.",
+        "category": "Event Marketing",
+        "image_prompt": "Close-up of a printed flyer pinned to a corkboard. The flyer mimics a worn vinyl record cover from the 1990s, with a silhouette of a DJ at turntables, neon accent colors, a tracklist of 90s hits, and the event title 'Throwback 90s Dance Party' in chunky retro font. The flyer overlaps other event posters, secured by a pushpin. Realistic paper texture, slight shadows, soft indoor light.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Vinyl Record Cover effect?",
+        "answer": "It's a visual effect that turns your photos or videos into retro vinyl record covers or music poster designs, with vintage textures, typography, and layout styles."
+      },
+      {
+        "question": "Why is the Vinyl Record Cover effect useful for TikTok, Reels, or Shorts?",
+        "answer": "The nostalgic, artistic look grabs attention quickly, helps content stand out in feeds, and adds a unique visual hook for music-related posts, throwbacks, or creative storytelling."
+      },
+      {
+        "question": "Can I create a Vinyl Record Cover from one uploaded image?",
+        "answer": "Yes, you can upload a single image and the effect will apply vinyl cover styling, often including circular record mockups, grain textures, and retro filters."
+      },
+      {
+        "question": "What kind of image or video works best with this effect?",
+        "answer": "Portraits, album-style grids, and clean compositions work best. Images with good contrast, moody lighting, or classic fashion vibes enhance the vintage result."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect suits marketing visuals for music, fashion, beauty, and travel stories that want a nostalgic or artistic edge. Creators often use it for intro clips, teasers, or profile aesthetics."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn Your Photo into a Vinyl Record Cover",
+    "supporting_text": "Start with a prompt, uploaded media, or a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Vinyl Record Cover",
+    "description": "You might search for this effect using different terms like vinyl sleeve filter, LP cover maker, or retro record album art. Whatever phrase you use, LazyKiwi can instantly turn your idea into a short‑video‑ready visual that captures that classic vinyl aesthetic.",
+    "keywords": [
+      "vinyl cover effect",
+      "record album art filter",
+      "vinyl sleeve mockup",
+      "LP cover generator",
+      "turn photo into album cover",
+      "vinyl record sleeve effect",
+      "retro vinyl photo filter",
+      "album cover maker tool",
+      "vinyl disc cover design",
+      "custom record cover online",
+      "fake vinyl album aesthetic",
+      "photo to vinyl cover online"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/vinyl-record-cover-scenario-3.png"
+    ]
+  }
+}

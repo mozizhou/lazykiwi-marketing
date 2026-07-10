@@ -1,0 +1,129 @@
+{
+  "template_name": "AI Game Portal",
+  "template_slug": "ai-game-portal",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:24:51",
+  "hero": {
+    "title": "AI Game Portal",
+    "description": "This effect transports a person into a video game interface, turning them into the main character of the game world. Ideal for short-form videos like TikTok, Reels, and Shorts, as well as product reveals, outfit edits, and action-packed social ads.",
+    "template_name": "AI Game Portal Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, natural full-body portrait of a young adult standing against a plain light grey studio background, looking directly at the camera with a neutral expression, wearing casual modern clothing, soft even lighting, high resolution, photorealistic style.",
+    "image_prompt_after": "The same person now inside a dynamic video game portal, transformed into a sci-fi game protagonist with high-tech armor and glowing neon accents, standing at the center of a circular holographic portal with energy waves and digital HUD elements floating around, game-like lighting with blue and purple tones, cinematic composition, hyper-realistic digital art, high detail.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Game Portal video work?",
+    "intro": "AI Game Portal videos blend a real person with a dynamic game HUD, using a swirling portal effect to transport them into a digital world. The transition relies on clean subject extraction, layered interface elements, and a fluid motion that makes the viewer feel they’re stepping directly into the game as the main character.",
+    "cards": [
+      {
+        "title": "Clean subject, simple backdrop",
+        "description": "A well-lit person against a plain background ensures crisp edge detection, so the portal effect isolates them smoothly without artifacts.",
+        "icon": "subject"
+      },
+      {
+        "title": "Direct gaze or active pose",
+        "description": "Facing the camera or reaching toward it makes the jump into the game feel deliberate, boosting the illusion of entering another world.",
+        "icon": "camera"
+      },
+      {
+        "title": "Layered portal and UI overlays",
+        "description": "A multi-stage portal combines swirling graphics, pixel dissolve, and game HUD elements to transform the subject into a stylized in-game character.",
+        "icon": "layers"
+      },
+      {
+        "title": "Scroll-stopping reality shift",
+        "description": "The sudden flip from real life to game world creates an instant pattern interrupt, perfect for holding attention in fast-scrolling social feeds and short ads.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore real creative use cases of the AI Game Portal effect across gaming, cosplay, and social media.",
+    "scenarios": [
+      {
+        "title": "Gaming Thumbnail Hero",
+        "description": "Transform a regular photo into a game character splash for stream thumbnails.",
+        "category": "gaming content",
+        "image_prompt": "A young man wearing a gaming headset with RGB lights, sitting at a desk with a glowing keyboard and monitor. A vibrant circular portal with a fiery border opens around him, overlaying a game interface: health bar, ammo count, mini-map, and a 'Player 1' tag. His body is partially transforming into a futuristic soldier with cybernetic armor, glowing blue eyes, and a digital weapon. Cinematic lighting, hyper-realistic, 8K.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-scenario-1.png"
+      },
+      {
+        "title": "Cosplay Game Portal",
+        "description": "Place your cosplay photos inside a game interface to become the character.",
+        "category": "cosplay",
+        "image_prompt": "A female cosplayer dressed as a medieval elven ranger with a bow, standing in a sunlit forest. A circular portal frame with gold trim and game UI elements like a quest log, character stats, and a compass overlay surrounds her. The scene blends the real forest with pixel-art style leaves and a fantasy sky, making her look like she stepped out of a RPG. Soft natural light, photorealistic details.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-scenario-2.png"
+      },
+      {
+        "title": "Instant Game Character",
+        "description": "Turn everyday selfies into game protagonist moments for social media.",
+        "category": "social media",
+        "image_prompt": "A teenager holding a smartphone in front of a mirror, taking a selfie. In the mirror, a glowing portal ring appears behind them, and their reflection shows a pixel-art game character with a health bar, 'Level Up' text, and retro game font. The background of the room is realistic, but the portal reveals a blocky 8-bit world. Bright, fun, and vibrant.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI Game Portal effect?",
+        "answer": "The AI Game Portal effect transforms a person’s photo into a game-style character that appears to step through a glowing portal, placing them inside a video game interface as the main character."
+      },
+      {
+        "question": "Why is AI Game Portal useful for TikTok, Reels, or Shorts?",
+        "answer": "The effect instantly grabs attention in short-form video feeds. It creates a quick transition from reality to a game world, which fits the fast-paced, vertical format of TikTok, Reels, and Shorts."
+      },
+      {
+        "question": "Can I create AI Game Portal from one uploaded image?",
+        "answer": "Yes. You only need to upload one clear image. The AI will process the photo and generate the portal effect with the subject entering the game scene."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "A front-facing photo with even lighting and a plain background works best. Avoid heavy shadows, blur, or objects covering the face or body, as these can reduce the quality of the generated effect."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Yes. The AI Game Portal effect is versatile and can be used to showcase fashion looks, highlight travel personalities, introduce products in a game‑inspired setting, or add a playful twist to creator content."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create a Game Portal Effect with Your Own Image",
+    "supporting_text": "Use a prompt, upload a photo, or start with a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Game Portal",
+    "description": "You might search for this effect using a variety of terms—like “AI video game portal,” “digital game entrance effect,” or “fantasy portal filter.” These alternative names reflect how users imagine a doorway into a game world, whether for sci-fi, fantasy, or retro gaming visuals. LazyKiwi understands these ideas and turns them into short-video-ready portals that instantly transport your content.",
+    "keywords": [
+      "AI video game portal",
+      "game portal filter",
+      "digital game entrance",
+      "fantasy portal AI effect",
+      "sci-fi game portal",
+      "virtual game doorway",
+      "AI portal to game world",
+      "game world entryway effect",
+      "retro game portal filter",
+      "AI game dimension portal",
+      "game portal overlay",
+      "portal transformation AI"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-game-portal-scenario-3.png"
+    ]
+  }
+}

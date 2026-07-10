@@ -1,0 +1,129 @@
+{
+  "template_name": "3D Screen Break Effect",
+  "template_slug": "3d-screen-break-effect",
+  "template_type": "image",
+  "created_at": "2026-06-25 14:21:14",
+  "hero": {
+    "title": "3D Screen Break Effect",
+    "description": "Transform a standard portrait into a dynamic visual where the subject breaks through the screen of a giant smartphone placed in a room. Glass shatters and the person appears to step from the flat digital interface into real space, making it perfect for TikTok, Reels, Shorts, product reveals, outfit edits, and attention-grabbing social ads.",
+    "template_name": "3D Screen Break Effect Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, front-facing portrait of a person with a strong expression, wearing modern casual clothing, posed against a plain light background with soft studio lighting. The image is sharp and well-composed, suitable for social media content.",
+    "image_prompt_after": "A wide-angle shot of a minimalist room with a large, vertical smartphone standing in the center. The phone's screen displays a social media interface, and the same person from the portrait bursts out from within the screen. Realistic glass shards spray outward as the subject dynamically breaks through the display, with visible depth and dramatic side lighting that highlights the transition from 2D to 3D.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a 3D Screen Break Effect video work?",
+    "intro": "The 3D Screen Break Effect combines a realistic smartphone prop with a live-action subject and dynamic 3D shatter elements. By placing a large phone in a room and compositing a person breaking through its glass interface, the video creates the illusion of a portal between digital and physical worlds, making the subject appear to literally step out of the screen.",
+    "cards": [
+      {
+        "title": "A strong starting portrait",
+        "description": "A sharp, well-lit portrait with the subject reaching or stepping forward creates a seamless illusion when combined with the phone screen overlay.",
+        "icon": "subject"
+      },
+      {
+        "title": "Explosive forward motion",
+        "description": "The subject’s pose should suggest bursting through glass, with arms extending beyond the bezel and eyes looking directly at the viewer to heighten the 3D illusion.",
+        "icon": "motion"
+      },
+      {
+        "title": "Simulated depth and shatter physics",
+        "description": "Layered 3D camera movement and realistic glass fracture particles that fly toward the viewer create the illusion that the subject is physically breaking through the screen.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Built for social scroll-stopping",
+        "description": "The effect immediately grabs attention in feeds because it violates expectations—turning a flat screen into a physical prop and making the subject leap out, ideal for ads, promos, and viral Reels.",
+        "icon": "camera"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the 3D Screen Break Effect to elevate music teasers, gaming intros, and motivational reels.",
+    "scenarios": [
+      {
+        "title": "Music Release Teasers",
+        "description": "Musicians tease new singles by breaking out of the screen for a dramatic reveal.",
+        "category": "Entertainment",
+        "image_prompt": "A music artist in a studio, mid-action breaking out of a large smartphone screen with glass shards flying, electric guitar in hand, dynamic lighting, cinematic composition, realistic 3D effect.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-scenario-1.png"
+      },
+      {
+        "title": "Streamer Intros",
+        "description": "Gaming streamers create impactful channel intros with a screen-shattering entrance.",
+        "category": "Gaming",
+        "image_prompt": "A gaming streamer wearing a headset, bursting out of a smartphone screen placed on a streaming desk, glass fragments flying, neon purple and blue lighting, gaming setup background, dynamic angle, realistic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-scenario-2.png"
+      },
+      {
+        "title": "Empowerment Reels",
+        "description": "Motivational creators use the screen break effect for powerful 'break free' messaging.",
+        "category": "Lifestyle",
+        "image_prompt": "A confident woman in business attire, breaking through a smartphone screen, glass shattering outward, with a determined expression, bright studio lighting, minimalist background, conveying empowerment, realistic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the 3D Screen Break Effect?",
+        "answer": "The 3D Screen Break Effect is a visual style where a person or subject appears to burst out of a smartphone screen. The phone is shown as a large 3D object, often with glass fragments flying outward, creating the illusion of breaking through the display."
+      },
+      {
+        "question": "Why is 3D Screen Break Effect useful for TikTok, Reels, or Shorts?",
+        "answer": "The sudden movement and shattered glass immediately catch the eye in fast-scrolling feeds. This helps your video stop the scroll, boost watch time, and improve engagement on short-form platforms."
+      },
+      {
+        "question": "Can I create a 3D Screen Break Effect from one uploaded image?",
+        "answer": "Yes, you can upload a single photo with a clear subject, and the tool will generate the breakout scene—placing your image inside the 3D phone and adding the shatter effect in one process."
+      },
+      {
+        "question": "What kind of image or video works best for this effect?",
+        "answer": "Use high-resolution shots with a well-defined subject and minimal background clutter. For video clips, footage where the person moves toward the camera creates a stronger sense of breaking through the screen."
+      },
+      {
+        "question": "Can I use the 3D Screen Break Effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect is flexible—show a product launching out of the screen, a fashion model stepping through, a travel landmark for a bold highlight, or a creator intro that grabs attention in the first second."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Build a 3D screen break effect from a single frame",
+    "supporting_text": "Start with a prompt, uploaded media, or a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for 3D Screen Break Effect",
+    "description": "This dynamic visual is often searched for using a variety of terms. Whether you call it a screen shatter effect, a breaking display animation, or a 3D glass crack overlay, the idea is the same—your content bursts through the frame. LazyKiwi makes it simple to transform these concepts into stunning short-video-ready visuals in seconds.",
+    "keywords": [
+      "screen shatter effect",
+      "3D glass break overlay",
+      "breaking screen animation",
+      "shattered display transition",
+      "digital screen break",
+      "cracked screen visual",
+      "screen explosion effect",
+      "3D screen crack",
+      "break out of screen effect",
+      "screen break video overlay",
+      "mobile screen shatter",
+      "3D broken glass effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/3d-screen-break-effect-scenario-3.png"
+    ]
+  }
+}

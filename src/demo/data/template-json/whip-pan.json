@@ -1,0 +1,124 @@
+{
+  "template_name": "Whip Pan",
+  "template_slug": "whip-pan",
+  "template_type": "video",
+  "created_at": "2026-06-11 14:52:48",
+  "hero": {
+    "title": "Whip Pan",
+    "description": "Whip Pan creates a rapid camera swing with motion blur that seamlessly transitions between clips. It adds dynamic energy perfect for TikTok transitions, Reels, Shorts, product reveals, outfit changes, and action-packed social media ads.",
+    "template_name": "Whip Pan Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split composition showing a before-and-after video editing preview of the Whip Pan effect. The left half shows two separate video clips placed side by side, a fashion model posing and then a different pose. The right half shows the same clips seamlessly blended with a fast horizontal motion blur swipe, with vibrant cyan and orange motion streaks connecting them, set against a clean, modern dark interface background, suggesting an online video editor hero section.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Whip Pan video work?",
+    "intro": "A whip pan effect mimics the fast, blurred swing of a camera as it moves from one subject to another. The visual illusion comes from matching motion direction and speed between two shots, so the pan masks the edit. When done right, the result is a smooth, energetic transition that keeps viewers locked in—ideal for short-form video, ads, and product showcases.",
+    "cards": [
+      {
+        "title": "Start with a sharp panning motion",
+        "description": "Capture a clip where the camera whips quickly from one point to another, creating heavy motion blur at the end.",
+        "icon": "camera"
+      },
+      {
+        "title": "Keep the subject direction consistent",
+        "description": "The subject in both clips should move along the same axis so the whip pan blends the two scenes without jarring the viewer.",
+        "icon": "subject"
+      },
+      {
+        "title": "Speed and blur sell the transition",
+        "description": "The rapid horizontal or vertical pan creates a streak of motion blur, which hides the cut and makes the shift feel instantaneous.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for short-form impact",
+        "description": "The whip pan is a staple on TikTok and Reels because it delivers crisp, fast transitions that hold attention in the first second.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators across lifestyle, motion, and travel use the Whip Pan effect to transform ordinary clips into engaging visual moments.",
+    "scenarios": [
+      {
+        "title": "Everyday Freeze Frames",
+        "description": "A whip pan turns a casual stroll into a sharp, scroll-stopping short-video hook.",
+        "category": "lifestyle",
+        "image_prompt": "Realistic POV video of a fashion creator walking through a sunlit city street in a denim jacket, the camera tracks them from behind, then a rapid whip pan blurs horizontally to freeze on their sudden glance back at the lens, street art in background, natural motion blur.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-scenario-1.png"
+      },
+      {
+        "title": "Dance Spin Impact",
+        "description": "Whip pans inject raw motion energy around a dancer, making each move hit harder.",
+        "category": "motion",
+        "image_prompt": "High-energy outdoor dance shot at golden hour, performer executes a fast turn, camera whip pans across their spinning silhouette creating a blurred motion trail, then cuts to a front-facing dynamic pose with dust particles illuminated, crisp focus on subject.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Switch",
+        "description": "Seamless whip pan transitions link outfit changes against breathtaking travel destinations.",
+        "category": "travel",
+        "image_prompt": "Instagram travel creator at a cliffside viewpoint during sunset, wearing a flowy dress; a quick whip pan transitions to the same person now in a chic coordinated set striking a confident pose, camera moves smoothly from left to right, vivid sky and landscape remain sharp behind the blur.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Whip Pan effect?",
+        "answer": "A whip pan is a fast camera movement that blurs the frame between two shots to create a smooth, energetic transition. It's often used to change scenes or add momentum without a hard cut."
+      },
+      {
+        "question": "Why is the whip pan effect useful for TikTok, Reels, or Shorts?",
+        "answer": "It grabs attention instantly and keeps viewers engaged by linking clips with motion. The blur hides edits, making transitions feel seamless and professional in short-form videos."
+      },
+      {
+        "question": "Can I create a whip pan from one uploaded image?",
+        "answer": "Yes, you can simulate a whip pan using a single image. The tool adds motion blur and direction to animate the still frame, then transitions into the next scene or logo."
+      },
+      {
+        "question": "What kind of image or video works best for whip pans?",
+        "answer": "Images or clips with clear horizontal or vertical movement work best. For example, a subject walking, a panning landscape, or even a static shot with added pan motion. Good contrast helps the blur effect stand out."
+      },
+      {
+        "question": "Can I use the whip pan for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The whip pan adds energy to product reveals, outfit changes, travel highlights, and vlogs. It's a flexible transition that suits many content styles on social media."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create seamless whip pan transitions",
+    "supporting_text": "Start from a prompt, upload your clip, or pick a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Whip Pan",
+    "description": "Creators often describe the whip pan effect in various ways. You might hear it called a swish pan, blur pan, or rapid camera sweep. Whatever search term you use, LazyKiwi simplifies turning these dynamic motion ideas into polished, short-video-ready visuals.",
+    "keywords": [
+      "swish pan",
+      "blur pan transition",
+      "fast pan effect",
+      "zip pan transition",
+      "camera whip transition",
+      "motion blur pan",
+      "whip transition preset",
+      "speed blur pan",
+      "quick pan cinematic effect",
+      "camera swish effect"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/whip-pan-scenario-3.png"
+    ]
+  }
+}

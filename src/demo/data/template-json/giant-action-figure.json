@@ -1,0 +1,129 @@
+{
+  "template_name": "Giant Action Figure",
+  "template_slug": "giant-action-figure",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:56:05",
+  "hero": {
+    "title": "Giant Action Figure",
+    "description": "Turn your subject into a massive action figure toy seamlessly embedded in a real environment. Ideal for TikTok transitions, product reveals, outfit edits, and social media ads that need a playful, eye-catching twist.",
+    "template_name": "Giant Action Figure Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A full-body photo of a person standing casually on a city sidewalk, natural daylight, clean background, realistic skin and fabric textures, relaxed pose, high-quality photograph without effects.",
+    "image_prompt_after": "The same scene transformed: the person now appears as a giant action figure toy, with glossy plastic skin, visible articulation seams, a collectible figure base, and a toyetic finish, still integrated into the real sidewalk but towering and miniature-scale reality, hyper-detailed toy photography look.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Giant Action Figure video work?",
+    "intro": "A Giant Action Figure effect blends a highly detailed toy subject with real-world footage, using precise compositing, realistic shadows, and scale-matched camera moves. The result turns a collectible into a towering presence, making viewers believe a plastic figure has come to life in their street, living room, or outdoor scene.",
+    "cards": [
+      {
+        "title": "Sharp Subject Isolation",
+        "description": "Use a cleanly lit figure photo with minimal background clutter. Easy cutouts let you place the toy perfectly into any real-world scene.",
+        "icon": "upload"
+      },
+      {
+        "title": "Toy-Like Motion",
+        "description": "Animate with small, staccato movements that suggest plastic joints and limited articulation. Avoid smooth, human-like motion to sell the figure aesthetic.",
+        "icon": "motion"
+      },
+      {
+        "title": "Real-World Shadow Cast",
+        "description": "Drop realistic shadows under the giant figure and match scene lighting. Subtle motion blur and camera shake tie the composite to the background footage.",
+        "icon": "layers"
+      },
+      {
+        "title": "Short-Form Surrealism",
+        "description": "The twisted scale triggers instant curiosity, stopping thumbs mid-scroll. Perfect for toy brands, creative ads, and video challenges that reward visual contrast.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real creative use cases of the Giant Action Figure effect across social media, marketing, and personal content.",
+    "scenarios": [
+      {
+        "title": "Toy Travel Photography",
+        "description": "Transform vacation photos into playful giant action figure scenes set in famous landmarks.",
+        "category": "Travel & Lifestyle",
+        "image_prompt": "A giant action figure with a female silhouette and plastic sheen, standing beside the Eiffel Tower; her skin has a glossy toy texture with visible articulation seams, and she holds a tiny camera in one hand. The scene uses shallow depth of field, blending photorealistic miniature tourists and crisp landmark details under late afternoon sunlight, emulating macro toy photography style.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-scenario-1.png"
+      },
+      {
+        "title": "Epic Social Skits",
+        "description": "Create viral short videos of a giant toy figure interacting with everyday objects.",
+        "category": "Social Media Entertainment",
+        "image_prompt": "A giant action figure of a man with exaggerated plastic muscles and a heroic pose, reaching down to pick up a real-sized car on a suburban street; the figure shows glossy, rigid plastic material with joints and peg holes, while the car is detailed and battered, captured from a low-angle cinematic shot with dramatic comic-style lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-scenario-2.png"
+      },
+      {
+        "title": "Brand Toy Campaigns",
+        "description": "Promote products by turning influencers into collectible toy figures in real-world ads.",
+        "category": "Marketing & Advertising",
+        "image_prompt": "A giant action figure influencer with a smooth, collectible-figure finish, wearing branded streetwear, holding a real energy drink can in one hand. She stands in a brightly lit supermarket aisle, the product packaging sharp and vivid against her plastic texture, with subtle posing stand pegs on her feet, shot as a high-quality promotional image.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Giant Action Figure effect?",
+        "answer": "The Giant Action Figure effect transforms a person or object into a large-scale figure placed in a real-world scene. It creates the look of an oversized collectible toy blending with everyday surroundings, similar to a life-sized anime statue or movie prop."
+      },
+      {
+        "question": "Why is the Giant Action Figure effect useful for TikTok, Reels, or Shorts?",
+        "answer": "Giant figures immediately grab attention in fast-scrolling feeds. The unusual scale contrast makes viewers stop and watch, which can increase engagement and shareability for short-form video platforms."
+      },
+      {
+        "question": "Can I create a Giant Action Figure from one uploaded image?",
+        "answer": "Yes. Most tools let you upload a single photo of a person or product, automatically generate the giant figure effect, and place it into a background scene. Some also support posing from a still image."
+      },
+      {
+        "question": "What kind of image or video works best for this effect?",
+        "answer": "Images with clear subject separation work best—full-body shots against simple backgrounds. Good lighting and sharp outlines help the effect look more natural. For videos, steady clips with minimal background motion produce cleaner results."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The Giant Action Figure effect fits product showcases, fashion lookbooks, travel highlights, and creative skits. It adds a playful, toy-like twist that can make promotional or personal content stand out."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Transform a single image into a Giant Action Figure",
+    "supporting_text": "Start from an uploaded photo, a text prompt, or a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Giant Action Figure",
+    "description": "You might describe this effect in many ways—like an action figure filter, toy figure transformation, or giant toy packaging meme. Whatever you call it, LazyKiwi instantly turns your ideas into short-video-ready visuals that look like collectible packaging shots.",
+    "keywords": [
+      "action figure effect",
+      "toy figure filter",
+      "giant toy packaging",
+      "make me an action figure",
+      "blister pack photo",
+      "figurine transformation",
+      "collectible packaging meme",
+      "toy display effect",
+      "action figure selfie",
+      "miniature giant filter",
+      "turn photo into action figure",
+      "toy box art effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-action-figure-scenario-3.png"
+    ]
+  }
+}

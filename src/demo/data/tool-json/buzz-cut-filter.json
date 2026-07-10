@@ -1,0 +1,187 @@
+{
+  "slug": "buzz-cut-filter",
+  "seo_title": "Buzz Cut Filter — See Yourself With a Buzz Cut Online | LazyKiwi",
+  "seo_description": "Try the buzz cut filter from LazyKiwi. Upload one photo and see yourself with a realistic buzz cut or fade in seconds — before you reach for the clippers.",
+  "hero": {
+    "title": "See yourself with a buzz cut first.",
+    "description": "Thinking about the big shave? Upload one photo and preview a realistic buzz cut or fade on your own head before the clippers come out.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "The shave is permanent. The preview isn't.",
+    "intro": "The LazyKiwi buzz cut filter shows you a believable buzz cut on your own face, fitted to your head shape and hairline — so you can commit to (or talk yourself out of) the big chop with confidence.",
+    "checks": [
+      "Fitted to your head shape",
+      "Multiple lengths and fades",
+      "Realistic, not pasted on"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick a buzz length",
+        "description": "Choose a buzz length or fade and let the AI apply it."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Preview the result, try a few more, then download your favourite."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Realistic",
+      "title": "A buzz that fits your head",
+      "description": "The AI respects your hairline and head shape so the buzz looks like a real cut, including stubble texture.",
+      "bullets": [
+        "Natural hairline",
+        "Realistic stubble texture",
+        "Keeps your face and skin"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Your length",
+      "title": "From a zero to a longer guard",
+      "description": "Preview different clipper lengths and fades to find the one that suits you.",
+      "bullets": [
+        "Multiple buzz lengths",
+        "Skin and taper fades",
+        "Compare side by side"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Decide first",
+      "title": "Commit with confidence",
+      "description": "See the result before you shave so there are no surprises in the mirror.",
+      "bullets": [
+        "Risk-free preview",
+        "Share for a second opinion",
+        "High-res download"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "One photo, every length",
+    "subtitle": "Preview the buzz before you commit.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-1.jpg",
+        "caption": "Zero buzz"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-2.jpg",
+        "caption": "Number 1"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-3.jpg",
+        "caption": "Number 2"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-4.jpg",
+        "caption": "Burr cut"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-5.jpg",
+        "caption": "Skin fade"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-6.jpg",
+        "caption": "Taper fade"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-7.jpg",
+        "caption": "Induction cut"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/buzz-cut-filter/gallery-8.jpg",
+        "caption": "Crew transition"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the buzz cut actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is the buzz cut filter free?",
+        "answer": "Yes. Upload a photo and preview a buzz cut for free."
+      },
+      {
+        "question": "Will it look realistic?",
+        "answer": "Yes. The AI fits the buzz to your head shape and hairline with natural stubble texture."
+      },
+      {
+        "question": "Can women try it too?",
+        "answer": "Absolutely — the filter works for anyone curious about a buzz cut."
+      },
+      {
+        "question": "What photo works best?",
+        "answer": "A clear, front-facing photo with your hairline and head visible."
+      }
+    ]
+  },
+  "cta": {
+    "title": "See yourself with a buzz cut before you shave.",
+    "description": "Upload one photo and preview a realistic buzz cut or fade in seconds — free."
+  }
+}

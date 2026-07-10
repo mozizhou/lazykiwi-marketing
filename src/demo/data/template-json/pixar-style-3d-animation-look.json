@@ -1,0 +1,129 @@
+{
+  "template_name": "pixar-style 3d animation look",
+  "template_slug": "pixar-style-3d-animation-look",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:36:24",
+  "hero": {
+    "title": "pixar-style 3d animation look",
+    "description": "Transform your photos into smooth, Pixar-inspired 3D character renders with soft shading and expressive features. This effect is ideal for TikTok transitions, Reels content, product reveals, and character-driven social ads. Apply it to portraits, outfit edits, or action shots for a polished, animated movie aesthetic.",
+    "template_name": "pixar-style 3d animation look Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A realistic photograph of a golden retriever puppy sitting in a sunlit meadow filled with wildflowers. The puppy has a soft, fluffy coat, bright curious eyes, and a slightly tilted head. Warm golden hour sunlight filters through the scene, creating soft highlights and natural shadows. The meadow stretches into the distance with a blurred forest background, shot with a shallow depth of field. 16:9 landscape, high quality, professional photography, vibrant natural colors, clear focus on the puppy's face, unprocessed and natural look.",
+    "image_prompt_after": "A Pixar-style 3D animation rendering of the same scene: a golden retriever puppy sitting in a sunlit meadow with wildflowers. The puppy now has exaggerated large expressive eyes, a smooth rounded snout, perfectly stylized soft fur with subtle texturing, and a joyful, heartwarming smile. The wildflowers are more vibrant and stylized with rounded petals, the lighting is cinematic and luminous with a magical glow, and the background has a soft painterly depth. The entire image has the signature Pixar look—smooth, polished, heartwarming, with rich saturated colors and a 3D animated feel, retaining the 16:9 landscape composition.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a pixar-style 3d animation look video work?",
+    "intro": "This effect mimics the signature look of Pixar films—rounded, smooth-textured characters, soft lighting, and gentle, expressive motion. It turns any still image into a short looping video with cinematic depth and playful, human-like movement.",
+    "cards": [
+      {
+        "title": "Clear, Front-Facing Subject",
+        "description": "A well-lit, front-facing portrait with a plain background works best. Ensure the face and upper body are fully visible for accurate motion mapping.",
+        "icon": "upload"
+      },
+      {
+        "title": "Subtle, Lifelike Movement",
+        "description": "The subject appears with natural head sways, eye blinks, and soft breathing. Movements stay small and loop smoothly to retain realism.",
+        "icon": "motion"
+      },
+      {
+        "title": "Cinematic Depth and Lighting",
+        "description": "The effect generates fluid motion between keyframes with consistent character texture, soft shadows, and gradual lighting shifts for a film-like finish.",
+        "icon": "camera"
+      },
+      {
+        "title": "Built for Social Feeds",
+        "description": "The familiar Pixar aesthetic captures attention immediately. The looping, animated style drives higher watch time on TikTok, Reels, and ads, making content memorable.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of how the Pixar-style 3D animation effect elevates short-form video content across different creator niches and platforms.",
+    "scenarios": [
+      {
+        "title": "Candid Street Pause",
+        "description": "A casual walking turn becomes a memorable hook with 3D animated textures and depth.",
+        "category": "lifestyle",
+        "image_prompt": "A young woman in a cream trench coat and jeans, mid-turn on a city sidewalk, bathed in soft afternoon light, rendered in Pixar-style 3D animation: rounded facial features, vibrant warm tones, subtle cel-shaded contours, blurred street background with bokeh spheres, freeze-frame effect capturing a moment of natural movement, the subject appears as a lifelike 3D character with gentle shadows and glossy reflections on leather accessories, high resolution, cinematic composition.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-scenario-1.png"
+      },
+      {
+        "title": "Dynamic Dance Loop",
+        "description": "A high-energy dance move gets amplified with stylized motion blur and 3D character animation.",
+        "category": "motion",
+        "image_prompt": "A male dancer mid-leap in an urban outdoor setting, wearing a red bomber jacket and cargo pants, captured in dynamic perspective, transformed into Pixar-style 3D animation: smooth plastic-like skin, exaggerated facial expression of joy, motion lines trailing, crisp outlines, vivid color palette, background of a concrete plaza and sky simplified into painterly geometric shapes, giving a video game-like energy, sharp focus on subject, daylight with strong rim lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-scenario-2.png"
+      },
+      {
+        "title": "Sunset Vista Pose",
+        "description": "Travel outfit highlight at a cliff viewpoint, the 3D effect enhancing colors and silhouette.",
+        "category": "travel",
+        "image_prompt": "A woman in a flowing maxi dress standing at a cliffside viewpoint overlooking an ocean sunset, posed with one hand touching her hat, rendered in Pixar-style 3D animation: stylized golden hour glow, soft yet defined textures on fabric, coral and pink gradients in sky, simplified clouds, the subject appears like a 3D animated character with a gentle smile, warm rim light, hyper-realistic but artistically animated, scenic composition with foreground grasses, high production value, vertical format suitable for Reels.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the pixar-style 3D animation look effect?",
+        "answer": "It is a visual filter that transforms your photos or videos into a stylized, smooth, 3D animated appearance similar to popular Pixar movies. The effect adds rounded shapes, soft textures, and bright, playful lighting."
+      },
+      {
+        "question": "Why is the pixar-style 3D animation look useful for TikTok, Reels, or Shorts?",
+        "answer": "This style grabs attention quickly in short-form feeds because it looks distinctive and playful. It can make your content stand out among standard videos, helping increase views and engagement on platforms that favor eye-catching visuals."
+      },
+      {
+        "question": "Can I create a pixar-style 3D animation look from one uploaded image?",
+        "answer": "Yes, many tools allow you to upload a single photo and generate a pixar-style 3D version of that image. Some also support short video clips to add the effect to moving subjects."
+      },
+      {
+        "question": "What kind of image or video works best with this effect?",
+        "answer": "Images with clear, front-facing subjects, good lighting, and uncluttered backgrounds produce the most recognizable results. Avoid photos that are very dark, blurry, or have multiple overlapping objects."
+      },
+      {
+        "question": "Can I use this effect for product, fashion, travel, or creator content?",
+        "answer": "Yes, the pixar-style 3D animation look works well across different content types. Product shots can become eye-catching ads, fashion portraits get a stylized touch, travel scenes appear more playful, and creator content can feel fresh and entertaining."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn Any Image Into a Pixar-Style 3D Look",
+    "supporting_text": "Start from a photo, text prompt, or ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for pixar-style 3d animation look",
+    "description": "Looking to capture that beloved big-screen animation charm? Many people describe the pixar-style 3d animation look using different names—from Pixar filter and 3D cartoon effect to Disney animation style or CGI character maker. Whatever you call it, LazyKiwi turns your ideas into short-video-ready visuals with that warm, cinematic 3D feel.",
+    "keywords": [
+      "Pixar filter",
+      "3D cartoon effect",
+      "Disney animation style",
+      "Pixar cartoon generator",
+      "Pixar-style 3D render",
+      "toon shader effect",
+      "CGI character look",
+      "movie-quality 3D animation filter",
+      "Pixar avatar maker",
+      "3D animated movie style",
+      "Pixar-like 3D effect",
+      "turn photo into Pixar character"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pixar-style-3d-animation-look-hero-after.png"
+  }
+}

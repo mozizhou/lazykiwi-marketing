@@ -1,0 +1,127 @@
+{
+  "template_name": "caricature generator free",
+  "template_slug": "caricature-generator-free",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:42:31",
+  "hero": {
+    "title": "caricature generator free",
+    "description": "Transform ordinary photos into playful, exaggerated caricature portraits. Perfect for creating unique avatars, adding personality to social media content, or making your Reels, Shorts, and TikTok videos stand out.",
+    "template_name": "caricature generator free Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A realistic, high-quality portrait photograph of a man in his late 20s with a cheerful expression, short curly hair, and a light stubble. He is wearing a casual blue button-up shirt and standing in a sunlit urban park with blurred green trees and a clear sky in the background. The lighting is soft and natural, highlighting his facial features, sharp focus on his eyes and smile, 16:9 landscape format, vibrant colors, professional photography style.",
+    "image_prompt_after": "The same scene and subject transformed by a caricature generator free effect. The man now appears as a playful digital caricature: his head is comically oversized, his eyes are exaggeratedly large and sparkling, his grin is wide and toothy with a humorous twist, his ears stick out, and his body is miniature with tiny limbs. The style is vibrant cartoon with bold black outlines, saturated colors, and exaggerated shading. The background remains the same blurred sunlit park, but it is rendered with a slightly stylized, lively feel. The entire image pops with energy, 16:9 landscape, 1536x1024, crisp and dynamic.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a caricature generator free video work?",
+    "intro": "A caricature generator video amplifies a portrait’s most recognizable features—eyes, nose, jawline—using facial detection to create exaggerated yet lifelike distortions. When paired with smooth looping motion, a single photo becomes a short animated clip that feels playful and highly shareable.",
+    "cards": [
+      {
+        "title": "High-quality front-facing shot",
+        "description": "Use a well-lit, forward-facing portrait with minimal shadows so the tool can accurately map and stretch facial landmarks without artifacts.",
+        "icon": "upload"
+      },
+      {
+        "title": "Centered face with neutral expression",
+        "description": "Keep the face centered and expression relaxed to avoid extreme warping; this ensures the caricature looks recognizably human instead of distorted.",
+        "icon": "subject"
+      },
+      {
+        "title": "Subtle looping head motion",
+        "description": "The effect adds gentle nodding or tilting based on your photo’s head pose, turning a still image into a charming, bobblehead-style animation.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for scroll-stopping clips",
+        "description": "Short, exaggerated loops stand out in fast-paced feeds, making them ideal for profile intros, reactions, and bite-sized brand storytelling.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the caricature generator free effect in short-form content across three popular real-world formats.",
+    "scenarios": [
+      {
+        "title": "Casual Street Style Highlight",
+        "description": "Turn an ordinary sidewalk moment into a stylized face hook that stops the scroll.",
+        "category": "lifestyle",
+        "image_prompt": "Smartphone screen displaying a short video of a young man in casual streetwear walking on a sunlit city sidewalk, his face transformed by a free caricature generator effect with exaggerated eyes and slight smirk, soft bokeh background, modern clean UI overlay, realistic app interface, daytime natural lighting, photorealistic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-scenario-1.png"
+      },
+      {
+        "title": "Dance Motion with Expressive Lines",
+        "description": "Add distorted motion emphasis around a creator mid-dance for energetic visual rhythm.",
+        "category": "motion",
+        "image_prompt": "Close-up of a smartphone playing a vertical video of a female dancer mid-spin in an outdoor plaza, the caricature generator free effect stretching her silhouette with elastic sketch-like motion lines, face recognizably exaggerated, bright afternoon sun, realistic screen glare, social media frame visible, vibrant colors.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-scenario-2.png"
+      },
+      {
+        "title": "City Viewpoint Outfit Edit",
+        "description": "Highlight a travel look against a rooftop skyline using subtle facial exaggeration for editorial style.",
+        "category": "travel",
+        "image_prompt": "Mobile device held against a blurred skyline sunset background, screen showing a vertical video of a traveler posing on a rooftop, free caricature generator effect slightly enlarging eyes and defining jawline while keeping outfit and cityscape sharp, warm golden hour light, clean app playback interface, photorealistic smartphone mockup.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the caricature generator free effect?",
+        "answer": "The caricature generator free effect is an online tool that turns your photos into cartoon-style caricatures. It exaggerates facial features like eyes, nose, and smile to create a playful, hand-drawn look without any cost."
+      },
+      {
+        "question": "Can I create a caricature from just one uploaded image?",
+        "answer": "Yes, you only need to upload a single clear photo. The tool automatically detects the face and applies the caricature effect instantly with no multiple images or complex setup required."
+      },
+      {
+        "question": "What kind of image works best for the caricature effect?",
+        "answer": "A front-facing portrait with good lighting and a plain background works best. Avoid heavy shadows, blur, or obstructions like sunglasses. The clearer the face, the better the exaggeration results."
+      },
+      {
+        "question": "Why is the caricature generator free useful for TikTok, Reels, or Shorts?",
+        "answer": "Caricature effects grab attention quickly in short-form videos. They add humor and personality, helping your content stand out in feeds. You can use them as profile pictures, reaction clips, or creative transitions to boost engagement."
+      },
+      {
+        "question": "Can I use this effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. While it's ideal for personal portraits, you can apply it to social media avatars, fun product promotions, travel selfies, or creator branding. It adds a quirky, memorable twist to any visual content."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn a photo into a bold caricature",
+    "supporting_text": "Start from a prompt, upload a portrait, or pick a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for caricature generator free",
+    "description": "People often describe this effect in different ways—whether they call it a cartoon portrait maker, a funny face creator, or a free caricature filter. No matter the phrasing, LazyKiwi helps turn those ideas into expressive, short-video-ready visuals that capture a unique, exaggerated charm.",
+    "keywords": [
+      "free caricature maker",
+      "cartoon portrait generator free",
+      "caricature creator no cost",
+      "photo to caricature free online",
+      "funny face cartoon maker",
+      "free cartoon avatar generator",
+      "portrait cartoonizer free",
+      "exaggerated portrait generator",
+      "free caricature filter app",
+      "instant caricature tool free"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/caricature-generator-free-hero-after.png"
+  }
+}

@@ -10,6 +10,40 @@ function toType(d) {
   return d.parentFeature === "image-generator" ? "Image" : "Video";
 }
 
+function isVideoSrc(src) {
+  return /\.(mp4|webm|mov|m3u8)(\?|#|$)/i.test(src || "");
+}
+
+// Model covers can be either a still image or a video clip (many video models
+// point at .mp4 showcase/hero media). Render <video> for video sources so the
+// cover actually shows/plays instead of a broken <img>.
+function CoverMedia({ src, alt, poster }) {
+  if (isVideoSrc(src)) {
+    return (
+      <video
+        src={encodeURI(src)}
+        poster={poster ? encodeURI(poster) : undefined}
+        muted
+        loop
+        autoPlay
+        playsInline
+        preload="metadata"
+        aria-label={alt}
+        className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+      />
+    );
+  }
+  return (
+    <img
+      src={src}
+      alt={alt}
+      loading="lazy"
+      decoding="async"
+      className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+    />
+  );
+}
+
 export default function ModelsHub() {
   const [filter, setFilter] = useState("All");
 
@@ -25,6 +59,7 @@ export default function ModelsHub() {
           statusPill: d?.hero.statusPill,
           type: d ? toType(d) : model.type,
           image: d?.showcase?.items?.[0]?.image || d?.hero.media.wide || "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/landing/hero/hero-poster.png",
+          poster: d?.hero?.media?.poster || d?.showcase?.items?.[0]?.poster || d?.steps?.items?.[0]?.image || "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/landing/hero/hero-poster.png",
           href: model.href,
         };
       }),
@@ -112,7 +147,7 @@ export default function ModelsHub() {
             return (
               <a key={it.slug} href={it.href} className="group flex flex-col overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
                 <div className="relative aspect-[16/10] overflow-hidden bg-gray-100">
-                  <img src={it.image} alt={it.name} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                  <CoverMedia src={it.image} alt={it.name} poster={it.poster} />
                   <div className="absolute left-3 top-3 flex items-center gap-1.5 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-bold text-white backdrop-blur-md">
                     <TypeIcon size={12} /> {it.type}
                   </div>

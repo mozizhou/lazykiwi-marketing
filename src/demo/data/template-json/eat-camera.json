@@ -1,0 +1,126 @@
+{
+  "template_name": "Eat Camera",
+  "template_slug": "eat-camera",
+  "template_type": "video",
+  "created_at": "2026-06-11 15:18:45",
+  "hero": {
+    "title": "Eat Camera",
+    "description": "The Eat Camera effect creates a dynamic illusion where the subject appears to consume the camera, producing a playful and immersive zoom transition. This effect works well for TikTok, Reels, Shorts, product reveals, outfit edits, action shots, and social media ads.",
+    "template_name": "Eat Camera Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A dynamic first-person view: a smartphone camera lens appears to move rapidly towards an open mouth, as if being consumed, with a zoom motion blur effect. The background is a vibrant gradient of neon colors, conveying energy suitable for TikTok and social media transitions. The person's lips and teeth are visible in the foreground, creating a playful and immersive perspective.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Eat Camera video work?",
+    "intro": "The Eat Camera effect creates a comedic illusion of the camera being swallowed by the subject. It relies on a centered, open-mouthed subject, a forced zoom into the mouth, and a quick distortion that mimics being ingested. The result is an instantly shareable, attention-grabbing clip perfect for viral short-form content.",
+    "cards": [
+      {
+        "title": "Close-up, open mouth",
+        "description": "Use a front-facing shot where the subject’s mouth is wide open and centered. Good lighting and minimal background clutter keep the focus on the swallowing illusion.",
+        "icon": "subject"
+      },
+      {
+        "title": "Expressive bite and lunge",
+        "description": "The subject should quickly move their head forward or pretend to bite, enhancing the shock value. A wide-eyed, playful expression makes the effect more engaging.",
+        "icon": "motion"
+      },
+      {
+        "title": "Warped zoom into mouth",
+        "description": "The effect triggers a rapid zoom into the mouth with a barrel distortion and brief dark frame, simulating the camera entering the throat.",
+        "icon": "layers"
+      },
+      {
+        "title": "Attention-grabbing intro",
+        "description": "The surprising visual catches viewers in the first second, boosting retention. It's a versatile meme format that fits comedy, reactions, or product reveals.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See real examples of Eat Camera used in lifestyle, motion, and travel content.",
+    "scenarios": [
+      {
+        "title": "Coffee Run Freeze",
+        "description": "Turn a simple walk to the café into a scroll-stopping short-video hook.",
+        "category": "lifestyle",
+        "image_prompt": "A young woman in casual outfit walking on a city sidewalk, suddenly turns and looks into the camera, the Eat Camera effect triggers, creating a brief freeze-motion with her face dominating the frame as the background distorts, cinematic lighting, realistic smartphone video style.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Surge",
+        "description": "Adds visual energy to dance clips by funneling motion into the lens.",
+        "category": "motion",
+        "image_prompt": "A dancer performing a hip-hop move outdoors, moving toward the camera, the Eat Camera effect activates as they get close, warping the scene inward with motion trails around them, high energy, urban background, shot on a phone camera.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-scenario-2.png"
+      },
+      {
+        "title": "City View Pose",
+        "description": "Makes your outfit and location pop with a dramatic camera interaction.",
+        "category": "travel",
+        "image_prompt": "A fashion creator in a chic travel outfit stands on a rooftop overlooking a city skyline, they gesture toward the camera, the Eat Camera effect quickly zooms in on their face and outfit, then snaps back revealing the scenic background, golden hour light, vlog-style filming.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Eat Camera effect?",
+        "answer": "The Eat Camera effect makes it look like the camera physically moves into a person's mouth, or the subject appears to swallow the camera. It creates a surreal, close-up transition that feels like the viewer is being pulled inside."
+      },
+      {
+        "question": "Why is Eat Camera useful for TikTok, Reels, or Shorts?",
+        "answer": "Short-form audiences respond to unexpected visual hooks. The Eat Camera effect grabs attention in the first second, stops the scroll, and encourages rewatches, which helps boost reach on TikTok, Reels, and YouTube Shorts."
+      },
+      {
+        "question": "Can I create Eat Camera from one uploaded image?",
+        "answer": "Yes. You can upload a single photo and apply the effect. The tool generates a motion sequence that simulates the camera moving into the subject based on that one frame."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Images with a clear, forward-facing subject and a visible mouth area work best. Good lighting and minimal background clutter help the effect track the motion accurately."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect fits many content types — use it to reveal a product, transition between outfits, zoom into a travel scene, or create a signature hook for your creator profile."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Make the Camera Get Eaten in Your Videos",
+    "supporting_text": "Start from a text prompt, an uploaded clip, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Eat Camera",
+    "description": "When searching for the 'Eat Camera' effect, you might encounter a variety of different names or phrases. People often describe it as a camera swallowing filter, a lens being munched, or a fun camera-eating transition. LazyKiwi helps turn these creative ideas into polished, short-video-ready visuals that immediately stand out on any feed.",
+    "keywords": [
+      "camera eating filter",
+      "swallow camera effect",
+      "mouth bites camera video",
+      "camera munch transition",
+      "nom camera effect",
+      "camera being eaten loop",
+      "eat my camera lens",
+      "camera consumption visual",
+      "bite camera filter",
+      "camera swallowed effect",
+      "camera gobble animation",
+      "camera eating simulation"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/eat-camera-scenario-3.png"
+    ]
+  }
+}

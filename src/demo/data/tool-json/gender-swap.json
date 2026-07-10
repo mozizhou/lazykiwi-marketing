@@ -1,0 +1,187 @@
+{
+  "slug": "gender-swap",
+  "seo_title": "AI Gender Swap — See Yourself as a Different Gender | LazyKiwi",
+  "seo_description": "Try the AI gender swap filter with LazyKiwi. Upload one photo and see a realistic male or female version of yourself in seconds — a fun, shareable face transformation.",
+  "hero": {
+    "title": "Meet the other version of you.",
+    "description": "Upload one photo and see a realistic male or female version of yourself. The AI reimagines features, hair and styling while keeping it recognizably you.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "A believable what-if, not a cartoon.",
+    "intro": "The LazyKiwi gender swap filter reimagines your face as another gender — adjusting features, hairstyle and styling while keeping your core likeness. It’s a lighthearted way to see a realistic alternate version of yourself and share it with friends.",
+    "checks": [
+      "Realistic transformation",
+      "Still recognizably you",
+      "Made for sharing"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick a direction",
+        "description": "Let the AI choose, or note a male or female version in the prompt."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Preview the result, try a few more, then download your favourite."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Realistic",
+      "title": "A natural transformation, not a filter",
+      "description": "Facial structure, hair and styling are reimagined so the result looks like a real person — your alternate self.",
+      "bullets": [
+        "Believable facial restructuring",
+        "Matched hair and styling",
+        "Keeps your lighting and background"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Recognizably you",
+      "title": "Your likeness, reimagined",
+      "description": "The swap preserves the essence of your face, so it feels like meeting a sibling you never had.",
+      "bullets": [
+        "Core features preserved",
+        "Choose male or female",
+        "Subtle or full transformation"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Shareable",
+      "title": "A before-and-after people stop for",
+      "description": "Create a clean reveal that’s perfect for TikTok, Reels and group chats — no editing needed.",
+      "bullets": [
+        "High-res exports",
+        "Fun for couples and friends",
+        "Unlimited tries"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "One face, two versions",
+    "subtitle": "See a realistic male or female take on your own photo.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-1.jpg",
+        "caption": "Male version"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-2.jpg",
+        "caption": "Female version"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-3.jpg",
+        "caption": "Soft glam"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-4.jpg",
+        "caption": "Natural look"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-5.jpg",
+        "caption": "Short hair"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-6.jpg",
+        "caption": "Long hair"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-7.jpg",
+        "caption": "Casual"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/gender-swap/gallery-8.jpg",
+        "caption": "Studio portrait"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the swap actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is the gender swap filter free?",
+        "answer": "Yes. Upload a photo and generate a gender-swapped version for free."
+      },
+      {
+        "question": "Will it still look like me?",
+        "answer": "Yes. The AI reimagines features and styling while keeping your core likeness, so it reads as a believable alternate you."
+      },
+      {
+        "question": "What photo works best?",
+        "answer": "A clear, front-facing selfie with even lighting and your full face visible."
+      },
+      {
+        "question": "Can I choose male or female?",
+        "answer": "Yes. Let the AI decide or specify the direction in the prompt box."
+      }
+    ]
+  },
+  "cta": {
+    "title": "See the other you in one tap.",
+    "description": "Upload a photo and let LazyKiwi reveal a realistic male or female version of yourself to share."
+  }
+}

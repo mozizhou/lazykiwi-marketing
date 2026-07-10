@@ -1,0 +1,129 @@
+{
+  "template_name": "AI Image Outpainting",
+  "template_slug": "ai-image-outpainting",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:30:08",
+  "hero": {
+    "title": "AI Image Outpainting",
+    "description": "Seamlessly expand the boundaries of your photos and fill in missing surroundings with AI. Ideal for adapting portraits to widescreen formats, completing product shots, or adding context to action clips for TikTok, Reels, Shorts, and ads.",
+    "template_name": "AI Image Outpainting Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, well-lit portrait of a young woman wearing a casual outfit, centered in a tight crop with a plain studio background, sharp focus on her face, natural expression, high resolution, before image.",
+    "image_prompt_after": "The same young woman portrait but now with AI Image Outpainting applied: the canvas is expanded to a wide 16:9 ratio, the plain studio background is seamlessly extended to reveal a minimalist loft space with a large window and soft daylight, the subject remains centered and perfectly blended with the new surroundings, high resolution, after image.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Image Outpainting video work?",
+    "intro": "AI Image Outpainting extends your photo beyond its original borders, generating realistic scenery that matches the composition. By analyzing existing elements, it synthesizes new texture, lighting, and perspective, creating a seamless wide-angle view. This turns a static image into a dynamic, scroll-stopping clip perfect for social content.",
+    "cards": [
+      {
+        "title": "High-res, well-framed source",
+        "description": "Start with a clear, high-resolution image where the subject is not cropped too tightly. Leaving breathing room helps the AI generate plausible extensions.",
+        "icon": "upload"
+      },
+      {
+        "title": "Subject stays centered",
+        "description": "Keep your main subject centered and sharp. As the image extends, the subject remains the anchor while new background details emerge with consistent scale.",
+        "icon": "subject"
+      },
+      {
+        "title": "Seamless edge blending",
+        "description": "The effect blends new content by matching textures, lighting, and perspective from the original edges, making the expanded frame look like one continuous shot.",
+        "icon": "scene"
+      },
+      {
+        "title": "Hook-driven reveals",
+        "description": "Ideal for Reels and ads, outpainting reveals surprise elements or dramatic backdrops, instantly boosting retention and making your content stand out in feeds.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore real-world examples of how AI image outpainting helps creators extend images for social media, e-commerce, and travel content.",
+    "scenarios": [
+      {
+        "title": "YouTube Thumbnail Resizing",
+        "description": "Turn a close-up selfie into a wide thumbnail by extending the sides with studio details.",
+        "category": "Social Media",
+        "image_prompt": "A split screen comparison: left half shows a vertical selfie of a vlogger with a ring light, right half shows the same face but the canvas expanded horizontally with outpainting, seamlessly adding a complete home studio background with shelves, cameras, and colored LED panels. Realistic photography, sharp focus, natural lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-scenario-1.png"
+      },
+      {
+        "title": "Product Banner Expansion",
+        "description": "Extend a product photo’s background to fit e-commerce banners while keeping a clean studio look.",
+        "category": "E-commerce",
+        "image_prompt": "A square product shot of white wireless headphones on a pure white seamless background, with the original crop area faintly outlined, and the outpainted sides extending the identical smooth white gradient with perfect continuity, as if the original shot was always a wide banner. Studio lighting, crisp shadows.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-scenario-2.png"
+      },
+      {
+        "title": "Travel Panorama Extension",
+        "description": "Transform a cropped travel photo into a panoramic vista by expanding sky and foreground.",
+        "category": "Travel",
+        "image_prompt": "A before-and-after composition: the left side shows a tightly framed photo of a mountain peak at sunset, the right side shows the same central peak after AI outpainting, now a wide panoramic landscape with extended golden sky, clouds, and a valley below. Seamless blending, photorealistic, warm sunset tones.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is AI Image Outpainting?",
+        "answer": "AI Image Outpainting expands the borders of an image by generating new visual content that seamlessly matches the original scene. It analyzes the existing composition and fills in missing areas—like extended backgrounds, sky, or surroundings—to create a larger, natural-looking picture without cropping or manual editing."
+      },
+      {
+        "question": "Why is AI Image Outpainting useful for TikTok, Reels, or Shorts?",
+        "answer": "Short-form videos often require a 9:16 vertical ratio. AI Image Outpainting can intelligently extend horizontal or square images to fit this format, adding detail above or below your subject instead of leaving black bars or zooming in. This keeps the main focus intact while making the visual fill the screen properly for mobile viewing."
+      },
+      {
+        "question": "Can I create AI Image Outpainting from one uploaded image?",
+        "answer": "Yes. Upload a single image, select the direction and amount of expansion, and the AI will generate the extended content automatically. No additional reference images are needed—the model works with the visual cues already present in your file."
+      },
+      {
+        "question": "What kind of image works best with AI Image Outpainting?",
+        "answer": "Images with a clear subject, good lighting, and some surrounding context tend to produce the most coherent results. Shots where the background gradually fades to a uniform texture or where patterns repeat (like landscapes, studio setups, or architectural frames) give the AI reliable clues to extend the scene naturally. Avoid heavily cropped close-ups where the edge cuts off important details."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. For products, outpainting can add lifestyle context around a centered item. In fashion, it can extend backgrounds to frame a full look. Travel shots benefit from wider scenic views, and creator content can be reframed for different social platforms without losing the original composition. It’s a practical tool for adjusting visuals across different formats."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Extend any image from a frame, photo, or template with AI Outpainting",
+    "supporting_text": "Start from a prompt, uploaded media, or template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Image Outpainting",
+    "description": "Users often look for this effect using different terms. Whether you know it as AI image outpainting, image extrapolation, or smart image expanding, LazyKiwi helps you turn these concepts into short-video-ready visuals with ease.",
+    "keywords": [
+      "ai image outpainting",
+      "image extrapolation",
+      "uncrop image",
+      "ai expand image",
+      "generative expand",
+      "image extender ai",
+      "outpaint ai",
+      "ai background extender",
+      "extend image borders ai",
+      "expand photo ai",
+      "image continuation ai",
+      "ai outpainting tool"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-image-outpainting-scenario-3.png"
+    ]
+  }
+}

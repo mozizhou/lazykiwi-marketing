@@ -1,0 +1,129 @@
+{
+  "template_name": "chubby filter",
+  "template_slug": "chubby-filter",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:50:37",
+  "hero": {
+    "title": "chubby filter",
+    "description": "Add gentle, playful fullness to faces and bodies with the chubby filter. Perfect for creating lighthearted content for TikTok, Reels, and Shorts, it gives portraits and group shots a fun, cartoon-like roundness without looking unnatural.",
+    "template_name": "chubby filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "Professional high-quality portrait photo, 16:9 landscape orientation, a cheerful young adult with a slender face, sharp bone structure, and clear jawline, smiling softly, natural skin texture, subtle studio makeup, short neat hair, wearing a well-fitted plain light-grey t-shirt, against a simple pastel pink background, soft diffused daylight from the front, vibrant yet realistic colors, sharp focus on the face and upper chest, unprocessed and authentic, photorealistic.",
+    "image_prompt_after": "Same composition, subject, and studio setting as the before image, but with a realistic chubby filter effect applied: the young adult's face has become noticeably rounder and fuller, cheeks are puffed and plump like soft dough, a subtle double chin appears, the jawline is completely softened and hidden, the neck looks thicker, the smile pushes the chubby cheeks upward enhancing the roundness, the torso and arms appear stockier and softer, the same light-grey t-shirt now stretches over a noticeably wider and doughy midsection and fuller upper arms, expression remains warm and cheerful, identical lighting and background, highly detailed skin showing the new plumpness, vibrant colors with a cute, adorable, marshmallow-like appearance, photorealistic.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a chubby filter video work?",
+    "intro": "The chubby filter relies on precise facial landmark detection to toy with proportions—rounding cheeks, softening jawlines, and adding a plump, playful fullness. It balances exaggerated inflation with natural eye and mouth alignment, so the result feels comical yet believable. This controlled deformation is what drives the effect’s instant, shareable charm.",
+    "cards": [
+      {
+        "title": "Clean, Front-Facing Setup",
+        "description": "Begin with a straightforward, well-lit selfie or footage. The filter needs an unobstructed face looking directly at the camera to anchor its tracking points and apply the chubby distortion evenly.",
+        "icon": "camera"
+      },
+      {
+        "title": "Natural, Subtle Movement",
+        "description": "Keep slow head tilts, gentle smiles, or casual swaying. These micro-motions help the inflated shapes feel attached to your expression, avoiding a frozen mask look and making the effect more convincing.",
+        "icon": "subject"
+      },
+      {
+        "title": "Geometry Inflation on Face Mesh",
+        "description": "AR tech maps dozens of facial points, then selectively expands the lower cheeks and chin region. Eyes, nose, and mouth stay proportional, so the plump result reads clearly without breaking the face’s structure.",
+        "icon": "layers"
+      },
+      {
+        "title": "Lighthearted, High-Engagement Content",
+        "description": "The filter’s comedic transformation triggers quick laughs and double-takes. It fits perfectly into TikTok, Reels, or ads where playful, relatable moments boost shares and watch time.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See real creator use cases of the chubby filter effect applied to lifestyle, motion, and travel content.",
+    "scenarios": [
+      {
+        "title": "Casual Coffee Moments",
+        "description": "Turn a simple coffee sip into a playful short-video hook with the chubby filter.",
+        "category": "lifestyle",
+        "image_prompt": "A young woman sitting at a street-side café, holding a coffee cup and smiling at the camera, wearing a casual sweater, chubby filter effect making her face and body noticeably plumper and rounded, soft morning light, blurred bokeh background of passersby.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-scenario-1.png"
+      },
+      {
+        "title": "Dance Energy Boost",
+        "description": "Add playful bounce to your dance moves with the chubby filter effect.",
+        "category": "motion",
+        "image_prompt": "A male dancer mid-air in a dynamic jump, arms raised, wearing bright streetwear, chubby filter applied giving him a chubbier, bouncy silhouette, motion blur on an urban graffiti wall background, sunlight peeking through.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-scenario-2.png"
+      },
+      {
+        "title": "Scenic Outfit Edits",
+        "description": "Highlight your travel outfit and location with a playful chubby filter twist.",
+        "category": "travel",
+        "image_prompt": "A fashion influencer standing on a scenic viewpoint overlooking a city skyline at sunset, wearing a coordinated travel outfit and hat, chubby filter effect making her figure rounder and cuter, warm golden backlight, wide-angle composition.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the chubby filter effect?",
+        "answer": "The chubby filter is an image effect that adds a playful, rounded appearance to faces or objects by adjusting proportions, making subjects look chubbier. It's popular for creating humorous or cute content."
+      },
+      {
+        "question": "Why is the chubby filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It grabs attention quickly, encouraging views and engagement. The exaggerated effect fits the fast-paced, entertaining nature of short-form video platforms and helps creators stand out."
+      },
+      {
+        "question": "Can I create the chubby filter from one uploaded image?",
+        "answer": "Yes, our tool allows you to apply the chubby filter to a single photo. Simply upload your image, select the filter, and download the edited result within seconds."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Clear, well-lit images with visible faces yield the best results. Avoid heavy shadows or blur for accurate effect rendering. Videos with steady, centered subjects also work well."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "The chubby filter is versatile. Use it for playful product demos, quirky fashion try-ons, funny travel photos, or engaging creator content to add a unique twist and boost audience interaction."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Give your photos a fun chubby makeover",
+    "supporting_text": "Start from your own photo, a text prompt, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for chubby filter",
+    "description": "When searching for this playful transformation, people use many different terms to describe the chubby filter effect. You might see it called a fat face filter, puffy cheeks effect, or even a weight gain camera trick. Whatever name you use, LazyKiwi makes it simple to turn your idea into short-video-ready visuals that instantly add a cute, rounded look.",
+    "keywords": [
+      "fat face filter",
+      "chubby cheeks effect",
+      "weight gain filter",
+      "puffy face camera",
+      "chubby face app",
+      "make me look chubby",
+      "double chin filter",
+      "round face effect",
+      "chubby filter Snapchat",
+      "cute chubby face editor",
+      "chubby cheeks app",
+      "puffy filter selfie"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chubby-filter-hero-after.png"
+  }
+}

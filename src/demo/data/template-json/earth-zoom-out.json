@@ -1,0 +1,126 @@
+{
+  "template_name": "Earth Zoom Out",
+  "template_slug": "earth-zoom-out",
+  "template_type": "video",
+  "created_at": "2026-06-11 14:16:35",
+  "hero": {
+    "title": "Earth Zoom Out",
+    "description": "Smoothly zoom out from any starting point on Earth to a full globe view, creating a dramatic transition. Ideal for travel content, global brand storytelling, product reveals, and social media clips like TikTok, Reels, or Shorts.",
+    "template_name": "Earth Zoom Out Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split composition for a landing page hero: left side shows a close-up of a vibrant city street with pedestrians; right side reveals the same scene rapidly zooming out to show the entire Earth from space. Motion blur, cinematic lighting, realistic 3D render, blue atmosphere glow, no text or UI elements.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Earth Zoom Out video work?",
+    "intro": "A strong Earth Zoom Out starts with a detailed close-up—like a city or landmark—then smoothly pulls back to reveal the full planet. The effect combines a rapid, eased zoom animation with subtle rotation and depth cues, creating a cinematic scale shift that instantly captures attention.",
+    "cards": [
+      {
+        "title": "Start with a clear focal point",
+        "description": "Use a high-resolution map or satellite image with a recognizable landmark. A tight crop on a city or region makes the zoom-out reveal more dramatic.",
+        "icon": "scene"
+      },
+      {
+        "title": "Center the globe and keep motion smooth",
+        "description": "The Earth should stay centered as it scales down, with a subtle rotation that adds depth. Avoid jerky transitions to maintain a seamless look.",
+        "icon": "subject"
+      },
+      {
+        "title": "Rapid zoom-out with ease",
+        "description": "A fast, curved zoom with easing creates a cinematic pull-back effect. Adding a slight blur or parallax in clouds enhances the sense of speed and scale.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for short-form engagement",
+        "description": "The dramatic scale reveal grabs attention in the first second, perfect for TikTok, Reels, and ads. It cues curiosity and holds viewers for a reveal.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real creator examples showing how the Earth Zoom Out effect transforms everyday footage into scroll-stopping content.",
+    "scenarios": [
+      {
+        "title": "Street Style Freeze",
+        "description": "A casual turn on a city street becomes a high-impact opener when the camera pulls back to reveal the Earth.",
+        "category": "lifestyle",
+        "image_prompt": "A vertical smartphone video of a young creator in a casual jacket and jeans walking along a busy downtown sidewalk, then turning to face the camera with a relaxed smile. The Earth Zoom Out effect triggers: the frame rapidly zooms out, the street shrinks to a city block, the city fades into a satellite view of the continent showing city lights, and finally the whole Earth appears in space, with the original scene visible as a tiny bright dot on the surface. Motion blur and smooth easing emphasize the continuous pullback, ending on the Earth floating in darkness.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Amplify",
+        "description": "A mid-air jump lands with extra energy as the background pulls into a global view.",
+        "category": "motion",
+        "image_prompt": "A vertical video of a dancer performing a high jump on an outdoor rooftop court at golden hour, arms raised, hair flowing. The Earth Zoom Out effect is applied exactly as they reach the peak of the jump: the camera zooms out instantly, the rooftop, the building, and the entire city rapidly shrink into a glowing spot on the Earth's surface, then the planet is seen from low orbit. The dancer's silhouette remains visible in the center, overlaid with a subtle glow, while the swift zoom emphasizes the motion. The final frame holds for a beat on the Earth.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-scenario-2.png"
+      },
+      {
+        "title": "Travel Outfit Reveal",
+        "description": "A pose at a scenic viewpoint gains scale and drama when the zoom out exposes the planet from the location.",
+        "category": "travel",
+        "image_prompt": "A vertical video shot at a cliffside viewpoint in Santorini with blue-domed roofs and the Aegean Sea. A traveler in a flowing summer dress stands at the edge, striking a confident pose and looking over the shoulder at the camera. The Earth Zoom Out effect fires: the camera starts a fast reverse zoom, the island shrinks into a dot on the Mediterranean Sea, then the entire Earth emerges in the frame, with the whitewashed buildings just visible as a pinpoint. The warm sunlight remains on the subject as the planet rotates slowly, emphasizing the outfit and the location.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Earth Zoom Out effect?",
+        "answer": "The Earth Zoom Out effect shows a continuous pullback from a close-up location on Earth out to a full view of the planet from space. It’s often used to reveal a global scale or end a video with an expansive look."
+      },
+      {
+        "question": "Why is Earth Zoom Out useful for TikTok, Reels, or Shorts?",
+        "answer": "This effect creates a strong visual hook in the first seconds, which helps retain viewer attention on fast-scrolling platforms. The dramatic scale change encourages rewatches and shares."
+      },
+      {
+        "question": "Can I create Earth Zoom Out from one uploaded image?",
+        "answer": "Yes, you can start the effect with a single still image. The tool will animate the zoom-out motion and add the planetary reveal, so you don’t need a video clip."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "A high-resolution source with clear ground details works best. For the zoom to register well, avoid extremely dark or blurry inputs. Images with recognizable landmarks or textures tend to produce a stronger effect."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Many creators add the Earth Zoom Out to product reveals, fashion lookbooks, travel highlights, or channel outros to give the content a final global or memorable finish."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create an Earth Zoom Out from a photo, clip, or template",
+    "supporting_text": "Start with a prompt, upload your media, or pick a template—no heavy editing required.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Earth Zoom Out",
+    "description": "Users often search for this eye-catching effect using a variety of terms. Whether you call it a global zoom out, a planet pull-back, or a satellite-style Earth retreat, LazyKiwi transforms these ideas into ready-to-share short video visuals.",
+    "keywords": [
+      "Earth zooming out",
+      "zoom away from Earth",
+      "planet zoom out transition",
+      "globe zoom out effect",
+      "Earth pull back",
+      "satellite zoom out from Earth",
+      "world zoom out animation",
+      "Google Earth style zoom out",
+      "Earth to space zoom",
+      "outward Earth zoom",
+      "global zoom out transition",
+      "Earthscape zoom effect"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-zoom-out-scenario-3.png"
+    ]
+  }
+}

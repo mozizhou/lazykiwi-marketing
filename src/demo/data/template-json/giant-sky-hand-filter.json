@@ -1,0 +1,129 @@
+{
+  "template_name": "Giant Sky Hand Filter",
+  "template_slug": "giant-sky-hand-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:04:40",
+  "hero": {
+    "title": "Giant Sky Hand Filter",
+    "description": "Transform your portrait into a surreal scene where a massive hand descends from the sky and gently rests on your head. Ideal for creative TikTok, Reels, Shorts, outfit edits, product reveals, and standout social ads.",
+    "template_name": "Giant Sky Hand Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, high-resolution portrait photograph of a person standing outdoors under an open sky. Natural daylight, soft shadows, medium shot, neutral expression, simple background with distant horizon. Photorealistic, sharp focus, cinematic lighting.",
+    "image_prompt_after": "The same person and outdoor setting, now with a giant hand emerging from cloudy sky, palm open and fingers gently touching the top of the person's head. The hand has natural skin texture, realistic proportions, soft atmospheric lighting, dreamlike but grounded, photorealistic composite, seamless integration with the scene.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Giant Sky Hand Filter video work?",
+    "intro": "The Giant Sky Hand Filter creates a surreal moment where a massive hand reaches down from the heavens to gently touch a person's head. The effect relies on a clear sky background, a well-positioned subject, and a smoothly animated hand that plays with scale and gentle motion. The result is a short, shareable clip that blends reality with a playful, larger-than-life twist.",
+    "cards": [
+      {
+        "title": "A clean sky and one subject",
+        "description": "Start with a shot where the sky fills most of the background and the person is centered, looking up or standing still. This gives the hand clear space to descend.",
+        "icon": "upload"
+      },
+      {
+        "title": "Calm pose, head visible",
+        "description": "The subject should stay still with a relaxed expression, making the hand's touch feel natural. Avoid covering the hair or head area so the hand can land precisely.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smooth descent with scale",
+        "description": "The effect works by animating a giant hand lowering slowly, with subtle shadows and lighting that match the scene. The scale contrast sells the illusion.",
+        "icon": "motion"
+      },
+      {
+        "title": "Scroll-stopping surreal hook",
+        "description": "This effect creates an instant, unexpected visual that grabs attention in the first second, making it perfect for social media platforms where thumbnails and openings matter.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of how creators use the Giant Sky Hand Filter across different content niches.",
+    "scenarios": [
+      {
+        "title": "Divine Blessing Portraits",
+        "description": "A gentle giant hand from the clouds touches a person's head, symbolizing spiritual guidance or inner peace.",
+        "category": "Spiritual & Inspirational",
+        "image_prompt": "A serene woman standing on a hill at sunrise, a giant ethereal hand emerging from golden clouds, index finger lightly touching the top of her head, soft glowing light, realistic photo, vertical composition, peaceful mood.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-scenario-1.png"
+      },
+      {
+        "title": "Fantasy Storytelling Scenes",
+        "description": "A mystical hand selects a character in a forest, perfect for fantasy reels, book trailers, or concept art.",
+        "category": "Fantasy & Narrative",
+        "image_prompt": "A young traveler in a misty forest looking up, a colossal translucent hand descending from the treetops, fingertip gently touching the traveler's head, magical particles, cinematic lighting, photorealistic, 4k.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-scenario-2.png"
+      },
+      {
+        "title": "Surreal Everyday Moments",
+        "description": "A playful giant hand taps a creator mid-vlog, adding a whimsical, unexpected twist to daily content.",
+        "category": "Creative & Humor",
+        "image_prompt": "A vlogger sitting at a café table, a giant realistic hand from the sky playfully tapping the top of their head, surprised expression, coffee cup in hand, sunny outdoor setting, candid style, high resolution, natural colors.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Giant Sky Hand Filter effect?",
+        "answer": "The Giant Sky Hand Filter overlays a realistic giant hand emerging from the sky onto your photo or video, creating a surreal scene where the hand gently touches the top of the subject's head. It's an AI-powered effect that blends the hand seamlessly with your original image."
+      },
+      {
+        "question": "Why is the Giant Sky Hand Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "The effect provides an instant visual hook that captures viewer attention in the first seconds of a short video. This helps content stand out in crowded feeds and can increase watch time and engagement."
+      },
+      {
+        "question": "Can I create the Giant Sky Hand Filter from one uploaded image?",
+        "answer": "Yes, you can upload a single photo or a short video clip, and the tool will automatically detect the subject and apply the giant hand effect. No manual masking or additional assets are required."
+      },
+      {
+        "question": "What kind of image or video works best with this effect?",
+        "answer": "Portraits or full-body shots with clear headroom and simple backgrounds produce the most convincing results. Good lighting and a visible top of the head help the hand align correctly; avoid overly cluttered or dark scenes."
+      },
+      {
+        "question": "Can I use the Giant Sky Hand Filter for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The filter adds a creative, unexpected element that works well across niches—highlight product packaging, add interest to fashion poses, enliven travel snapshots, or give creator portraits a distinctive visual twist."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Place a giant hand in your sky",
+    "supporting_text": "Start from a prompt, your own photo, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Giant Sky Hand Filter",
+    "description": "Sometimes this surreal effect is referred to as the 'Sky Hand Overlay,' 'Giant Hand in Clouds,' or 'Celestial Hand Filter.' Whether you're looking for a 'Reaching Hand from Sky' effect, a 'Mystical Sky Hand' edit, or a 'Big Hand in the Sky' meme, these terms all describe the same dramatic visual. LazyKiwi helps you transform these ideas into short-video-ready visuals with just a few taps.",
+    "keywords": [
+      "Sky Hand Overlay",
+      "Giant Hand in Clouds",
+      "Celestial Hand Filter",
+      "Reaching Hand from Sky",
+      "Mystical Sky Hand",
+      "Big Hand in the Sky",
+      "Hand in Sky Effect",
+      "Surreal Sky Hand Filter",
+      "Sky Giant Hand Meme",
+      "Add Giant Hand to Photo",
+      "Hand Reaching Down from Clouds",
+      "Giant Sky Hand App"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/giant-sky-hand-filter-scenario-3.png"
+    ]
+  }
+}

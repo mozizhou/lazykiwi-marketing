@@ -18,14 +18,16 @@ export const siteNav = {
   ],
   Tools: [
     { title: "Tools", items: [
-      { label: "AI Hairstyle Changer", href: "/tools/ai-hairstyle-changer" },
-      { label: "Hair Color Changer", href: "/tools/hair-color-changer" },
-      { label: "Photo Restoration", href: "/tools/photo-restoration" },
-      { label: "AI Photo Upscaler", href: "/tools/photo-upscale" },
-      { label: "Passport Photo Maker", href: "/tools/passport-photo-maker" },
-      { label: "Face Shape Detector", href: "/tools/face-shape-detector" },
-      { label: "Find My Doppelganger", href: "/tools/find-my-doppelganger" },
-      { label: "Eye Color Changer", href: "/tools/eye-color-changer" },
+      { label: "Gender Swap", href: "/tools/gender-swap" },
+      { label: "AI Outfit Generator", href: "/tools/outfit-generator" },
+      { label: "AI Photo Colorizer", href: "/tools/ai-photo-colorizer" },
+      { label: "Photo to Sketch", href: "/tools/photo-to-sketch" },
+    ] },
+    { title: "More Tools", items: [
+      { label: "AI Anime Avatar", href: "/tools/anime-avatar" },
+      { label: "Buzz Cut Filter", href: "/tools/buzz-cut-filter" },
+      { label: "Bald Filter", href: "/tools/bald-filter" },
+      { label: "AI Age Filter", href: "/tools/ai-age-filter" },
     ] },
   ],
   Models: [
@@ -57,8 +59,8 @@ export const siteNav = {
       { label: "Zoom Out", href: "/templates/zoom-out" },
       { label: "Whip Pan", href: "/templates/whip-pan" },
       { label: "360 Rotation", href: "/templates/360-rotation" },
-      { label: "Explosion", href: "/templates/explosion" },
-      { label: "Money Rain", href: "/templates/money-rain" },
+      { label: "Dolly In Zoom Out", href: "/templates/dolly-in-zoom-out" },
+      { label: "Earth Wave", href: "/templates/earth-wave" },
     ] },
     { title: "Image Templates", items: [
       { label: "Selfies with Celebrities", href: "/templates/selfies-with-celebrities" },
@@ -69,9 +71,9 @@ export const siteNav = {
       { label: "Pixar AI Generator Free", href: "/templates/pixar-ai-generator-free" },
       { label: "Pregnant AI Generator", href: "/templates/pregnant-ai-generator" },
       { label: "Simpsons AI", href: "/templates/simpsons-ai" },
-      { label: "AI Headshot", href: "/templates/ai-headshot" },
-      { label: "Wings / Angel", href: "/templates/wings-angel" },
-      { label: "Disintegration", href: "/templates/disintegration" },
+      { label: "One Piece Group Photo", href: "/templates/one-piece-group-photo" },
+      { label: "Minecraft Filter", href: "/templates/minecraft-filter" },
+      { label: "AI GTA", href: "/templates/ai-gta" },
     ] },
   ],
   Blog: [
@@ -96,3 +98,31 @@ export const siteNavHubs = {
 
 // Order of the top-level nav links.
 export const siteNavOrder = ["Generator", "Tools", "Models", "Templates", "Pricing", "Blog"];
+
+// Homepage footer columns — keep in sync with marketing routes.
+export const footerNav = [
+  {
+    title: "Product",
+    items: [
+      { label: "Video Generator", href: "/video-generator" },
+      { label: "Image Generator", href: "/image-generator" },
+      { label: "Templates", href: "/templates" },
+      { label: "Models", href: "/models" },
+      { label: "Pricing", href: "/pricing" },
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      { label: "Blog", href: "/blog" },
+    ],
+  },
+  {
+    title: "Legal",
+    items: [
+      { label: "Privacy" },
+      { label: "Terms" },
+      { label: "Contact", href: "mailto:hello@lazykiwi.ai" },
+    ],
+  },
+];

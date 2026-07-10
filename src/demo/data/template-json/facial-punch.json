@@ -1,0 +1,124 @@
+{
+  "template_name": "facial-punch",
+  "template_slug": "facial-punch",
+  "template_type": "video",
+  "created_at": "2026-06-11 15:55:54",
+  "hero": {
+    "title": "facial-punch",
+    "description": "The facial-punch effect applies a sudden, high-impact facial distortion that simulates a realistic punch reaction. It’s ideal for action shots, comedy skits, and attention-grabbing short-form content for TikTok, Reels, Shorts, and ads.",
+    "template_name": "facial-punch Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split-screen hero image for a video effect landing page. Left side: a boxer's face in a neutral expression, clean and sharp. Right side: the same boxer's face mid-punch impact, with exaggerated cheek compression, skin ripple, slight head snapback, and motion blur. Studio lighting, dark background, cinematic realism, high contrast, 4K detail.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a facial-punch video work?",
+    "intro": "A facial-punch effect relies on a sudden, exaggerated impact that distorts the face with squash-and-stretch deformation, motion blur, and a hard-hitting burst of particles or shockwaves. Combined with perfect audio sync, it turns an ordinary reaction shot into a high-energy, comedic micro-moment built for endless loops.",
+    "cards": [
+      {
+        "title": "Sharp, Front-Facing Portrait",
+        "description": "Start with a well-lit, head-on shot where the face fills the frame. Clean edges and neutral expression give the distortion engine precise tracking points.",
+        "icon": "camera"
+      },
+      {
+        "title": "Steady Pose, Brief Freeze",
+        "description": "The subject should hold still just before impact. A slight lean into the punch or a deadpan stare amplifies the comedic contrast when the effect triggers.",
+        "icon": "subject"
+      },
+      {
+        "title": "Squash, Stretch & Ripple",
+        "description": "Motion interpolation pinches and recoils the face on contact, while a radial shockwave and directional blur sell the physical force without needing real contact.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for Short-Form Loops",
+        "description": "Its instant payoff fits perfect-loop trends on TikTok, Reels, and Shorts. The jarring stop-motion feel hooks viewers in the first 0.5 seconds of an ad or social clip.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators integrate the facial-punch effect into lifestyle, motion, and travel content to boost engagement.",
+    "scenarios": [
+      {
+        "title": "Street Style Punch Freeze",
+        "description": "A casual walk turns into a strong hook as the punch effect freezes a candid moment.",
+        "category": "lifestyle",
+        "image_prompt": "Realistic video clip of a young creator walking down a sunlit urban alley, wearing a casual beige trench coat, looking over her shoulder. As she glances, the frame freezes with a comic-style 'POW!' impact graphic centered on her face, bold yellow and red burst lines, high-quality streetwear aesthetic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-scenario-1.png"
+      },
+      {
+        "title": "Dance Energy Punch",
+        "description": "The effect adds an explosive accent to a dancer's jump, amplifying the move's power.",
+        "category": "motion",
+        "image_prompt": "Video scene of a street dancer mid-air in a bright studio, flowing loose clothing, dynamic kick. The facial-punch effect triggers a burst of energy lines and a punch sound wave visual around her smiling face, enhancing the motion's impact.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-scenario-2.png"
+      },
+      {
+        "title": "Scenic Look Highlight",
+        "description": "Punch effect draws eyes to the outfit and vista, creating a shareable travel reel.",
+        "category": "travel",
+        "image_prompt": "Travel influencer at a cliffside viewpoint with an ocean background, wearing a flowing maxi dress, posing with a confident expression. The facial-punch effect applies a dramatic zoom and comic punch burst around her face, emphasizing her look and the scenic backdrop.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the facial-punch effect?",
+        "answer": "The facial-punch effect is a video distortion that briefly warps or compresses a person’s face as if it were hit by a punch, often paired with sound for comedic or high-impact transitions in short-form content."
+      },
+      {
+        "question": "Why is the facial-punch effect popular for TikTok, Reels, and Shorts?",
+        "answer": "It instantly grabs attention, creates a strong reaction moment, and matches the fast-paced, humorous style that performs well on vertical short-video platforms."
+      },
+      {
+        "question": "Can I create a facial-punch effect from one uploaded image?",
+        "answer": "Yes. Many tools let you apply a facial-punch effect to a single portrait photo, generating a motion sequence that simulates the punch reaction without needing original video footage."
+      },
+      {
+        "question": "What kind of image or video works best for the facial-punch effect?",
+        "answer": "Clear, front-facing faces with even lighting and no heavy obstructions give the most accurate tracking. For video, clips with a neutral expression followed by a sudden movement or reaction help the effect feel natural."
+      },
+      {
+        "question": "Can I use the facial-punch effect for product, fashion, or travel content?",
+        "answer": "Absolutely. Creators often use it to highlight product reveals, react to outfit changes, or add a playful punch to travel clips—making the content more dynamic and shareable."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Add a Realistic Punch to Any Face in Your Video",
+    "supporting_text": "Start with a text prompt, your own media, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for facial-punch",
+    "description": "You might call it the facial-punch effect, but creators often search for this dynamic look using different phrases like face hit animation, comic punch overlay, or impact stars effect. Whatever name you use, LazyKiwi helps you instantly turn those ideas into bold, short-video-ready visuals that grab attention.",
+    "keywords": [
+      "face punch effect",
+      "punch to face animation",
+      "comic punch overlay",
+      "cartoon face hit",
+      "impact stars effect",
+      "animated face smash",
+      "fist collision visual",
+      "action hit effect",
+      "face impact overlay",
+      "slap effect for video"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/facial-punch-scenario-3.png"
+    ]
+  }
+}

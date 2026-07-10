@@ -137,13 +137,15 @@
       },
       {
         "title": "Animated character walk cycle",
-        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/shot-2.png",
-        "tag": "Frames→Video"
+        "tag": "Frames→Video",
+        "image_prompt": "A professional animation reference sheet showing a complete walk cycle of a stylized 3D character, displayed as a horizontal sequence of 8-12 key frame poses from left to right. The character is a friendly animated protagonist with clear silhouette and appealing design, shown in side view profile against a clean white background with subtle grid lines. Each frame captures a different phase of the walking motion - heel strike, contact, midstance, toe-off, swing - demonstrating smooth weight transfer and natural movement arcs. The frames show consistent character design with no morphing, maintaining perfect model continuity across all poses. Clean studio lighting highlights the form and volume. The layout resembles professional animation model sheets used in film and game production, with frame numbers beneath each pose. Technical yet artistic presentation that showcases fluid motion design and character animation expertise.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/shot-2.png"
       },
       {
         "title": "Architectural visualization from sketch",
-        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/shot-3.png",
-        "tag": "Image→Video"
+        "tag": "Image→Video",
+        "image_prompt": "A photorealistic architectural rendering transformed from a rough pencil sketch, showing a modern minimalist house with floor-to-ceiling glass windows, clean geometric lines, and natural wood accents, set in a landscaped garden with mature trees. The image demonstrates the progression from initial hand-drawn architectural sketch to fully realized 3D visualization with accurate materials, realistic lighting including soft morning sunlight casting shadows, detailed textures on concrete walls and wooden decking, reflections in the glass surfaces, and professional atmospheric depth. The composition is shot from a three-quarter angle showing both the front facade and side elevation, with carefully placed vegetation, a gravel pathway, and subtle environmental details like hanging plants and outdoor furniture visible through the transparent walls. Ultra-high definition, architectural photography quality, perfect perspective and scale.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/shot-3.png"
       },
       {
         "title": "Fantasy landscape concept art",
@@ -153,8 +155,9 @@
       },
       {
         "title": "Social media ad from description",
-        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/shot-5.png",
-        "tag": "Text→Video"
+        "tag": "Text→Video",
+        "image_prompt": "A professional social media advertisement video frame showing a sleek smartphone floating in mid-air against a gradient background of deep purple to electric blue, with dynamic light particles swirling around it. The phone displays a vibrant app interface with bold call-to-action text. Soft volumetric lighting creates depth, while subtle motion blur on floating UI elements suggests animation. Product photography style with cinematic color grading, sharp focus on the device, bokeh effects in background. Modern, polished commercial aesthetic with high contrast and rich colors that pop on social feeds.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/shot-5.png"
       },
       {
         "title": "Portrait style transfer experiment",
@@ -281,17 +284,20 @@
       {
         "quote": "Finally, an image model that understands composition without fighting me on every prompt. Saves me hours of iteration.",
         "name": "Maya Chen",
-        "role": "Product designer"
+        "role": "Product designer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/avatar-1.png"
       },
       {
         "quote": "The text rendering actually works now. I can prototype ad concepts in minutes instead of mocking everything up manually.",
         "name": "James Rodriguez",
-        "role": "Marketing creative lead"
+        "role": "Marketing creative lead",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/avatar-2.png"
       },
       {
         "quote": "Switched from Midjourney last week. The consistency between generations is what sold me—same character, different scenes, no hassle.",
         "name": "Sarah Kim",
-        "role": "Indie game developer"
+        "role": "Indie game developer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/seedream-5/avatar-3.png"
       }
     ]
   },

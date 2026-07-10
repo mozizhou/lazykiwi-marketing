@@ -284,17 +284,20 @@
       {
         "quote": "The detail in textures is noticeably better than what I was using before. Saves me hours of touch-up work.",
         "name": "Maya Chen",
-        "role": "Product designer"
+        "role": "Product designer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/gpt-image-2/avatar-1.png"
       },
       {
         "quote": "Finally, an image model that actually listens to my prompts. The consistency between iterations is what makes it usable.",
         "name": "David Okonkwo",
-        "role": "Creative director"
+        "role": "Creative director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/gpt-image-2/avatar-2.png"
       },
       {
         "quote": "I can prototype concepts for clients in minutes instead of days. The lighting control alone is worth switching for.",
         "name": "Sarah Lindström",
-        "role": "Brand strategist"
+        "role": "Brand strategist",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/gpt-image-2/avatar-3.png"
       }
     ]
   },

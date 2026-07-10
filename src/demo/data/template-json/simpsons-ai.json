@@ -1,0 +1,129 @@
+{
+  "template_name": "simpsons ai",
+  "template_slug": "simpsons-ai",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:56:19",
+  "hero": {
+    "title": "simpsons ai",
+    "description": "Transform portraits and photos into Simpsons-style cartoon characters with yellow skin, overbite profiles, and the show's iconic flat animation look. Ideal for TikTok, Reels, Shorts, social content, outfit edits, product reveals, and eye-catching ads that need a playful, nostalgic twist.",
+    "template_name": "simpsons ai Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-quality, unprocessed photograph of a cheerful family of four standing together in a sunlit backyard. The father has short brown hair and a neatly trimmed beard, the mother has long blonde hair, their teenage son wears a casual t-shirt, and their young daughter grins in a colorful dress. They are standing on lush green grass with a wooden fence and a bright blue sky in the background, professional lighting, natural skin tones, detailed textures, vibrant colors, sharp focus, 16:9 landscape orientation, perfect for a Simpsons AI transformation.",
+    "image_prompt_after": "The same family scene transformed by the Simpsons AI effect: all four people are now classic Simpsons-style cartoon characters with bright yellow skin, overbites, simple yet expressive facial features, and four-fingered hands. The background remains a sunny backyard but is rendered in a flat, vector cartoon style with bold black outlines, saturated colors, and no gradients. The characters retain their original poses and clothing, now looking like authentic Springfield residents, with exaggerated, comedic expressions and the iconic cartoon look. The overall composition is clean, vibrant, and instantly recognizable as a professional Simpsons AI conversion, 16:9 landscape.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a simpsons ai video work?",
+    "intro": "The Simpsons AI effect transforms real faces into iconic yellow cartoon characters using flat shading, bold outlines, and simplified features. It recreates the show’s overbites and four-fingered hands, then adds bouncy, frame-by-frame motion. The result feels like a personalized clip straight out of Springfield.",
+    "cards": [
+      {
+        "title": "Clear Front-Facing Portrait",
+        "description": "A well-lit, centered headshot with minimal background clutter ensures the AI accurately maps facial landmarks for a clean, recognizable cartoon conversion.",
+        "icon": "camera"
+      },
+      {
+        "title": "Exaggerated Cartoon Expressions",
+        "description": "The effect turns subjects into Simpsons characters with overbites, large eyes, and limited lip-sync, and the head bobbles with signature 2D squash-and-stretch motion.",
+        "icon": "subject"
+      },
+      {
+        "title": "Frame-by-Frame Stylized Animation",
+        "description": "The AI applies a consistent line-art style across frames and uses looping, jittery movement that mimics hand-drawn cel animation, adding retro charm.",
+        "icon": "motion"
+      },
+      {
+        "title": "Instant Feed-Scrolling Hook",
+        "description": "Nostalgia for the TV show combines with unexpected face morphing to grab attention in the first second, driving shares, comments, and brand engagement.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the Simpsons AI effect across short videos, lifestyle posts, and travel edits.",
+    "scenarios": [
+      {
+        "title": "Street Freeze Hook",
+        "description": "Transform a casual sidewalk glance into a Simpsons-style scene that grabs attention instantly.",
+        "category": "lifestyle",
+        "image_prompt": "A young male creator walking down a sunny urban street, turning back with a slight smile, casual outfit of hoodie and jeans, background of shops and pedestrians. The image is rendered in Simpsons AI effect: bold outlines, flat colors, yellow skin, overbite style, cartoon shadows. Vertical 9:16 short-video freeze frame, social media content.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-scenario-1.png"
+      },
+      {
+        "title": "Dance Motion Pop",
+        "description": "Add a Simpsons filter to dance moves and action shots for a more energetic short-video feel.",
+        "category": "motion",
+        "image_prompt": "A female dancer mid-twirl in a city park, one leg lifted, arms outstretched, motion blur on hair and skirt, sunlight filtering through trees. The Simpsons AI effect applies vivid cartoon colors, exaggerated motion lines, yellow skin, iconic Simpsons eyes. High-energy thumbnail, 9:16 vertical.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Simpsons Edit",
+        "description": "Showcase your travel outfit with a Simpsons effect that frames your style and the scenery.",
+        "category": "travel",
+        "image_prompt": "A stylish traveler posing on a scenic overlook at a European old town, flowy dress, sunglasses, suitcase beside her, golden hour light. Converted into Simpsons AI style: bright flat colors, clean vector lines, yellow skin, simplified background with recognizable landmark, social media travel edit, 9:16 vertical format.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the simpsons ai effect?",
+        "answer": "The simpsons ai effect transforms a photo or video of a person into a Simpsons-style cartoon character using AI. It preserves key facial features while applying the iconic yellow skin, overbite, and simple line style from the show."
+      },
+      {
+        "question": "Why is the simpsons ai effect useful for TikTok, Reels, or Shorts?",
+        "answer": "The recognizable, humorous look grabs attention quickly in short videos. Creators use it for character skits, trend reactions, and brand storytelling that stands out in fast-scrolling feeds."
+      },
+      {
+        "question": "Can I create a simpsons ai effect from just one uploaded image?",
+        "answer": "Yes. Our tool works with a single clear portrait image to generate the cartoon version. For video, you can upload one clip and the effect will process frame by frame."
+      },
+      {
+        "question": "What kind of image or video works best for the simpsons ai effect?",
+        "answer": "A front-facing portrait with even lighting, unobstructed face, and neutral expression yields the most accurate result. Avoid heavy shadows, extreme angles, or accessories that cover the face."
+      },
+      {
+        "question": "Can I use the simpsons ai effect for product, fashion, or travel content?",
+        "answer": "Absolutely. You can turn yourself or a model into a Simpsons character to showcase outfits, promote products, or add a playful twist to travel vlogs and creator series."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn any photo into a Simpsons-style portrait",
+    "supporting_text": "Start from a prompt, an uploaded image, or a template to create your custom cartoon look.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for simpsons ai",
+    "description": "People often search for this effect using a variety of terms, from simpsons filter and simpsons cartoonify to simpsons-style avatar. No matter what you call it, LazyKiwi turns those ideas into short-video-ready visuals in just a few clicks.",
+    "keywords": [
+      "simpsons filter",
+      "simpsons cartoonify",
+      "simpsons ai generator",
+      "simpsons face maker",
+      "turn photo into simpsons character",
+      "simpsons style avatar",
+      "simpsons image filter",
+      "simpsons portrait ai",
+      "simpsons cartoon selfie",
+      "simpsons character creator",
+      "the simpsons ai effect",
+      "simpsons animated photo"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/simpsons-ai-hero-after.png"
+  }
+}

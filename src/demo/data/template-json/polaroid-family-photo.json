@@ -1,0 +1,129 @@
+{
+  "template_name": "polaroid family photo",
+  "template_slug": "polaroid-family-photo",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:24:26",
+  "hero": {
+    "title": "polaroid family photo",
+    "description": "Transform your family snapshots with a classic Polaroid frame and warm, film-like color grading. Useful for nostalgic social content, family montages, throwback posts, and short-form videos on TikTok, Reels, and Shorts.",
+    "template_name": "polaroid family photo Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A bright, unprocessed high-resolution 16:9 landscape photograph of a happy family of four—father, mother, young daughter and son—sitting together on a red checkered picnic blanket in a sunlit meadow. Warm golden-hour sunlight illuminates their smiling faces, with vibrant green grass, a scattering of wildflowers, and a clear blue sky with a few soft clouds in the background. The scene is sharply detailed, natural skin tones, no filters or color grading, straight out of a modern DSLR, evoking a candid, warm family moment.",
+    "image_prompt_after": "The same family scene transformed into a classic Polaroid instant photograph. The image is now encased in a signature white Polaroid frame with a soft drop shadow, as if resting on a surface. The colors have shifted to a warm, muted vintage palette with gentle sepia and pastel undertones, the highlights slightly faded and the shadows softened. A fine film grain texture and a subtle vignette add an analog feel, while the details are slightly diffused with a dreamy soft focus. Handwritten in black ink at the bottom margin of the white border, the caption 'Family Day' completes the nostalgic, timeless effect.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a polaroid family photo video work?",
+    "intro": "This effect recreates the charm of vintage instant photography. It uses realistic white borders, gradual image reveals, and soft vintage color grading to turn a static family portrait into a living memory. The developing animation mimics the classic Polaroid process, making it ideal for nostalgic, heartwarming content.",
+    "cards": [
+      {
+        "title": "Start with a clean portrait",
+        "description": "A clear, well-lit family portrait with centered subjects and minimal background clutter. Avoid harsh shadows; soft, natural lighting helps the developing animation look authentic and the final Polaroid frame pop.",
+        "icon": "camera"
+      },
+      {
+        "title": "Keep it natural, add a subtle move",
+        "description": "Subjects remain still or gently smile as the developing effect unfolds. The frozen moment mimics an authentic photo, while a subtle hand wave or head tilt can add life without breaking the Polaroid illusion.",
+        "icon": "subject"
+      },
+      {
+        "title": "Develop with a nostalgic fade",
+        "description": "The gradual fade from a hazy, sepia-toned blank to a full-color image simulates chemical development. A slight wobble or frame shake upon completion gives the Polaroid a tactile, hand-held feel.",
+        "icon": "layers"
+      },
+      {
+        "title": "Nostalgia that hooks the feed",
+        "description": "This effect taps into nostalgia, a proven engagement driver on short-form video. The recognizable Polaroid aesthetic stops the scroll, while the heartwarming reveal encourages saves and shares, perfect for family milestones, throwbacks, and ad creatives.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how the Polaroid family photo effect adds visual interest to lifestyle clips, dance videos, and travel outfit edits across social channels.",
+    "scenarios": [
+      {
+        "title": "Coffee Run Freeze Moment",
+        "description": "Turns a simple walk-to-café clip into a nostalgic, scroll-stopping short-video hook.",
+        "category": "lifestyle",
+        "image_prompt": "A young female creator walking toward a café with a takeaway coffee cup, mid-step, casual light denim outfit, soft morning sunlight on a city street. The scene is framed inside a Polaroid family photo border with warm vintage tones, slight vignette, and the effect freezes a natural everyday moment as if captured on instant film.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-scenario-1.png"
+      },
+      {
+        "title": "Dance Spin Polaroid Energy",
+        "description": "Adds dynamic motion trails and retro framing to an energetic spin dance clip outdoors.",
+        "category": "motion",
+        "image_prompt": "A creator mid-spin dance move at golden hour in a city park, one leg lifted, arms open wide, hair flowing. The Polaroid family photo effect shows subtle motion streaks, colorful frame edges, and a classic instant photo texture. The backdrop blends blurred trees and warm sky, conveying motion and expressive energy.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-scenario-2.png"
+      },
+      {
+        "title": "Rooftop Travel Outfit Edit",
+        "description": "Showcases a travel look against a skyline, with the Polaroid layout framing the outfit and view.",
+        "category": "travel",
+        "image_prompt": "A fashion creator posing on a rooftop terrace overlooking a city skyline at sunset, wearing a coordinated travel outfit with a jacket and sunglasses. The Polaroid family photo effect surrounds the shot with a clean white border and subtle date stamp, highlighting the pose, location, and look in a social-media-ready travel edit style.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the polaroid family photo effect?",
+        "answer": "The polaroid family photo effect turns your regular images into framed Polaroid-style prints, often with handwritten captions, film-like colors, and a vintage border. It mimics the look of old instant photos grouped together, giving your content a nostalgic, family-album feel."
+      },
+      {
+        "question": "Why is the polaroid family photo trend popular on TikTok, Reels, and Shorts?",
+        "answer": "This effect creates an emotional, storytelling format that fits perfectly into short videos. The framed, nostalgic look catches attention fast, and the familiar family-album style encourages higher engagement, shares, and saves on social media platforms."
+      },
+      {
+        "question": "Can I create a polaroid family photo effect from just one uploaded image?",
+        "answer": "Yes. Most tools let you upload a single photo and automatically break it into multiple polaroid-style frames, or arrange it as a single polaroid with caption space. You can also combine several separate images manually for a full family collage look."
+      },
+      {
+        "question": "What kind of images work best for the polaroid family photo effect?",
+        "answer": "Images with warm lighting, casual poses, and candid moments work best. Portraits, group shots, and lifestyle photos with soft backgrounds and natural expressions translate well into the retro polaroid aesthetic. Avoid overly dark or heavily filtered photos to keep the vintage film vibe intact."
+      },
+      {
+        "question": "Can I use the polaroid family photo effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect isn't limited to family photos. Brands use it for product collages, fashion lookbooks, travel diaries, and creator recaps to give content a warm, analog feel. It helps build a cohesive visual theme that stands out in feeds."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn your photos into a classic Polaroid family shot",
+    "supporting_text": "Start from a prompt, upload your own media, or pick a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for polaroid family photo",
+    "description": "Users often search for this nostalgic effect using different terms, from 'polaroid family picture' to 'vintage family photo frame'. Whether you call it a family polaroid collage, retro instant photo layout, or polaroid family snapshot, LazyKiwi helps you turn these ideas into engaging short-video-ready visuals. Our tool recognizes the many ways you might describe this warm, classic effect, making it simple to create polished content in minutes.",
+    "keywords": [
+      "polaroid family picture",
+      "family polaroid frame",
+      "vintage family photo filter",
+      "polaroid collage family",
+      "retro polaroid family",
+      "instant photo family layout",
+      "polaroid family portrait effect",
+      "family group polaroid",
+      "polaroid family snapshot style",
+      "polaroid family memories template",
+      "polaroid-style family photo",
+      "family scrapbook polaroid"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/polaroid-family-photo-hero-after.png"
+  }
+}

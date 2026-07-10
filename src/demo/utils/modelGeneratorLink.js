@@ -1,4 +1,4 @@
-import { appUrl } from '@/lib/routes';
+﻿import { appUrl } from '@/lib/routes';
 
 const IMAGE_MODEL_SLUGS = new Set([
   'seedream-5',

@@ -1,4 +1,5 @@
 import { ArrowRight, Clapperboard, Play, Flame } from "lucide-react";
+import { SocialIconRail } from "../common/SocialPlatformIcons";
 
 export default function LandingHero({ data }) {
   return (
@@ -106,23 +107,7 @@ export default function LandingHero({ data }) {
                 </div>
 
                 {/* Right Side Social Platforms in frosted pill */}
-                <div className="absolute right-3 top-1/2 -translate-y-1/2 flex flex-col items-center gap-6 bg-black/20 backdrop-blur-md rounded-[2rem] py-6 px-2.5 border border-white/10 shadow-xl z-20">
-                  <a href="#tiktok" className="flex items-center justify-center cursor-pointer hover:opacity-80 transition hover:scale-110" aria-label="TikTok">
-                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-[22px] h-[22px] text-white drop-shadow-md"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1.04-.1z"/></svg>
-                  </a>
-                  <a href="#youtube" className="flex items-center justify-center cursor-pointer hover:opacity-80 transition hover:scale-110" aria-label="YouTube">
-                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-white drop-shadow-md"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 00-2.122 2.136C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.55 9.376.55 9.376.55s7.505 0 9.377-.55a3.016 3.016 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                  </a>
-                  <a href="#instagram" className="flex items-center justify-center cursor-pointer hover:opacity-80 transition hover:scale-110" aria-label="Instagram">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-[22px] h-[22px] text-white drop-shadow-md"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-                  </a>
-                  <a href="#reddit" className="flex items-center justify-center cursor-pointer hover:opacity-80 transition hover:scale-110" aria-label="Reddit">
-                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-white drop-shadow-md"><path d="M24 11.779c0-1.459-1.192-2.645-2.657-2.645-.715 0-1.363.275-1.84.734-2.052-1.47-4.965-2.433-8.156-2.548l1.715-8.06 5.86 1.259c.026 1.189.99 2.148 2.176 2.148 1.213 0 2.202-.98 2.202-2.186 0-1.206-.989-2.186-2.202-2.186-.968 0-1.802.636-2.096 1.517l-6.284-1.353c-.27-.058-.545.105-.615.372l-1.832 8.608c-3.237.072-6.205 1.026-8.293 2.502-.472-.45-.1.11-.1-.11-.005-1.458-1.196-2.644-2.662-2.644-1.465 0-2.656 1.186-2.656 2.644 0 1.05.627 1.954 1.536 2.391-.035.253-.053.51-.053.769 0 4.148 5.215 7.534 11.636 7.534 6.42 0 11.635-3.386 11.635-7.534 0-.276-.021-.547-.061-.813.92-.429 1.554-1.332 1.554-2.393zm-17.653 1.258c0-.987.805-1.787 1.794-1.787.989 0 1.794.8 1.794 1.787 0 .986-.805 1.786-1.794 1.786-.989 0-1.794-.8-1.794-1.786zm9.832 5.092c-1.144 1.139-3.272 1.233-4.175 1.233-1.01 0-3.036-.094-4.181-1.233-.243-.242-.243-.635 0-.877.243-.243.637-.243.88 0 .749.745 2.274.877 3.3.877 1.02 0 2.545-.132 3.295-.877.243-.243.637-.243.88 0 .243.242.243.635 0 .877zm.794-3.306c-.989 0-1.794-.8-1.794-1.786 0-.987.805-1.787 1.794-1.787.989 0 1.794.8 1.794 1.787 0 .986-.805 1.786-1.794 1.786z"/></svg>
-                  </a>
-                  <a href="#x" className="flex items-center justify-center cursor-pointer hover:opacity-80 transition hover:scale-110" aria-label="X (Twitter)">
-                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-[18px] h-[18px] text-white drop-shadow-md"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
-                  </a>
-                </div>
+                <SocialIconRail className="absolute right-3 top-1/2 z-20 flex -translate-y-1/2 flex-col items-center gap-6 rounded-[2rem] border border-white/10 bg-black/20 px-2.5 py-6 shadow-xl backdrop-blur-md" />
 
                 {/* Animated Meme Accent */}
                 {data.flagship.meme && data.flagship.meme.enabled && (

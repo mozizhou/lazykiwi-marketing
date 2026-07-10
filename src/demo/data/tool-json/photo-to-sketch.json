@@ -1,0 +1,187 @@
+{
+  "slug": "photo-to-sketch",
+  "seo_title": "Photo to Sketch — Turn Photos Into Pencil Drawings Online | LazyKiwi",
+  "seo_description": "Turn any photo into a sketch with LazyKiwi. Convert portraits and pictures into pencil, charcoal or ink drawings in seconds — free, realistic and shareable.",
+  "hero": {
+    "title": "Turn a photo into a hand-drawn sketch.",
+    "description": "Upload any photo and convert it into a pencil, charcoal or ink sketch in seconds. Perfect for portraits, gifts and profile art.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "A drawing of you, without the artist.",
+    "intro": "The LazyKiwi photo-to-sketch tool reinterprets your image as a hand-drawn illustration — capturing linework, shading and texture so it looks sketched by hand, not filtered.",
+    "checks": [
+      "Pencil, charcoal and ink",
+      "Real linework and shading",
+      "Great for gifts and avatars"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick a sketch style",
+        "description": "Choose pencil, charcoal or ink and the level of detail."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Preview the result, try a few more, then download your favourite."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Hand-drawn feel",
+      "title": "Linework that looks real",
+      "description": "Edges, cross-hatching and shading are rendered like a real sketch, not a one-click filter.",
+      "bullets": [
+        "Believable pencil texture",
+        "Soft and hard shading",
+        "Keeps the likeness"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Your style",
+      "title": "Pencil, charcoal or ink",
+      "description": "Choose the medium and detail level to match the mood — delicate portrait or bold ink.",
+      "bullets": [
+        "Multiple media styles",
+        "Light or dramatic shading",
+        "Color or monochrome"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Gift-ready",
+      "title": "A keepsake in seconds",
+      "description": "Turn a favourite photo into sketch art for prints, gifts and profile pictures.",
+      "bullets": [
+        "High-res downloads",
+        "Perfect for portraits and pets",
+        "Print and frame"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "Photo in, sketch out",
+    "subtitle": "Portraits and pictures reimagined as drawings.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-1.jpg",
+        "caption": "Pencil portrait"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-2.jpg",
+        "caption": "Charcoal"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-3.jpg",
+        "caption": "Ink outline"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-4.jpg",
+        "caption": "Soft shading"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-5.jpg",
+        "caption": "Pet sketch"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-6.jpg",
+        "caption": "Couple sketch"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-7.jpg",
+        "caption": "Color pencil"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/photo-to-sketch/gallery-8.jpg",
+        "caption": "Line art"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the sketch actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is photo to sketch free?",
+        "answer": "Yes. Upload a photo and convert it to a sketch for free."
+      },
+      {
+        "question": "What sketch styles are available?",
+        "answer": "Pencil, charcoal and ink, with adjustable detail and shading."
+      },
+      {
+        "question": "What photo works best?",
+        "answer": "A clear, well-lit photo with a strong subject converts most cleanly."
+      },
+      {
+        "question": "Can I sketch pets and objects?",
+        "answer": "Yes — portraits, pets, couples and objects all work."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Turn your photo into a hand-drawn sketch.",
+    "description": "Upload a photo and get a pencil, charcoal or ink drawing in seconds — free."
+  }
+}

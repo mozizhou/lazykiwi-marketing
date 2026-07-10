@@ -1,0 +1,129 @@
+{
+  "template_name": "ai gta",
+  "template_slug": "ai-gta",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:54:26",
+  "hero": {
+    "title": "ai gta",
+    "description": "Transform your photos into GTA-style artwork with the ai gta effect. Ideal for creating eye-catching social content, action shots, and outfit edits that stand out on TikTok, Reels, and Shorts.",
+    "template_name": "ai gta Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A realistic, unprocessed photograph of a man leaning against a vivid red sports car on a sun-drenched city boulevard lined with palm trees and contemporary glass buildings. The scene has natural midday sunlight, sharp reflections on the car's surface, vibrant urban colors, and crisp detail, shot in 16:9 landscape orientation with a cinematic composition.",
+    "image_prompt_after": "The same scene after applying the AI GTA effect, transforming it into a Grand Theft Auto V style video game screenshot: the man is now a stylized GTA-style character with defined facial features, casual streetwear, and a confident pose; the sports car has a glossy, hyper-realistic game-rendered finish; the urban backdrop features the iconic saturated orange-and-teal color grading, enhanced contrast, subtle lens flares, and a slight cinematic vignette. The overall look replicates the polished, open-world game aesthetic with sharp rendering and dynamic lighting in 16:9 high quality.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a ai gta video work?",
+    "intro": "The AI GTA effect transforms ordinary footage by applying the iconic visual hallmarks of Grand Theft Auto—signature color palettes, stylized character rendering, and in-game overlay elements. A front-facing subject, steady motion, and a clean background help the effect accurately map these gaming aesthetics onto real-world video, creating a convincing and highly shareable game-like clip.",
+    "cards": [
+      {
+        "title": "Sharp Subject, Simple Background",
+        "description": "A well-lit, front-facing subject against an uncluttered background gives the AI clear geometry to apply the GTA art style and HUD elements accurately.",
+        "icon": "upload"
+      },
+      {
+        "title": "Steady Motion, Direct Pose",
+        "description": "Slow, steady movement or a neutral pose helps the effect lock onto the subject, preserving character likeness while seamlessly blending game-like textures and outlines.",
+        "icon": "subject"
+      },
+      {
+        "title": "Layered Gaming Overlays",
+        "description": "Real-time addition of minimaps, weapon wheels, and life bars creates an on-screen game experience that instantly signals 'GTA' to viewers.",
+        "icon": "layers"
+      },
+      {
+        "title": "Instantly Recognizable, Highly Shareable",
+        "description": "The nostalgia for GTA’s aesthetic drives high completion rates and shares on TikTok, Reels, and Shorts, making it a powerful hook for ads and organic content.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the ai gta effect on everyday moments, motion clips, and travel edits across social platforms.",
+    "scenarios": [
+      {
+        "title": "Street Style Snap",
+        "description": "Turn a casual coffee run into a high-impact video opener with GTA-style visuals.",
+        "category": "lifestyle",
+        "image_prompt": "A young creator in casual outfit walking along a sunlit city sidewalk, turning head back toward camera, candid expression. The ai gta effect applies a cel-shaded, comic-like filter with bold outlines and vibrant, slightly desaturated colors. Urban backdrop with storefronts, slight halftone dot pattern, cinematic daytime lighting. Style resembles a Grand Theft Auto video game loading screen, perfect for a short-form video hook.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-scenario-1.png"
+      },
+      {
+        "title": "Dance Energy Amplified",
+        "description": "Add dynamic motion trails and game-like effects to dance moves for scroll-stopping reels.",
+        "category": "motion",
+        "image_prompt": "Dancer mid-jump on an open city plaza, one arm raised, hair in motion. The ai gta effect overlays comic-style speed lines, burst halos around the silhouette, and bold colored outlines. Saturated neon accents, subtle game HUD-like frame corners. Background features blurred pedestrians and modern buildings. The aesthetic mirrors action sequences from GTA, enhancing the sense of movement for social media content.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Highlight",
+        "description": "Showcase your outfit and location with GTA-inspired styling that makes scenic views pop.",
+        "category": "travel",
+        "image_prompt": "Fashion creator posing confidently at a panoramic city overlook during golden hour, wearing a coordinated travel outfit. The ai gta effect renders the scene with crisp cel-shading, warm saturated hues, and subtle element like floating weapon wheel or health bar faintly integrated into the composition. The skyline and distant mountains get a painted, graphic-novel texture, drawing focus to the pose and the dramatic setting. Ideal for an outfit-of-the-day travel reel.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI GTA effect?",
+        "answer": "The AI GTA effect uses artificial intelligence to restyle your photo or video into the art style of the Grand Theft Auto video game series. It applies character-like traits, bold colors, and urban environments typical of the game’s aesthetic."
+      },
+      {
+        "question": "Why is the AI GTA effect useful for TikTok, Reels, or Shorts?",
+        "answer": "The game-style visuals stand out in fast-scrolling feeds, helping to increase engagement. The unique look can lead to more shares and comments, making it a practical tool for creators aiming to grow their audience on short-video platforms."
+      },
+      {
+        "question": "Can I create the AI GTA effect from one uploaded image?",
+        "answer": "Yes, a single photo is enough. The AI processes the image and transforms it into a GTA-inspired character or scene without needing multiple inputs."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Clear, well-lit portraits or full-body shots with a simple background give the most consistent results. For video, stable footage where the main subject faces the camera helps the AI apply the style smoothly across frames."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The style adapts well to fashion lookbooks, travel clips turned into game cutscenes, product teasers with a digital edge, and personal branding. It adds a recognizable, shareable visual layer to many types of content."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn your photo into GTA-style art with AI",
+    "supporting_text": "Start from a text prompt, upload your image, or choose a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for ai gta",
+    "description": "When people look for this effect, they often use different phrases to describe the same idea. You might search for a GTA AI filter, a Grand Theft Auto style portrait, or a GTA character maker. No matter the wording, LazyKiwi instantly turns your concept into short‑video‑ready visuals that match the iconic game aesthetic.",
+    "keywords": [
+      "gta ai filter",
+      "grand theft auto ai effect",
+      "ai gta character creator",
+      "gta style portrait",
+      "gta loading screen filter",
+      "gta cover art effect",
+      "gta art style transfer",
+      "grand theft auto photo filter",
+      "ai gta image generator",
+      "gta game art filter",
+      "turn photo into gta character",
+      "gta cartoon filter ai"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-gta-hero-after.png"
+  }
+}

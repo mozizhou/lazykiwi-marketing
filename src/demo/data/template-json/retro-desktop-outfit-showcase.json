@@ -1,0 +1,129 @@
+{
+  "template_name": "Retro Desktop Outfit Showcase",
+  "template_slug": "retro-desktop-outfit-showcase",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:25:01",
+  "hero": {
+    "title": "Retro Desktop Outfit Showcase",
+    "description": "Transform outfit photos into nostalgic desktop interfaces, blending fashion with vintage computing aesthetics. Ideal for TikTok, Reels, Shorts, product reveals, and social ads where retro style meets modern styling.",
+    "template_name": "Retro Desktop Outfit Showcase Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, full-body portrait of a person wearing a trendy streetwear outfit, standing against a simple studio backdrop with soft even lighting, front-facing, neutral expression, shot from eye level, high resolution, no text or UI elements.",
+    "image_prompt_after": "Same person and outfit, now framed inside a pixel-art retro computer desktop interface reminiscent of Windows 95. The desktop has a tiled wallpaper pattern, application windows with clothing detail close-ups, iconic icons like a floppy disk and folder, a taskbar at the bottom with a Start button, and the time displayed. The overall look is a seamless blend of real photography and vintage GUI, with a slightly grainy CRT monitor texture and scanlines, vibrant high-contrast colors, nostalgic tech aesthetic.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Retro Desktop Outfit Showcase video work?",
+    "intro": "A Retro Desktop Outfit Showcase layers your clothing photos onto a vintage computer interface, turning outfit grids into clickable windows, folders, and pop-ups. Pixel-art icons, chunky screen bezels, and simulated mouse movements bring a nostalgic, interactive feel that turns a simple lookbook into a playful video.",
+    "cards": [
+      {
+        "title": "Sharp, cropped outfit shots",
+        "description": "Flat lays or clean-cut full-body images on plain backgrounds keep the focus on the clothing, mimicking real desktop files.",
+        "icon": "upload"
+      },
+      {
+        "title": "Live reaction window",
+        "description": "Record yourself in a small video bubble on the screen, reacting to each outfit reveal as if chatting on an old messenger.",
+        "icon": "subject"
+      },
+      {
+        "title": "Vintage UI bounce and drag",
+        "description": "Windows slide open, icons click, and cursors drag items across the screen, adding tactile, retro motion that holds attention.",
+        "icon": "motion"
+      },
+      {
+        "title": "Short-form nostalgia hook",
+        "description": "The recognizable old-school interface catches eyes fast, making outfit hauls, lookbooks, and product drops feel surprising and highly replayable on TikTok, Reels, or ads.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real use cases showing how creators apply the Retro Desktop Outfit Showcase effect across platforms.",
+    "scenarios": [
+      {
+        "title": "Virtual Closet Organizer",
+        "description": "Organize and display your daily outfits as digital files on a vintage desktop.",
+        "category": "Lifestyle",
+        "image_prompt": "Screen capture of a retro Windows 95-style desktop with folders labeled 'Outfits', 'Accessories', and 'Shoes'. An open window shows a grid of thumbnail photos featuring a model in trendy outfits. Teal desktop background, pixelated icons, and classic window controls, evoking early 2000s nostalgia.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-scenario-1.png"
+      },
+      {
+        "title": "Y2K Fashion Edit",
+        "description": "Create nostalgic outfit edits using a retro computer layout for social media content.",
+        "category": "Fashion",
+        "image_prompt": "Faux desktop screen with a 90s aesthetic, a music player widget, a chat bubble, and a main window containing a fashion collage: a model wearing platform sneakers, baggy jeans, and a crop top with butterfly clips. Pixel fonts, gradient title bar, and playful cursors emphasize the Y2K internet vibe.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-scenario-2.png"
+      },
+      {
+        "title": "Throwback OOTD Post",
+        "description": "Share your outfit of the day in a nostalgic desktop format for Instagram or TikTok.",
+        "category": "Social Media",
+        "image_prompt": "Image mimicking a vintage Macintosh System 7 screen with an open window showing a full-body outfit photo: a person in a denim jacket and skirt posing in a bedroom. Window titled 'OOTD_0922.jpg' with scroll bars, plaid desktop pattern, and a trash can icon in the corner, evoking early digital diaries.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Retro Desktop Outfit Showcase effect?",
+        "answer": "It’s a visual template that places your outfit photos into a vintage computer desktop layout, complete with retro interface elements like windows, icons, and taskbars. It gives your fashion looks a nostalgic, y2k-inspired digital display."
+      },
+      {
+        "question": "Why is the Retro Desktop Outfit Showcase useful for TikTok, Reels, or Shorts?",
+        "answer": "The retro desktop style taps into current y2k and nostalgia trends, helping your outfit videos stand out in short-form feeds. The unique format grabs attention quickly and encourages viewers to watch your full styling reveal."
+      },
+      {
+        "question": "Can I create a Retro Desktop Outfit Showcase from one uploaded image?",
+        "answer": "Yes. You can upload a single outfit photo and the tool will automatically place it into the retro desktop frame. For best results, use a clear full-body or outfit-flatlay image."
+      },
+      {
+        "question": "What kind of image works best for this effect?",
+        "answer": "Well-lit, front-facing outfit photos with minimal background clutter work best. Full-body shots or neatly arranged flatlays help the retro interface elements highlight your clothing details clearly."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The retro desktop frame can showcase fashion looks, product displays, travel outfits, or any creative content where you want to present items in a playful, organized layout. It suits personal style accounts, small brand promos, and lifestyle creators."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create a Retro Desktop Outfit Showcase from Any Photo, Frame, or Template",
+    "supporting_text": "Start with a simple prompt, an uploaded image, or a pre-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Retro Desktop Outfit Showcase",
+    "description": "You might call this effect a vintage computer fashion look, Y2K outfit display, or 90s desktop lookbook. Whatever name you use, LazyKiwi helps you turn those nostalgic tech-inspired outfit ideas into eye-catching short-video-ready visuals in seconds.",
+    "keywords": [
+      "vintage computer fashion look",
+      "y2k desktop outfit display",
+      "90s computer outfit layout",
+      "retro pc fashion showcase",
+      "old school desktop lookbook",
+      "nostalgic tech outfit grid",
+      "digital retro wardrobe generator",
+      "classic GUI fashion gallery",
+      "create retro desktop outfit reel",
+      "throwback desktop style board",
+      "pixelated outfit collage effect",
+      "windows 95 outfit display"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/retro-desktop-outfit-showcase-scenario-3.png"
+    ]
+  }
+}

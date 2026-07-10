@@ -267,17 +267,20 @@
       {
         "quote": "The motion consistency is what sold me. I can finally generate background footage that doesn't look AI-weird after two seconds.",
         "name": "Maya Patel",
-        "role": "YouTube creator"
+        "role": "YouTube creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/veo-3/avatar-1.png"
       },
       {
         "quote": "We use it for rapid prototyping before shoots. Saves us from setting up equipment just to test if a concept works visually.",
         "name": "James Chen",
-        "role": "Creative director"
+        "role": "Creative director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/veo-3/avatar-2.png"
       },
       {
         "quote": "Text-to-video tools usually struggle with lighting changes. Veo 3 actually handles dawn-to-dusk transitions without artifacts.",
         "name": "Sara Lindström",
-        "role": "Commercial videographer"
+        "role": "Commercial videographer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/veo-3/avatar-3.png"
       }
     ]
   },

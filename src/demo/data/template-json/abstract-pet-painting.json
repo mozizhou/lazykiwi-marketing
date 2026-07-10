@@ -1,0 +1,129 @@
+{
+  "template_name": "Abstract Pet Painting",
+  "template_slug": "abstract-pet-painting",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:17:53",
+  "hero": {
+    "title": "Abstract Pet Painting",
+    "description": "Turn ordinary pet photos into bold, abstract painted portraits with a contemporary artistic style. Perfect for eye-catching social media posts on TikTok, Reels, and Shorts, personalized gifts, or standout ad creatives.",
+    "template_name": "Abstract Pet Painting Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, high-resolution portrait of a tabby cat sitting on a windowsill, soft daylight from the side, neutral indoor background, sharp focus on the cat's face, detailed fur texture, calm and composed expression.",
+    "image_prompt_after": "The same tabby cat transformed by the Abstract Pet Painting effect: the image becomes a vibrant abstract canvas, thick impasto brushstrokes in blues, yellows, and muted reds, the cat's features suggested through fragmented shapes and sweeping curves, a stylized, gallery-ready abstract pet painting with visible canvas grain and dynamic composition.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Abstract Pet Painting video work?",
+    "intro": "Abstract Pet Painting videos turn ordinary pet photos into vivid, painterly clips using generative brushstrokes and fluid color blends. The effect reads the pet’s forms—fur, eyes, silhouette—and reinterprets them as spontaneous abstract art, creating a mesmerizing transformation that feels both personal and gallery-worthy.",
+    "cards": [
+      {
+        "title": "Clear, Focused Pet Photo",
+        "description": "A sharp, well-lit photo with the pet centered and a simple background gives the AI clear shapes to transform into expressive abstract art.",
+        "icon": "camera"
+      },
+      {
+        "title": "Expressive Pose & Gaze",
+        "description": "Photos where the pet faces the camera with distinct features and strong eyes create more impactful abstract compositions with personality.",
+        "icon": "subject"
+      },
+      {
+        "title": "Dynamic Brushstroke Reveal",
+        "description": "The effect overlays flowing abstract brushstrokes that morph the photo into a painting, with color shifts and texture that feel like hand-painted motion.",
+        "icon": "motion"
+      },
+      {
+        "title": "Instant Artistic Shareability",
+        "description": "Abstract pet paintings stop scrollers mid-feed, offering unique, personalized content that drives likes, comments, and shares on short-form video platforms.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore how creators apply the Abstract Pet Painting effect in social content, business branding, and personalized merchandise.",
+    "scenarios": [
+      {
+        "title": "Pet Instagram Art Highlights",
+        "description": "Pet owners share eye-catching abstract art of their pets on Instagram.",
+        "category": "Social Media",
+        "image_prompt": "A smartphone screen showing an Instagram post with an abstract, colorful painting of a golden retriever, styled with brush strokes and geometric shapes. The post has high engagement with likes and comments. The background is a cozy living room with a real golden retriever sleeping on a rug nearby, indicating the source of the painting. Soft natural lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-scenario-1.png"
+      },
+      {
+        "title": "Cafe Wall Art Gallery",
+        "description": "Animal cafes use abstract pet paintings to create a unique, artistic interior atmosphere.",
+        "category": "Business Branding",
+        "image_prompt": "Interior of a cat cafe with several framed abstract oil paintings of various cats and dogs on the wall. The art is colorful and expressive, with bold textures. Customers are sitting at tables, enjoying coffee and interacting with live cats. The paintings complement the playful yet artistic vibe of the cafe. Warm, cozy lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-scenario-2.png"
+      },
+      {
+        "title": "Personalized Pet Art Gifts",
+        "description": "Creators design custom abstract pet art on canvas prints and home decor items.",
+        "category": "E-commerce & Gifts",
+        "image_prompt": "A person holding a square canvas print featuring an abstract, vibrant painting of a tabby cat, with splashes of blue, yellow, and magenta. The canvas is placed on a wooden table among other decor items like a vase and a book. The background shows a bright, modern living room. The person is smiling, holding the canvas to show off the personalized pet art.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Abstract Pet Painting effect?",
+        "answer": "The Abstract Pet Painting effect transforms your pet photos into artistic abstract paintings. It uses color, shape, and texture to reinterpret your pet’s image with a painterly, modern look."
+      },
+      {
+        "question": "Why is the Abstract Pet Painting effect useful for TikTok, Reels, or Shorts?",
+        "answer": "The effect gives pet content a distinctive visual style that stands out in short-form feeds. Abstract, colorful pet portraits can catch viewers' attention quickly and make your videos more memorable."
+      },
+      {
+        "question": "Can I create an Abstract Pet Painting from just one uploaded image?",
+        "answer": "Yes, you only need one clear photo of your pet. The tool generates the abstract painting from that single image without requiring multiple angles or videos."
+      },
+      {
+        "question": "What type of pet photo works best?",
+        "answer": "Photos with good lighting, a clear view of your pet's face or body, and minimal background clutter produce the best results. A simple background helps the effect focus on your pet."
+      },
+      {
+        "question": "Can I use this effect for product, fashion, or travel content?",
+        "answer": "The effect is optimized for pet photos, but you can try it on other subjects like fashion items or travel snapshots. However, abstract painting results will be most consistent and appealing with pets."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Make an abstract pet portrait from a photo, prompt, or template",
+    "supporting_text": "Start with a simple text prompt, your own photo, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Abstract Pet Painting",
+    "description": "People often search for this creative pet effect using a variety of terms. You might know it as a vibrant pet portrait, expressive animal artwork, or even a psychedelic dog painting. Whatever you call it, LazyKiwi transforms your ideas into eye-catching, short-video-ready visuals that make your furry friend stand out.",
+    "keywords": [
+      "abstract dog art",
+      "colorful cat portrait",
+      "pet painting effect",
+      "abstract animal illustration",
+      "vibrant pet portrait",
+      "psychedelic dog painting",
+      "expressive cat artwork",
+      "digital abstract pet",
+      "artistic pet transformation",
+      "modern pet portrait",
+      "surreal pet painting",
+      "abstract pet filter"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/abstract-pet-painting-scenario-3.png"
+    ]
+  }
+}

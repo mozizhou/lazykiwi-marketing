@@ -1,0 +1,126 @@
+{
+  "template_name": "Zoom Eyes",
+  "template_slug": "zoom-eyes",
+  "template_type": "video",
+  "created_at": "2026-06-11 15:01:38",
+  "hero": {
+    "title": "Zoom Eyes",
+    "description": "Zoom Eyes creates a dramatic close-up effect that magnifies the subject's eyes in sync with the beat, perfect for reaction videos, comedic timing, product reveals, and eye-catching social content on TikTok, Reels, and Shorts.",
+    "template_name": "Zoom Eyes Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split-screen comparison image showing a person's face: left side normal, right side with the Zoom Eyes effect applied, where the eyes are greatly enlarged and focus is drawn to them, with subtle motion blur around the eyes, suitable for a video effect hero image, clean and modern style, high resolution, no text.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Zoom Eyes video work?",
+    "intro": "Zoom Eyes videos combine a locked-on face shot with a rapid scale-in on the eyes, often enhanced by motion blur. The effect relies on a clear, front-facing subject and a smooth or snappy zoom that isolates the eyes. The sudden focus shift creates emphasis, humor, or intensity in just a second.",
+    "cards": [
+      {
+        "title": "A front-facing, eye-level shot",
+        "description": "Choose a frame where the eyes are fully visible, well-lit, and sharply in focus. Front-facing, eye-level angles work best for maximum impact.",
+        "icon": "upload"
+      },
+      {
+        "title": "Still subject, direct gaze",
+        "description": "The subject should hold a steady posture and look straight into the lens. Subtle expression shifts, like a raised eyebrow, make the zoom funnier.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smooth, blurred zoom-in",
+        "description": "A fast or gradual scale-up on the eyes, often with motion blur and centered keyframes, creates a disorienting yet captivating effect that demands attention.",
+        "icon": "motion"
+      },
+      {
+        "title": "Perfect for short-form trends",
+        "description": "Zoom eye clips thrive on TikTok and Reels because they instantly amplify reactions, punctuate comedic timing, and are easy to loop, making them shareable and memorable.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of how creators use Zoom Eyes to transform short-form content across different channels.",
+    "scenarios": [
+      {
+        "title": "Casual Street Turn-Around",
+        "description": "A simple sidewalk moment becomes a strong short-video hook with the eye zoom.",
+        "category": "lifestyle",
+        "image_prompt": "A young creator in a casual denim jacket walking on a busy city street, suddenly turning her head to look back at the camera. The video freezes at the turn, then a fast, smooth zoom into her eyes with a subtle blue lens flare. Background blurred, natural daylight, 4K video.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Freeze",
+        "description": "The effect locks onto a dancer's intense gaze mid-jump, adding motion energy.",
+        "category": "motion",
+        "image_prompt": "An expressive dancer in sporty outfit performing a jump spin outdoors, arms extended, looking directly at camera. The clip halts at the highest point of the jump, then the Zoom Eyes effect triggers: a rapid dolly zoom into the eyes with a motion trail, enhancing eye reflection. Vibrant sun flare, dynamic angle.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Reveal",
+        "description": "A scenic viewpoint outfit edit instantly draws attention to the eyes for travel content.",
+        "category": "travel",
+        "image_prompt": "A stylish traveler in a flowy maxi dress posing at a golden hour mountain overlook, smiling at camera. The video shows a full-body shot, then seamlessly zooms into her eyes with a smooth fade-to-focus effect, adding a subtle ring highlight. Soft bokeh background, warm ambient light, cinematic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Zoom Eyes effect?",
+        "answer": "The Zoom Eyes effect is a short-form video edit that rapidly zooms into a person’s eyes, often synced with a beat or sound. It grabs attention by creating an intense, focused close-up that works well on fast-paced platforms."
+      },
+      {
+        "question": "Why is Zoom Eyes useful for TikTok, Reels, or Shorts?",
+        "answer": "A strong opening second decides whether someone keeps watching. The Zoom Eyes effect creates immediate visual impact and high contrast, which helps stop the scroll and improves retention on feed-style platforms."
+      },
+      {
+        "question": "Can I make the Zoom Eyes effect from one uploaded image?",
+        "answer": "Yes. You can apply the Zoom Eyes effect to a single high-resolution still image by animating a zoom in and centering the motion on the eyes. Some tools also let you add motion blur for a more polished result."
+      },
+      {
+        "question": "What kind of image or video works best for this effect?",
+        "answer": "Use a well-lit, front-facing shot where both eyes are clearly visible and sharp. Higher resolution files give better zoom quality. Avoid heavy shadows across the eyes, extreme angles, or low-light footage that loses detail when scaled."
+      },
+      {
+        "question": "Can I use Zoom Eyes for product, fashion, travel, or creator content?",
+        "answer": "Yes. It works beyond close-up portraits. Use it on a product detail shot, a fashion look close-up, or a travel portrait to highlight a specific focal point in your content and guide the viewer’s attention immediately."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn a single shot into an intense zoom-in on the eyes",
+    "supporting_text": "Start with a prompt, uploaded clip, or template to apply the effect in seconds.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Zoom Eyes",
+    "description": "When searching for the perfect video effect, users often describe Zoom Eyes in a variety of ways. You might come across terms like eye zoom transition, funny eye enlargement, or zoom in on eyes meme. No matter what you call it, LazyKiwi helps turn these creative ideas into captivating, short-video-ready visuals with ease.",
+    "keywords": [
+      "zoom eyes effect",
+      "eye zoom transition",
+      "funny eye enlargement",
+      "zoom in on eyes",
+      "eye focus zoom",
+      "magnifying eyes effect",
+      "eye pop filter",
+      "zoom eyes meme",
+      "eye zoom filter",
+      "eyes enlarge effect",
+      "pupil zoom effect",
+      "zoom into eyes"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/zoom-eyes-scenario-3.png"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "template_name": "Earth wave",
+  "template_slug": "earth-wave",
+  "template_type": "video",
+  "created_at": "2026-06-11 16:03:20",
+  "hero": {
+    "title": "Earth wave",
+    "description": "Earth wave generates a dynamic ground ripple that bends and displaces your footage, creating a powerful shockwave illusion under any subject. Ideal for product reveals, outfit edits, action shots, and social content on TikTok, Reels, and Shorts.",
+    "template_name": "Earth wave Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split-view hero image demonstrating the Earth wave video effect. The left half shows a normal, flat urban street with a person standing still. The right half shows the same scene transformed: a visible circular shockwave ripples outward from the person's feet, distorting the ground, pavement, and surrounding environment with concentric, wavy terrain deformation. The person remains sharp and unaffected at the center. Modern, clean lighting, photorealistic, suitable for a video effects landing page.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Earth wave video work?",
+    "intro": "The Earth wave effect turns ordinary footage into a surreal, rolling landscape by applying a dynamic displacement pattern that mimics ground tremors. It combines a steady foreground subject with a smoothly undulating background, creating a strong visual contrast that feels both jarring and fluid. This effect works because it transforms static scenes into living, breathing compositions that demand attention.",
+    "cards": [
+      {
+        "title": "Start with a wide landscape shot",
+        "description": "For best results, use a horizontal video with a defined horizon and plenty of ground texture. Roads, fields, or waterlines create the most noticeable wave distortion.",
+        "icon": "scene"
+      },
+      {
+        "title": "Keep the subject front and center",
+        "description": "Position your main element—person, product, or vehicle—in the foreground so it remains stable while the background transforms, enhancing the contrast.",
+        "icon": "subject"
+      },
+      {
+        "title": "Displacement mapping drives the wave",
+        "description": "The effect shifts pixels along a sine-wave pattern, creating a smooth, undulating motion that mimics a rolling earthquake across the terrain.",
+        "icon": "motion"
+      },
+      {
+        "title": "Made for short-form impact",
+        "description": "The surreal, hypnotic motion instantly grabs attention on TikTok or Reels, making it ideal for travel highlights, real estate tours, and bold ad creatives.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real creator examples showing how the Earth wave effect elevates content across lifestyle, motion, and travel edits.",
+    "scenarios": [
+      {
+        "title": "Street Glance Freeze",
+        "description": "A paused walk-and-turn moment gains a scroll-stopping ripple as the Earth wave freezes the urban scene.",
+        "category": "lifestyle",
+        "image_prompt": "A young creator in a casual camel coat walks along a sunlit cobblestone alley, then stops mid-step and glances back over the shoulder with a subtle smile. The Earth wave effect triggers a circular, low-rise ripple through the pavement and surrounding air, gently warping the background while keeping the subject sharp. Vertical smartphone framing, natural midday light, slight motion blur on passersby, and realistic street textures.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-scenario-1.png"
+      },
+      {
+        "title": "Dance Energy Burst",
+        "description": "Dynamic dance shots explode with visual motion as Earth wave ripples radiate from every jump and turn.",
+        "category": "motion",
+        "image_prompt": "A male dancer in a warehouse studio performs a powerful sequence of spins and a high jump. Upon landing, the Earth wave effect generates an expanding ring of earthy terracotta and warm brown tones, warping the concrete floor and dust particles around him. High-energy vertical video, dramatic backlighting with lens flare, fast-paced editing feel, 30fps, realistic fabric and motion details.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Wave",
+        "description": "A scenic outfit edit uses Earth wave to emphasize the pose, flowing fabric, and golden-hour backdrop.",
+        "category": "travel",
+        "image_prompt": "A female travel creator stands at a cliffside viewpoint during golden hour, wearing a long, airy ochre dress. She turns slowly and strikes a pose, the fabric catching the breeze. The Earth wave effect sends a soft, transparent ripple outward from her silhouette, gently distorting the mountain panorama and sky while locking attention on her look. Vertical phone video, warm sunset colors, shallow depth of field on distant scenery, natural lens flaring.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Earth wave effect?",
+        "answer": "The Earth wave effect is a visual distortion that makes the ground or landscape appear to ripple and flow like a liquid wave. It creates the illusion that the earth is bending, warping, or moving in a smooth, undulating motion."
+      },
+      {
+        "question": "Why is the Earth wave effect popular for TikTok, Reels, and Shorts?",
+        "answer": "The surreal motion instantly catches the eye in fast-scrolling feeds. It turns ordinary footage into something unexpected, which helps boost watch time, shares, and overall engagement on short-form platforms."
+      },
+      {
+        "question": "Can I create an Earth wave video from a single image?",
+        "answer": "Yes. Many tools let you upload one photo and apply the effect to animate the ground or background. The image is automatically transformed into a looping wave motion without needing a video clip."
+      },
+      {
+        "question": "What kind of image works best for the Earth wave effect?",
+        "answer": "Images with a clear horizontal landscape, distinct ground textures, or strong leading lines produce the most convincing results. Scenes with roads, fields, streets, or rooftops tend to work well. Avoid cluttered or vertically cropped frames."
+      },
+      {
+        "question": "Can I use the Earth wave effect for product, fashion, or travel content?",
+        "answer": "Absolutely. The effect adds a fluid, dynamic motion to product shots, fashion lookbooks, travel highlights, or creator content. It helps visuals feel more cinematic and grabs attention without distracting from the main subject."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Twist your media into a 3D Earth wave",
+    "supporting_text": "Start from a prompt, uploaded media, or template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Earth wave",
+    "description": "When searching for this effect, you might come across different terms or phrases. Some call it a ground ripple, soil undulation, or terrain displacement effect. Whatever name you use, LazyKiwi can instantly turn your idea into a striking short-video visual, ready to share.",
+    "keywords": [
+      "earth wave effect",
+      "ground ripple video",
+      "soil undulation filter",
+      "terrain displacement clip",
+      "shockwave in ground",
+      "land wave motion",
+      "seismic ripple effect",
+      "surface wave transition",
+      "ground heave visual",
+      "tectonic pulse short video",
+      "earthquake-like ripple",
+      "geometric earth warp"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/earth-wave-scenario-3.png"
+    ]
+  }
+}

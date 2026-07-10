@@ -1,0 +1,129 @@
+{
+  "template_name": "Chinese Sugar Painting",
+  "template_slug": "chinese-sugar-painting",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:00:19",
+  "hero": {
+    "title": "Chinese Sugar Painting",
+    "description": "Transform your photos into intricate traditional sugar painting art. Ideal for adding cultural flair to social content, product showcases, and short-form videos on TikTok, Reels, and Shorts. The effect stylizes portraits, objects, and scenes with glossy, hand-crafted strokes and warm amber tones.",
+    "template_name": "Chinese Sugar Painting Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "Clean, well-lit portrait of a young woman in a simple white blouse against a plain light gray background, natural expression, sharp focus, realistic photography style.",
+    "image_prompt_after": "Same portrait transformed into traditional Chinese sugar painting art: glossy, translucent amber-brown drizzled lines and curves define her silhouette and features, intricate swirling patterns fill the composition, smooth flat areas suggest poured sugar, slight highlights and shadows give a 3D caramelized candy appearance, warm golden-brown palette, isolated on pale background.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Chinese Sugar Painting video work?",
+    "intro": "The Chinese Sugar Painting effect turns your footage into hand-poured sugar art. Warm amber tones, glossy surfaces, and flowing contour lines mimic liquid caramel traced on a dark board. The result is a high-contrast, culturally distinct portrait that commands attention in any feed.",
+    "cards": [
+      {
+        "title": "Simple, high-contrast starting image",
+        "description": "Use a well-lit photo with a clear subject against an uncluttered background. Strong silhouettes help the effect replicate crisp sugar outlines.",
+        "icon": "camera"
+      },
+      {
+        "title": "Defined subject edges",
+        "description": "Faces and objects with bold contours translate best. The effect relies on distinctive lines to define forms, just like poured sugar art.",
+        "icon": "subject"
+      },
+      {
+        "title": "Glossy caramel texture",
+        "description": "Smooth, flowing lines and a warm, shiny finish simulate the look of hot sugar cooling on a surface, giving the video a tactile, premium feel.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Nostalgic scroll-stopper",
+        "description": "The rich amber hues and intricate line work immediately catch the eye in feeds, making it highly shareable for TikTok, Reels, and ads.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Discover practical ways creators use the Chinese Sugar Painting effect to style profile pictures, travel snapshots, and food content.",
+    "scenarios": [
+      {
+        "title": "Cultural Profile Picture Makeover",
+        "description": "Turn a selfie into a sugar painting portrait for a unique social media avatar.",
+        "category": "Social Media",
+        "image_prompt": "Close-up of a smartphone screen displaying a circular profile picture of a young woman, but the image is stylized as a traditional Chinese sugar painting with glossy golden-brown lines and subtle caramel shading, set against a soft red background. The phone is held by a hand with red nail polish, with faint Chinese New Year decorations blurred in the background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-scenario-1.png"
+      },
+      {
+        "title": "Travel Keepsake Art",
+        "description": "Convert a travel photo at the Great Wall into a traditional sugar painting style souvenir.",
+        "category": "Travel",
+        "image_prompt": "A laptop screen on a wooden desk in a cozy room, showing a transformed photo of a person standing on the Great Wall of China, now rendered in golden sugar painting style with delicate, fluid lines and a glossy finish, resembling melted sugar art. A physical framed print of the same sugar painting photo leans against the desk.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-scenario-2.png"
+      },
+      {
+        "title": "Food Blog Post Header",
+        "description": "Create a sugar painting version of a dish for an eye-catching food blog feature.",
+        "category": "Food & Lifestyle",
+        "image_prompt": "A tablet lying on a kitchen countertop, screen showing a blog post layout with a stunning header image: a bowl of noodles transformed into a Chinese sugar painting art piece, golden and glossy with intricate syrup-like strokes, a spoon and chopsticks also stylized. Next to the tablet, ingredients like soy sauce and scallions suggest a cooking scene.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Chinese Sugar Painting effect?",
+        "answer": "The Chinese Sugar Painting effect turns your photos into artwork that looks like traditional Chinese sugar painting. It applies warm amber tones, glossy textures, and flowing outline styles to mimic the handmade candy art."
+      },
+      {
+        "question": "Why is Chinese Sugar Painting useful for TikTok, Reels, or Shorts?",
+        "answer": "The effect gives short videos an eye-catching, heritage-inspired look. It helps food, culture, and lifestyle creators stand out without needing props or manual drawing skills."
+      },
+      {
+        "question": "Can I create Chinese Sugar Painting from one uploaded image?",
+        "answer": "Yes, you can upload a single photo and the tool will apply the sugar painting style directly. It works with portraits, objects, and simple scenes."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Images with clear subjects, clean backgrounds, and good lighting produce the strongest results. High contrast between the subject and the background helps the outline and gloss effect show clearly."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. This effect can make product shots, fashion lookbooks, travel snaps, and creator posts feel more organic and culturally rich. It adds a nostalgic, handcrafted feel to modern visuals."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Your photo, reimagined as a Chinese sugar painting",
+    "supporting_text": "Start from a prompt, an uploaded image, or a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Chinese Sugar Painting",
+    "description": "You might know this traditional art by different names or search terms like sugar painting, tanghua, or edible art. Whether you're looking for a Chinese candy painting effect, a sugar syrup art filter, or a sweet art aesthetic, LazyKiwi helps you transform these ideas into short-video-ready visuals that capture the glossy, caramelized charm of real sugar art.",
+    "keywords": [
+      "sugar painting",
+      "Chinese sugar art",
+      "tanghua effect",
+      "candy painting filter",
+      "sugar syrup art",
+      "edible art style",
+      "traditional Chinese candy art",
+      "sweet art aesthetic",
+      "sugar craft filter",
+      "caramel art effect",
+      "Chinese folk art filter",
+      "sugar relief effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/chinese-sugar-painting-scenario-3.png"
+    ]
+  }
+}

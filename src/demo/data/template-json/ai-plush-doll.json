@@ -1,0 +1,129 @@
+{
+  "template_name": "AI Plush Doll",
+  "template_slug": "ai-plush-doll",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:01:42",
+  "hero": {
+    "title": "AI Plush Doll",
+    "description": "The AI Plush Doll effect transforms portraits and character photos into adorable, fluffy plush toy versions with soft textures and cute, doll-like features. Ideal for creating eye-catching content on TikTok, Reels, and Shorts, as well as adding a playful twist to social media posts, product reveals, and outfit edits.",
+    "template_name": "AI Plush Doll Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A young woman with a bright, genuine smile, wearing a casual light-wash denim jacket over a white tee, standing in a sunlit urban park with green trees and soft bokeh in the background. The photo is a clean, natural portrait with sharp focus, natural skin tones, and no special effects applied. Full upper body visible, daytime lighting, realistic photography.",
+    "image_prompt_after": "The same young woman transformed into a cute, fluffy plush doll figure in the same sunny park setting. The doll version has an oversized round head with embroidered, glossy anime-like eyes, a tiny stitched smile, and soft pastel blushing cheeks. Its body is small and chubby, covered in velvety plush fabric with visible seam details, wearing a soft-textured denim jacket and white tee, now stitched and padded. The background remains realistic but slightly softened to complement the doll’s whimsical, toy-like aesthetic. Cozy, cheerful scene with gentle sunlight, evoking a handcrafted plushie appearance.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Plush Doll video work?",
+    "intro": "A AI Plush Doll video restyles your subject as a soft, collectible stuffed toy. Facial tracking wraps your portrait in fluffy fabric, stitched features, and rounded proportions. Gentle motion and vivid colors create a tactile, adorable illusion. It works best with clean, front-facing shots and even lighting.",
+    "cards": [
+      {
+        "title": "Clean front-facing shot",
+        "description": "Use a well-lit, straight-on portrait with a plain background. This helps the AI precisely track facial landmarks and apply even, realistic fabric textures.",
+        "icon": "upload"
+      },
+      {
+        "title": "Keep movement gentle and steady",
+        "description": "Avoid fast head turns or occlusions. A soft blink or slight tilt keeps the doll effect stable while the texture stays locked to your face.",
+        "icon": "subject"
+      },
+      {
+        "title": "Bobbing motion and fuzzy seams",
+        "description": "The effect adds a subtle bobbing motion and fuzzy edge glow to simulate plush material. Stitched seams and button-eye highlights reinforce the handcrafted toy feel.",
+        "icon": "motion"
+      },
+      {
+        "title": "Ideal for social feeds",
+        "description": "The charming toy aesthetic triggers instant engagement. It’s optimized for vertical video, making it a go-to for Reels, TikTok, and short ads that need a quick emotional hook.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how the AI Plush Doll effect is applied in real creative scenarios across social media, gifting, and personal content.",
+    "scenarios": [
+      {
+        "title": "Cute Profile Avatars",
+        "description": "Transform selfies into soft plush doll portraits for a warm, friendly social media profile image.",
+        "category": "Personal Branding",
+        "image_prompt": "A smartphone held in a hand displaying a social media profile page. The profile picture is a round icon showing a realistic plush doll version of a young woman's selfie, with button eyes, stitched smile, and soft fabric texture. The background is a cozy desk with a coffee cup and fairy lights.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-scenario-1.png"
+      },
+      {
+        "title": "Custom Birthday Greetings",
+        "description": "Create shareable plush doll versions of friends or family for unique digital birthday cards.",
+        "category": "Gifting & Celebrations",
+        "image_prompt": "A tablet screen showing a colorful digital birthday card with balloons and confetti. In the center is a plush doll version of a smiling man, made of soft, knitted fabric, with a party hat. The card says 'Happy Birthday, Dad!'. A smartphone rests nearby showing the same card being sent in a messaging app.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-scenario-2.png"
+      },
+      {
+        "title": "Family Memory Photos",
+        "description": "Turn children's portraits into collectible plush doll images for adorable family albums and parenting content.",
+        "category": "Family & Parenting",
+        "image_prompt": "A mother's phone screen open in a photo gallery app, showcasing a grid of images: all are plush doll transformations of a toddler. Each plush doll has rosy cheeks, yarn hair, and button eyes. The phone is on a wooden table next to a real plush toy and a baby bottle.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI Plush Doll effect?",
+        "answer": "The AI Plush Doll effect transforms a portrait photo into a soft, cartoon-style plush toy image. It keeps the person’s facial features while giving them a cute, stuffed-doll look."
+      },
+      {
+        "question": "Why is the AI Plush Doll effect popular for short videos?",
+        "answer": "The cute, eye-catching result fits the playful style of TikTok, Reels, and Shorts. It helps creators add variety, grab attention quickly, and increase engagement with their audience."
+      },
+      {
+        "question": "Can I create an AI Plush Doll from just one image?",
+        "answer": "Yes, a single clear photo is enough. The tool uses that image to generate the plush doll result without needing multiple angles or extra inputs."
+      },
+      {
+        "question": "What kind of photo works best for this effect?",
+        "answer": "A front-facing photo with even lighting and a simple background gives the best result. Avoid strong shadows or accessories that cover the face."
+      },
+      {
+        "question": "Can I use AI Plush Doll for product, fashion, or travel content?",
+        "answer": "Absolutely. The effect can add a playful touch to product showcases, fashion lookbooks, and travel highlights, making the content more personal and shareable."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Transform your photo into a custom plush doll",
+    "supporting_text": "Use a text prompt, upload your own image, or pick a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Plush Doll",
+    "description": "When searching for this creative effect, you might come across terms like \"plush toy filter\", \"stuffed animal avatar\", or \"plushification effect\". No matter what you call it, LazyKiwi transforms your photos into adorable, short-video-ready plush doll visuals that feel soft, huggable, and instantly shareable.",
+    "keywords": [
+      "plushie effect",
+      "stuffed toy filter",
+      "plush doll maker",
+      "AI plush generator",
+      "plushification",
+      "photo to plush toy",
+      "custom plush doll from photo",
+      "convert selfie to plushie",
+      "plush avatar creator",
+      "stuffed animal transformation",
+      "soft toy portrait",
+      "plush toy version of me"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-plush-doll-scenario-3.png"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "template_name": "Clothes falling",
+  "template_slug": "clothes-falling",
+  "template_type": "video",
+  "created_at": "2026-06-11 16:18:07",
+  "hero": {
+    "title": "Clothes falling",
+    "description": "A dynamic effect that makes clothes appear to fall away or drop into frame, perfect for outfit transitions, product reveals, and fashion content. Ideal for TikTok, Reels, Shorts, and social ads where quick, eye-catching edits drive engagement.",
+    "template_name": "Clothes falling Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split-screen composition: left half shows a person in a casual outfit against a clean studio background, right half shows the same person but garments are mid-air as if instantly dropped off the body and floating downward, frozen in motion. Bright, commercial lighting, minimal background, sharp focus on the clothing separation effect.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Clothes falling video work?",
+    "intro": "The clothes falling effect blends a sharp, static shot with a rapid, simulated garment drop. As digital clothing items descend and wrap around the subject in a realistic fabric motion, they create an instant outfit switch. The visual relies on precise timing and a clean background to keep the focus on the surprising transition.",
+    "cards": [
+      {
+        "title": "Crisp, uncluttered starting frame",
+        "description": "Use a front-facing shot with even lighting and a plain background. The subject should be centered with enough space for clothes to fall and drape naturally.",
+        "icon": "camera"
+      },
+      {
+        "title": "Still, centered subject",
+        "description": "Keep the person motionless or add a slight catching gesture. A relaxed stance helps the falling garments land convincingly without distracting movement.",
+        "icon": "subject"
+      },
+      {
+        "title": "Fabric-like drop and settle",
+        "description": "The effect uses rapid vertical descent with soft cloth physics. Garments appear to catch air, then snap into place with a brief, natural bounce.",
+        "icon": "motion"
+      },
+      {
+        "title": "Made for short-form reveals",
+        "description": "This instant outfit change hooks viewers in the first second, making it perfect for TikTok try-ons, Instagram Reels ads, and product highlight clips.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators apply the clothes falling effect across different content styles.",
+    "scenarios": [
+      {
+        "title": "Street Style Freeze",
+        "description": "Turn a simple walk into a scroll-stopping moment where the outfit appears mid-step.",
+        "category": "lifestyle",
+        "image_prompt": "Vertical smartphone video, a creator walking through a sunlit city street wearing a casual beige trench coat. Mid-stride, a subtle visual effect causes the coat to detach and fall downward in slow motion, revealing a fitted white top and denim jeans underneath. Natural lighting, shallow depth of field, realistic fabric movement as the coat drops to the ground.",
+        "fallback_text": "Video preview: a creator walking on a city street, their coat falling away naturally mid-step to create a quick outfit-reveal hook.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-scenario-1.png"
+      },
+      {
+        "title": "Dance Motion Reveal",
+        "description": "Enhance a dance clip with a timed outfit drop that syncs to the beat.",
+        "category": "motion",
+        "image_prompt": "Vertical smartphone video, a dancer in an urban studio performs a sharp spin while wearing an oversized graphic hoodie and cargo pants. At the peak of the rotation, the clothes falling effect activates: the hoodie separates cleanly and drops, revealing a sleek black crop top. Dynamic motion blur on the falling garment, crisp lighting, fast-paced energy.",
+        "fallback_text": "Video preview: a dancer spinning in a studio, the oversized hoodie falling mid-rotation to reveal a different look in sync with the movement.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-scenario-2.png"
+      },
+      {
+        "title": "Scenic Look Transition",
+        "description": "Showcase a travel outfit against a city skyline with a clean clothes-drop transition.",
+        "category": "travel",
+        "image_prompt": "Vertical smartphone video, a travel creator poses on a rooftop terrace overlooking a sunset city skyline, wearing a lightweight summer dress. As they strike a new pose, the dress releases and falls softly to the floor, revealing a different evening outfit. Warm golden-hour light, gentle wind adding natural fabric motion, iconic skyline in the background.",
+        "fallback_text": "Video preview: a creator on a rooftop against a sunset skyline, the dress falling gracefully to switch the look and highlight the location.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Clothes falling effect?",
+        "answer": "The Clothes falling effect is a short video transition that makes it look like clothes are dropping or cascading off a subject, often used to reveal a new outfit, product, or scene. It's a quick, eye-catching visual that adds motion to otherwise static images or short clips."
+      },
+      {
+        "question": "Why is Clothes falling useful for TikTok, Reels, or Shorts?",
+        "answer": "This effect hooks viewers in the first second. The sudden motion and reveal format work well with fast-paced social feeds, increasing watch time and making outfit changes, product showcases, or location reveals feel dynamic without complex editing."
+      },
+      {
+        "question": "Can I create the Clothes falling effect from one uploaded image?",
+        "answer": "Yes. Most tools let you upload a single photo of a person or product. The effect applies an automatic simulation or overlays falling garment elements, so you don't need a multi-frame video clip to start."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Use a well-lit, front-facing full-body or product shot with a clean background. High contrast between the subject and background helps the effect detect edges cleanly. Avoid busy patterns or overlapping objects that can confuse the falling motion."
+      },
+      {
+        "question": "Can I use the Clothes falling effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Fashion creators use it to reveal outfits, product marketers showcase before/after states, travel videos transition between locations, and general creators add a surprising visual hook to any clip. The effect is versatile across niches."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn a frame into a clothes falling effect",
+    "supporting_text": "Start from a prompt, upload your media, or use a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Clothes falling",
+    "description": "You might search for this effect as a clothes drop, falling garments, or even a laundry tumble. Whatever phrase fits your vision, LazyKiwi helps turn it into a polished short-video-ready visual with ease.",
+    "keywords": [
+      "clothes drop effect",
+      "falling garments",
+      "apparel falling animation",
+      "dress drop overlay",
+      "shirt falling video",
+      "laundry falling effect",
+      "fabric cascading animation",
+      "wardrobe drop transition",
+      "clothing scatter effect",
+      "garment rain visual"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/clothes-falling-scenario-3.png"
+    ]
+  }
+}

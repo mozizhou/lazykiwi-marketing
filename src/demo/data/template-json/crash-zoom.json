@@ -1,0 +1,126 @@
+{
+  "template_name": "Crash Zoom",
+  "template_slug": "crash-zoom",
+  "template_type": "video",
+  "created_at": "2026-06-11 14:35:08",
+  "hero": {
+    "title": "Crash Zoom",
+    "description": "Crash Zoom creates a rapid push-in or pull-out effect that adds instant energy and focus to a single clip. This technique is ideal for product reveals, outfit transitions, action shots, and thumb-stopping social content on TikTok, Reels, and Shorts.",
+    "template_name": "Crash Zoom Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split composition showing the before and after of a Crash Zoom video effect. Left side: a person poised mid-motion on a city street at dusk, framed in a medium shot. Right side: the same scene but with the crash zoom applied, rapidly pushing into the subject's sunglasses as neon signs blur dynamically in the background. The image should emphasize motion blur and intense visual focus. Clean, modern editing software aesthetic with a dark interface border around the preview.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Crash Zoom video work?",
+    "intro": "A Crash Zoom effect delivers a rapid, high-impact scale shift that rockets the viewer’s eye directly to a focal point. By combining sudden motion, blur, and tight framing, it transforms a flat shot into a dynamic moment—perfect for grabbing attention in social videos, product highlights, or high-energy edits.",
+    "cards": [
+      {
+        "title": "High-res source",
+        "description": "Start with a crisp, well-composed shot where the subject is isolated; this preserves clarity during the rapid scale change.",
+        "icon": "upload"
+      },
+      {
+        "title": "Subject stays centered",
+        "description": "Keep the main element locked in the center of the frame so the zoom amplifies drama without losing the focal point.",
+        "icon": "subject"
+      },
+      {
+        "title": "Motion blur & speed",
+        "description": "The effect combines a fast zoom with directional blur, mimicking a sudden camera lurch that injects raw energy.",
+        "icon": "motion"
+      },
+      {
+        "title": "Scroll-stopping impact",
+        "description": "Abrupt motion commands attention in feeds, making it a go-to for product reveals, transitions, and viral video content.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the Crash Zoom effect across lifestyle, motion, and travel content to create scroll-stopping moments.",
+    "scenarios": [
+      {
+        "title": "Street Style Freeze Moment",
+        "description": "Transform a casual walk into a high-impact social clip with a sudden zoom.",
+        "category": "lifestyle",
+        "image_prompt": "A young woman walking on a city sidewalk in casual outfit, turning back to look at camera, sudden crash zoom effect quickly zooming into her smiling face with motion lines and quick shake, bright daylight, street background with blurred pedestrians.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Energy Burst",
+        "description": "Add explosive momentum to dance steps with a quick crash zoom on the beat.",
+        "category": "motion",
+        "image_prompt": "A dancer performing a sharp pop-and-lock move in a studio, camera crash zooms into their dynamic pose with rapid blur and shake, energetic lighting, neon accents, high contrast.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Reveal Zoom",
+        "description": "Highlight your outfit and backdrop with a fast zoom into the final pose.",
+        "category": "travel",
+        "image_prompt": "A traveler in a stylish outfit standing at a mountain viewpoint with a sunset sky, they spin and strike a pose, camera crash zooms from wide shot to tight on their confident expression and outfit, lens flare, dramatic lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Crash Zoom effect?",
+        "answer": "A crash zoom is a fast, sharp zoom-in (or zoom-out) with motion blur, instantly directing viewer focus. It’s used in videos to emphasize a subject, create a dramatic transition, or add a burst of energy."
+      },
+      {
+        "question": "Why is Crash Zoom useful for TikTok, Reels, and Shorts?",
+        "answer": "Crash zooms grab attention in the first second, match fast-paced editing trends, and make even simple clips feel dynamic. They help your content stand out in feeds where quick impact matters."
+      },
+      {
+        "question": "Can I create Crash Zoom from one uploaded image?",
+        "answer": "Yes. Many apps let you add a crash zoom effect to a still photo by animating the scale and adding motion blur. This turns a single image into an engaging short video clip."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Media with a clear focal point (a face, product, or object) works best. Use high-resolution files to avoid quality loss when zooming, and avoid busy backgrounds that distract from the zoom movement."
+      },
+      {
+        "question": "Can I use Crash Zoom for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. It highlights product details, emphasizes outfits, brings travel scenes to life, and adds impact to creator reaction or highlight moments. The effect works across many content categories."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create dramatic zoom-in moments from any video",
+    "supporting_text": "Start with a prompt, uploaded media, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Crash Zoom",
+    "description": "When looking for ways to add dramatic emphasis, the Crash Zoom effect can be described using different names. You might search for a snap zoom, whip zoom, rapid zoom, or zoom burst—whatever you call it, LazyKiwi helps you turn these ideas into short-video-ready visuals instantly.",
+    "keywords": [
+      "snap zoom effect",
+      "whip zoom transition",
+      "rapid zoom in",
+      "zoom burst preset",
+      "fast zoom crash",
+      "hyper zoom effect",
+      "quick zoom in premiere pro",
+      "dynamic crash zoom",
+      "speed zoom transition",
+      "crash zoom preset free",
+      "how to do a crash zoom",
+      "zoom crash effect for shorts"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/crash-zoom-scenario-3.png"
+    ]
+  }
+}

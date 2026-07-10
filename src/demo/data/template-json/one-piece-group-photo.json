@@ -1,0 +1,129 @@
+{
+  "template_name": "One Piece Group Photo",
+  "template_slug": "one-piece-group-photo",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:25:50",
+  "hero": {
+    "title": "One Piece Group Photo",
+    "description": "Transform your photo into a dynamic group portrait featuring the iconic characters from One Piece. Ideal for anime fans creating social content, reels, shorts, or themed profile images.",
+    "template_name": "One Piece Group Photo Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, well-lit outdoor photo of a group of three young adults standing together, smiling naturally, casual modern clothing, medium shot, soft natural light, simple background with greenery, high resolution, unedited.",
+    "image_prompt_after": "The same group photo composition, but now transformed into a vibrant One Piece anime group illustration: the three people are redrawn as Luffy, Zoro, and Nami in their classic outfits, dynamic poses, bright colors, anime cel-shading style, detailed lineart, white background with subtle action lines, looks like a promotional anime group shot.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a One Piece Group Photo video work?",
+    "intro": "A One Piece Group Photo effect blends your portrait into the iconic pirate crew. It matches anime shading, line art, and composition, then adds a dynamic pan or zoom-out to reveal the full lineup—transforming a static selfie into a manga-style crew photo.",
+    "cards": [
+      {
+        "title": "A clean, centered headshot",
+        "description": "Use a front-facing photo with even lighting and no obstructions. The effect maps your face into the anime group layout, so sharp details and a neutral expression produce the best composite.",
+        "icon": "upload"
+      },
+      {
+        "title": "Your pose and expression",
+        "description": "Look directly at the camera with a confident or playful smirk. The effect aligns your gaze with the crew, making the group photo feel natural and cohesive.",
+        "icon": "subject"
+      },
+      {
+        "title": "Crew reveal motion",
+        "description": "The video starts with a close-up then zooms out or pans across the lineup, each character appearing in sequence. This builds anticipation and mimics anime intro sequences.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for short-form sharing",
+        "description": "The recognizable One Piece lineup, combined with your face, instantly hooks fans. The short duration and high-energy reveal are perfect for TikTok, Reels, and Stories.",
+        "icon": "camera"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real-world examples of how creators use the One Piece Group Photo effect across different platforms and content types.",
+    "scenarios": [
+      {
+        "title": "Cosplay Crew Selfies",
+        "description": "Cosplayers add Luffy and crew to their group photo for instant anime crossover posts.",
+        "category": "Fan Engagement",
+        "image_prompt": "A smartphone held in a hand shows a group photo of three friends in casual cosplay at a convention, with One Piece characters Luffy, Zoro, and Nami digitally inserted beside them smiling. The phone interface displays a social media story draft with stickers and a 'Squad Goals' caption. Background is an indoor convention hall with colorful booths.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-scenario-1.png"
+      },
+      {
+        "title": "Themed Party Invitations",
+        "description": "Designers turn a friend group into Straw Hat Pirates for a birthday event digital flyer.",
+        "category": "Event Promotion",
+        "image_prompt": "A glossy digital invitation card on a tablet screen features five real people transformed into One Piece-style crew members with matching outfits, standing together on a pirate ship deck. Text overlay reads 'Join the Crew – Marco's 24th Voyage'. A hand is tapping the RSVP button. The setting is a bright, organized desk.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-scenario-2.png"
+      },
+      {
+        "title": "Brand Collaboration Ads",
+        "description": "Streetwear brands merge customer photos with anime characters for limited-edition drop campaigns.",
+        "category": "Marketing Campaign",
+        "image_prompt": "A laptop screen shows a promotional banner for a clothing line: two young adults wearing branded hoodies pose side-by-side with Chopper and Sanji from One Piece, all pointing at the new collection. The screen sits on a clean desk with product samples next to it. The banner includes release date and shop link.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the One Piece Group Photo effect?",
+        "answer": "It is an AI tool that creates a group photo with One Piece anime characters. You upload your own image, and the effect places you alongside the characters in a themed scene."
+      },
+      {
+        "question": "Why is One Piece Group Photo useful for TikTok, Reels, or Shorts?",
+        "answer": "It generates anime-themed content that grabs attention on short-video platforms, helping you reach One Piece fans and increase views and engagement."
+      },
+      {
+        "question": "Can I create One Piece Group Photo from one uploaded image?",
+        "answer": "Yes, you can upload a single portrait photo. The AI will insert your face into the group composition, blending it naturally with the selected characters and background."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "A clear, front-facing portrait with even lighting and no obstructions works best. For video, a short clip where your face is stable and well-lit gives the most accurate result."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Yes, creators often use it to promote products, show fashion looks, or add a One Piece twist to travel and lifestyle content, engaging niche audiences effectively."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn Your Pictures into a One Piece Group Photo",
+    "supporting_text": "Start from a prompt, upload your own images, or use a predesigned template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for One Piece Group Photo",
+    "description": "Users may describe this effect with different names depending on the platform or personal phrasing. Whether you call it a One Piece crew photo filter, an anime group picture generator, or a Straw Hat gang shot, LazyKiwi helps turn these ideas into short-video-ready visuals in just a few taps.",
+    "keywords": [
+      "One Piece crew photo effect",
+      "Luffy group picture generator",
+      "Mugiwara group photo maker",
+      "Straw Hat Pirates group selfie",
+      "One Piece anime group filter",
+      "One Piece gang photo online",
+      "One Piece character team photo",
+      "create One Piece crew picture",
+      "One Piece style group image",
+      "One Piece themed group photo AI",
+      "One Piece friends photo effect",
+      "anime group photo One Piece"
+    ]
+  },
+  "images": {
+    "hero_before": "/static/templates/one-piece-group-photo-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/one-piece-group-photo-scenario-3.png"
+    ]
+  }
+}

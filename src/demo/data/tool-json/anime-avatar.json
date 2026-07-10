@@ -1,0 +1,187 @@
+{
+  "slug": "anime-avatar",
+  "seo_title": "AI Anime Avatar Generator — Turn Your Photo Into Anime | LazyKiwi",
+  "seo_description": "Turn your photo into an anime avatar with LazyKiwi. Upload a selfie and become an anime character in seconds — perfect for profile pictures and social.",
+  "hero": {
+    "title": "Become an anime character.",
+    "description": "Upload a selfie and transform into a polished anime avatar in seconds. Keep your features and vibe, reimagined in your favourite anime style.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "Your face, anime-fied.",
+    "intro": "The LazyKiwi anime avatar generator turns your photo into a clean anime illustration — preserving your features, hairstyle and expression while rendering them in crisp, share-ready anime art.",
+    "checks": [
+      "Keeps your likeness",
+      "Multiple anime styles",
+      "Perfect profile pictures"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick an anime style",
+        "description": "Choose an anime style or describe the look you want."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Preview the result, try a few more, then download your favourite."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Recognizably you",
+      "title": "An anime version that looks like you",
+      "description": "Your features, hair and expression carry over, so the avatar feels personal, not generic.",
+      "bullets": [
+        "Keeps key features",
+        "Matches your hairstyle",
+        "Clean, polished linework"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Pick your vibe",
+      "title": "From soft shoujo to bold shonen",
+      "description": "Choose the style and palette that fits you — pastel and soft or sharp and dramatic.",
+      "bullets": [
+        "Multiple anime styles",
+        "Color and lighting control",
+        "Portrait or bust framing"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Ready to post",
+      "title": "PFP-perfect in seconds",
+      "description": "Get a crisp avatar sized for profiles and socials, with no drawing skills required.",
+      "bullets": [
+        "High-res exports",
+        "Great for PFPs",
+        "Unlimited tries"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "Selfie in, anime out",
+    "subtitle": "Your photo reimagined across anime styles.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-1.jpg",
+        "caption": "Shoujo"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-2.jpg",
+        "caption": "Shonen"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-3.jpg",
+        "caption": "Chibi"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-4.jpg",
+        "caption": "Studio soft"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-5.jpg",
+        "caption": "90s anime"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-6.jpg",
+        "caption": "Manga ink"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-7.jpg",
+        "caption": "Pastel"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/anime-avatar/gallery-8.jpg",
+        "caption": "Cyberpunk"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the avatar actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is the anime avatar maker free?",
+        "answer": "Yes. Upload a selfie and generate an anime avatar for free."
+      },
+      {
+        "question": "Will it look like me?",
+        "answer": "Yes. Your features, hair and expression are preserved in the anime rendering."
+      },
+      {
+        "question": "What styles are available?",
+        "answer": "Several anime styles from soft shoujo to bold shonen, plus chibi and manga ink."
+      },
+      {
+        "question": "What photo works best?",
+        "answer": "A clear, front-facing selfie with your face well lit."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Turn your photo into an anime avatar.",
+    "description": "Upload a selfie and become an anime character in seconds — free and PFP-ready."
+  }
+}

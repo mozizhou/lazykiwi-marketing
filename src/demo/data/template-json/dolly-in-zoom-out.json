@@ -1,0 +1,126 @@
+{
+  "template_name": "Dolly In Zoom Out",
+  "template_slug": "dolly-in-zoom-out",
+  "template_type": "video",
+  "created_at": "2026-06-11 15:34:47",
+  "hero": {
+    "title": "Dolly In Zoom Out",
+    "description": "The Dolly In Zoom Out effect creates a cinematic distortion where the subject stays sharp while the background dramatically shifts. Perfect for product reveals, dramatic edits, and social content that grabs attention on TikTok, Reels, and Shorts.",
+    "template_name": "Dolly In Zoom Out Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A person standing in the center of a street, the background appears compressed and stretched, demonstrating the Dolly In Zoom Out effect. The subject remains sharp while buildings and surroundings warp toward the center. Cinematic lighting, high contrast, suitable for a video effect landing page.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Dolly In Zoom Out video work?",
+    "intro": "The dolly zoom effect pairs a forward camera move with a reverse zoom, keeping the subject steady while the background distorts dramatically. This creates an unsettling, cinematic pull that instantly grabs attention. The effect relies on a strong foreground subject and visible depth, turning ordinary clips into visually tense moments perfect for social media storytelling.",
+    "cards": [
+      {
+        "title": "Frames with depth and separation",
+        "description": "Start with a clip or image where a person or object stands out from a distant background. A well-defined foreground and far-away elements make the distortion more dramatic.",
+        "icon": "upload"
+      },
+      {
+        "title": "Subject stays centered",
+        "description": "The subject should remain in-frame and roughly the same size throughout. Minimal movement on their part ensures the background warp takes center stage.",
+        "icon": "subject"
+      },
+      {
+        "title": "Forward dolly, reverse zoom",
+        "description": "The effect simulates a camera moving in while the lens zooms out. This creates a stretching background that pulls the viewer’s eye deep into the scene.",
+        "icon": "motion"
+      },
+      {
+        "title": "Instant scroll-stopping tension",
+        "description": "The disorienting shift is perfect for short-form video. It hooks viewers immediately, making it ideal for teasers, reveals, and high-energy product promotions on TikTok or Reels.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the Dolly In Zoom Out effect to elevate everyday moments, motion shots, and travel edits with strong visual impact.",
+    "scenarios": [
+      {
+        "title": "Casual Street Moment Hook",
+        "description": "Transform a simple walk into a cinematic opening with a sudden dolly zoom out.",
+        "category": "lifestyle",
+        "image_prompt": "A young woman in casual outfit walking on a city sidewalk, turns and smiles at camera, then dolly camera moves backward while zooming in to keep her face sharp against blurred street background, natural lighting, realistic smartphone video style.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-scenario-1.png"
+      },
+      {
+        "title": "Dynamic Dance Energy",
+        "description": "Amplify a dance move with a dolly zoom that pulls focus to the performer.",
+        "category": "motion",
+        "image_prompt": "Male dancer spinning in an outdoor plaza, camera dollies out rapidly while zooming in to maintain his upper body and expression sharp, motion blur on surroundings, energetic vibe, shot on phone.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-scenario-2.png"
+      },
+      {
+        "title": "Scenic Look Reveal",
+        "description": "Highlight a travel outfit and location by pulling back to reveal the full scene.",
+        "category": "travel",
+        "image_prompt": "Travel creator standing at a mountain viewpoint, wearing stylish hiking gear, camera dollies backward and zooms in slightly to emphasize pose, then gradually reveals the vast valley behind, golden hour light, realistic social media clip.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Dolly In Zoom Out effect?",
+        "answer": "The Dolly In Zoom Out effect combines a forward camera movement (dolly in) with a simultaneous zoom out. This creates a perspective distortion where the subject stays roughly the same size while the background appears to stretch and warp, famously seen in Hitchcock's Vertigo."
+      },
+      {
+        "question": "Why is Dolly In Zoom Out useful for TikTok, Reels, or Shorts?",
+        "answer": "It instantly grabs attention by distorting depth unexpectedly, making transitions, reveals, and dramatic moments more impactful. The visual surprise helps short videos stand out in feeds where engagement depends on stopping the scroll."
+      },
+      {
+        "question": "Can I create Dolly In Zoom Out from one uploaded image?",
+        "answer": "Yes, many tools simulate the effect from a single photo by digitally separating the subject from the background and applying reverse scaling. This mimics the dolly-zoom motion without requiring actual camera moves or video footage."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Images or videos with a clear subject and distinct background depth work best—such as a person in front of a landscape, city street, or interior. High resolution ensures smooth background scaling. For video, steady footage with minimal motion blur is ideal."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Yes, it's versatile. Product shots highlight details while revealing context. Fashion content emphasizes outfits against dramatic backdrops. Travel and lifestyle videos gain a surreal cinematic feel. It works for any genre needing an eye-catching hook."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn one frame, your clip, or a template into a Dolly In Zoom Out.",
+    "supporting_text": "Start from a text prompt, your uploaded footage, or a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Dolly In Zoom Out",
+    "description": "Users may describe the Dolly In Zoom Out effect with different names depending on their creative background or search habits. Whether you call it the vertigo effect, dolly zoom, Hitchcock zoom, or contra-zoom, LazyKiwi helps turn these dynamic visual ideas into short-video-ready clips with just a few clicks.",
+    "keywords": [
+      "vertigo effect",
+      "dolly zoom",
+      "Hitchcock zoom",
+      "contra-zoom",
+      "trombone shot",
+      "zolly",
+      "push-pull effect",
+      "dolly in zoom out",
+      "zoom out dolly in",
+      "cinematic dolly zoom",
+      "warp zoom",
+      "retro zoom effect"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/dolly-in-zoom-out-scenario-3.png"
+    ]
+  }
+}

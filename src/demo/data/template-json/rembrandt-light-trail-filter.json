@@ -1,0 +1,129 @@
+{
+  "template_name": "Rembrandt Light Trail Filter",
+  "template_slug": "rembrandt-light-trail-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 17:58:22",
+  "hero": {
+    "title": "Rembrandt Light Trail Filter",
+    "description": "Combines the dramatic chiaroscuro of Rembrandt lighting with dynamic motion blur streaks, creating a cinematic blend of shadow and light. Ideal for fashion edits, product reveals, action shots, and social content for TikTok, Reels, and Shorts.",
+    "template_name": "Rembrandt Light Trail Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, natural medium-close-up portrait of a person in a simple studio setting, evenly lit with soft, diffused daylight, neutral expression, sharp focus, no dramatic shadows or motion effects.",
+    "image_prompt_after": "Same portrait composition now transformed with Rembrandt Light Trail Filter: dramatic side lighting creating a triangular highlight on the cheek, deep shadows on the opposite side, and subtle light trail streaks trailing from the subject's subtle head turn, adding a sense of graceful motion, rich contrast, muted background, cinematic depth.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Rembrandt Light Trail Filter video work?",
+    "intro": "This filter fuses classic chiaroscuro lighting with real-time motion trails, casting a painterly glow that tracks movement. A single key light source sculpts the subject while motion creates fluid, streaked highlights. The result is a moody, high-contrast visual that turns ordinary footage into an artistic short film.",
+    "cards": [
+      {
+        "title": "A frame with directional light",
+        "description": "Start with one strong light source hitting your subject from the side to create the signature shadow triangle and deep, dramatic contrast.",
+        "icon": "camera"
+      },
+      {
+        "title": "Slow, intentional movement",
+        "description": "Gentle turns, hand gestures, or swaying fabric generate elegant light trails. Fast, erratic motion can break the painterly effect and reduce clarity.",
+        "icon": "motion"
+      },
+      {
+        "title": "Luminance streaks over rich shadows",
+        "description": "The filter reads bright areas and extends them into smooth, flowing trails, while preserving deep blacks and mid-tones for a layered, dimensional look.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Instant editorial presence",
+        "description": "The filmic contrast and trailing light demand attention in feeds. It works for fashion reels, product teasers, moody ads, and any content needing a premium, art-directed feel.",
+        "icon": "scene"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See real examples of the Rembrandt Light Trail Filter applied across music, fashion, and dance to create dramatic cinematic visuals.",
+    "scenarios": [
+      {
+        "title": "Concert & Performance Shots",
+        "description": "Add dramatic stage lighting and motion trails to live music photography for an artistic mood.",
+        "category": "Entertainment",
+        "image_prompt": "A singer on stage, close-up portrait with Rembrandt lighting: a triangle of light under the left eye, deep shadows on the other side. Dynamic light trails from stage lights sweep across the frame, long exposure blur effect, dark moody background, cinematic color grading, photorealistic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-scenario-1.png"
+      },
+      {
+        "title": "Editorial Fashion Campagains",
+        "description": "Elevate urban fashion photos with cinematic shadows and flowing light streaks for high-end brand visuals.",
+        "category": "Fashion",
+        "image_prompt": "A female model walking through a city street at dusk, Rembrandt lighting on her face from a streetlamp, light trails from passing cars streak behind her in long exposure, elegant coat blowing slightly in the wind, high-fashion composition, sleek urban atmosphere, warm amber and cool blue tones, photorealistic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-scenario-2.png"
+      },
+      {
+        "title": "Dance & Movement Portraits",
+        "description": "Capture expressive motion with Rembrandt contrast and light trails that emphasize every gesture.",
+        "category": "Sports & Dance",
+        "image_prompt": "A contemporary dancer mid-spin, dramatic Rembrandt lighting on one side of the face, flowing hair, light trails tracing her arm movements like painted strokes, dark studio background with a single dramatic light source, motion blur on the dress, artistic and expressive mood, photorealistic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Rembrandt Light Trail Filter effect?",
+        "answer": "The Rembrandt Light Trail Filter blends classic Rembrandt-style lighting—characterized by dramatic shadow and a small triangle of light on the cheek—with motion trail effects. This combination adds a sense of movement and depth, giving photos or videos the look of a cinematic art piece."
+      },
+      {
+        "question": "Why is the Rembrandt Light Trail Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "Short-form video platforms reward visually striking content that grabs attention quickly. The filter’s high-contrast lighting and dynamic trails make clips more noticeable in crowded feeds, helping your content stand out without relying on complex editing."
+      },
+      {
+        "question": "Can I create a Rembrandt Light Trail Filter effect from one uploaded image?",
+        "answer": "Yes. The tool generates the effect from a single uploaded photo or video frame. It analyzes the lighting and composition, then applies the Rembrandt shadow pattern and synthetic light trails automatically, so no multi-exposure setup is needed."
+      },
+      {
+        "question": "What kind of image or video works best with this filter?",
+        "answer": "Images or footage with a clear light source and directional shadows work best. Portraits lit from one side, night scenes with highlights, or subjects with inherent motion all produce strong results. Avoid flat, evenly lit shots, as the dramatic shadow pattern benefits from contrast."
+      },
+      {
+        "question": "Can I use the Rembrandt Light Trail Filter for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The filter adds a premium, editorial feel that suits product showcases, fashion lookbooks, travel highlights, and creator content. It helps elevate the visual storytelling across these categories without additional production effort."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn any image into a Rembrandt light trail",
+    "supporting_text": "Start with a text prompt, upload your own media, or pick a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Rembrandt Light Trail Filter",
+    "description": "Users often search for this captivating effect using different terms. Whether you call it a Rembrandt light painting filter, a long exposure portrait effect, or a moving light trail overlay, the idea is the same: dynamic streaks of light wrapping around a subject with dramatic chiaroscuro lighting. LazyKiwi helps you transform these creative concepts into stunning short-video-ready visuals effortlessly.",
+    "keywords": [
+      "Rembrandt light painting effect",
+      "light trail portrait filter",
+      "Rembrandt lighting overlay",
+      "long exposure light art",
+      "moving light streaks effect",
+      "Rembrandt glow filter",
+      "dynamic light trail overlay",
+      "portrait light trail effect",
+      "Rembrandt style light painting",
+      "light motion blur filter",
+      "dramatic light trail filter",
+      "Rembrandt light sculpture effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rembrandt-light-trail-filter-scenario-3.png"
+    ]
+  }
+}

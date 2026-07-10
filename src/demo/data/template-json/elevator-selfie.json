@@ -1,0 +1,127 @@
+{
+  "template_name": "Elevator Selfie",
+  "template_slug": "elevator-selfie",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:56:37",
+  "hero": {
+    "title": "Elevator Selfie",
+    "description": "Elevator Selfie recreates the aesthetic of a mirror selfie captured in a modern elevator, giving your photos and videos a refined, high-end atmosphere. Perfect for TikTok, Reels, Shorts, outfit edits, product reveals, and social media ads.",
+    "template_name": "Elevator Selfie Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, natural portrait photo of a person standing against a simple, uncluttered background, with even lighting and a neutral expression, ready for effect application.",
+    "image_prompt_after": "The same person now appearing in a mirror reflection inside a stylish elevator, with soft ambient lighting, polished details, and a trendy, atmospheric selfie composition, as if taking a mirror selfie in a high-end building.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Elevator Selfie video work?",
+    "intro": "The Elevator Selfie effect recreates the iconic mirror selfie in a moving elevator. It blends a realistic elevator environment with authentic mirror reflections, ambient lighting, and a phone-in-mirror POV. The result is a cinematic, high-fashion clip that feels spontaneous yet polished.",
+    "cards": [
+      {
+        "title": "Ideal Input Frame",
+        "description": "Use a clear, well-lit portrait or full-body shot with minimal background clutter. A confident pose and stylish outfit help the AI create a convincing mirror reflection.",
+        "icon": "upload"
+      },
+      {
+        "title": "Selfie-Ready Subject",
+        "description": "The subject should appear as if checking themselves in a mirror. Subtle movements like adjusting hair or posing create a realistic, immersive elevator selfie vibe.",
+        "icon": "subject"
+      },
+      {
+        "title": "Dynamic Mirror Motion",
+        "description": "Simulated elevator motion combined with shifting mirror reflections and ambient lighting changes make the video feel authentic and cinematic, as if filmed in a moving lift.",
+        "icon": "motion"
+      },
+      {
+        "title": "Trendy Social Aesthetic",
+        "description": "This effect taps into the popular elevator selfie trend, instantly adding a premium, fashion-forward look. It boosts engagement on TikTok, Reels, and ads by delivering a relatable yet aspirational scene.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real examples of how the Elevator Selfie effect is applied by creators across different platforms.",
+    "scenarios": [
+      {
+        "title": "Daily Outfit Mirror Selfie",
+        "description": "Share your OOTD with the sleek elevator mirror effect for a polished look.",
+        "category": "Fashion",
+        "image_prompt": "A fashion influencer in a modern elevator, holding a phone, taking a mirror selfie wearing a casual chic outfit, soft warm lighting, clean mirror, urban vibe.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-scenario-1.png"
+      },
+      {
+        "title": "Hotel Elevator Moments",
+        "description": "Capture travel style with the elegant mirror reflection of a high-end hotel elevator.",
+        "category": "Travel",
+        "image_prompt": "A travel blogger standing in an upscale hotel elevator with a suitcase, capturing the mirror reflection of a stylish travel outfit, elegant interior with marble and gold accents.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-scenario-2.png"
+      },
+      {
+        "title": "Luxury Goods Preview",
+        "description": "Highlight bags, watches, or accessories against the refined elevator interior.",
+        "category": "Luxury Lifestyle",
+        "image_prompt": "Close-up of a mirror selfie in an elevator, the reflection focusing on a luxury handbag and a smartwatch, sleek mirrored walls, ambient lighting, sophisticated aesthetic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Elevator Selfie effect?",
+        "answer": "It is a digital filter that simulates a mirror selfie taken in an elevator, adding reflective surfaces, ambient lighting, and a realistic indoor backdrop to create a trendy, high-end atmosphere."
+      },
+      {
+        "question": "Why is the Elevator Selfie effect useful for TikTok, Reels, or Shorts?",
+        "answer": "The distinctive mirror reflection and elevator setting make content stand out in short-form feeds. It matches current social media trends, helping videos attract more attention and engagement."
+      },
+      {
+        "question": "Can I create an Elevator Selfie from one uploaded image?",
+        "answer": "Yes, the effect works with a single image. You simply upload your photo, and the tool generates the mirror-and-elevator scene automatically—no multiple angles or manual editing required."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Well-lit, clear shots with the subject facing the camera produce the best results. A simple background helps the simulated mirror, reflections, and elevator details appear clean and natural."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect is versatile and suits personal portraits, product displays, fashion looks, travel photos, and social media creator posts, giving any content a polished, modern vibe."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn any photo into an elevator selfie",
+    "supporting_text": "Start with a prompt, uploaded media, or a template to create a realistic elevator selfie instantly.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Elevator Selfie",
+    "description": "Many people look for the Elevator Selfie effect using different phrases, such as 'mirror lift photo' or 'elevator reflection snap'. Whether you call it a high-rise selfie filter or a glass elevator overlay, LazyKiwi helps you turn these creative ideas into polished, short-video-ready visuals in seconds.",
+    "keywords": [
+      "lift selfie effect",
+      "elevator mirror photo filter",
+      "elevator reflection selfie",
+      "mirror elevator selfie overlay",
+      "selfie in elevator template",
+      "high-rise elevator filter",
+      "glass elevator photo effect",
+      "elevator double reflection",
+      "elevator photobooth look",
+      "reflective lift snap"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/elevator-selfie-scenario-3.png"
+    ]
+  }
+}

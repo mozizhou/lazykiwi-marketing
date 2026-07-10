@@ -57,7 +57,7 @@
         "title": "Generate and download result",
         "description": "Click generate to create your image, preview the result in real-time, and download in your preferred format when satisfied with the output.",
         "image_prompt": "UI screenshot showing a generated image preview area with a sample artistic image displayed, loading progress indicator at 100%, and action buttons below including 'Download PNG', 'Download JPG', and 'Regenerate'. Clean gallery-style presentation with the generated image prominently featured in the center.",
-        "image": "/static/models/wan-2-7-image-step-3.png"
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/wan-2-7-image/step-3.png"
       }
     ],
     "cta": {
@@ -284,17 +284,20 @@
       {
         "quote": "Finally, an image model that handles text rendering without mangling it. Saves me hours of manual fixes on product mockups.",
         "name": "Sarah Chen",
-        "role": "E-commerce designer"
+        "role": "E-commerce designer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/wan-2-7-image/avatar-1.png"
       },
       {
         "quote": "The prompt adherence is noticeably better than what I was using. I get what I ask for on the first try most of the time.",
         "name": "Marcus Rivera",
-        "role": "Brand creative director"
+        "role": "Brand creative director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/wan-2-7-image/avatar-2.png"
       },
       {
         "quote": "I switched from Midjourney for client work. WAN's consistency across image sets makes building cohesive campaigns way easier.",
         "name": "Priya Malhotra",
-        "role": "Marketing lead"
+        "role": "Marketing lead",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/wan-2-7-image/avatar-3.png"
       }
     ]
   },

@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
 import { getTemplateData } from "../data/templatesList";
+import { getTemplatePage } from "../data/templatePages";
+import TemplateRichLanding from "./TemplateRichLanding";
 import EffectLandingPage from "./EffectLandingPage";
 import EffectPremiumPage from "./EffectPremiumPage";
 import { getEffectData } from "../data/landingPages";
@@ -10,18 +12,21 @@ import { getEffectPremiumData } from "../data/effectPremiumPages";
 const ORIGIN = "https://lazykiwi.ai";
 
 export default function TemplateLandingPage({ slug }) {
+  const richData = getTemplatePage(slug);
   const template = getTemplateData(slug);
   const effectSlug = template?.legacyEffectSlug;
   const premiumEffect = effectSlug ? getEffectPremiumData(effectSlug) : null;
   const legacyEffect = effectSlug ? getEffectData(effectSlug) : null;
 
   useEffect(() => {
-    if (!template || premiumEffect || legacyEffect) return;
+    if (richData || !template || premiumEffect || legacyEffect) return;
     document.title = `${template.name} Template | LazyKiwi`;
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", template.blurb);
-  }, [template, premiumEffect, legacyEffect]);
+  }, [richData, template, premiumEffect, legacyEffect]);
 
+  // Rich template data (issue #39) takes priority so every template renders full content.
+  if (richData) return <TemplateRichLanding data={richData} slug={slug} />;
   if (premiumEffect) return <EffectPremiumPage slug={effectSlug} />;
   if (legacyEffect) return <EffectLandingPage slug={effectSlug} />;
 
@@ -50,7 +55,7 @@ export default function TemplateLandingPage({ slug }) {
           <h1 className="max-w-3xl text-4xl font-black leading-[1.05] tracking-tight text-gray-950 sm:text-6xl">{template.name}</h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-gray-600">{template.blurb}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href={template.type === "Video" ? "/video-generator" : "/image-generator"} className="inline-flex items-center gap-2 rounded-2xl bg-kiwi-green px-7 py-3.5 text-sm font-black text-gray-950 shadow-[0_10px_30px_-10px_rgba(132,204,22,0.7)] transition hover:bg-kiwi-green-dark hover:text-white">
+            <a href={`${template.type === "Video" ? "/video-generator" : "/image-generator"}?mode=template&template=${encodeURIComponent(template.slug)}`} className="inline-flex items-center gap-2 rounded-2xl bg-kiwi-green px-7 py-3.5 text-sm font-black text-gray-950 shadow-[0_10px_30px_-10px_rgba(132,204,22,0.7)] transition hover:bg-kiwi-green-dark hover:text-white">
               Use this template <ArrowRight size={18} />
             </a>
             <a href="/templates" className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-5 py-3.5 text-sm font-bold text-gray-600 transition hover:text-gray-950">

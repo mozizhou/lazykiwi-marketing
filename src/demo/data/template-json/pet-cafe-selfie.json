@@ -1,0 +1,128 @@
+{
+  "template_name": "Pet Café Selfie",
+  "template_slug": "pet-café-selfie",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:06:10",
+  "hero": {
+    "title": "Pet Café Selfie",
+    "description": "Pet Café Selfie transforms your photo by placing you in a cozy, pet-friendly café scene with adorable cats and dogs, warm lighting, and charming decor. Ideal for creating engaging social content on TikTok, Reels, Shorts, and ads that connect with pet lovers and lifestyle audiences.",
+    "template_name": "Pet Café Selfie Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, natural selfie of a smiling person taken indoors, neutral background, even lighting, no filters, suitable for applying a pet café effect.",
+    "image_prompt_after": "The same selfie now seamlessly integrated into a warm, cozy pet café setting with cute cats and dogs nearby, rustic wooden tables, coffee cups, hanging string lights, plants, and soft bokeh in the background.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Pet Café Selfie video work?",
+    "intro": "This effect places you inside a warm, whimsical pet café scene—soft lighting, cute animals, and cozy decor blend with your selfie. A matched color tone, subtle depth, and animated pet interactions create the illusion of a real visit, making the final shot feel personal and instantly shareable.",
+    "cards": [
+      {
+        "title": "Clean, centered portrait",
+        "description": "Start with a well-lit front-facing photo where you face the camera directly. A neutral or smiling expression helps the café lighting and pets sit naturally around you.",
+        "icon": "camera"
+      },
+      {
+        "title": "Relaxed, gentle presence",
+        "description": "Keep your pose open and calm—a slight head tilt or hand gesture toward a pet makes the interaction look spontaneous. No sudden movements break the cozy illusion.",
+        "icon": "subject"
+      },
+      {
+        "title": "Layered scene blending",
+        "description": "Animated animals move softly over your image while warm bokeh and café props fuse into the background. The effect uses real-time depth mapping so pets appear to sit beside or on you.",
+        "icon": "layers"
+      },
+      {
+        "title": "Cozy-ASMR appeal for feeds",
+        "description": "Wholesome pet content consistently stops the scroll on TikTok and Reels. The café setting adds a comforting, aesthetic layer that fits ASMR, lifestyle vlogs, and emotional brand storytelling.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "A look at real creative use cases where the Pet Café Selfie effect elevates social media posts, promotional content, and personal storytelling.",
+    "scenarios": [
+      {
+        "title": "Adoptable Pets Showcase",
+        "description": "Shelters add cozy café charm to adoption photos, making pets more approachable and shareable.",
+        "category": "Animal Welfare",
+        "image_prompt": "A phone screen displaying a selfie of a young volunteer in a virtual pet café environment, surrounded by adoptable cats and dogs, with a warm bokeh background and a steaming coffee cup. The effect overlays subtle pet ears on the person's head and heart-shaped nose, with a banner overlay reading 'Meet Your New Best Friend'. UI shows Instagram Stories interface, swipe-up link and heart reaction buttons visible. Realistic photography, soft morning light.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-scenario-1.png"
+      },
+      {
+        "title": "Cozy Mental Health Breaks",
+        "description": "Creators share uplifting self-care moments featuring virtual pet café visits to brighten followers' days.",
+        "category": "Lifestyle & Wellness",
+        "image_prompt": "Close-up of a smartphone showing a TikTok story with the Pet Café Selfie effect applied. A person smiles gently, with a fluffy virtual cat perched on their shoulder, pastel café wallpaper and a cup with latte art in the background. The overlay includes a 'Take a break 🐾' text sticker. Emotional wellbeing aesthetics, warm and soft color palette, natural skin texture, no excessive filters.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-scenario-2.png"
+      },
+      {
+        "title": "Virtual Pet Café Tour",
+        "description": "Travel vloggers preview pet café experiences, attracting viewers with cute virtual pets and coffee.",
+        "category": "Travel & Hospitality",
+        "image_prompt": "A vlogger holds a DSLR camera towards a real café table with coffee, while their phone on a tripod shows the same scene enhanced by the effect: additional corgi and ragdoll cats digitally inserted, fairy lights string across, and a 'Tokyo Pet Café' location tag. Behind-the-scenes content creation setup, cluttered desk with ring light and microphone, natural window lighting, hyper-realistic details on the digital animals.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Pet Café Selfie effect?",
+        "answer": "The Pet Café Selfie effect transforms your photo into a cozy scene inside a pet café. It adds warm lighting, playful animals, and café-style details around you, creating a friendly and relaxing selfie perfect for social sharing."
+      },
+      {
+        "question": "Why is Pet Café Selfie useful for TikTok, Reels, or Shorts?",
+        "answer": "This effect helps short-form videos stand out by instantly placing you in a charming pet café setting. The inviting atmosphere grabs viewers' attention quickly, making your content more engaging and shareable without needing a real café visit."
+      },
+      {
+        "question": "Can I create Pet Café Selfie from one uploaded image?",
+        "answer": "Yes, you can generate the effect using a single clear photo. Just upload your image, and the tool applies the pet café environment around you automatically. For best results, use a well-lit forward-facing selfie."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "A portrait-style selfie with good lighting and an uncluttered background delivers the most natural result. Avoid heavy backlight or shadows, and make sure your face is clearly visible so the effect blends smoothly with the café scene."
+      },
+      {
+        "question": "Can I use Pet Café Selfie for creator content?",
+        "answer": "Absolutely. The effect is ideal for lifestyle creators, vloggers, and brands that want a warm, approachable visual. It works well for storytelling, greetings, product introductions, or just adding a personal touch to your feed."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn any photo into a Pet Café Selfie",
+    "supporting_text": "Start with a prompt, upload your own media, or use a template to get started.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Pet Café Selfie",
+    "description": "Users often search for this charming effect using a variety of terms, from \"animal café selfie\" and \"cat café snapshot\" to \"dog café photo filter\". Whether you imagine a cozy moment surrounded by furry friends or a playful pet-lover portrait, LazyKiwi instantly transforms these ideas into short‑video‑ready visuals, matching your unique description to the perfect effect.",
+    "keywords": [
+      "animal café selfie",
+      "cat café photo filter",
+      "dog café effect",
+      "pet lover selfie",
+      "cute pet café portrait",
+      "coffee with cats effect",
+      "furry friends café shot",
+      "pet selfie filter",
+      "virtual pet café experience",
+      "puppy café snapshot",
+      "kitty café selfie generator"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pet-café-selfie-scenario-3.png"
+    ]
+  }
+}

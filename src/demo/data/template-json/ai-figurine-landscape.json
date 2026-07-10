@@ -1,0 +1,129 @@
+{
+  "template_name": "AI Figurine Landscape",
+  "template_slug": "ai-figurine-landscape",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:16:16",
+  "hero": {
+    "title": "AI Figurine Landscape",
+    "description": "Transform landscape photos into detailed miniature figurine scenes with a collectible toy aesthetic. Perfect for travel content, social media posts, product reveals, and ad creatives on TikTok, Reels, Shorts, and more.",
+    "template_name": "AI Figurine Landscape Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A high-resolution photograph of a scenic mountain landscape with a crystal-clear lake, green pine trees, and a bright blue sky with soft white clouds. Natural lighting, sharp focus, professional composition, suitable for applying a miniature figurine effect.",
+    "image_prompt_after": "The same mountain landscape transformed into a realistic miniature figurine model on a small display base. The landscape is rendered as a detailed, hand-painted collectible toy, with a glossy finish, visible texture of miniature trees and water, tiny sculpted details, and soft studio lighting against a neutral background. The scene looks like a premium collectible figurine, with a shallow depth of field emphasizing the small scale.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a AI Figurine Landscape video work?",
+    "intro": "The AI Figurine Landscape effect turns any landscape photo or video into a tiny, hyper-detailed figurine world. It applies a sharp miniature scale, shallow depth of field, and a glossy collectible finish, often with a slow camera pan that reveals a diorama-like 3D scene. This illusion makes ordinary scenery feel like a premium handcrafted model.",
+    "cards": [
+      {
+        "title": "A clear, wide-angle view",
+        "description": "Start with a landscape photo or clip that has a broad view and good lighting. Elevated angles work best to mimic the top-down perspective of a miniature model.",
+        "icon": "upload"
+      },
+      {
+        "title": "Miniature still-life subject",
+        "description": "The landscape becomes a frozen, highly detailed figurine scene. No real motion inside the frame—just a static diorama with a collectible, almost toy-like quality.",
+        "icon": "subject"
+      },
+      {
+        "title": "Tilt-shift depth & glossy layers",
+        "description": "A shallow depth of field blurs the background and foreground, while a glossy material shader adds a polished, collectible sheen. Gentle camera rotation enhances the 3D effect.",
+        "icon": "layers"
+      },
+      {
+        "title": "Scroll-stopping social asset",
+        "description": "This unique miniature aesthetic instantly grabs attention in feeds. It works for travel, real estate, and product content by presenting scenes as premium, shareable collectibles.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the AI Figurine Landscape effect to turn ordinary scenery into miniature collectible scenes.",
+    "scenarios": [
+      {
+        "title": "Travel Miniature Showcase",
+        "description": "Travel influencers transform famous landmarks into tiny figurine dioramas for unique, shareable posts.",
+        "category": "travel & lifestyle",
+        "image_prompt": "A phone held in a hand displaying a travel photo of Santorini's blue-domed buildings, processed with the AI Figurine Landscape effect to look like a detailed miniature model scene with glossy surfaces and lifted shadows, surrounded by travel gear on a wooden table.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-scenario-1.png"
+      },
+      {
+        "title": "Diorama Idea Generator",
+        "description": "Model makers and crafters visualize real-world landscapes as miniature builds before starting a project.",
+        "category": "hobbies & diy",
+        "image_prompt": "Laptop screen showing a split view: left side a photograph of a forest path, right side the same image transformed into a finely crafted figurine-style miniature landscape with vibrant colors, placed on a desk next to modeling tools and paint bottles.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-scenario-2.png"
+      },
+      {
+        "title": "Collectible Product Staging",
+        "description": "Brands and sellers present figurines in a miniature landscape backdrop that enhances the collectible appeal.",
+        "category": "product marketing",
+        "image_prompt": "A product photograph of a fantasy character figurine standing on a mossy rock, with the background transformed into a blurred, tilted-shift figurine landscape scene that makes the whole composition look like a polished collectible diorama, with soft studio lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the AI Figurine Landscape effect?",
+        "answer": "The AI Figurine Landscape effect transforms any landscape photo into a miniature figurine-style scene. It gives the image the look of a hand-painted collectible model displayed on a small base, simulating a macro photography, tilt-shift, or diorama aesthetic."
+      },
+      {
+        "question": "Why is AI Figurine Landscape useful for TikTok, Reels, or Shorts?",
+        "answer": "The unique miniature collectible look grabs attention fast in short-form video feeds. The effect adds a striking visual twist to ordinary scenery, making content more shareable and helping it stand out in crowded social platforms."
+      },
+      {
+        "question": "Can I create the AI Figurine Landscape from one uploaded image?",
+        "answer": "Yes, the effect works with a single uploaded photo. The AI processes the image and generates the figurine landscape output without needing multiple angles or additional inputs."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "Clear, well-lit landscape or cityscape photos with distinct foreground and background elements produce the most convincing figurine effect. Avoid overly cluttered or low-resolution images to maintain the miniature model detail."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The AI Figurine Landscape effect is versatile: travel creators can turn landmarks into collectible scenes, product shots can look like limited-edition figurines, and fashion or lifestyle content gains a playful, toy-like aesthetic that appeals to a wide audience."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create a Figurine Landscape from One Frame, Upload, or Template",
+    "supporting_text": "Start from a prompt, upload your own media, or pick a template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for AI Figurine Landscape",
+    "description": "Users sometimes describe this effect in different ways when looking for the perfect visual style. Whether you know it as a miniature diorama effect, a toy landscape filter, or a tilt-shift figurine generator, LazyKiwi makes it easy to turn your ideas into short-video-ready visuals that capture that tiny world charm.",
+    "keywords": [
+      "miniature landscape effect",
+      "tilt-shift figurine generator",
+      "AI tiny world effect",
+      "figurine scene maker",
+      "miniature model effect online",
+      "diorama AI filter",
+      "toy landscape generator",
+      "AI dollhouse effect",
+      "fake tilt shift AI",
+      "miniature world creator",
+      "figurine photography AI",
+      "turn photo into miniature diorama"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-figurine-landscape-scenario-3.png"
+    ]
+  }
+}

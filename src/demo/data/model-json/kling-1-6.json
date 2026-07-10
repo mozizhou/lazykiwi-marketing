@@ -268,17 +268,20 @@
       {
         "quote": "The motion consistency is what sold me. I can finally generate product demos that don't look janky halfway through.",
         "name": "Maya Patel",
-        "role": "Product marketer"
+        "role": "Product marketer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/kling-1-6/avatar-1.png"
       },
       {
         "quote": "Kling 1.6 handles camera movements way better than previous versions. Saves me hours of post-production cleanup work.",
         "name": "James Chen",
-        "role": "Short-form creator"
+        "role": "Short-form creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/kling-1-6/avatar-2.png"
       },
       {
         "quote": "I use it for rough cuts and concept validation. The quality is good enough to show clients without disclaimers.",
         "name": "Sarah Kim",
-        "role": "Creative director"
+        "role": "Creative director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/kling-1-6/avatar-3.png"
       }
     ]
   },

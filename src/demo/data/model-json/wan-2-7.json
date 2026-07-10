@@ -267,17 +267,20 @@
       {
         "quote": "The motion consistency is what sold me. I can finally generate product demos that don't look janky halfway through.",
         "name": "Sarah Chen",
-        "role": "Product marketer"
+        "role": "Product marketer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/wan-2-7/avatar-1.png"
       },
       {
         "quote": "I was skeptical about AI video until WAN 2.7. It handles camera movement better than anything I've tested.",
         "name": "Marcus Rodriguez",
-        "role": "Short-form creator"
+        "role": "Short-form creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/wan-2-7/avatar-2.png"
       },
       {
         "quote": "We cut our B-roll production time by 60%. The lighting consistency across scenes is surprisingly good.",
         "name": "Alex Patel",
-        "role": "Content lead"
+        "role": "Content lead",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/wan-2-7/avatar-3.png"
       }
     ]
   },

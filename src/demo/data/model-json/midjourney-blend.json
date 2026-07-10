@@ -284,17 +284,20 @@
       {
         "quote": "Blend saves me hours when I need to iterate on visual concepts. I can test style combinations without starting from scratch every time.",
         "name": "Maya Chen",
-        "role": "Brand designer"
+        "role": "Brand designer",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/midjourney-blend/avatar-1.png"
       },
       {
         "quote": "The way it merges composition and style is genuinely useful. I use it to explore directions before committing to final renders.",
         "name": "James Kowalski",
-        "role": "Creative director"
+        "role": "Creative director",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/midjourney-blend/avatar-2.png"
       },
       {
         "quote": "I was skeptical at first, but Blend actually understands how to weight different image elements. It's become part of my workflow.",
         "name": "Priya Sharma",
-        "role": "Illustrator"
+        "role": "Illustrator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/models/midjourney-blend/avatar-3.png"
       }
     ]
   },

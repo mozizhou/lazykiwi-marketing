@@ -1,0 +1,125 @@
+{
+  "template_name": "Rolling Motion",
+  "template_slug": "rolling-motion",
+  "template_type": "video",
+  "created_at": "2026-06-11 14:44:29",
+  "hero": {
+    "title": "Rolling Motion",
+    "description": "The Rolling Motion effect adds a smooth, rotating camera dynamic to your footage, creating a continuous spin that amplifies movement and draws attention. Ideal for product showcases, outfit reveals, action clips, and social media content like TikToks, Reels, and Shorts that need a high-energy visual hook.",
+    "template_name": "Rolling Motion Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A split-screen comparison showing the Rolling Motion effect: left side is a static frame of a sneaker floating against a clean studio background; right side is the same sneaker with a 360-degree rotational motion blur and subtle motion trails, clearly demonstrating the continuous spin effect. The composition is clean, modern, and highlights the dynamic rolling movement.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Rolling Motion video work?",
+    "intro": "A Rolling Motion video adds dynamic energy by rotating the entire frame around a central point. This effect turns static or linear footage into a kinetic experience, making subjects appear to spin through space. It relies on consistent motion, a strong focal point, and often syncs with beats or transitions.",
+    "cards": [
+      {
+        "title": "Centered, Action-Ready Footage",
+        "description": "Start with a subject in the middle of the frame, with balanced composition and enough space around it so the roll doesn’t crop out key details.",
+        "icon": "subject"
+      },
+      {
+        "title": "Focal Point in Motion",
+        "description": "The subject stays anchored near the center as the frame rotates, creating an illusion of 3D spin. Natural movement like a jump or turn amplifies the effect.",
+        "icon": "motion"
+      },
+      {
+        "title": "Smooth Rotational Transform",
+        "description": "The effect uses gradual angle changes with motion blur to maintain visual flow. Keyframes are often synced to audio beats for added impact.",
+        "icon": "layers"
+      },
+      {
+        "title": "Scroll-Stopping Social Energy",
+        "description": "Rolling motion cuts through static feeds, making it perfect for product 360s, transition clips, and ads. It holds attention and increases content shareability.",
+        "icon": "scene"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore how creators use the Rolling Motion effect to build stronger hooks and visual momentum across lifestyle, motion, and travel content.",
+    "scenarios": [
+      {
+        "title": "Casual Street Freeze",
+        "description": "Transform a simple walking shot into a scroll-stopping moment with motion blur and freeze cuts.",
+        "category": "lifestyle",
+        "image_prompt": "A style creator in a long tan trench coat and sunglasses looks back over her shoulder while walking through a narrow European street at dusk. The Rolling Motion effect causes the camera to smoothly orbit 90 degrees around her, freezing her mid-stride with sharp focus while the cobblestone alley and warm cafe lights blur into a dynamic cylindrical spin. Soft golden hour light, strong vertical framing for short-video reels.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-scenario-1.png"
+      },
+      {
+        "title": "Dynamic Dance Flow",
+        "description": "Amplify a dancer’s energy by rotating the scene around their acute movement.",
+        "category": "motion",
+        "image_prompt": "A male street dancer in oversized cargo pants and a blank tank top performs a powerful twisting jump inside an abandoned warehouse with graffiti-covered walls. The Rolling Motion effect applies a dramatic barrel roll to the entire frame, synchronizing the rotation speed with the peak of his explosive jump. The dancer stays sharply in focus against the spinning urban backdrop, ending with a precise freeze at the apex of motion. Harsh fluorescent and natural lighting mixing to create a gritty, high-contrast mood.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-scenario-2.png"
+      },
+      {
+        "title": "Scenic Lookbook Stop",
+        "description": "Highlight a travel outfit and iconic landmark by freezing the moment during a cinematic spin.",
+        "category": "travel",
+        "image_prompt": "A female travel blogger in a chic linen co-ord set and straw hat stands on a balcony with the pastel-hued Santorini caldera and domed churches in the background during sunset. The camera performs a smooth 180-degree axial roll around her. The Rolling Motion effect stops the spin abruptly at a dynamic low-angle, freezing her outfit, the flowing hat ribbon, and the breathtaking white and blue scenery perfectly still. Rich, warm golden hour tones, editorial lookbook aesthetic.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Rolling Motion effect?",
+        "answer": "Rolling Motion is a video effect that adds a smooth, continuous rolling or tilting movement to your image or clip, creating a dynamic sense of motion without manual camera work."
+      },
+      {
+        "question": "Why is Rolling Motion useful for TikTok, Reels, or Shorts?",
+        "answer": "It instantly makes static shots more engaging, helps your content stand out in fast-scrolling feeds, and keeps viewers watching longer by adding a natural, looping movement."
+      },
+      {
+        "question": "Can I create a Rolling Motion effect from a single uploaded image?",
+        "answer": "Yes. You can upload just one photo and the tool will automatically generate the rolling motion, turning a still image into a moving video clip."
+      },
+      {
+        "question": "What kind of image or video works best with Rolling Motion?",
+        "answer": "Images with a clear subject, strong depth of field, or interesting backgrounds produce the most noticeable effect. Product shots, portraits, and landscape visuals all work well."
+      },
+      {
+        "question": "Can I use Rolling Motion for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. It’s ideal for product showcases, outfit reveals, travel highlights, and social media creator content where subtle movement can highlight details and add visual interest."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create a Rolling Motion Video from a Frame, Upload, or Template",
+    "supporting_text": "Start with a prompt, uploaded media, or a template to build your rolling motion effect.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Rolling Motion",
+    "description": "You might know this look as something else. Some call it a barrel roll transition, a tumbling edit, or simply the rotating motion effect popular in social media clips. Whatever name you use, LazyKiwi helps you transform these concepts into polished, short-video-ready visuals in just a few taps.",
+    "keywords": [
+      "barrel roll effect",
+      "spinning transition video",
+      "rotating motion edit",
+      "tumble effect for reels",
+      "360 roll transition",
+      "video rotation effect",
+      "spin tilt effect",
+      "rotoscope roll",
+      "looping roll effect",
+      "dynamic rotation filter",
+      "smooth spin transition"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rolling-motion-scenario-3.png"
+    ]
+  }
+}

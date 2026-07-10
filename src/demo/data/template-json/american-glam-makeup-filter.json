@@ -1,0 +1,129 @@
+{
+  "template_name": "American Glam Makeup Filter",
+  "template_slug": "american-glam-makeup-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 19:08:33",
+  "hero": {
+    "title": "American Glam Makeup Filter",
+    "description": "Transform your photos with the American Glam Makeup Filter, instantly applying a refined, high-fashion makeup look with defined contours and bold accents. Ideal for TikTok transformations, Reels, Shorts, product reveals, outfit edits, and social media content that demands a polished, editorial style.",
+    "template_name": "American Glam Makeup Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, natural portrait of a young woman with minimal makeup, even skin texture, soft studio lighting, neutral gray background, looking directly at the camera with a relaxed expression, high resolution, photorealistic.",
+    "image_prompt_after": "The same woman with the American Glam Makeup Filter applied: dramatic contoured cheekbones, bold smoky eyes with winged liner, full lashes, matte foundation, defined brows, glossy nude lips, soft studio lighting, neutral gray background, same pose and framing, high resolution, photorealistic.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a American Glam Makeup Filter video work?",
+    "intro": "This filter applies a polished American glam makeup look – sculpted contours, luminous skin, defined eyes, and rich lip color – all in real time. Using precise face tracking, it adapts the makeup to your facial structure, creating depth and dimension that looks natural on camera.",
+    "cards": [
+      {
+        "title": "Clear, Well-Lit Face",
+        "description": "Start with a front-facing shot under soft, even light. Avoid heavy makeup or shadows so the filter can map your features precisely.",
+        "icon": "camera"
+      },
+      {
+        "title": "Steady Pose, Subtle Moves",
+        "description": "Maintain a relaxed but upright face angle. Small head turns and natural expressions let the glam contouring read well on screen.",
+        "icon": "subject"
+      },
+      {
+        "title": "Real-Time Face Tracking",
+        "description": "The filter uses 3D mesh tracking to place contours, highlights, and lip color that follow every micro-movement, keeping the makeup seamless.",
+        "icon": "motion"
+      },
+      {
+        "title": "Platform-Ready Polish",
+        "description": "It turns ordinary clips into high-production beauty content without editing, ideal for beauty ads, tutorials, and short-form engagement.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore how creators use the American Glam Makeup Filter across different platforms and content types.",
+    "scenarios": [
+      {
+        "title": "Instagram Selfie Ready",
+        "description": "Get a polished, camera-ready look for daily social media posts.",
+        "category": "Social Media",
+        "image_prompt": "Close-up selfie of a young woman using the American Glam Makeup Filter, phone in hand, natural daylight, flawless makeup with sculpted contour, smoky eyes, and matte nude lip, modern casual outfit, neutral background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-scenario-1.png"
+      },
+      {
+        "title": "Fashion Lookbook Content",
+        "description": "Enhance outfit-of-the-day photos with a cohesive glam makeup finish.",
+        "category": "Fashion",
+        "image_prompt": "Full-body shot of a fashion influencer in a street-style outfit, American Glam Makeup Filter applied, posing on a city sidewalk, soft golden hour light, editorial composition, blurred urban background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-scenario-2.png"
+      },
+      {
+        "title": "Quick Beauty Tutorials",
+        "description": "Showcase before-and-after transformations without heavy makeup application.",
+        "category": "Beauty",
+        "image_prompt": "Split-screen composition: left side bare face, right side same person with the American Glam Makeup Filter, delicate makeup mirror on vanity, soft ring light, beauty content creator setting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the American Glam Makeup Filter effect?",
+        "answer": "The American Glam Makeup Filter applies a polished, contoured makeup style to your photos or videos, inspired by classic American beauty trends. It enhances facial features with defined brows, sculpted cheekbones, and a flawless complexion finish."
+      },
+      {
+        "question": "Why is the American Glam Makeup Filter useful for TikTok, Reels, or Shorts?",
+        "answer": "It helps creators quickly achieve a consistent, professional makeup look without manual editing. This saves time and keeps content visually appealing, which can improve viewer engagement on short-form video platforms."
+      },
+      {
+        "question": "Can I create the American Glam Makeup Filter effect from one uploaded image?",
+        "answer": "Yes. Most tools that offer this effect let you upload a single photo and apply the filter automatically. The filter detects facial features and adjusts makeup elements instantly."
+      },
+      {
+        "question": "What kind of image or video works best with the American Glam Makeup Filter?",
+        "answer": "Clear, well-lit front-facing portraits with unobstructed facial features give the best results. Avoid heavy shadows or accessories that cover key points like the eyes or jawline."
+      },
+      {
+        "question": "Can I use this filter for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The filter complements various content types by giving a refined, camera-ready look. It works well for beauty product demos, fashion shoots, travel selfies, or everyday creator posts."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Apply the American Glam Makeup Filter to your photos",
+    "supporting_text": "Start from a prompt, upload your own media, or use a template to create the effect.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for American Glam Makeup Filter",
+    "description": "Many users search for this effect using different terms, from 'Hollywood glam filter' to 'red carpet makeup AI'. Whatever you call it, LazyKiwi helps you turn these ideas into short-video-ready visuals that capture the bold, polished look of American-style glamour.",
+    "keywords": [
+      "Hollywood glam filter",
+      "red carpet makeup effect",
+      "American beauty filter",
+      "celebrity makeup filter",
+      "glamour makeup AI",
+      "bold makeup look filter",
+      "USA glam makeup transformation",
+      "smokey eye and contour filter",
+      "virtual American glam makeup",
+      "apply American glam makeup online",
+      "American glam photo effect",
+      "LazyKiwi American glam filter"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/american-glam-makeup-filter-scenario-3.png"
+    ]
+  }
+}

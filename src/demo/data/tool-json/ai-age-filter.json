@@ -1,0 +1,187 @@
+{
+  "slug": "ai-age-filter",
+  "seo_title": "AI Age Filter — See Yourself Older or Younger | LazyKiwi",
+  "seo_description": "Try the AI age filter from LazyKiwi. Upload one photo and see a realistic older or younger version of yourself in seconds — age progression made easy.",
+  "hero": {
+    "title": "See yourself older — or younger.",
+    "description": "Upload one photo and watch yourself age forward or back in seconds. The AI adds or smooths years naturally while keeping you, you.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/hero-before.jpg",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/hero-after.jpg"
+  },
+  "what_it_is": {
+    "title": "Travel through time with one photo.",
+    "intro": "The LazyKiwi AI age filter realistically ages your face forward or backward — adjusting skin, hair and structure — so you can meet your future self or your younger one, believably and instantly.",
+    "checks": [
+      "Older and younger",
+      "Natural, gradual aging",
+      "Keeps your identity"
+    ]
+  },
+  "how_it_works": {
+    "title": "Your result in three steps",
+    "steps": [
+      {
+        "title": "Upload your photo",
+        "description": "A clear, well-lit photo is all you need. Your photo, your starting point."
+      },
+      {
+        "title": "Pick older or younger",
+        "description": "Choose older or younger and how far to go."
+      },
+      {
+        "title": "Generate & download",
+        "description": "Preview the result, try a few more, then download your favourite."
+      }
+    ]
+  },
+  "features": [
+    {
+      "eyebrow": "Realistic",
+      "title": "Aging that looks natural",
+      "description": "Lines, skin texture and hair change the way they really would, not with a cartoon overlay.",
+      "bullets": [
+        "Natural skin and hair changes",
+        "Subtle to dramatic",
+        "Keeps your features"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/feature-1.jpg"
+    },
+    {
+      "eyebrow": "Both directions",
+      "title": "Forward to 70, back to 10",
+      "description": "Preview your future self or rewind the years — and everything in between.",
+      "bullets": [
+        "Age up or down",
+        "Adjustable intensity",
+        "Compare side by side"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/feature-2.jpg"
+    },
+    {
+      "eyebrow": "Fun & curious",
+      "title": "A reveal worth sharing",
+      "description": "Great for curiosity, family resemblance games and viral before-and-after posts.",
+      "bullets": [
+        "Shareable results",
+        "High-res export",
+        "Unlimited tries"
+      ],
+      "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/feature-3.jpg"
+    }
+  ],
+  "showcase": {
+    "title": "One face, every age",
+    "subtitle": "See yourself across the decades.",
+    "items": [
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-1.jpg",
+        "caption": "Age +10"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-2.jpg",
+        "caption": "Age +30"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-3.jpg",
+        "caption": "Age +50"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-4.jpg",
+        "caption": "Younger"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-5.jpg",
+        "caption": "As a child"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-6.jpg",
+        "caption": "Teen"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-7.jpg",
+        "caption": "Senior"
+      },
+      {
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/gallery-8.jpg",
+        "caption": "Time-lapse"
+      }
+    ]
+  },
+  "why": {
+    "title": "Built to look real",
+    "cards": [
+      {
+        "title": "Seconds, not days",
+        "description": "Results render almost instantly, so you can compare options before your coffee's cold."
+      },
+      {
+        "title": "Private by default",
+        "description": "Your photos are processed securely and never sold. What you upload stays yours."
+      },
+      {
+        "title": "Free to start",
+        "description": "No credit card to try. Get a real result on your own photo at zero cost."
+      },
+      {
+        "title": "No regret",
+        "description": "Test the change risk-free and decide with your own eyes."
+      },
+      {
+        "title": "Made for you",
+        "description": "Tuned for natural, believable results — not a filter slapped on top."
+      },
+      {
+        "title": "No skills needed",
+        "description": "No Photoshop, no prompts to master. Upload, tap, done."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "120,000+ photos transformed",
+    "quotes": [
+      {
+        "quote": "I was nervous to try this, saw it on my own photo in seconds, and I'm obsessed. So much easier than guessing.",
+        "name": "Mia R.",
+        "role": "Content creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-1.jpg"
+      },
+      {
+        "quote": "Showed the LazyKiwi preview instead of trying to describe what I wanted. First time I got exactly what I pictured.",
+        "name": "Daniel K.",
+        "role": "Verified user",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-2.jpg"
+      },
+      {
+        "quote": "My before/after post blew up — it looks real because the age actually fits. Total game changer.",
+        "name": "Priya S.",
+        "role": "TikTok creator",
+        "avatar": "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/avatar-3.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "faqs": [
+      {
+        "question": "Is the age filter free?",
+        "answer": "Yes. Upload a photo and see an older or younger version for free."
+      },
+      {
+        "question": "Will it still look like me?",
+        "answer": "Yes. The AI ages your real features while keeping your identity recognizable."
+      },
+      {
+        "question": "Can it make me younger too?",
+        "answer": "Yes — age forward or backward, with adjustable intensity."
+      },
+      {
+        "question": "What photo works best?",
+        "answer": "A clear, front-facing selfie with good lighting."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Meet your future — and past — self.",
+    "description": "Upload one photo and see a realistic older or younger you in seconds — free."
+  }
+}

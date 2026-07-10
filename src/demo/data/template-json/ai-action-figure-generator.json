@@ -1,0 +1,129 @@
+{
+  "template_name": "ai action figure generator",
+  "template_slug": "ai-action-figure-generator",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:25:14",
+  "hero": {
+    "title": "ai action figure generator",
+    "description": "Turn any photo into a detailed action figure toy. Perfect for product reveals, TikTok and Reels content, outfit edits, and action shots where a collectible figurine version of your subject grabs attention.",
+    "template_name": "ai action figure generator Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "High-quality 16:9 landscape photograph of a young man in his mid-20s with a confident, natural expression, wearing a textured olive-green bomber jacket over a clean white t-shirt and dark slim jeans. He stands in a relaxed upright pose against a soft, gradient light-gray studio backdrop, with professional diffused lighting emphasizing his facial features and clothing details. The composition has a shallow depth of field keeping him in sharp focus, vibrant but natural colors, and a cinematic feel. The image is unprocessed and realistic, perfect as a candidate for an AI action figure generator transformation.",
+    "image_prompt_after": "Macro photograph of a custom action figure toy displayed inside a transparent plastic blister pack, 16:9 landscape orientation. The figure is a highly detailed, 6-inch miniature replica of the same young man from the original photo, now in a dynamic battle-ready pose with one leg forward and fist clenched. The head sculpt captures his exact likeness, while visible articulation joints at shoulders, elbows, wrists, hips, knees, and ankles reveal its poseable nature. The figure wears a glossy-finished olive bomber jacket, white shirt, and dark jeans with sculpted fabric texture. The blister card behind it features a vibrant sci-fi cityscape illustration. The pack rests on a wooden shelf under dramatic spotlighting, highlighting reflective plastic surfaces, crisp packaging details, and subtle shadows. Hyper-realistic toy photography style, shallow depth of field, detailed macro rendering, and strong vibrant colors.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a ai action figure generator video work?",
+    "intro": "This effect transforms a subject into a miniature action figure with glossy plastic textures, visible joint lines, and a rotating display base. It relies on precise subject segmentation, consistent lighting, and smooth 3D motion tracking to sell the toy illusion.",
+    "cards": [
+      {
+        "title": "Clear, well-lit starting frame",
+        "description": "Use a front-facing photo with even lighting and a plain background. The cleaner the edges, the better the figure cutout and plastic wrap effect.",
+        "icon": "upload"
+      },
+      {
+        "title": "Toy-like subject appearance",
+        "description": "The subject gains a glossy sheen, slight limb segmentation, and fixed joint pivots. Static poses or subtle bobbing motions reinforce the action figure look.",
+        "icon": "subject"
+      },
+      {
+        "title": "Smooth rotation and depth",
+        "description": "A slow 360° spin or floating animation creates the display stand feel. Depth-of-field blur and rim lighting add dimension and plastic tangibility.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for short-form feeds",
+        "description": "The instant toy transformation grabs attention in the first second, making it highly replayable and shareable on TikTok, Reels, and product teasers.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how the ai action figure generator effect transforms everyday creator content into high-engagement short-video assets.",
+    "scenarios": [
+      {
+        "title": "Casual Street Style Freeze",
+        "description": "Turn a simple sidewalk walk into a scroll-stopping figure moment with sharp clothing detail.",
+        "category": "lifestyle",
+        "image_prompt": "A young creator walking on a sunlit city sidewalk wearing a relaxed beige trench coat and wide-leg jeans, mid-stride with one foot forward, hair moving slightly, ai action figure generator effect turning the person into a matte plastic collectible figure with highlighted joint lines at elbows and knees, realistic face detail preserved, soft natural lighting, blurred street background with parked cars and shopfronts, vertical 9:16 composition for short-video content, product-photography style against a subtle gradient base.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-scenario-1.png"
+      },
+      {
+        "title": "Dance Spin with Motion Blur",
+        "description": "Add dynamic motion energy around a dancer as the effect freezes a peak action pose.",
+        "category": "motion",
+        "image_prompt": "A creator spinning while dancing on an outdoor rooftop at golden hour, arms slightly raised and hair flaring outward, wearing a coordinated athleisure set, ai action figure generator effect rendering the subject as a semi-glossy action figure with visible articulation seams at shoulders and torso, motion trails captured as translucent speed rings around the figure, warm sunlight rim light, city skyline soft-focus background, centered vertical frame suitable for platform thumbnails, clean presentation with soft drop shadow.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-scenario-2.png"
+      },
+      {
+        "title": "Viewpoint Outfit Highlight",
+        "description": "Highlight your travel outfit and location by turning a scenic pose into a display-ready figure edit.",
+        "category": "travel",
+        "image_prompt": "A creator posing at a mountain viewpoint overlook with layered peaks in the distance, wearing a color-block windbreaker and slim hiking pants, one hand resting on a railing, slight contrapposto stance, ai action figure generator effect converting the person into a matte vinyl toy figure with visible joint construction at neck and wrists, crisp fabric texture and zipper details retained, diffused morning light, travel scenery softly blurred with depth of field, display stand partially visible beneath the figure, vertical 9:16 ratio with clean product-showcase framing.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the ai action figure generator effect?",
+        "answer": "It is a digital tool that turns a photo or video of a person or object into a stylized action figure look, complete with toy packaging details."
+      },
+      {
+        "question": "Why is the ai action figure generator useful for TikTok, Reels, or Shorts?",
+        "answer": "It creates a playful, attention-grabbing transformation that increases engagement and shareability on short-form video platforms."
+      },
+      {
+        "question": "Can I create an ai action figure from one uploaded image?",
+        "answer": "Yes, a single clear photo—ideally front-facing with even lighting—is enough to generate a realistic action figure version."
+      },
+      {
+        "question": "What kind of image works best for this effect?",
+        "answer": "Sharp, well-lit images with a simple background and the subject fully visible produce the most accurate and detailed action figure results."
+      },
+      {
+        "question": "Can I use this for product, fashion, or travel content?",
+        "answer": "Yes, it works well for turning products, fashion looks, travel moments, or creator avatars into novelty action figure visuals for social media or marketing."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn Yourself Into an Action Figure",
+    "supporting_text": "Start from a prompt, uploaded photo, or template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for ai action figure generator",
+    "description": "You might know this effect by a few different names or search phrases. Whether you're looking for an AI action figure maker, a turn-photo-into-action-figure tool, or a custom toy avatar creator, the goal is the same—transforming a regular image into a collectible-style figure. LazyKiwi helps you turn those ideas into short-video-ready visuals, so the result feels dynamic and ready to share.",
+    "keywords": [
+      "ai action figure maker",
+      "turn photo into action figure",
+      "action figure filter",
+      "action figure generator online",
+      "custom action figure from photo",
+      "ai toy figure creator",
+      "action figure avatar generator",
+      "3d action figure effect",
+      "action figure style filter",
+      "toy effect photo",
+      "ai figurine maker",
+      "photo to action figure online"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/ai-action-figure-generator-hero-after.png"
+  }
+}

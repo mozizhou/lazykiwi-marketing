@@ -1,0 +1,129 @@
+{
+  "template_name": "selfies with celebrities",
+  "template_slug": "selfies-with-celebrities",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:32:25",
+  "hero": {
+    "title": "selfies with celebrities",
+    "description": "Turn your regular selfies into authentic-looking photos with celebrities. Great for creating engaging social content on TikTok, Reels, Shorts, and ads that grab attention.",
+    "template_name": "selfies with celebrities Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A young woman in her twenties with natural, minimal makeup, holding a smartphone at arm's length to take a selfie. She stands on a bustling city street at golden hour, with warm sunlight softly illuminating her face. The phone screen is visible, showing her reflection and a faint smile. Her expression is casual and authentic. The background features blurred pedestrians and glowing storefronts, shot with a shallow depth of field. The scene is unprocessed, realistic, and perfect for adding a celebrity companion. High-quality professional photograph, 16:9 landscape orientation, 1536x1024 resolution, vibrant golden-hour colors, crisp focus on the woman and her phone.",
+    "image_prompt_after": "The same young woman still holding her smartphone, but now a glamorous female celebrity, resembling a world-famous pop icon with bright blonde hair and a dazzling smile, leans in beside her. The celebrity appears perfectly integrated into the selfie frame, matching the original lighting, shadow direction, and color temperature. Both faces are sharp and well-lit, looking directly into the phone camera as if taking a joyful selfie together. The phone screen now clearly shows both of them. The composition is seamless, with natural skin tones, consistent depth of field, and the same golden-hour city background. The transformation highlights the 'selfies with celebrities' effect—stunning, realistic, and vibrant. High-quality professional photograph, 16:9 landscape orientation, 1536x1024 resolution, vivid colors, studio-grade lighting, and expert compositing.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a selfies with celebrities video work?",
+    "intro": "A convincing celebrity selfie video blends your photo into a pre-made clip using face detection and motion tracking. The result feels spontaneous and personal, as if you’re casually posing with a film star or musician. Good lighting, a straight-on angle, and subtle motion cues make the illusion seamless.",
+    "cards": [
+      {
+        "title": "Front-facing selfie",
+        "description": "Start with a clear, directly-lit photo where your face is unobstructed. Avoid shadows or side angles so the effect can map your features accurately.",
+        "icon": "camera"
+      },
+      {
+        "title": "Matching head angle",
+        "description": "Keep your expression neutral and face centered. The effect blends best when your pose aligns with the celebrity’s posture, making the composite look natural.",
+        "icon": "subject"
+      },
+      {
+        "title": "Motion-tracked overlay",
+        "description": "The AI pins your face to the celebrity’s movements, so you appear to laugh, nod, or lean in sync. This creates a spontaneous, hand-held feel.",
+        "icon": "motion"
+      },
+      {
+        "title": "Short-form virality",
+        "description": "The finished clip fits vertical formats, captures attention in the first second, and taps into celebrity culture—perfect for Reels, TikTok trends, and ads.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Explore how creators embed the celebrity selfie effect into short-form content across different channels and formats.",
+    "scenarios": [
+      {
+        "title": "Casual Street Moment",
+        "description": "Turn a simple sidewalk clip into a scroll-stopping opener with an unexpected celebrity pairing.",
+        "category": "lifestyle",
+        "image_prompt": "Split-screen mobile short-video frame. Left side shows a young woman in a beige trench coat and jeans walking naturally on a sunlit city street, looking over her shoulder with a relaxed smile. Right side shows the same frame after applying the selfie with celebrity effect: a famous male actor in a casual jacket appears beside her in a seamless, realistic composite, both smiling at the camera. Overlay text reads 'POV: running into you in Soho'. Soft afternoon light, iPhone camera quality, vertical 9:16 format.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-scenario-1.png"
+      },
+      {
+        "title": "Dynamic Dance Spin",
+        "description": "Add visual energy to motion content by revealing a celebrity cameo mid-movement.",
+        "category": "motion",
+        "image_prompt": "Mobile screen capturing a short-video creator mid-outdoor dance spin. The woman in athleisure wear is caught in motion, hair flowing, one arm raised. The selfies with celebrities effect is applied, so a well-known female pop star appears beside her in a matched pose and outfit style, creating a natural duet moment. Urban rooftop background at golden hour. Motion blur on the edges, sharp focus on the two faces. Vertical video format, realistic social media UI overlay.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-scenario-2.png"
+      },
+      {
+        "title": "Golden Hour Travel Edit",
+        "description": "Highlight a vacation outfit and location by adding a familiar famous face to the shot.",
+        "category": "travel",
+        "image_prompt": "Instagram-style travel edit preview. A female travel creator poses on a rooftop terrace in Santorini at sunset, wearing a flowing white linen dress, looking back at the camera. The image effect inserts a stylish male celebrity beside her, matched in lighting and white casual attire, both leaning on the railing with the caldera and sea in the background. Warm golden light, filmic color grade, subtle camera grain, vertical 9:16 composition with minimal travel-edit typography.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the selfies with celebrities effect?",
+        "answer": "The selfies with celebrities effect places your photo alongside a celebrity in a single frame, making it look like you took a selfie together. It uses face matching and composition to blend your image with a pre-selected celebrity template, creating a realistic shared selfie without any editing skills."
+      },
+      {
+        "question": "Why is the selfies with celebrities effect useful for TikTok, Reels, and Shorts?",
+        "answer": "Short-form videos thrive on surprising and relatable content. A fake celebrity selfie grabs attention in the first second, increases shares and comments, and can boost your visibility. Creators use it to spark conversations, start trends, or simply entertain followers with “look who I met” moments."
+      },
+      {
+        "question": "Can I create celebrity selfies from just one uploaded image?",
+        "answer": "Yes, most tools only need one clear photo of you. The system automatically extracts your face and places it into the celebrity selfie scene. For the best result, use a front-facing photo with even lighting and no obstructions."
+      },
+      {
+        "question": "What kind of image works best with this effect?",
+        "answer": "A well-lit, front-facing portrait where your entire face is visible works best. Avoid heavy shadows, sunglasses, or side angles. High-resolution images with a neutral background help the effect look more natural."
+      },
+      {
+        "question": "Can I use the selfies with celebrities effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. Brands stage product “meet and greets” with celebrity lookalikes, fashion influencers blend outfits with A-listers, and travel creators show themselves at famous events. It’s a flexible tool for any content niche that benefits from social proof or humor."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Put yourself in the photo with your favorite celebrity",
+    "supporting_text": "Start from a prompt, upload a selfie, or pick a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for selfies with celebrities",
+    "description": "You might know this effect by a different name. Whether you're looking for a celebrity selfie generator, a fake photo with a star, or an AI meet-your-idol selfie, people describe these fun edits in many ways. LazyKiwi understands these variations and transforms your ideas into short-video-ready visuals in seconds.",
+    "keywords": [
+      "celebrity selfie generator",
+      "fake celebrity photo with me",
+      "star selfie app",
+      "photo with celebrity filter",
+      "celebrity face swap selfie",
+      "selfie with famous person online",
+      "me and celebrity pic maker",
+      "celebrity look alike selfie",
+      "virtual celebrity meet selfie",
+      "AI celebrity selfie",
+      "celebrity photo booth effect",
+      "snap with celeb filter"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/selfies-with-celebrities-hero-after.png"
+  }
+}

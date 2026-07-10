@@ -1,0 +1,126 @@
+{
+  "template_name": "Rush train",
+  "template_slug": "rush-train",
+  "template_type": "video",
+  "created_at": "2026-06-11 16:38:49",
+  "hero": {
+    "title": "Rush train",
+    "description": "Add a high-speed motion blur and dynamic train rush effect to your footage. Ideal for action shots, outfit edits, product reveals, and social content across TikTok, Reels, and Shorts.",
+    "template_name": "Rush train Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt": "A vertical smartphone screen preview showing a video still with the Rush train effect applied: a person in urban streetwear standing in the center, surrounded by horizontal speed lines, motion blur, and blurred train window frames rushing past in the background, giving a powerful sense of forward acceleration. The scene has cool teal and orange color grading, high contrast, and cinematic lighting. The left half of the image could show the original static shot, and the right half the dramatic Rush train effect, with clear comparison.",
+    "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-hero.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Rush train video work?",
+    "intro": "The Rush train effect turns ordinary clips into high-speed journeys. It relies on a steady subject surrounded by blurred motion and streaking light trails, creating the illusion of a speeding train. The contrast between a sharp, centered figure and a streaking background gives the shot instant energy and a cinematic sense of travel.",
+    "cards": [
+      {
+        "title": "A well-framed starting shot",
+        "description": "Use a clear, front-facing clip where the subject is centered and the background has depth. Avoid extreme close-ups so the speed effect has room to show motion lines and blur.",
+        "icon": "camera"
+      },
+      {
+        "title": "Subject stays front and still",
+        "description": "The person should remain relatively still or walk naturally while the background rushes past. A confident, direct gaze works best, making the viewer feel part of the ride.",
+        "icon": "subject"
+      },
+      {
+        "title": "Directional blur and light trails",
+        "description": "The effect adds horizontal motion blur and streaking lines that mimic train speed. The contrast between a sharp subject and blurred periphery sells the high-velocity feel instantly.",
+        "icon": "motion"
+      },
+      {
+        "title": "Built for social feeds",
+        "description": "The effect’s kinetic energy stops scrollers mid-feed. It’s highly shareable, works with trending audio, and turns product reveals, looks, or transitions into scroll-stopping moments.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "Real creator examples showing how the Rush train effect transforms short videos across different content styles.",
+    "scenarios": [
+      {
+        "title": "Everyday Freeze Moments",
+        "description": "Casual street scenes become scroll-stopping openers with a sudden rush blur behind the subject.",
+        "category": "lifestyle",
+        "image_prompt": "A young woman walking down a sunlit city sidewalk, looking back over her shoulder, wearing a beige trench coat and jeans. The Rush train effect freezes her mid-step while the street, buildings, and pedestrians blur into a horizontal motion streak, the contrast sharpening the subject's expression and outfit.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-scenario-1.png"
+      },
+      {
+        "title": "Dance Moves with Impact",
+        "description": "Dance routines gain visual momentum as the rush train effect amplifies each movement and moment.",
+        "category": "motion",
+        "image_prompt": "A dancer mid-jump in an outdoor plaza, arms spread wide, legs tucked up, wearing vibrant streetwear. The Rush train effect holds the dancer crisp and sharp while the background turns into a sweeping motion trail, with dynamic lines of light and color streaming outward to emphasize the energy.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-scenario-2.png"
+      },
+      {
+        "title": "Travel Look Reveal",
+        "description": "Travel outfit clips become polished social edits as scenic backdrops streak into a stylish rush.",
+        "category": "travel",
+        "image_prompt": "A traveler standing on a cliffside viewpoint at golden hour, wearing a flowy sundress and wide-brim hat, looking away toward the ocean. The Rush train effect freezes the pose while the sea, sky, and distant coastline dissolve into a smooth horizontal blur, making the outfit and pose the focal point.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Rush train effect?",
+        "answer": "The Rush train effect is a dynamic video effect that simulates a train speeding toward the viewer, usually with motion blur, heavy speed lines, and a sense of impending collision. It’s used to create high-impact, cinematic transitions or attention-grabbing intros in short-form video."
+      },
+      {
+        "question": "Why is the Rush train effect useful for TikTok, Reels, or Shorts?",
+        "answer": "Short-form platforms reward content that hooks viewers instantly. The Rush train effect delivers immediate visual impact in the first frame, helping stop the scroll, increase watch time, and boost overall engagement."
+      },
+      {
+        "question": "Can I create the Rush train effect from one uploaded image?",
+        "answer": "Yes, many Rush train tools allow you to upload a single still photo. The software adds motion, lighting, and depth to turn that image into a short video clip with a realistic train rush animation."
+      },
+      {
+        "question": "What kind of image or video works best for the Rush train effect?",
+        "answer": "Shots with a defined subject and some surrounding negative space produce the cleanest result. For example, a person standing on a platform, a vehicle on a road, or a product on a table—scenes where the rushing train can convincingly enter the frame."
+      },
+      {
+        "question": "Can I use the Rush train effect for product, fashion, travel, or creator content?",
+        "answer": "Absolutely. The effect adds a high-energy, cinematic transition that fits product reveals, fashion look swaps, travel highlight reels, and creator channel intros. It works across genres to make content feel more polished and dynamic."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Add a fast-moving train to your video instantly",
+    "supporting_text": "Start from a prompt, upload your own media, or use a ready-made template.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Rush train",
+    "description": "Sometimes this dynamic visual is described in different ways—like a speeding train blur, express transit effect, or rapid rail transition. No matter what you call it, LazyKiwi can transform these concepts into ready-to-use visuals for your short videos, perfectly capturing the sensation of high-speed motion.",
+    "keywords": [
+      "speeding train effect",
+      "fast train transition",
+      "express train visual",
+      "bullet train rush",
+      "train motion blur",
+      "rapid transit effect",
+      "rush hour train overlay",
+      "train speed lines",
+      "dynamic train dash",
+      "subway rush effect",
+      "locomotive speed blur",
+      "rail zoom transition"
+    ]
+  },
+  "images": {
+    "hero": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-hero.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/rush-train-scenario-3.png"
+    ]
+  }
+}

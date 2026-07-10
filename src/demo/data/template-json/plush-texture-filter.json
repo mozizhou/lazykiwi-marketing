@@ -1,0 +1,129 @@
+{
+  "template_name": "Plush Texture Filter",
+  "template_slug": "plush-texture-filter",
+  "template_type": "image",
+  "created_at": "2026-06-24 18:21:22",
+  "hero": {
+    "title": "Plush Texture Filter",
+    "description": "Transforms people or objects into a soft, plush toy-like texture with a cozy, tactile feel. Ideal for TikTok, Reels, Shorts, product reveals, outfit edits, and playful social content that stands out.",
+    "template_name": "Plush Texture Filter Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "A clean, well-lit portrait of a person with a neutral expression, wearing a simple sweater, against a plain light gray background, natural skin texture, sharp details, no effects or filters applied.",
+    "image_prompt_after": "The same portrait transformed with the Plush Texture Filter: the skin, hair, and clothing now appear as soft, fluffy plush toy material, with a fleece-like surface, rounded contours, subtle seams, and a cuddly, stuffed animal aesthetic; colors remain similar but slightly muted, all edges softened, typical of a high-quality plush doll.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a Plush Texture Filter video work?",
+    "intro": "The Plush Texture Filter reimagines your subject with a dense, fuzzy surface that mimics stuffed animals. It works by layering soft fiber-like textures over contours, adding rounded edges and a gentle color bloom. The result is a tactile, comforting look that turns any face, pet, or object into a huggable toy-like character, perfect for feel-good content.",
+    "cards": [
+      {
+        "title": "Clear, well-lit subject",
+        "description": "Start with a high-contrast shot where the subject is sharply defined. Soft, even lighting prevents harsh shadows, creating a smooth base for the plush texture to fluff out.",
+        "icon": "camera"
+      },
+      {
+        "title": "Keep movements gentle and simple",
+        "description": "Sudden motion can blur the fuzzy overlay. A slow head turn or slight smile maintains the plush illusion, letting the texture fibers cling naturally to the subject’s contours.",
+        "icon": "motion"
+      },
+      {
+        "title": "Layered fiber mapping with bloom",
+        "description": "The filter applies a multi-pass fiber texture that follows facial landmarks, then adds a soft glow or bloom effect. This creates depth and a velvety, tactile finish that grabs attention.",
+        "icon": "layers"
+      },
+      {
+        "title": "Perfect for cozy, shareable content",
+        "description": "Plush textures evoke nostalgia and comfort, making viewers stop scrolling. This effect humanizes products, softens pet videos, and creates thumb-stopping ads that feel warm and approachable.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how the Plush Texture Filter is applied in real creative workflows across social media and commercial projects.",
+    "scenarios": [
+      {
+        "title": "Cozy Selfie Posts",
+        "description": "Lifestyle creators transform everyday portraits into soft, toy-like versions for warmer feeds.",
+        "category": "Lifestyle Content",
+        "image_prompt": "A young woman taking a selfie with her phone, the photo on the screen shows her face transformed into a soft, pastel-colored plush toy texture with button eyes and stitched details, surrounded by soft knitted blankets and fairy lights, warm cozy room background.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-scenario-1.png"
+      },
+      {
+        "title": "Plush Pet Content",
+        "description": "Pet influencers turn their cats and dogs into living stuffed animals for higher engagement.",
+        "category": "Pet Content",
+        "image_prompt": "A golden retriever sitting on a rug, the image has been processed with a plush texture filter, making the dog look like a fluffy stuffed toy with visible soft fabric texture and sewn seams, a treat jar in the background, bright home interior.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-scenario-2.png"
+      },
+      {
+        "title": "Plush Toy Promos",
+        "description": "Toy brands showcase product mockups by rendering samples as hyper-soft plush versions in real settings.",
+        "category": "Product Marketing",
+        "image_prompt": "A plush teddy bear sitting on a wooden shelf, the filter gives the bear an even softer, more cuddly appearance with enhanced fabric weave and pillowy texture, product packaging blurred in the background, e-commerce style lighting.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the Plush Texture Filter?",
+        "answer": "The Plush Texture Filter is an image effect that transforms people or objects into a soft, cuddly plush toy look, making them appear like stuffed animals with a fuzzy, fabric-like texture."
+      },
+      {
+        "question": "Why is the Plush Texture Filter popular on TikTok, Reels, and Shorts?",
+        "answer": "Its playful and cozy visual style instantly grabs attention in fast-scrolling feeds, helping short videos gain more views, likes, and shares."
+      },
+      {
+        "question": "Can I create the Plush Texture Filter from a single uploaded image?",
+        "answer": "Yes, you only need to upload one clear photo. The tool processes it and applies the plush effect automatically, with no extra shots required."
+      },
+      {
+        "question": "What type of images work best with the Plush Texture Filter?",
+        "answer": "Well-lit photos where the subject has a clear outline and visible details work best. Blurry or very dark images may result in less defined plush textures."
+      },
+      {
+        "question": "Can I use the Plush Texture Filter for product, fashion, or travel content?",
+        "answer": "Absolutely. It adds a unique, cute aesthetic to product showcases, outfit posts, travel snapshots, or any creator content, helping it stand out on social media."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Turn any image into a soft plush finish",
+    "supporting_text": "Use a prompt, upload your photo, or pick a template to apply the plush texture effect in seconds.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for Plush Texture Filter",
+    "description": "Users may describe the Plush Texture Filter as a soft toy look, fluffy filter, or cuddly plush effect. LazyKiwi helps turn these creative ideas into short-video-ready visuals, making it easy to give your content a huggable, plush aesthetic.",
+    "keywords": [
+      "soft plush texture",
+      "fluffy photo filter",
+      "turn photo into plush toy",
+      "cuddly stuffed animal effect",
+      "velvety filter",
+      "teddy bear photo look",
+      "plushie effect",
+      "fuzzy texture overlay",
+      "huggable aesthetic filter",
+      "plush toy video effect",
+      "soft toy camera filter",
+      "velvet finish image effect"
+    ]
+  },
+  "images": {
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-hero-after.png",
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/plush-texture-filter-scenario-3.png"
+    ]
+  }
+}

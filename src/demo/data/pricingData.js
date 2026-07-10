@@ -1,4 +1,4 @@
-// Paid plans aligned with backend Stripe catalog (starter/basic/pro/ultimate)
+// Paid plans aligned with 积分系统.docx (TABLE 2)
 
 export const PRICING_PLANS = [
   {
@@ -8,11 +8,11 @@ export const PRICING_PLANS = [
     badgeColor: null,
     positioning: "For creators getting started with AI generation",
     price: { monthly: 14, yearly: 12, yearlyTotal: 144 },
-    credits: "2,000 credits / month",
+    credits: "4,500 credits / month",
     buttonText: "Buy Now",
     buttonVariant: "neutral",
     features: [
-      "2,000 fast generation points / month",
+      "4,500 fast generation points / month",
       "2 parallel tasks",
       "No-watermark outputs",
       "Text & image to video",
@@ -26,12 +26,12 @@ export const PRICING_PLANS = [
     badge: null,
     badgeColor: null,
     positioning: "For consistent weekly publishing",
-    price: { monthly: 29, yearly: 17, yearlyTotal: 204 },
-    credits: "6,500 credits / month",
+    price: { monthly: 29, yearly: 22, yearlyTotal: 264 },
+    credits: "9,500 credits / month",
     buttonText: "Buy Now",
     buttonVariant: "neutral",
     features: [
-      "6,500 fast generation points / month",
+      "9,500 fast generation points / month",
       "3 parallel tasks",
       "No-watermark outputs",
       "All Starter features",
@@ -46,12 +46,12 @@ export const PRICING_PLANS = [
     badgeColor: "purple",
     accentColor: "purple",
     positioning: "For daily creators and paid campaigns",
-    price: { monthly: 75, yearly: 39, yearlyTotal: 468, originalMonthly: 90 },
-    credits: "18,000 credits / month",
+    price: { monthly: 75, yearly: 55, yearlyTotal: 660, originalMonthly: 75 },
+    credits: "25,000 credits / month",
     buttonText: "Buy Now",
     buttonVariant: "purple",
     features: [
-      "18,000 fast generation points / month",
+      "25,000 fast generation points / month",
       "4 parallel tasks",
       "Priority queue",
       "Private visibility",
@@ -66,12 +66,12 @@ export const PRICING_PLANS = [
     badgeColor: "orange",
     accentColor: "orange",
     positioning: "For studios and high-volume teams",
-    price: { monthly: 120, yearly: 75, yearlyTotal: 900, originalMonthly: 149 },
-    credits: "27,000 credits / month",
+    price: { monthly: 120, yearly: 85, yearlyTotal: 1020, originalMonthly: 120 },
+    credits: "40,000 credits / month",
     buttonText: "Buy Now",
     buttonVariant: "orange",
     features: [
-      "27,000 fast generation points / month",
+      "40,000 fast generation points / month",
       "6 parallel tasks",
       "Ultra-fast generation",
       "Priority support",
@@ -84,7 +84,7 @@ export const PRICING_PLANS = [
 export const PRICING_FAQS = [
   {
     question: "What are credits and how are they used?",
-    answer: "Credits are used to generate AI videos and images. Different models consume different amounts.",
+    answer: "Credits are consumed based on actual model API cost ($1 cost = 1,000 credits). Different models, durations, and resolutions use different amounts.",
   },
   {
     question: "Do unused credits roll over?",
@@ -100,7 +100,7 @@ export const COMPARISON_FEATURES = [
   {
     category: "Generation Limits",
     features: [
-      { name: "Monthly Credits", starter: "2,000", basic: "6,500", pro: "18,000", ultimate: "27,000" },
+      { name: "Monthly Credits", starter: "4,500", basic: "9,500", pro: "25,000", ultimate: "40,000" },
       { name: "Parallel Tasks", starter: "2", basic: "3", pro: "4", ultimate: "6" },
       { name: "Watermark", starter: "None", basic: "None", pro: "None", ultimate: "None" },
     ],
@@ -108,13 +108,9 @@ export const COMPARISON_FEATURES = [
 ];
 
 export const CREDIT_RULES = [
-  { title: "Image Generation", cost: "1 image = 1 credit", description: "Simple and transparent pricing" },
-  { title: "Video Generation", cost: "1 basic video = 10 credits", description: "4-second basic video generation" },
-  { title: "Regeneration", cost: "1 regenerate = 5 credits", description: "Quick regeneration option" },
+  { title: "Image Generation", cost: "$0.01–$0.128 per image (10–130 credits)", description: "Varies by model; see pricing docs" },
+  { title: "Video Generation", cost: "Based on model, duration & resolution", description: "$1 API cost = 1,000 credits" },
+  { title: "Failed generation", cost: "No charge", description: "Credits are refunded automatically on failure" },
 ];
 
-export const TOP_UP_PACKS = [
-  { credits: 500, price: 18, description: "Light top-up", isPopular: false },
-  { credits: 1200, price: 36, description: "Common top-up", isPopular: true },
-  { credits: 3000, price: 75, description: "High-frequency top-up", isPopular: false },
-];
+export const TOP_UP_PACKS = [];

@@ -1,0 +1,128 @@
+{
+  "template_name": "pregnant ai generator",
+  "template_slug": "pregnant-ai-generator",
+  "template_type": "image",
+  "created_at": "2026-06-11 17:29:56",
+  "hero": {
+    "title": "pregnant ai generator",
+    "description": "Generate lifelike pregnancy visuals on any photo for creative social content. Perfect for TikTok pregnancy pranks, maternity-themed Reels, and humorous ads. Upload a full-body portrait and instantly create a realistic baby bump.",
+    "template_name": "pregnant ai generator Template",
+    "upload_instruction": "Upload media to apply this template.",
+    "image_prompt_before": "Professional 16:9 landscape photograph of a young woman standing in a sunlit meadow, close to golden hour, wearing a sleeveless light-pink summer dress that gently skims her body. Her stance is relaxed, hands resting lightly at her sides, looking directly at the camera with a warm, natural smile. Her abdomen is flat and unaltered. The scene features soft backlighting, a shallow depth of field, vibrant green grass and a few wildflowers, with a clear, sharp focus on her face and torso. The image is unprocessed, crisp, and looks like a straight-out-of-camera portrait.",
+    "image_prompt_after": "The exact same high-quality 16:9 landscape photograph, same woman, same meadow, same golden-hour lighting, same dress and pose, but after applying the 'pregnant ai generator' effect. Her abdomen has been realistically transformed into a prominent, beautifully rounded pregnant belly, about seven to eight months along. The light-pink dress now gently stretches over the bump, the fabric softly draping the new shape. The transformation is seamless and natural: the skin, silhouette, and lighting match perfectly with the original scene, and a subtle maternal glow enhances her expression. The baby bump is the focal point of the visual change, completely integrated into the original composition with no distortion of the background.",
+    "image_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-hero-before.png",
+    "image_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-hero-after.png"
+  },
+  "what_it_is": {
+    "eyebrow": "WHAT IT IS",
+    "title": "What makes a pregnant ai generator video work?",
+    "intro": "The pregnant AI generator effect turns a single photo into a short video that smoothly progresses a baby bump. It works by identifying body contours and applying step-by-step shape changes that mimic real growth. Key visual ingredients are a clean front-facing shot, stable lighting, and a neutral background. When these align, the AI delivers a clip that feels authentic and fits perfectly into any short-form video feed.",
+    "cards": [
+      {
+        "title": "A clear front-facing photo",
+        "description": "Start with a well-lit, front-facing portrait where the subject stands upright, arms relaxed. Avoid busy backgrounds and harsh shadows for the AI to track body shape accurately.",
+        "icon": "upload"
+      },
+      {
+        "title": "Centered subject with minimal movement",
+        "description": "Keep the subject centered and facing the camera, with a relaxed stance. Little to no motion in the original frame prevents distortion and keeps the AI progression smooth.",
+        "icon": "subject"
+      },
+      {
+        "title": "Seamless AI morphing with consistent lighting",
+        "description": "The AI generates a smooth belly growth animation by morphing between keyframes. Consistent lighting and background from the input photo ensure the transition looks natural.",
+        "icon": "motion"
+      },
+      {
+        "title": "High engagement for social feeds",
+        "description": "The pregnancy reveal effect captures attention instantly in fast-scrolling feeds. Its emotional hook and unexpected visual change drive shares, comments, and saves across platforms.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "application_scenarios": {
+    "eyebrow": "CREATOR USE CASES",
+    "title": "Application Scenarios",
+    "description": "See how creators use the pregnant AI generator effect in lifestyle, motion, and travel edits.",
+    "scenarios": [
+      {
+        "title": "City Stroll Bump Tease",
+        "description": "A simple street walk becomes a hook when the effect reveals a baby bump mid-turn.",
+        "category": "lifestyle",
+        "image_prompt": "A young woman in a beige trench coat and jeans walks along a sunlit city sidewalk, glancing back over her shoulder. The pregnant AI effect adds a soft, realistic baby bump visible beneath her open coat. Shot from behind at waist level, natural morning light, urban background slightly blurred, vertical 9:16 frame.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-scenario-1.png"
+      },
+      {
+        "title": "Dance Move Energy",
+        "description": "A freestyle dance moment gets extra visual impact as the bump moves with the motion.",
+        "category": "motion",
+        "image_prompt": "A female dancer in sportswear mid-pivot on a concrete plaza, arms extended, hair swirling. The pregnant AI effect renders a visible pregnancy shape with a subtle motion trail that echoes her movement. Overcast daylight, slight motion blur on background, action-frozen shot, vertical composition.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-scenario-2.png"
+      },
+      {
+        "title": "Golden Hour Look Highlight",
+        "description": "A travel outfit edit where the pregnant effect frames the pose and scenic backdrop together.",
+        "category": "travel",
+        "image_prompt": "A woman wearing a flowy maxi dress stands on a hillside viewpoint at golden hour, one hand gently resting on her belly. The pregnant AI effect adds a defined pregnancy silhouette that complements the dress’s drape. Warm sunset light, distant ocean view, calm expression, vertical photo, vacation mood.",
+        "image": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-scenario-3.png"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "faqs": [
+      {
+        "question": "What is the pregnant ai generator effect?",
+        "answer": "It is an AI tool that applies a realistic pregnancy visual to a person in a photo or video. The effect adjusts body shape and clothing while preserving facial identity and background details."
+      },
+      {
+        "question": "Why is the pregnant ai generator useful for TikTok, Reels, or Shorts?",
+        "answer": "This effect creates surprising before-and-after content that grabs attention quickly. Creators use it for skits, announcements, and trend-based videos that perform well on short-form platforms."
+      },
+      {
+        "question": "Can I create the pregnant ai effect from one uploaded image?",
+        "answer": "Yes. You can upload a single front-facing photo, and the generator will produce a modified version with the effect applied. Some tools also support multi-image input for higher accuracy."
+      },
+      {
+        "question": "What kind of image or video works best?",
+        "answer": "A clear, well-lit, full-body or mid-body shot with minimal background clutter gives the most realistic result. Avoid baggy clothing, heavy shadows, or obstructed body outlines."
+      },
+      {
+        "question": "Can I use it for product, fashion, travel, or creator content?",
+        "answer": "Yes. The effect is used across marketing, storytelling, and social media. Fashion brands test visual concepts, travel creators use it for narrative content, and product campaigns apply it for relatability-driven ads."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Create a realistic pregnancy portrait from your photo",
+    "supporting_text": "Start with a text prompt, upload your own image, or choose from ready-made templates.",
+    "button_text": "Start creating"
+  },
+  "other_names": {
+    "title": "Other names for pregnant ai generator",
+    "description": "While most users search for “pregnant AI generator,” you might also describe this effect as a virtual pregnancy try-on, AI belly bump filter, or future baby simulator. Whether you're curious to see your own maternity transformation or crafting a playful reveal, LazyKiwi helps turn these creative ideas into short-video-ready visuals with just a few clicks.",
+    "keywords": [
+      "ai pregnancy filter",
+      "virtual pregnancy effect",
+      "baby bump generator",
+      "ai maternity photo editor",
+      "belly bump simulation",
+      "pregnant photo effect",
+      "future baby face ai",
+      "see yourself pregnant app",
+      "what will I look like pregnant ai",
+      "ai pregnancy transformation",
+      "pregnancy morphing effect"
+    ]
+  },
+  "images": {
+    "scenarios": [
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-scenario-1.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-scenario-2.png",
+      "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-scenario-3.png"
+    ],
+    "hero_before": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-hero-before.png",
+    "hero_after": "https://lazykiwi.oss-accelerate.aliyuncs.com/templates/pregnant-ai-generator-hero-after.png"
+  }
+}

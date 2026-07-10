@@ -2,6 +2,7 @@ import { TEMPLATES } from "../components/workbench/videoGeneratorData";
 import { IMAGE_TEMPLATES_VISIBLE } from "../components/workbench/imageGeneratorData";
 import { effectPages } from "./landingPages";
 import { effectPremiumPages } from "./effectPremiumPages";
+import { templatePages } from "./templatePages";
 
 const titleCase = (value) => value.replace(/\b\w/g, (char) => char.toUpperCase());
 
@@ -48,6 +49,31 @@ const extraEffectTemplates = Object.entries({ ...effectPages, ...effectPremiumPa
     legacyEffectSlug: slug,
   }));
 
-export const templates = [...videoTemplates, ...imageTemplates, ...extraEffectTemplates];
+// Rich template pages (issue #39) — full-content landings driven by template-json.
+const richTemplates = Object.entries(templatePages).map(([slug, data]) => {
+  const isImage = data.template_type === "image";
+  return {
+    slug,
+    name: titleCase(data.hero?.title || data.template_name || slug.replace(/-/g, " ")),
+    type: isImage ? "Image" : "Video",
+    category: isImage ? "Image Template" : "Video Template",
+    blurb: data.hero?.description || "",
+    image:
+      data.hero?.image ||
+      data.hero?.image_after ||
+      data.images?.hero ||
+      data.images?.hero_after ||
+      data.images?.scenarios?.[0] ||
+      "",
+    href: `/templates/${slug}`,
+    legacyEffectSlug: null,
+  };
+});
+
+const baseTemplates = [...videoTemplates, ...imageTemplates, ...extraEffectTemplates];
+const baseSlugs = new Set(baseTemplates.map((template) => template.slug));
+const richOnlyTemplates = richTemplates.filter((template) => !baseSlugs.has(template.slug));
+
+export const templates = [...baseTemplates, ...richOnlyTemplates];
 
 export const getTemplateData = (slug) => templates.find((template) => template.slug === slug) || null;

@@ -8,10 +8,12 @@ import EffectLandingPage from "./EffectLandingPage";
 import EffectPremiumPage from "./EffectPremiumPage";
 import { getEffectData } from "../data/landingPages";
 import { getEffectPremiumData } from "../data/effectPremiumPages";
+import BlockRenderer from "@/components/templateBlocks/BlockRenderer";
 
 const ORIGIN = "https://lazykiwi.ai";
 
-export default function TemplateLandingPage({ slug }) {
+export default function TemplateLandingPage({ slug, dbBlocks, dbName, dbTemplateType }) {
+  const hasDbBlocks = Array.isArray(dbBlocks) && dbBlocks.length > 0;
   const richData = getTemplatePage(slug);
   const template = getTemplateData(slug);
   const effectSlug = template?.legacyEffectSlug;
@@ -19,11 +21,23 @@ export default function TemplateLandingPage({ slug }) {
   const legacyEffect = effectSlug ? getEffectData(effectSlug) : null;
 
   useEffect(() => {
-    if (richData || !template || premiumEffect || legacyEffect) return;
+    if (hasDbBlocks || richData || !template || premiumEffect || legacyEffect) return;
     document.title = `${template.name} Template | LazyKiwi`;
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", template.blurb);
-  }, [richData, template, premiumEffect, legacyEffect]);
+  }, [hasDbBlocks, richData, template, premiumEffect, legacyEffect]);
+
+  // Published DB page takes highest priority so admin edits render without a redeploy.
+  if (hasDbBlocks) {
+    return (
+      <BlockRenderer
+        blocks={dbBlocks}
+        slug={slug}
+        name={dbName}
+        templateType={dbTemplateType || (template?.type === "Image" ? "image" : "video")}
+      />
+    );
+  }
 
   // Rich template data (issue #39) takes priority so every template renders full content.
   if (richData) return <TemplateRichLanding data={richData} slug={slug} />;

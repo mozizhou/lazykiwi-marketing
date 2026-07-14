@@ -36,6 +36,34 @@ export type BillingStatus = {
   devSimulateEnabled: boolean;
 };
 
+export type CatalogPlan = {
+  code: string;
+  name: string;
+  badge: string | null;
+  positioning: string | null;
+  monthlyCredits: number | null;
+  yearlyCredits: number | null;
+  priceMonthlyAmount: number | null;
+  priceYearlyAmount: number | null;
+  currency: string | null;
+  features: string[];
+  parallelTasks: number | null;
+  buttonText: string | null;
+  sort: number | null;
+};
+
+export type CatalogCreditPack = {
+  code: string;
+  name: string;
+  positioning: string | null;
+  credits: number | null;
+  priceOnetimeAmount: number | null;
+  currency: string | null;
+  features: string[];
+  buttonText: string | null;
+  sort: number | null;
+};
+
 export const billingService = {
   async getBillingStatus() {
     try {
@@ -113,5 +141,23 @@ export const billingService = {
       body: { planId, interval },
     });
     return normalizeSubscription(data);
+  },
+
+  async getPlans(): Promise<CatalogPlan[]> {
+    try {
+      const data = await apiRequest<CatalogPlan[]>("/ai/lazykiwi/catalog/plans", { auth: false });
+      return Array.isArray(data) ? data : [];
+    } catch {
+      return [];
+    }
+  },
+
+  async getCreditPacks(): Promise<CatalogCreditPack[]> {
+    try {
+      const data = await apiRequest<CatalogCreditPack[]>("/ai/lazykiwi/catalog/credit-packs", { auth: false });
+      return Array.isArray(data) ? data : [];
+    } catch {
+      return [];
+    }
   },
 };

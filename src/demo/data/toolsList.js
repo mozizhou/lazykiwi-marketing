@@ -1,86 +1,92 @@
-// Curated tool list — kept to the 8 supported tool pages (issue #39).
+// Curated tool list — kept to the 8 supported tool pages.
 export const toolCategories = [
-  {
-    "key": "img2img",
-    "label": "Image to Image"
-  },
-  {
-    "key": "enhance",
-    "label": "Enhance & Restore"
-  },
-  {
-    "key": "convert",
-    "label": "Convert & Stylize"
-  },
-  {
-    "key": "filters",
-    "label": "Fun Filters & Face Tests"
-  }
+  { key: "img2img", label: "Image to Image" },
+  { key: "enhance", label: "Enhance & Restore" },
+  { key: "convert", label: "Convert & Stylize" },
+  { key: "filters", label: "Fun Filters & Face Tests" },
 ];
+
+const TOOL_IMAGE_BASE = "https://lazykiwi.oss-accelerate.aliyuncs.com/tools";
 
 export const tools = [
   {
-    "slug": "gender-swap",
-    "name": "Gender Swap",
-    "category": "img2img",
-    "categoryLabel": "Image to Image",
-    "blurb": "Upload one photo and see a realistic male or female version of yourself. The AI reimagines features, hair and styling while keeping it recognizably you.",
-    "href": "/tools/gender-swap"
+    slug: "ai-hairstyle-changer",
+    name: "AI Hairstyle Changer",
+    category: "img2img",
+    categoryLabel: "Image to Image",
+    blurb:
+      "Upload one selfie and try realistic hairstyles in seconds — short, long, curly, straight, and more — while keeping your face recognizable.",
+    href: "/tools/ai-hairstyle-changer",
+    image: `${TOOL_IMAGE_BASE}/ai-hairstyle-changer-white-bg.png`,
   },
   {
-    "slug": "outfit-generator",
-    "name": "AI Outfit Generator",
-    "category": "img2img",
-    "categoryLabel": "Image to Image",
-    "blurb": "Upload one photo and dress it in a brand-new outfit. Try streetwear, formalwear, cottagecore or vacation looks on yourself in seconds.",
-    "href": "/tools/outfit-generator"
+    slug: "hair-color-changer",
+    name: "Hair Color Changer",
+    category: "img2img",
+    categoryLabel: "Image to Image",
+    blurb:
+      "Preview blonde, brunette, red, pastel, and bold hair colors on your own photo before you commit to a salon visit.",
+    href: "/tools/hair-color-changer",
+    image: `${TOOL_IMAGE_BASE}/hair-color-changer-white-bg.png`,
   },
   {
-    "slug": "ai-photo-colorizer",
-    "name": "AI Photo Colorizer",
-    "category": "enhance",
-    "categoryLabel": "Enhance & Restore",
-    "blurb": "Upload a black-and-white or faded photo and let LazyKiwi add natural, realistic color in seconds — skin, skies, clothing and scenery, intelligently restored.",
-    "href": "/tools/ai-photo-colorizer"
+    slug: "photo-restoration",
+    name: "Photo Restoration",
+    category: "enhance",
+    categoryLabel: "Enhance & Restore",
+    blurb:
+      "Repair scratches, fading, and blur in old family photos. LazyKiwi brings back detail and natural color in one upload.",
+    href: "/tools/photo-restoration",
+    image: `${TOOL_IMAGE_BASE}/photo-restoration-white-bg.png`,
   },
   {
-    "slug": "photo-to-sketch",
-    "name": "Photo to Sketch",
-    "category": "convert",
-    "categoryLabel": "Convert & Stylize",
-    "blurb": "Upload any photo and convert it into a pencil, charcoal or ink sketch in seconds. Perfect for portraits, gifts and profile art.",
-    "href": "/tools/photo-to-sketch"
+    slug: "ai-photo-upscaler",
+    name: "AI Photo Upscaler",
+    category: "enhance",
+    categoryLabel: "Enhance & Restore",
+    blurb:
+      "Upscale low-resolution images with sharper edges, cleaner textures, and less noise — ideal for prints and social posts.",
+    href: "/tools/ai-photo-upscaler",
+    image: `${TOOL_IMAGE_BASE}/ai-photo-upscaler-white-bg.png`,
   },
   {
-    "slug": "anime-avatar",
-    "name": "AI Anime Avatar",
-    "category": "convert",
-    "categoryLabel": "Convert & Stylize",
-    "blurb": "Upload a selfie and transform into a polished anime avatar in seconds. Keep your features and vibe, reimagined in your favourite anime style.",
-    "href": "/tools/anime-avatar"
+    slug: "passport-photo-maker",
+    name: "Passport Photo Maker",
+    category: "convert",
+    categoryLabel: "Convert & Stylize",
+    blurb:
+      "Turn a casual selfie into a clean, studio-style ID or passport photo with balanced lighting and a plain background.",
+    href: "/tools/passport-photo-maker",
+    image: `${TOOL_IMAGE_BASE}/passport-photo-maker-white-bg.png`,
   },
   {
-    "slug": "buzz-cut-filter",
-    "name": "Buzz Cut Filter",
-    "category": "filters",
-    "categoryLabel": "Fun Filters & Face Tests",
-    "blurb": "Thinking about the big shave? Upload one photo and preview a realistic buzz cut or fade on your own head before the clippers come out.",
-    "href": "/tools/buzz-cut-filter"
+    slug: "face-shape-detector",
+    name: "Face Shape Detector",
+    category: "filters",
+    categoryLabel: "Fun Filters & Face Tests",
+    blurb:
+      "Upload a portrait and discover your face shape — oval, round, square, heart, and more — with styling tips to match.",
+    href: "/tools/face-shape-detector",
+    image: `${TOOL_IMAGE_BASE}/face-shape-detector-white-bg.png`,
   },
   {
-    "slug": "bald-filter",
-    "name": "Bald Filter",
-    "category": "filters",
-    "categoryLabel": "Fun Filters & Face Tests",
-    "blurb": "Curious how you’d look without hair? Upload one photo and the bald filter shows a realistic bald version of you — head shape, skin and lighting kept natural.",
-    "href": "/tools/bald-filter"
+    slug: "find-my-doppelganger",
+    name: "Find My Doppelganger",
+    category: "filters",
+    categoryLabel: "Fun Filters & Face Tests",
+    blurb:
+      "See which celebrity or public figure you resemble most. One photo, instant lookalike matches powered by AI.",
+    href: "/tools/find-my-doppelganger",
+    image: `${TOOL_IMAGE_BASE}/find-my-doppelganger-white-bg.png`,
   },
   {
-    "slug": "ai-age-filter",
-    "name": "AI Age Filter",
-    "category": "filters",
-    "categoryLabel": "Fun Filters & Face Tests",
-    "blurb": "Upload one photo and watch yourself age forward or back in seconds. The AI adds or smooths years naturally while keeping you, you.",
-    "href": "/tools/ai-age-filter"
-  }
+    slug: "eye-color-changer",
+    name: "Eye Color Changer",
+    category: "img2img",
+    categoryLabel: "Image to Image",
+    blurb:
+      "Try blue, green, hazel, gray, and other eye colors on your portrait while keeping reflections and lighting natural.",
+    href: "/tools/eye-color-changer",
+    image: `${TOOL_IMAGE_BASE}/eye-color-changer-white-bg.png`,
+  },
 ];

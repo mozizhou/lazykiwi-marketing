@@ -49,7 +49,7 @@ function UserProfileMenu({
           <Sparkles size={15} className={variant === "landing" && overHero ? "text-white/60" : "text-gray-400"} />
           Open studio
         </a>
-        <a href="/settings" className={menuItemClass} onClick={onClose}>
+        <a href={appUrl("/app/settings")} className={menuItemClass} onClick={onClose}>
           <Settings size={15} className={variant === "landing" && overHero ? "text-white/60" : "text-gray-400"} />
           Account settings
         </a>
@@ -122,7 +122,7 @@ function LoggedInNav({
             Open studio
           </a>
           <a
-            href="/settings"
+            href={appUrl("/app/settings")}
             className="inline-flex items-center justify-center rounded-xl border border-gray-200 px-4 py-2.5 text-[13px] font-bold text-gray-700"
           >
             Settings

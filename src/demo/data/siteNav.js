@@ -18,16 +18,16 @@ export const siteNav = {
   ],
   Tools: [
     { title: "Tools", items: [
-      { label: "Gender Swap", href: "/tools/gender-swap" },
-      { label: "AI Outfit Generator", href: "/tools/outfit-generator" },
-      { label: "AI Photo Colorizer", href: "/tools/ai-photo-colorizer" },
-      { label: "Photo to Sketch", href: "/tools/photo-to-sketch" },
+      { label: "AI Hairstyle Changer", href: "/tools/ai-hairstyle-changer" },
+      { label: "Hair Color Changer", href: "/tools/hair-color-changer" },
+      { label: "Photo Restoration", href: "/tools/photo-restoration" },
+      { label: "AI Photo Upscaler", href: "/tools/ai-photo-upscaler" },
     ] },
     { title: "More Tools", items: [
-      { label: "AI Anime Avatar", href: "/tools/anime-avatar" },
-      { label: "Buzz Cut Filter", href: "/tools/buzz-cut-filter" },
-      { label: "Bald Filter", href: "/tools/bald-filter" },
-      { label: "AI Age Filter", href: "/tools/ai-age-filter" },
+      { label: "Passport Photo Maker", href: "/tools/passport-photo-maker" },
+      { label: "Face Shape Detector", href: "/tools/face-shape-detector" },
+      { label: "Find My Doppelganger", href: "/tools/find-my-doppelganger" },
+      { label: "Eye Color Changer", href: "/tools/eye-color-changer" },
     ] },
   ],
   Models: [

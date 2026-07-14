@@ -12,6 +12,7 @@ import ToolsHub from "@/demo/pages/ToolsHub";
 import ToolLandingPage from "@/demo/pages/ToolLandingPage";
 import TemplatesHub from "@/demo/pages/TemplatesHub";
 import TemplateLandingPage from "@/demo/pages/TemplateLandingPage";
+import type { TemplateBlock, TemplatePageCard } from "@/lib/seo/templatePage";
 
 type DemoSitePageProps =
   | { kind: "blog-hub" }
@@ -21,8 +22,8 @@ type DemoSitePageProps =
   | { kind: "effects-hub" }
   | { kind: "tools-hub" }
   | { kind: "tool"; slug: string }
-  | { kind: "templates-hub" }
-  | { kind: "template"; slug: string };
+  | { kind: "templates-hub"; extraTemplates?: TemplatePageCard[] }
+  | { kind: "template"; slug: string; blocks?: TemplateBlock[] | null; name?: string; templateType?: string };
 
 export function DemoSitePage(props: DemoSitePageProps) {
   const [authModalMode, setAuthModalMode] = useState<null | "login" | "signup">(null);
@@ -44,9 +45,16 @@ export function DemoSitePage(props: DemoSitePageProps) {
       case "tool":
         return <ToolLandingPage slug={props.slug} />;
       case "templates-hub":
-        return <TemplatesHub />;
+        return <TemplatesHub extraTemplates={props.extraTemplates} />;
       case "template":
-        return <TemplateLandingPage slug={props.slug} />;
+        return (
+          <TemplateLandingPage
+            slug={props.slug}
+            dbBlocks={props.blocks}
+            dbName={props.name}
+            dbTemplateType={props.templateType}
+          />
+        );
       default:
         return null;
     }

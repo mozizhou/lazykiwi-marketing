@@ -14,6 +14,43 @@ function sanitizeReturnPath(path) {
   return path;
 }
 
+// Merge database catalog plans with static display metadata (colors, notes).
+// Visual-only fields not stored in DB fall back to the matching static plan.
+function mapCatalogPlans(catalogPlans) {
+  if (!Array.isArray(catalogPlans) || catalogPlans.length === 0) {
+    return PRICING_PLANS;
+  }
+  return catalogPlans.map((p) => {
+    const staticMatch = PRICING_PLANS.find((s) => s.id === p.code) || {};
+    const monthly = Math.round((p.priceMonthlyAmount ?? 0) / 100);
+    const yearlyTotal = Math.round((p.priceYearlyAmount ?? 0) / 100);
+    const yearly = yearlyTotal ? Math.round(yearlyTotal / 12) : monthly;
+    const creditsLabel = p.monthlyCredits != null
+      ? `${Number(p.monthlyCredits).toLocaleString('en-US')} credits / month`
+      : staticMatch.credits;
+    return {
+      id: p.code,
+      name: p.name || staticMatch.name,
+      badge: p.badge ?? staticMatch.badge ?? null,
+      positioning: p.positioning || staticMatch.positioning || '',
+      price: {
+        monthly,
+        yearly,
+        yearlyTotal,
+        originalMonthly: staticMatch.price?.originalMonthly,
+      },
+      credits: creditsLabel,
+      buttonText: p.buttonText || staticMatch.buttonText || 'Buy Now',
+      features: Array.isArray(p.features) && p.features.length > 0 ? p.features : (staticMatch.features || []),
+      // visual-only styling preserved from static config
+      badgeColor: staticMatch.badgeColor ?? null,
+      accentColor: staticMatch.accentColor ?? null,
+      buttonVariant: staticMatch.buttonVariant ?? 'neutral',
+      bottomNote: staticMatch.bottomNote ?? null,
+    };
+  });
+}
+
 export default function Pricing({ navigateToPage, onRequireAuth }) {
   const [isYearly, setIsYearly] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
@@ -25,6 +62,7 @@ export default function Pricing({ navigateToPage, onRequireAuth }) {
   const [billingStatus, setBillingStatus] = useState(null);
   const [userPoints, setUserPoints] = useState(0);
   const [checkoutSuccess, setCheckoutSuccess] = useState('');
+  const [plans, setPlans] = useState(PRICING_PLANS);
 
   const refreshBillingState = async () => {
     const [subscriptionData, profile] = await Promise.all([
@@ -53,6 +91,9 @@ export default function Pricing({ navigateToPage, onRequireAuth }) {
   useEffect(() => {
     billingService.getBillingStatus().then(setBillingStatus);
     billingService.getCurrentSubscription().then(setSubscription).catch(() => setSubscription(null));
+    billingService.getPlans()
+      .then((catalogPlans) => setPlans(mapCatalogPlans(catalogPlans)))
+      .catch(() => setPlans(PRICING_PLANS));
   }, []);
 
   useEffect(() => {
@@ -275,7 +316,7 @@ export default function Pricing({ navigateToPage, onRequireAuth }) {
         {/* Pricing Cards */}
         <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
-            {PRICING_PLANS.map((plan) => {
+            {plans.map((plan) => {
               const isCurrentPlan = plan.id === currentPlanId;
 
               return (

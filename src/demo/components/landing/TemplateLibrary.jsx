@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import { LANDING_VIDEO_TEMPLATES } from './landingTemplateShowcaseData.js';
 import { IMAGE_TEMPLATES_VISIBLE } from '../workbench/imageGeneratorData.js';
 
@@ -101,6 +104,83 @@ const PATTERN = [
   { c: '5 / span 2',  r: '15 / span 2' }, // 14 s
 ];
 
+function AutoplayVideo({ src, poster, label }) {
+  const videoRef = useRef(null);
+  const [playing, setPlaying] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return undefined;
+
+    const tryPlay = () => {
+      const promise = video.play();
+      if (promise?.catch) {
+        promise.catch(() => {});
+      }
+    };
+
+    const onPlaying = () => setPlaying(true);
+    const onPause = () => {
+      if (video.readyState < 2) setPlaying(false);
+    };
+
+    video.addEventListener("playing", onPlaying);
+    video.addEventListener("pause", onPause);
+    video.addEventListener("canplay", tryPlay);
+    video.addEventListener("loadeddata", tryPlay);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            video.preload = "auto";
+            tryPlay();
+          } else {
+            video.pause();
+          }
+        });
+      },
+      { rootMargin: "120px 0px", threshold: 0.15 },
+    );
+    observer.observe(video);
+
+    tryPlay();
+
+    return () => {
+      observer.disconnect();
+      video.removeEventListener("playing", onPlaying);
+      video.removeEventListener("pause", onPause);
+      video.removeEventListener("canplay", tryPlay);
+      video.removeEventListener("loadeddata", tryPlay);
+    };
+  }, [src]);
+
+  return (
+    <>
+      <video
+        ref={videoRef}
+        src={src}
+        poster={playing ? undefined : poster}
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+        aria-label={label}
+      />
+      {!playing && poster ? (
+        <img
+          src={poster}
+          alt=""
+          aria-hidden="true"
+          className="lk-tl-poster"
+          draggable={false}
+        />
+      ) : null}
+    </>
+  );
+}
+
 export default function TemplateLibrary({ onNavigate }) {
   const handleSelect = (item) => {
     onNavigate(item.page, `${item.route}&template=${encodeURIComponent(item.id)}`);
@@ -127,15 +207,7 @@ export default function TemplateLibrary({ onNavigate }) {
               >
                 <span className="lk-tl-media">
                   {item.videoSrc ? (
-                    <video
-                      src={item.videoSrc}
-                      poster={item.img}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      preload="metadata"
-                    />
+                    <AutoplayVideo src={item.videoSrc} poster={item.img} label={item.name} />
                   ) : (
                     <img
                       src={item.img}
@@ -198,6 +270,13 @@ export default function TemplateLibrary({ onNavigate }) {
           position: absolute; inset: 0;
           display: block;
           overflow: hidden;
+        }
+        .lk-tl-poster {
+          position: absolute; inset: 0;
+          width: 100%; height: 100%;
+          object-fit: cover;
+          pointer-events: none;
+          z-index: 1;
         }
         .lk-tl-media::after {
           content: '';

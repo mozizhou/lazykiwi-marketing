@@ -97,8 +97,18 @@ export default function ToolsHub() {
             const Icon = style.Icon;
             return (
               <a key={t.slug} href={t.href} className="group flex flex-col overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-                <div className={`relative flex h-28 items-center justify-center bg-gradient-to-br ${style.grad}`}>
-                  <Icon size={34} className="text-white drop-shadow" />
+                <div className={`relative flex h-40 items-center justify-center overflow-hidden ${t.image ? "bg-gray-50" : `bg-gradient-to-br ${style.grad}`}`}>
+                  {t.image ? (
+                    <img
+                      src={t.image}
+                      alt={t.name}
+                      className="h-full w-full object-contain p-3 transition duration-500 group-hover:scale-[1.03]"
+                      loading="lazy"
+                      draggable={false}
+                    />
+                  ) : (
+                    <Icon size={34} className="text-white drop-shadow" />
+                  )}
                   <span className="absolute left-3 top-3 rounded-full bg-black/25 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-white backdrop-blur-md">
                     {labelFor(t.category)}
                   </span>

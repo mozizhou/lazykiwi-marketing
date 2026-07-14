@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { DemoSitePage } from "@/components/demo/DemoSitePage";
 import { getToolPage } from "@/demo/data/toolPages";
 import { tools } from "@/demo/data/toolsList";
+import { getSeoOverride } from "@/lib/seo/service";
+import { buildMetadata } from "@/lib/seo/buildMetadata";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -24,27 +26,15 @@ export async function generateMetadata({
     tool?.blurb ||
     "Free online AI photo tools by LazyKiwi — upload one photo and get results in seconds.";
   const url = `${ORIGIN}/tools/${slug}`;
-  const image = rich?.hero?.image_after || rich?.hero?.image_before;
+  const image = rich?.hero?.image_after || rich?.hero?.image_before || tool?.image;
 
-  return {
+  const override = await getSeoOverride(`tool:${slug}`);
+  return buildMetadata(override, {
     title,
     description,
-    alternates: { canonical: url },
-    openGraph: {
-      title,
-      description,
-      url,
-      type: "website",
-      siteName: "LazyKiwi",
-      images: image ? [{ url: image }] : undefined,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: image ? [image] : undefined,
-    },
-  };
+    canonical: url,
+    image,
+  });
 }
 
 export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {

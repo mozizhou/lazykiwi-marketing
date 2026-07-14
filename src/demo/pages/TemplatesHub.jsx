@@ -5,9 +5,30 @@ import { templates } from "../data/templatesList";
 
 const ORIGIN = "https://lazykiwi.ai";
 
-export default function TemplatesHub() {
+function mapDbCard(card) {
+  const type = card.templateType === "image" ? "Image" : "Video";
+  return {
+    slug: card.slug,
+    name: card.name || card.slug,
+    type,
+    category: type === "Image" ? "Image" : "Video",
+    image: card.image || "",
+    blurb: card.blurb || "",
+    href: `/templates/${card.slug}`,
+  };
+}
+
+export default function TemplatesHub(props) {
+  const extraTemplates = props?.extraTemplates;
   const [filter, setFilter] = useState("All");
-  const filtered = useMemo(() => (filter === "All" ? templates : templates.filter((item) => item.type === filter)), [filter]);
+  // DB-published pages take priority over the static list when slugs collide.
+  const merged = useMemo(() => {
+    const bySlug = new Map();
+    templates.forEach((item) => bySlug.set(item.slug, item));
+    (extraTemplates || []).forEach((card) => bySlug.set(card.slug, mapDbCard(card)));
+    return Array.from(bySlug.values());
+  }, [extraTemplates]);
+  const filtered = useMemo(() => (filter === "All" ? merged : merged.filter((item) => item.type === filter)), [filter, merged]);
 
   useEffect(() => {
     document.title = "AI Templates: Video & Image Templates | LazyKiwi";
@@ -23,7 +44,7 @@ export default function TemplatesHub() {
     url: `${ORIGIN}/templates`,
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: templates.map((item, index) => ({
+      itemListElement: merged.map((item, index) => ({
         "@type": "ListItem",
         position: index + 1,
         name: item.name,
@@ -48,7 +69,7 @@ export default function TemplatesHub() {
               Open templates <ArrowRight size={18} />
             </a>
             <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-5 py-3.5 text-sm font-bold text-gray-600">
-              <Sparkles size={15} className="text-kiwi-green-dark" /> {templates.length} templates
+              <Sparkles size={15} className="text-kiwi-green-dark" /> {merged.length} templates
             </span>
           </div>
         </div>

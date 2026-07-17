@@ -1,4 +1,5 @@
 import { ChevronRight, Clock, Calendar, Share2, Bookmark, Link2 } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 export default function BlogHeader({ data }) {
   if (!data) return null;
@@ -27,7 +28,7 @@ export default function BlogHeader({ data }) {
           {data.title}
         </h1>
 
-        <p className="mt-5 text-lg leading-8 text-gray-600">{data.excerpt}</p>
+        <p className="mt-5 text-lg leading-8 text-gray-600">{renderInlineLinks(data.excerpt)}</p>
 
         <div className="mt-7 flex flex-wrap items-center justify-between gap-4 border-t border-gray-100 pt-6">
           <div className="flex items-center gap-3">

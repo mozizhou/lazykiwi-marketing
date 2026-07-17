@@ -1,5 +1,6 @@
 import { ArrowRight, BadgeCheck } from "lucide-react";
 import { getModelGeneratorHref } from "../../utils/modelGeneratorLink";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 export default function ModelCTA({ data }) {
   if (!data) return null;
@@ -20,7 +21,7 @@ export default function ModelCTA({ data }) {
               <BadgeCheck size={16} /> LazyKiwi
             </div>
             <h2 className="text-3xl font-black tracking-tight sm:text-4xl">{data.title}</h2>
-            <p className="mt-3 text-sm leading-6 text-white/70 sm:text-base">{data.description}</p>
+            <p className="mt-3 text-sm leading-6 text-white/70 sm:text-base">{renderInlineLinks(data.description)}</p>
           </div>
           <a href={buttonHref} className="inline-flex shrink-0 items-center justify-center gap-2 rounded-2xl bg-kiwi-green px-7 py-4 text-sm font-black text-gray-950 shadow-lg transition hover:bg-white">
             {data.buttonText} <ArrowRight size={18} />

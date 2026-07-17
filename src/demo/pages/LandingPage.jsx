@@ -330,7 +330,7 @@ function HeroSection({ onCreateNow }) {
       <video
         key={`cur-${currentIdx}`}
         src={HERO_VIDEOS[currentIdx]}
-        autoPlay muted playsInline
+        autoPlay muted defaultMuted playsInline
         onEnded={handleVideoEnded}
         onTimeUpdate={handleTimeUpdate}
         className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"
@@ -339,7 +339,7 @@ function HeroSection({ onCreateNow }) {
       <video
         key={`nxt-${nextIdx}`}
         src={HERO_VIDEOS[nextIdx]}
-        autoPlay muted playsInline
+        autoPlay muted defaultMuted playsInline
         className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"
         style={{ zIndex: 1, transition: 'opacity 0.8s ease', opacity: fading ? 1 : 0 }}
       />

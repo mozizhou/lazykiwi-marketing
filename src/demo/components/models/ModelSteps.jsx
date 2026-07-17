@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 export default function ModelSteps({ data, resolveCtaHref }) {
   if (!data || !data.items) return null;
@@ -10,7 +11,7 @@ export default function ModelSteps({ data, resolveCtaHref }) {
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <p className="mb-2 text-sm font-bold uppercase tracking-[0.12em] text-kiwi-green-dark">{data.eyebrow}</p>
           <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">{data.title}</h2>
-          {data.description && <p className="mt-4 text-base leading-7 text-gray-600">{data.description}</p>}
+          {data.description && <p className="mt-4 text-base leading-7 text-gray-600">{renderInlineLinks(data.description)}</p>}
         </div>
 
         <div className="grid gap-6 md:grid-cols-3">
@@ -24,7 +25,7 @@ export default function ModelSteps({ data, resolveCtaHref }) {
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-black text-gray-950">{step.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-gray-600">{step.description}</p>
+                <p className="mt-2 text-sm leading-6 text-gray-600">{renderInlineLinks(step.description)}</p>
               </div>
             </div>
           ))}

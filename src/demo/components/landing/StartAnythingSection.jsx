@@ -116,7 +116,7 @@ export default function StartAnythingSection({ onNavigate }) {
                 >
                   <div className="lk-mode-tile-media">
                     {mode.video ? (
-                      <video src={mode.video} autoPlay muted playsInline loop className="lk-mode-tile-asset" />
+                      <video src={mode.video} autoPlay muted defaultMuted playsInline loop className="lk-mode-tile-asset" />
                     ) : (
                       <img src={mode.img} alt={mode.title} className="lk-mode-tile-asset" />
                     )}

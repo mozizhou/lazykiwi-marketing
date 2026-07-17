@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DemoSitePage } from "@/components/demo/DemoSitePage";
 import { getSeoOverride } from "@/lib/seo/service";
+import { listCmsPages } from "@/lib/seo/templatePage";
 import { buildMetadata } from "@/lib/seo/buildMetadata";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -13,6 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default function ModelsHubPage() {
-  return <DemoSitePage kind="models-hub" />;
+export default async function ModelsHubPage() {
+  const extra = await listCmsPages("model");
+  return <DemoSitePage kind="models-hub" extra={extra} />;
 }

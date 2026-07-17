@@ -113,6 +113,9 @@ function AutoplayVideo({ src, poster, label }) {
     if (!video) return undefined;
 
     const tryPlay = () => {
+      video.muted = true;
+      video.defaultMuted = true;
+      video.volume = 0;
       const promise = video.play();
       if (promise?.catch) {
         promise.catch(() => {});
@@ -164,6 +167,7 @@ function AutoplayVideo({ src, poster, label }) {
         autoPlay
         loop
         muted
+        defaultMuted
         playsInline
         preload="auto"
         aria-label={label}

@@ -49,7 +49,7 @@ function UserProfileMenu({
           <Sparkles size={15} className={variant === "landing" && overHero ? "text-white/60" : "text-gray-400"} />
           Open studio
         </a>
-        <a href={appUrl("/app/settings")} className={menuItemClass} onClick={onClose}>
+        <a href={appUrl("/settings")} className={menuItemClass} onClick={onClose}>
           <Settings size={15} className={variant === "landing" && overHero ? "text-white/60" : "text-gray-400"} />
           Account settings
         </a>

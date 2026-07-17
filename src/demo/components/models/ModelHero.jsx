@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { ArrowRight, Pause, Play, ChevronRight, Check } from "lucide-react";
 import { getModelGeneratorHref } from "../../utils/modelGeneratorLink";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 // Renders headline with **highlighted** words wrapped in the kiwi accent.
 function Headline({ text }) {
@@ -83,7 +84,7 @@ export default function ModelHero({ data }) {
             {data.tagline && (
               <p className="mt-4 text-lg font-bold text-gray-700 sm:text-xl">{data.tagline}</p>
             )}
-            <p className="mt-5 max-w-xl text-base leading-7 text-gray-600 sm:text-lg">{data.description}</p>
+            <p className="mt-5 max-w-xl text-base leading-7 text-gray-600 sm:text-lg">{renderInlineLinks(data.description)}</p>
 
             <div className="mt-7 flex flex-wrap gap-3">
               <a href={primaryHref} className="inline-flex items-center justify-center gap-2 rounded-2xl bg-kiwi-green px-7 py-3.5 text-sm font-black text-gray-950 shadow-[0_10px_30px_-10px_rgba(132,204,22,0.7)] transition hover:bg-kiwi-green-dark hover:text-white">

@@ -14,7 +14,7 @@ import veo3Data from './model-json/veo-3.json';
 import wan27ImageData from './model-json/wan-2-7-image.json';
 import wan27Data from './model-json/wan-2-7.json';
 
-function normalizeModelPage(data) {
+export function normalizeModelPage(data) {
   if (!data) return data;
   const type = data.parentFeature === 'image-generator' ? 'Image' : 'Video';
   const generatorHref = getModelGeneratorHref(data.slug, type);

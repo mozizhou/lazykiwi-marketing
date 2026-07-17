@@ -48,3 +48,34 @@ export async function getSeoOverride(pageKey: string): Promise<SeoOverride | nul
     return null;
   }
 }
+
+/**
+ * Fetch all enabled SEO overrides marked noindex. Used by the sitemap to omit
+ * pages that should not be crawled.
+ */
+export async function listSeoNoIndexKeys(): Promise<Set<string>> {
+  try {
+    const base = API_BASE_URL.startsWith("http") ? API_BASE_URL : `${resolveOrigin()}${API_BASE_URL}`;
+    const url = `${base}/ai/lazykiwi/seo/list`;
+    const response = await fetch(url, {
+      headers: { "tenant-id": TENANT_ID },
+      next: { revalidate: 300 },
+    });
+    if (!response.ok) return new Set();
+    const payload = await response.json();
+    let list: SeoOverride[] = [];
+    if (payload && typeof payload === "object" && "code" in payload) {
+      if (payload.code !== 0) return new Set();
+      list = Array.isArray(payload.data) ? (payload.data as SeoOverride[]) : [];
+    } else if (Array.isArray(payload)) {
+      list = payload as SeoOverride[];
+    }
+    return new Set(
+      list
+        .filter((item) => item?.noIndex === 1 && item.pageKey)
+        .map((item) => item.pageKey as string),
+    );
+  } catch {
+    return new Set();
+  }
+}

@@ -1,4 +1,5 @@
 import { ArrowRight, BadgeCheck } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 export default function LandingCTA({ data }) {
   if (!data) return null;
@@ -16,7 +17,7 @@ export default function LandingCTA({ data }) {
               {data.title}
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-white/70">
-              {data.description}
+              {renderInlineLinks(data.description)}
             </p>
           </div>
           <a href={data.buttonLink} className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-kiwi-green px-6 py-3.5 text-sm font-black text-gray-950 transition hover:bg-white">

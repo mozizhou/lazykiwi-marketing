@@ -1,3 +1,5 @@
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
+
 export default function BlogAuthorBio({ data }) {
   if (!data) return null;
   return (
@@ -7,7 +9,7 @@ export default function BlogAuthorBio({ data }) {
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.1em] text-kiwi-green-dark">{data.role}</p>
           <p className="text-lg font-black text-gray-950">{data.name}</p>
-          <p className="mt-1 text-sm leading-6 text-gray-600">{data.bio}</p>
+          <p className="mt-1 text-sm leading-6 text-gray-600">{renderInlineLinks(data.bio)}</p>
         </div>
       </div>
     </section>

@@ -10,6 +10,7 @@ import {
   Zap,
 } from "lucide-react";
 import JsonLd from "@/demo/components/common/JsonLd";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -45,7 +46,7 @@ function RichText({ markdown }) {
       nodes.push(
         <ul key={`ul-${key}`} className="my-4 list-disc space-y-2 pl-6 text-gray-600">
           {list.map((item, i) => (
-            <li key={i} className="text-[15.5px] leading-relaxed">{item}</li>
+            <li key={i} className="text-[15.5px] leading-relaxed">{renderInlineLinks(item)}</li>
           ))}
         </ul>,
       );
@@ -68,7 +69,7 @@ function RichText({ markdown }) {
       list.push(line.slice(2));
     } else {
       flushList(i);
-      nodes.push(<p key={i} className="my-3 text-[15.5px] leading-relaxed text-gray-600">{line}</p>);
+      nodes.push(<p key={i} className="my-3 text-[15.5px] leading-relaxed text-gray-600">{renderInlineLinks(line)}</p>);
     }
   });
   flushList("end");
@@ -89,7 +90,7 @@ function HeroBlock({ data, workbenchHref, typeLabel }) {
           <h1 className="max-w-3xl text-4xl font-black leading-[1.05] tracking-tight text-gray-950 sm:text-6xl">
             {data.title}
           </h1>
-          {data.description && <p className="mt-5 max-w-2xl text-lg leading-8 text-gray-600">{data.description}</p>}
+          {data.description && <p className="mt-5 max-w-2xl text-lg leading-8 text-gray-600">{renderInlineLinks(data.description)}</p>}
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href={workbenchHref}
@@ -135,7 +136,7 @@ function WhatItIsBlock({ data }) {
       <div className="mb-10 max-w-3xl">
         {data.eyebrow && <p className="mb-2 text-sm font-bold uppercase tracking-[0.12em] text-kiwi-green-dark">{data.eyebrow}</p>}
         {data.title && <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">{data.title}</h2>}
-        {data.intro && <p className="mt-4 text-lg leading-8 text-gray-600">{data.intro}</p>}
+        {data.intro && <p className="mt-4 text-lg leading-8 text-gray-600">{renderInlineLinks(data.intro)}</p>}
       </div>
       {cards.length > 0 && (
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -145,7 +146,7 @@ function WhatItIsBlock({ data }) {
                 <CardIcon name={card.icon} />
               </div>
               <h3 className="text-lg font-black text-gray-950">{card.title}</h3>
-              <p className="mt-2 text-sm leading-6 text-gray-600">{card.description}</p>
+              <p className="mt-2 text-sm leading-6 text-gray-600">{renderInlineLinks(card.description)}</p>
             </div>
           ))}
         </div>
@@ -163,7 +164,7 @@ function ScenariosBlock({ data }) {
         <div className="mb-10 max-w-3xl">
           {data.eyebrow && <p className="mb-2 text-sm font-bold uppercase tracking-[0.12em] text-kiwi-green-dark">{data.eyebrow}</p>}
           {data.title && <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">{data.title}</h2>}
-          {data.description && <p className="mt-4 text-lg leading-8 text-gray-600">{data.description}</p>}
+          {data.description && <p className="mt-4 text-lg leading-8 text-gray-600">{renderInlineLinks(data.description)}</p>}
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {scenarios.map((sc, i) => (
@@ -180,7 +181,7 @@ function ScenariosBlock({ data }) {
                   </span>
                 )}
                 <h3 className="text-lg font-black text-gray-950">{sc.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-gray-600">{sc.use_case_description || sc.description}</p>
+                <p className="mt-2 text-sm leading-6 text-gray-600">{renderInlineLinks(sc.use_case_description || sc.description)}</p>
               </figcaption>
             </figure>
           ))}
@@ -206,7 +207,7 @@ function FaqBlock({ data }) {
               <span className="pr-6 text-[17px] font-bold text-gray-950">{item.question}</span>
               <span className="shrink-0 text-2xl leading-none text-kiwi-green-dark transition-transform group-open:rotate-45">+</span>
             </summary>
-            <p className="mt-3 text-[15.5px] leading-relaxed text-gray-600">{item.answer}</p>
+            <p className="mt-3 text-[15.5px] leading-relaxed text-gray-600">{renderInlineLinks(item.answer)}</p>
           </details>
         ))}
       </div>
@@ -220,7 +221,7 @@ function OtherNamesBlock({ data }) {
     <section className="border-t border-gray-100 bg-[#FBFCF8]">
       <div className="mx-auto max-w-5xl px-6 py-16 sm:px-10">
         {data.title && <h2 className="text-2xl font-black tracking-tight text-gray-950 sm:text-3xl">{data.title}</h2>}
-        {data.description && <p className="mt-4 text-base leading-7 text-gray-600">{data.description}</p>}
+        {data.description && <p className="mt-4 text-base leading-7 text-gray-600">{renderInlineLinks(data.description)}</p>}
         {keywords.length > 0 && (
           <div className="mt-6 flex flex-wrap gap-2">
             {keywords.map((kw, i) => (
@@ -242,7 +243,7 @@ function CtaBlock({ data, workbenchHref }) {
         <div className="pointer-events-none absolute -left-16 -top-16 h-64 w-64 rounded-full bg-kiwi-green/30 blur-[120px]" />
         <h2 className="relative mx-auto max-w-2xl text-3xl font-black tracking-tight text-white sm:text-4xl">{data.headline}</h2>
         {data.supporting_text && (
-          <p className="relative mx-auto mt-4 max-w-xl text-base leading-7 text-gray-300">{data.supporting_text}</p>
+          <p className="relative mx-auto mt-4 max-w-xl text-base leading-7 text-gray-300">{renderInlineLinks(data.supporting_text)}</p>
         )}
         <div className="relative mt-8 flex justify-center">
           <a

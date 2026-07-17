@@ -21,11 +21,18 @@ function mapDbCard(card) {
 export default function TemplatesHub(props) {
   const extraTemplates = props?.extraTemplates;
   const [filter, setFilter] = useState("All");
-  // DB-published pages take priority over the static list when slugs collide.
+  // DB-published pages take priority over the static list when slugs collide,
+  // but keep static cover art when the CMS card has no image yet.
   const merged = useMemo(() => {
     const bySlug = new Map();
     templates.forEach((item) => bySlug.set(item.slug, item));
-    (extraTemplates || []).forEach((card) => bySlug.set(card.slug, mapDbCard(card)));
+    (extraTemplates || []).forEach((card) => {
+      const prev = bySlug.get(card.slug);
+      const mapped = mapDbCard(card);
+      if (!mapped.image && prev?.image) mapped.image = prev.image;
+      if (!mapped.blurb && prev?.blurb) mapped.blurb = prev.blurb;
+      bySlug.set(card.slug, mapped);
+    });
     return Array.from(bySlug.values());
   }, [extraTemplates]);
   const filtered = useMemo(() => (filter === "All" ? merged : merged.filter((item) => item.type === filter)), [filter, merged]);
@@ -90,7 +97,13 @@ export default function TemplatesHub(props) {
             return (
               <a key={item.slug} href={item.href} className="group flex flex-col overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
                 <div className="relative aspect-[16/10] overflow-hidden bg-gray-100">
-                  <img src={item.image} alt={item.name} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                  {item.image ? (
+                    <img src={item.image} alt={item.name} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+                      <TypeIcon size={32} className="text-gray-300" />
+                    </div>
+                  )}
                   <div className="absolute left-3 top-3 flex items-center gap-1.5 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-bold text-white backdrop-blur-md">
                     <TypeIcon size={12} /> {item.type}
                   </div>

@@ -14,12 +14,31 @@ const CAT_STYLE = {
   edit: { grad: "from-rose-400 to-fuchsia-500", Icon: Brush },
 };
 
-export default function ToolsHub() {
+export default function ToolsHub(props) {
+  const extra = props?.extra;
   const [filter, setFilter] = useState("All");
+
+  // DB-published tools take priority over the static list when slugs collide.
+  const merged = useMemo(() => {
+    const bySlug = new Map();
+    tools.forEach((item) => bySlug.set(item.slug, item));
+    (extra || []).forEach((card) => {
+      const existing = bySlug.get(card.slug);
+      bySlug.set(card.slug, {
+        slug: card.slug,
+        name: card.name || existing?.name || card.slug,
+        blurb: card.blurb || existing?.blurb || "",
+        image: card.image || existing?.image || "",
+        category: existing?.category || "img2img",
+        href: `/tools/${card.slug}`,
+      });
+    });
+    return Array.from(bySlug.values());
+  }, [extra]);
 
   const tabs = useMemo(() => ["All", ...toolCategories.map((c) => c.key)], []);
   const labelFor = (key) => toolCategories.find((c) => c.key === key)?.label || key;
-  const filtered = filter === "All" ? tools : tools.filter((t) => t.category === filter);
+  const filtered = filter === "All" ? merged : merged.filter((t) => t.category === filter);
 
   useEffect(() => {
     document.title = "AI Photo Tools: Hairstyle, Headshot, Restore & More | LazyKiwi";
@@ -36,11 +55,11 @@ export default function ToolsHub() {
     url: `${ORIGIN}/tools`,
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: tools.map((t, i) => ({
+      itemListElement: merged.map((t, i) => ({
         "@type": "ListItem",
         position: i + 1,
         name: t.name,
-        url: `${ORIGIN}${t.href}`,
+        url: `${ORIGIN}${t.href || `/tools/${t.slug}`}`,
       })),
     },
   };
@@ -65,7 +84,7 @@ export default function ToolsHub() {
               Browse all tools <ArrowRight size={18} />
             </a>
             <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-5 py-3.5 text-sm font-bold text-gray-600">
-              <Sparkles size={15} className="text-kiwi-green-dark" /> {tools.length} free tools
+              <Sparkles size={15} className="text-kiwi-green-dark" /> {merged.length} free tools
             </span>
           </div>
         </div>

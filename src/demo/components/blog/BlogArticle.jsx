@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Lightbulb, Check, Quote, Terminal } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 function getScrollParents(node) {
   const parents = [];
@@ -29,7 +30,7 @@ function getViewportFrame(scroller) {
 function Block({ block }) {
   switch (block.type) {
     case "paragraph":
-      return <p className="text-[1.05rem] leading-8 text-gray-700">{block.text}</p>;
+      return <p className="text-[1.05rem] leading-8 text-gray-700">{renderInlineLinks(block.text)}</p>;
 
     case "heading":
       return <h3 className="pt-2 text-xl font-black tracking-tight text-gray-950">{block.text}</h3>;
@@ -40,7 +41,7 @@ function Block({ block }) {
           {block.items.map((item, i) => (
             <li key={i} className="flex gap-3 text-[1.02rem] leading-7 text-gray-700">
               <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-kiwi-green-dark" />
-              <span>{item}</span>
+              <span>{renderInlineLinks(item)}</span>
             </li>
           ))}
         </ul>
@@ -54,7 +55,7 @@ function Block({ block }) {
               <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-kiwi-yellow text-sm font-black text-gray-950">{i + 1}</span>
               <div>
                 <h4 className="text-base font-black text-gray-950">{item.title}</h4>
-                <p className="mt-1 text-[1rem] leading-7 text-gray-700">{item.text}</p>
+                <p className="mt-1 text-[1rem] leading-7 text-gray-700">{renderInlineLinks(item.text)}</p>
               </div>
             </li>
           ))}
@@ -77,7 +78,7 @@ function Block({ block }) {
           <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-kiwi-green text-gray-950"><Lightbulb size={20} /></span>
           <div>
             <h4 className="text-sm font-black uppercase tracking-wide text-kiwi-green-dark">{block.title}</h4>
-            <p className="mt-1 text-[1rem] leading-7 text-gray-700">{block.text}</p>
+            <p className="mt-1 text-[1rem] leading-7 text-gray-700">{renderInlineLinks(block.text)}</p>
           </div>
         </div>
       );
@@ -106,7 +107,7 @@ function Block({ block }) {
       return (
         <blockquote className="relative rounded-2xl bg-[#FBFCF8] p-7 pl-14">
           <Quote size={28} className="absolute left-5 top-6 text-kiwi-green" fill="currentColor" />
-          <p className="text-xl font-bold leading-8 text-gray-900">{block.text}</p>
+          <p className="text-xl font-bold leading-8 text-gray-900">{renderInlineLinks(block.text)}</p>
           {block.cite && <cite className="mt-3 block text-sm font-medium not-italic text-gray-400">— {block.cite}</cite>}
         </blockquote>
       );
@@ -118,7 +119,7 @@ function Block({ block }) {
             <Terminal size={14} className="text-kiwi-green" />
             <span className="text-xs font-bold uppercase tracking-wide text-white/60">{block.label || "Prompt"}</span>
           </div>
-          <pre className="overflow-x-auto whitespace-pre-wrap px-4 py-4 text-[0.85rem] leading-6 text-kiwi-light-green">{block.text}</pre>
+          <pre className="overflow-x-auto whitespace-pre-wrap px-4 py-4 text-[0.85rem] leading-6 text-kiwi-light-green">{renderInlineLinks(block.text)}</pre>
         </div>
       );
 
@@ -219,7 +220,7 @@ export default function BlogArticle({ intro, toc, sections }) {
       <div ref={gridRef} className="grid gap-12 lg:grid-cols-[1fr_220px] lg:gap-14">
         <article className="max-w-2xl">
           {intro && (
-            <p className="border-l-2 border-kiwi-green pl-5 text-xl font-medium leading-9 text-gray-800">{intro}</p>
+            <p className="border-l-2 border-kiwi-green pl-5 text-xl font-medium leading-9 text-gray-800">{renderInlineLinks(intro)}</p>
           )}
           <div className="mt-12 space-y-14">
             {sections.map((section) => (

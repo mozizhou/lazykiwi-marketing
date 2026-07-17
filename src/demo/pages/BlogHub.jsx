@@ -5,21 +5,47 @@ import { blogPosts } from "../data/blogPosts";
 
 const ORIGIN = "https://lazykiwi.ai";
 
-export default function BlogHub() {
+const FALLBACK_AUTHOR = {
+  name: "LazyKiwi",
+  avatar: "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/generated/avatars/lk.jpg",
+};
+
+export default function BlogHub(props) {
+  const extra = props?.extra;
   const all = useMemo(
-    () =>
-      Object.entries(blogPosts).map(([slug, d]) => ({
-        slug,
-        title: d.header.title,
-        excerpt: d.header.excerpt,
-        category: d.header.category,
-        author: d.header.author,
-        date: d.header.date,
-        readTime: d.header.readTime,
-        cover: d.header.cover,
-        href: `/blog/${slug}`,
-      })),
-    []
+    () => {
+      const bySlug = new Map();
+      Object.entries(blogPosts).forEach(([slug, d]) => {
+        bySlug.set(slug, {
+          slug,
+          title: d.header.title,
+          excerpt: d.header.excerpt,
+          category: d.header.category,
+          author: d.header.author,
+          date: d.header.date,
+          readTime: d.header.readTime,
+          cover: d.header.cover,
+          href: `/blog/${slug}`,
+        });
+      });
+      // DB-published posts take priority over static posts on slug collision.
+      (extra || []).forEach((card) => {
+        const existing = bySlug.get(card.slug);
+        bySlug.set(card.slug, {
+          slug: card.slug,
+          title: card.name || existing?.title || card.slug,
+          excerpt: card.blurb || existing?.excerpt || "",
+          category: existing?.category || "Blog",
+          author: existing?.author || FALLBACK_AUTHOR,
+          date: existing?.date || "",
+          readTime: existing?.readTime || "5 min read",
+          cover: card.image || existing?.cover || "",
+          href: `/blog/${card.slug}`,
+        });
+      });
+      return Array.from(bySlug.values());
+    },
+    [extra]
   );
 
   const categories = useMemo(() => ["All", ...Array.from(new Set(all.map((p) => p.category)))], [all]);

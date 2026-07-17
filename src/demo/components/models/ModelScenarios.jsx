@@ -1,4 +1,5 @@
 import { Megaphone, Clapperboard, ShoppingBag, Music, Plane, Gamepad2, Newspaper, Heart, Sparkles } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 const iconMap = { Megaphone, Clapperboard, ShoppingBag, Music, Plane, Gamepad2, Newspaper, Heart, Sparkles };
 
@@ -10,7 +11,7 @@ export default function ModelScenarios({ data }) {
       <div className="mb-10 max-w-2xl">
         <p className="mb-2 text-sm font-bold uppercase tracking-[0.12em] text-kiwi-green-dark">{data.eyebrow}</p>
         <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">{data.title}</h2>
-        {data.description && <p className="mt-4 text-base leading-7 text-gray-600">{data.description}</p>}
+        {data.description && <p className="mt-4 text-base leading-7 text-gray-600">{renderInlineLinks(data.description)}</p>}
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -22,7 +23,7 @@ export default function ModelScenarios({ data }) {
                 <Icon size={20} />
               </div>
               <h3 className="text-base font-black text-gray-950">{s.title}</h3>
-              <p className="mt-2 text-sm leading-6 text-gray-600">{s.description}</p>
+              <p className="mt-2 text-sm leading-6 text-gray-600">{renderInlineLinks(s.description)}</p>
             </div>
           );
         })}

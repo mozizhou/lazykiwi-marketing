@@ -12,9 +12,10 @@ import ModelRelated from "../components/models/ModelRelated";
 import ModelRelatedPosts from "../components/models/ModelRelatedPosts";
 import LandingFAQ from "../components/landing/LandingFAQ";
 import JsonLd from "../components/common/JsonLd";
-import { getModelData } from "../data/modelPages";
+import { getModelData, normalizeModelPage } from "../data/modelPages";
 import { getModelCatalogItem } from "../data/modelCatalog";
 import { getModelGeneratorHref } from "../utils/modelGeneratorLink";
+import ModelBlockRenderer from "@/components/modelBlocks/ModelBlockRenderer";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -52,8 +53,8 @@ function buildJsonLd(data) {
   return { "@context": "https://schema.org", "@graph": graph };
 }
 
-export default function ModelLandingPage({ slug }) {
-  const data = getModelData(slug);
+export default function ModelLandingPage({ slug, dbData }) {
+  const data = dbData ? normalizeModelPage(dbData) : getModelData(slug);
   const catalogItem = getModelCatalogItem(slug);
 
   useEffect(() => {
@@ -113,6 +114,10 @@ export default function ModelLandingPage({ slug }) {
         </section>
       </article>
     );
+  }
+
+  if (dbData && Array.isArray(dbData.blocks)) {
+    return <ModelBlockRenderer blocks={dbData.blocks} meta={dbData} slug={slug} />;
   }
 
   return (

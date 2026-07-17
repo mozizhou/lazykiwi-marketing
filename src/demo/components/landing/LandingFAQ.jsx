@@ -1,3 +1,5 @@
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
+
 export default function LandingFAQ({ data }) {
   if (!data || data.length === 0) return null;
 
@@ -18,7 +20,7 @@ export default function LandingFAQ({ data }) {
               {faq.question}
             </summary>
             <p className="mt-4 border-l-2 border-kiwi-green pl-5 text-base leading-7 text-gray-600">
-              {faq.answer}
+              {renderInlineLinks(faq.answer)}
             </p>
           </details>
         ))}

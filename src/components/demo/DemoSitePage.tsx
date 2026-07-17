@@ -14,14 +14,16 @@ import TemplatesHub from "@/demo/pages/TemplatesHub";
 import TemplateLandingPage from "@/demo/pages/TemplateLandingPage";
 import type { TemplateBlock, TemplatePageCard } from "@/lib/seo/templatePage";
 
+type CmsDoc = Record<string, unknown> | null;
+
 type DemoSitePageProps =
-  | { kind: "blog-hub" }
-  | { kind: "blog"; slug: string }
-  | { kind: "models-hub" }
-  | { kind: "model"; slug: string }
+  | { kind: "blog-hub"; extra?: TemplatePageCard[] }
+  | { kind: "blog"; slug: string; dbData?: CmsDoc }
+  | { kind: "models-hub"; extra?: TemplatePageCard[] }
+  | { kind: "model"; slug: string; dbData?: CmsDoc }
   | { kind: "effects-hub" }
-  | { kind: "tools-hub" }
-  | { kind: "tool"; slug: string }
+  | { kind: "tools-hub"; extra?: TemplatePageCard[] }
+  | { kind: "tool"; slug: string; dbData?: CmsDoc }
   | { kind: "templates-hub"; extraTemplates?: TemplatePageCard[] }
   | { kind: "template"; slug: string; blocks?: TemplateBlock[] | null; name?: string; templateType?: string };
 
@@ -31,19 +33,19 @@ export function DemoSitePage(props: DemoSitePageProps) {
   const content = (() => {
     switch (props.kind) {
       case "blog-hub":
-        return <BlogHub />;
+        return <BlogHub extra={props.extra} />;
       case "blog":
-        return <BlogLandingPage slug={props.slug} />;
+        return <BlogLandingPage slug={props.slug} dbData={props.dbData ?? undefined} />;
       case "models-hub":
-        return <ModelsHub />;
+        return <ModelsHub extra={props.extra} />;
       case "model":
-        return <ModelLandingPage slug={props.slug} />;
+        return <ModelLandingPage slug={props.slug} dbData={props.dbData ?? undefined} />;
       case "effects-hub":
         return <EffectsHub />;
       case "tools-hub":
-        return <ToolsHub />;
+        return <ToolsHub extra={props.extra} />;
       case "tool":
-        return <ToolLandingPage slug={props.slug} />;
+        return <ToolLandingPage slug={props.slug} dbData={props.dbData ?? undefined} />;
       case "templates-hub":
         return <TemplatesHub extraTemplates={props.extraTemplates} />;
       case "template":

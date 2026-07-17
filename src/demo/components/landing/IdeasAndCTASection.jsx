@@ -347,7 +347,7 @@ export function FinalCTASection({ onCreateNow }) {
           <video
             key={`cta-cur-${ctaVidIdx}`}
             src={CTA_VIDEOS[ctaVidIdx]}
-            autoPlay muted playsInline
+            autoPlay muted defaultMuted playsInline
             onEnded={handleCtaVideoEnded}
             className="lk-final-video"
             style={{ opacity: ctaFading ? 0 : 1, zIndex: 0 }}
@@ -355,7 +355,7 @@ export function FinalCTASection({ onCreateNow }) {
           <video
             key={`cta-nxt-${(ctaVidIdx + 1) % CTA_VIDEOS.length}`}
             src={CTA_VIDEOS[(ctaVidIdx + 1) % CTA_VIDEOS.length]}
-            autoPlay muted playsInline
+            autoPlay muted defaultMuted playsInline
             className="lk-final-video"
             style={{ opacity: ctaFading ? 1 : 0, zIndex: 1 }}
           />

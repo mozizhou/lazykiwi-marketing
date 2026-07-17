@@ -1,4 +1,5 @@
 import { Star, Quote } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 export default function ModelTestimonials({ data }) {
   if (!data) return null;
@@ -27,7 +28,7 @@ export default function ModelTestimonials({ data }) {
             {data.quotes.map((q, i) => (
               <figure key={i} className="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
                 <Quote size={22} className="text-kiwi-green" fill="currentColor" />
-                <blockquote className="mt-3 flex-1 text-[0.95rem] leading-7 text-gray-700">"{q.quote}"</blockquote>
+                <blockquote className="mt-3 flex-1 text-[0.95rem] leading-7 text-gray-700">"{renderInlineLinks(q.quote)}"</blockquote>
                 <div className="mt-1 mb-3 flex gap-0.5">
                   {Array.from({ length: 5 }).map((_, k) => (
                     <Star key={k} size={14} className="text-kiwi-green-dark" fill="currentColor" />

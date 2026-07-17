@@ -16,9 +16,25 @@ export type TemplatePageContent = {
 export type TemplatePageCard = {
   slug: string;
   name: string;
+  pageType?: string;
   templateType: string;
   image: string | null;
   blurb: string | null;
+};
+
+export type CmsPageType = "template" | "tool" | "model" | "blog";
+
+/**
+ * A resolved CMS page for tools/models/blog. `doc` is the full structured
+ * document JSON (same shape the marketing renderer already consumes). For
+ * templates use {@link getTemplatePageContent} instead (block-based).
+ */
+export type CmsPageContent = {
+  slug: string;
+  name: string;
+  pageType: string;
+  templateType: string;
+  doc: Record<string, unknown> | null;
 };
 
 // Mirror of getSeoOverride's origin logic: API_BASE_URL is a browser-only proxy
@@ -79,8 +95,62 @@ export async function getTemplatePageContent(slug: string): Promise<TemplatePage
  * Returns an empty array on any error.
  */
 export async function listTemplatePages(): Promise<TemplatePageCard[]> {
+  return listCmsPages("template");
+}
+
+/**
+ * Generic resolver for a published tool/model/blog page. Returns the parsed
+ * structured document (`doc`) or null when missing/unpublished/on error, so
+ * callers fall back to the existing static data.
+ */
+export async function getCmsPageContent(
+  pageType: CmsPageType,
+  slug: string,
+): Promise<CmsPageContent | null> {
+  if (!slug) return null;
   try {
-    const url = `${apiBase()}/ai/lazykiwi/template-page/list`;
+    const url = `${apiBase()}/ai/lazykiwi/template-page/resolve?slug=${encodeURIComponent(slug)}&pageType=${encodeURIComponent(pageType)}`;
+    const response = await fetch(url, {
+      headers: { "tenant-id": TENANT_ID },
+      next: { revalidate: 300 },
+    });
+    if (!response.ok) return null;
+    const raw = unwrap<{
+      slug: string;
+      name: string;
+      pageType: string;
+      templateType: string;
+      contentJson: string | null;
+    }>(await response.json());
+    if (!raw) return null;
+    let doc: Record<string, unknown> | null = null;
+    if (raw.contentJson) {
+      try {
+        const parsed = JSON.parse(raw.contentJson);
+        if (parsed && typeof parsed === "object") doc = parsed as Record<string, unknown>;
+      } catch {
+        doc = null;
+      }
+    }
+    return {
+      slug: raw.slug,
+      name: raw.name,
+      pageType: raw.pageType || pageType,
+      templateType: raw.templateType,
+      doc,
+    };
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Generic list of published page cards for a given page type (hub consumption).
+ * Returns an empty array on any error.
+ */
+export async function listCmsPages(pageType: CmsPageType): Promise<TemplatePageCard[]> {
+  try {
+    const url = `${apiBase()}/ai/lazykiwi/template-page/list?pageType=${encodeURIComponent(pageType)}`;
     const response = await fetch(url, {
       headers: { "tenant-id": TENANT_ID },
       next: { revalidate: 300 },

@@ -1,5 +1,6 @@
 import { Play, ArrowRight } from "lucide-react";
 import { getModelGeneratorHref } from "../../utils/modelGeneratorLink";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 const isVideoAsset = (url = "") => /\.(mp4|webm|mov)(\?|#|$)/i.test(url);
 
@@ -14,7 +15,7 @@ export default function ModelShowcase({ data }) {
           <div className="max-w-2xl">
             <p className="mb-2 text-sm font-bold uppercase tracking-[0.12em] text-kiwi-green">{data.eyebrow}</p>
             <h2 className="text-3xl font-black tracking-tight sm:text-4xl">{data.title}</h2>
-            {data.description && <p className="mt-4 text-base leading-7 text-white/60">{data.description}</p>}
+            {data.description && <p className="mt-4 text-base leading-7 text-white/60">{renderInlineLinks(data.description)}</p>}
           </div>
           {data.cta && (
             <a href={ctaHref} className="inline-flex items-center gap-2 rounded-xl bg-kiwi-green px-5 py-3 text-sm font-black text-gray-950 transition hover:bg-white">

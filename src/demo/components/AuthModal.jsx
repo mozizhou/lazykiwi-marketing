@@ -48,6 +48,7 @@ export default function AuthModal({ mode, onClose, onComplete }) {
             autoPlay
             loop
             muted
+            defaultMuted
             playsInline
           />
         </div>

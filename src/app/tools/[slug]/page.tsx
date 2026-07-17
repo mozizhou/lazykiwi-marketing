@@ -3,6 +3,7 @@ import { DemoSitePage } from "@/components/demo/DemoSitePage";
 import { getToolPage } from "@/demo/data/toolPages";
 import { tools } from "@/demo/data/toolsList";
 import { getSeoOverride } from "@/lib/seo/service";
+import { getCmsPageContent } from "@/lib/seo/templatePage";
 import { buildMetadata } from "@/lib/seo/buildMetadata";
 
 const ORIGIN = "https://lazykiwi.ai";
@@ -13,7 +14,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const rich = getToolPage(slug) as
+  const dbPage = await getCmsPageContent("tool", slug);
+  const rich = (dbPage?.doc || getToolPage(slug)) as
     | { seo_title?: string; seo_description?: string; hero?: { title?: string; image_after?: string; image_before?: string } }
     | null;
   const tool = tools.find((item) => item.slug === slug);
@@ -39,5 +41,6 @@ export async function generateMetadata({
 
 export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  return <DemoSitePage kind="tool" slug={slug} />;
+  const dbPage = await getCmsPageContent("tool", slug);
+  return <DemoSitePage kind="tool" slug={slug} dbData={dbPage?.doc ?? undefined} />;
 }

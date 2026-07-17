@@ -1,4 +1,5 @@
 import { Check } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 export default function ModelComparison({ data }) {
   if (!data || !data.rows) return null;
@@ -13,7 +14,7 @@ export default function ModelComparison({ data }) {
           <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">
             {data.title}
           </h2>
-          <p className="mt-4 text-base leading-7 text-gray-600">{data.description}</p>
+          <p className="mt-4 text-base leading-7 text-gray-600">{renderInlineLinks(data.description)}</p>
         </div>
 
         <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">

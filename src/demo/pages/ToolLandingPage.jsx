@@ -15,6 +15,7 @@ import {
 import JsonLd from "../components/common/JsonLd";
 import { tools } from "../data/toolsList";
 import { getToolPage } from "../data/toolPages";
+import ToolBlockRenderer from "@/components/toolBlocks/ToolBlockRenderer";
 
 const ORIGIN = "https://lazykiwi.ai";
 const TRY_HREF = "/image-generator";
@@ -300,8 +301,8 @@ function RichToolPage({ data, meta, slug }) {
   );
 }
 
-export default function ToolLandingPage({ slug }) {
-  const richData = getToolPage(slug);
+export default function ToolLandingPage({ slug, dbData }) {
+  const richData = dbData || getToolPage(slug);
   const tool = tools.find((item) => item.slug === slug);
 
   useEffect(() => {
@@ -312,6 +313,15 @@ export default function ToolLandingPage({ slug }) {
   }, [richData, tool]);
 
   if (richData) {
+    if (Array.isArray(richData.blocks)) {
+      return (
+        <ToolBlockRenderer
+          blocks={richData.blocks}
+          meta={{ ...tool, seo_title: richData.seo_title, seo_description: richData.seo_description }}
+          slug={slug}
+        />
+      );
+    }
     return <RichToolPage data={richData} meta={{ ...tool, seo_title: richData.seo_title, seo_description: richData.seo_description }} slug={slug} />;
   }
 

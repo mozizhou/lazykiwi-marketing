@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
 
 export default function BlogRelated({ data }) {
   if (!data || !data.posts || data.posts.length === 0) return null;
@@ -32,7 +33,7 @@ export default function BlogRelated({ data }) {
                 <h3 className="mt-2 text-lg font-black leading-tight text-gray-950">
                   {post.title}
                 </h3>
-                <p className="mt-2 flex-1 text-sm leading-6 text-gray-600">{post.excerpt}</p>
+                <p className="mt-2 flex-1 text-sm leading-6 text-gray-600">{renderInlineLinks(post.excerpt)}</p>
                 <span className="mt-4 flex items-center justify-between text-xs font-bold text-gray-400">
                   {post.readTime}
                   <ArrowUpRight

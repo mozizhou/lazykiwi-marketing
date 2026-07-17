@@ -8,6 +8,7 @@ import LandingFAQ from "../components/landing/LandingFAQ";
 import LandingCTA from "../components/landing/LandingCTA";
 import JsonLd from "../components/common/JsonLd";
 import { getBlogData } from "../data/blogPosts";
+import BlogBlockRenderer from "@/components/blogBlocks/BlogBlockRenderer";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -46,8 +47,8 @@ function buildJsonLd(data) {
   return { "@context": "https://schema.org", "@graph": graph };
 }
 
-export default function BlogLandingPage({ slug }) {
-  const data = getBlogData(slug);
+export default function BlogLandingPage({ slug, dbData }) {
+  const data = dbData || getBlogData(slug);
 
   useEffect(() => {
     if (data && data.seo) {
@@ -69,6 +70,10 @@ export default function BlogLandingPage({ slug }) {
         <h1 className="text-2xl font-bold text-gray-500">Article Not Found</h1>
       </div>
     );
+  }
+
+  if (dbData && Array.isArray(dbData.blocks)) {
+    return <BlogBlockRenderer blocks={dbData.blocks} meta={dbData} slug={slug} />;
   }
 
   return (

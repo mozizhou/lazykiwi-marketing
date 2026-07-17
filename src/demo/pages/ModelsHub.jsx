@@ -44,26 +44,46 @@ function CoverMedia({ src, alt, poster }) {
   );
 }
 
-export default function ModelsHub() {
+export default function ModelsHub(props) {
+  const extra = props?.extra;
   const [filter, setFilter] = useState("All");
 
   const items = useMemo(
-    () =>
-      modelCatalog.map((model) => {
+    () => {
+      const FALLBACK = "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/landing/hero/hero-poster.png";
+      const bySlug = new Map();
+      modelCatalog.forEach((model) => {
         const d = modelPages[model.slug];
-        return {
+        bySlug.set(model.slug, {
           slug: model.slug,
           name: d?.hero.name || model.name,
           tagline: d?.hero.tagline || model.blurb,
           badge: d?.hero.badge || model.type,
           statusPill: d?.hero.statusPill,
           type: d ? toType(d) : model.type,
-          image: d?.showcase?.items?.[0]?.image || d?.hero.media.wide || "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/landing/hero/hero-poster.png",
-          poster: d?.hero?.media?.poster || d?.showcase?.items?.[0]?.poster || d?.steps?.items?.[0]?.image || "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/landing/hero/hero-poster.png",
+          image: d?.showcase?.items?.[0]?.image || d?.hero.media.wide || FALLBACK,
+          poster: d?.hero?.media?.poster || d?.showcase?.items?.[0]?.poster || d?.steps?.items?.[0]?.image || FALLBACK,
           href: model.href,
-        };
-      }),
-    []
+        });
+      });
+      // DB-published models take priority over the static catalog on slug collision.
+      (extra || []).forEach((card) => {
+        const existing = bySlug.get(card.slug);
+        bySlug.set(card.slug, {
+          slug: card.slug,
+          name: card.name || existing?.name || card.slug,
+          tagline: card.blurb || existing?.tagline || "",
+          badge: existing?.badge || (card.templateType === "image" ? "Image" : "Video"),
+          statusPill: existing?.statusPill,
+          type: existing?.type || (card.templateType === "image" ? "Image" : "Video"),
+          image: card.image || existing?.image || FALLBACK,
+          poster: existing?.poster || FALLBACK,
+          href: `/models/${card.slug}`,
+        });
+      });
+      return Array.from(bySlug.values());
+    },
+    [extra]
   );
 
   const filtered = filter === "All" ? items : items.filter((i) => i.type === filter);

@@ -1,21 +1,24 @@
-import { redirect } from "next/navigation";
-import { appUrl } from "@/lib/routes";
+import type { Metadata } from "next";
+import { DemoGeneratorPage } from "@/components/demo/DemoGeneratorPage";
+import { buildMetadata } from "@/lib/seo/buildMetadata";
+import { getSeoOverride } from "@/lib/seo/service";
 
-type AliasPageProps = {
+type GeneratorPageProps = {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 };
 
-function toQueryString(params: Record<string, string | string[] | undefined>) {
-  const query = new URLSearchParams();
-  Object.entries(params).forEach(([key, value]) => {
-    if (Array.isArray(value)) value.forEach((item) => query.append(key, item));
-    else if (value) query.set(key, value);
+export async function generateMetadata(): Promise<Metadata> {
+  const override = await getSeoOverride("image-generator");
+  return buildMetadata(override, {
+    title: "AI Image Generator — Text to Image Online | LazyKiwi",
+    description:
+      "Generate AI images from text or templates with FLUX, Seedream, Nano Banana, and more in the LazyKiwi workbench.",
+    canonical: "https://lazykiwi.ai/image-generator",
   });
-  const value = query.toString();
-  return value ? `?${value}` : "";
 }
 
-export default async function ImageGeneratorAliasPage({ searchParams }: AliasPageProps) {
-  const qs = toQueryString((await searchParams) || {});
-  redirect(`${appUrl("/app/image-generator")}${qs}`);
+export default async function ImageGeneratorPage({ searchParams }: GeneratorPageProps) {
+  const params = (await searchParams) || {};
+  const mode = typeof params.mode === "string" ? params.mode : undefined;
+  return <DemoGeneratorPage kind="image" mode={mode} />;
 }

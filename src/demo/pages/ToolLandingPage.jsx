@@ -1,25 +1,15 @@
-import { useEffect } from "react";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  Check,
-  Clock,
-  Heart,
-  ShieldCheck,
-  Sparkles,
-  Star,
-  Upload,
-  Wand2,
-  Zap,
-} from "lucide-react";
+import { ArrowRight, ArrowUpRight, Upload, Sparkles, Clock } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
 import { tools } from "../data/toolsList";
 import { getToolPage } from "../data/toolPages";
 import ToolBlockRenderer from "@/components/toolBlocks/ToolBlockRenderer";
+import ToolPageSlots from "../components/tools/ToolPageSlots";
+import IpDisclaimer from "../components/common/IpDisclaimer";
+import { isIpRiskSlug } from "@/lib/seo/ipRiskSlugs";
 
 const ORIGIN = "https://lazykiwi.ai";
 const TRY_HREF = "/image-generator";
-const WHY_ICONS = [Zap, ShieldCheck, Check, Heart, Sparkles, Wand2];
+const WHY_ICONS = [Sparkles, Upload, Clock];
 
 function StepNumber({ n }) {
   return (
@@ -32,12 +22,6 @@ function StepNumber({ n }) {
 function RichToolPage({ data, meta, slug }) {
   const heroBefore = data.hero?.image_before;
   const heroAfter = data.hero?.image_after;
-
-  useEffect(() => {
-    document.title = meta?.seo_title || `${meta?.name || data.hero?.title} | LazyKiwi`;
-    const el = document.querySelector('meta[name="description"]');
-    if (el && meta?.seo_description) el.setAttribute("content", meta.seo_description);
-  }, [data, meta]);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -76,15 +60,6 @@ function RichToolPage({ data, meta, slug }) {
               <a href="/tools" className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-5 py-3.5 text-sm font-bold text-gray-600 transition hover:text-gray-950">
                 All tools <ArrowUpRight size={16} />
               </a>
-            </div>
-            <div className="mt-7 flex items-center gap-2 text-sm text-gray-500">
-              <span className="flex text-kiwi-green-dark">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} size={14} fill="currentColor" />
-                ))}
-              </span>
-              <span className="font-semibold text-gray-700">4.9</span>
-              <span>· Loved by 120,000+ creators</span>
             </div>
           </div>
 
@@ -228,37 +203,6 @@ function RichToolPage({ data, meta, slug }) {
         </section>
       )}
 
-      {/* Reviews */}
-      {data.reviews?.quotes?.length > 0 && (
-        <section className="border-y border-gray-100 bg-[#FBFCF8]">
-          <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-24">
-            <div className="text-center">
-              <p className="text-[13px] font-bold uppercase tracking-[0.18em] text-kiwi-green-dark">Loved by creators</p>
-              <h2 className="mt-3 text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">{data.reviews.title}</h2>
-            </div>
-            <div className="mt-14 grid gap-6 md:grid-cols-3">
-              {data.reviews.quotes.map((q, i) => (
-                <figure key={i} className="rounded-3xl border border-gray-100 bg-white p-7 shadow-sm">
-                  <div className="flex gap-0.5 text-kiwi-green-dark">
-                    {Array.from({ length: 5 }).map((_, k) => (
-                      <Star key={k} size={14} fill="currentColor" />
-                    ))}
-                  </div>
-                  <blockquote className="mt-4 text-[15.5px] leading-relaxed text-gray-800">“{q.quote}”</blockquote>
-                  <figcaption className="mt-6 flex items-center gap-3">
-                    {q.avatar && <img src={q.avatar} alt={q.name} className="h-10 w-10 rounded-full object-cover" loading="lazy" />}
-                    <span>
-                      <span className="block text-[14.5px] font-black text-gray-950">{q.name}</span>
-                      <span className="block text-[13px] text-gray-500">{q.role}</span>
-                    </span>
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* FAQ */}
       {data.faq?.faqs?.length > 0 && (
         <section className="mx-auto max-w-3xl px-6 py-16 sm:px-10 lg:py-24">
@@ -281,6 +225,8 @@ function RichToolPage({ data, meta, slug }) {
       )}
 
       {/* CTA */}
+      <ToolPageSlots data={data} />
+      {isIpRiskSlug(slug) && <IpDisclaimer />}
       {data.cta && (
         <section className="px-6 pb-24 sm:px-10">
           <div className="relative mx-auto max-w-6xl overflow-hidden rounded-[2.5rem] bg-gray-950 px-8 py-16 text-center text-white sm:px-16 sm:py-20">
@@ -305,13 +251,6 @@ export default function ToolLandingPage({ slug, dbData }) {
   const richData = dbData || getToolPage(slug);
   const tool = tools.find((item) => item.slug === slug);
 
-  useEffect(() => {
-    if (richData || !tool) return;
-    document.title = `${tool.name} Online | LazyKiwi`;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", tool.blurb);
-  }, [richData, tool]);
-
   if (richData) {
     if (Array.isArray(richData.blocks)) {
       return (
@@ -325,13 +264,7 @@ export default function ToolLandingPage({ slug, dbData }) {
     return <RichToolPage data={richData} meta={{ ...tool, seo_title: richData.seo_title, seo_description: richData.seo_description }} slug={slug} />;
   }
 
-  if (!tool) {
-    return (
-      <div className="flex min-h-[60vh] items-center justify-center">
-        <h1 className="text-2xl font-bold text-gray-500">Tool Not Found</h1>
-      </div>
-    );
-  }
+  if (!tool) return null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -378,6 +311,8 @@ export default function ToolLandingPage({ slug, dbData }) {
           </div>
         ))}
       </section>
+      <ToolPageSlots data={tool} />
+      {isIpRiskSlug(slug) && <IpDisclaimer />}
     </article>
   );
 }

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import BlogHeader from "../components/blog/BlogHeader";
 import BlogArticle from "../components/blog/BlogArticle";
 import BlogKeyTakeaways from "../components/blog/BlogKeyTakeaways";
@@ -49,20 +48,6 @@ function buildJsonLd(data) {
 
 export default function BlogLandingPage({ slug, dbData }) {
   const data = dbData || getBlogData(slug);
-
-  useEffect(() => {
-    if (data && data.seo) {
-      document.title = data.seo.title;
-      const meta = document.querySelector('meta[name="description"]');
-      if (meta) meta.setAttribute("content", data.seo.description);
-      else {
-        const m = document.createElement("meta");
-        m.name = "description";
-        m.content = data.seo.description;
-        document.head.appendChild(m);
-      }
-    }
-  }, [data]);
 
   if (!data) {
     return (

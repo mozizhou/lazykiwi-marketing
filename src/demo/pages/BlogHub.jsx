@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { ArrowRight, ArrowUpRight, Clock, Calendar } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
 import { blogPosts } from "../data/blogPosts";
@@ -54,14 +54,6 @@ export default function BlogHub(props) {
   const featured = all[0];
   const rest = all.slice(1);
   const visible = cat === "All" ? rest : all.filter((p) => p.category === cat && p.slug !== featured.slug);
-
-  useEffect(() => {
-    document.title = "LazyKiwi Blog: The Creator Playbook for AI Video & Images";
-    const meta = document.querySelector('meta[name="description"]');
-    const desc =
-      "Tips, tutorials and model breakdowns for making AI video and images that perform. The LazyKiwi creator playbook for TikTok, Reels and Shorts.";
-    if (meta) meta.setAttribute("content", desc);
-  }, []);
 
   const jsonLd = {
     "@context": "https://schema.org",

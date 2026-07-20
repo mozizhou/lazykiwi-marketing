@@ -1,10 +1,8 @@
-import { useEffect } from "react";
 import ModelHero from "../components/models/ModelHero";
 import ModelSteps from "../components/models/ModelSteps";
 import ModelCapabilities from "../components/models/ModelCapabilities";
 import ModelShowcase from "../components/models/ModelShowcase";
 import ModelScenarios from "../components/models/ModelScenarios";
-import ModelTestimonials from "../components/models/ModelTestimonials";
 import ModelCTA from "../components/models/ModelCTA";
 import ModelRelated from "../components/models/ModelRelated";
 import ModelRelatedPosts from "../components/models/ModelRelatedPosts";
@@ -64,20 +62,6 @@ function buildJsonLd(data) {
 export default function EffectPremiumPage({ slug }) {
   const data = getEffectPremiumData(slug);
 
-  useEffect(() => {
-    if (data && data.seo) {
-      document.title = data.seo.title;
-      const meta = document.querySelector('meta[name="description"]');
-      if (meta) meta.setAttribute("content", data.seo.description);
-      else {
-        const m = document.createElement("meta");
-        m.name = "description";
-        m.content = data.seo.description;
-        document.head.appendChild(m);
-      }
-    }
-  }, [data]);
-
   if (!data) {
     return (
       <div className="flex h-full items-center justify-center">
@@ -94,7 +78,6 @@ export default function EffectPremiumPage({ slug }) {
       <ModelCapabilities data={data.capabilities} />
       <ModelShowcase data={data.showcase} />
       <ModelScenarios data={data.scenarios} />
-      <ModelTestimonials data={data.testimonials} />
       <LandingFAQ data={data.faq} />
       <ModelCTA data={data.bottomCta} />
       <ModelRelated data={data.related} />

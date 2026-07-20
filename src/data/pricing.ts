@@ -1,3 +1,5 @@
+import { templateCountLabel } from "@/lib/seo/siteStats";
+
 export const pricingPlans = [
   {
     id: "free",
@@ -6,7 +8,7 @@ export const pricingPlans = [
     monthly: 0,
     credits: "30 onboarding credits",
     cta: "Try now",
-    features: ["Up to 3 videos or 30 images", "Text to video", "Image generation", "300+ templates"]
+    features: ["Up to 3 videos or 30 images", "Text to video", "Image generation", `${templateCountLabel} templates`]
   },
   {
     id: "lite",

@@ -1501,4 +1501,6 @@ export const toolPages = {
   }
 };
 
-export const getToolPage = (slug) => toolPages[slug] || null;
+import { toolJsonPages } from "./toolJsonPages";
+
+export const getToolPage = (slug) => toolPages[slug] || toolJsonPages[slug] || null;

@@ -1,6 +1,8 @@
-import { useEffect } from "react";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
+import RelatedTemplates from "../components/templates/RelatedTemplates";
+import IpDisclaimer from "../components/common/IpDisclaimer";
+import { isIpRiskSlug } from "@/lib/seo/ipRiskSlugs";
 import { getTemplateData } from "../data/templatesList";
 import { getTemplatePage } from "../data/templatePages";
 import TemplateRichLanding from "./TemplateRichLanding";
@@ -19,13 +21,6 @@ export default function TemplateLandingPage({ slug, dbBlocks, dbName, dbTemplate
   const effectSlug = template?.legacyEffectSlug;
   const premiumEffect = effectSlug ? getEffectPremiumData(effectSlug) : null;
   const legacyEffect = effectSlug ? getEffectData(effectSlug) : null;
-
-  useEffect(() => {
-    if (hasDbBlocks || richData || !template || premiumEffect || legacyEffect) return;
-    document.title = `${template.name} Template | LazyKiwi`;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", template.blurb);
-  }, [hasDbBlocks, richData, template, premiumEffect, legacyEffect]);
 
   // Published DB page takes highest priority so admin edits render without a redeploy.
   if (hasDbBlocks) {
@@ -81,6 +76,8 @@ export default function TemplateLandingPage({ slug, dbBlocks, dbName, dbTemplate
           <img src={template.image} alt={template.name} className="h-full min-h-[320px] w-full object-cover" />
         </div>
       </section>
+      <RelatedTemplates currentSlug={template.slug} />
+      {isIpRiskSlug(slug) && <IpDisclaimer />}
     </article>
   );
 }

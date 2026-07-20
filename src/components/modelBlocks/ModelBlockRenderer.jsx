@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import ModelHero from "@/demo/components/models/ModelHero";
 import ModelSteps from "@/demo/components/models/ModelSteps";
 import ModelCapabilities from "@/demo/components/models/ModelCapabilities";
@@ -6,7 +5,6 @@ import ModelShowcase from "@/demo/components/models/ModelShowcase";
 import ModelSpecs from "@/demo/components/models/ModelSpecs";
 import ModelComparison from "@/demo/components/models/ModelComparison";
 import ModelScenarios from "@/demo/components/models/ModelScenarios";
-import ModelTestimonials from "@/demo/components/models/ModelTestimonials";
 import ModelCTA from "@/demo/components/models/ModelCTA";
 import LandingFAQ from "@/demo/components/landing/LandingFAQ";
 import JsonLd from "@/demo/components/common/JsonLd";
@@ -29,7 +27,6 @@ export function modelToBlocks(doc) {
   if (doc.specs?.rows?.length) b.push({ type: "specs", data: doc.specs });
   if (doc.comparison?.rows?.length) b.push({ type: "comparison", data: doc.comparison });
   if (doc.scenarios?.items?.length) b.push({ type: "scenarios", data: doc.scenarios });
-  if (doc.testimonials?.quotes?.length) b.push({ type: "testimonials", data: doc.testimonials });
   if (doc.faq?.length) b.push({ type: "faq", data: doc.faq });
   if (doc.bottomCta && (doc.bottomCta.title || doc.bottomCta.description)) b.push({ type: "bottomCta", data: doc.bottomCta });
   return b;
@@ -41,14 +38,6 @@ export default function ModelBlockRenderer({ blocks, meta, slug }) {
   const generatorHref = getModelGeneratorHref(slug, type);
 
   const heroData = list.find((b) => b?.type === "hero")?.data || {};
-
-  useEffect(() => {
-    if (meta?.seo?.title) {
-      document.title = meta.seo.title;
-      const el = document.querySelector('meta[name="description"]');
-      if (el && meta.seo.description) el.setAttribute("content", meta.seo.description);
-    }
-  }, [meta]);
 
   const stepsData = list.find((b) => b?.type === "steps")?.data;
   const showcaseData = list.find((b) => b?.type === "showcase")?.data;
@@ -115,8 +104,6 @@ export default function ModelBlockRenderer({ blocks, meta, slug }) {
             return <ModelComparison key={key} data={data} />;
           case "scenarios":
             return <ModelScenarios key={key} data={data} />;
-          case "testimonials":
-            return <ModelTestimonials key={key} data={data} />;
           case "faq":
             return <LandingFAQ key={key} data={data} />;
           case "bottomCta":

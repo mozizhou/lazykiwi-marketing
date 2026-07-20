@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { ArrowRight, ArrowUpRight, Image as ImageIcon, Sparkles, Video } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
 import { templates } from "../data/templatesList";
@@ -36,13 +36,6 @@ export default function TemplatesHub(props) {
     return Array.from(bySlug.values());
   }, [extraTemplates]);
   const filtered = useMemo(() => (filter === "All" ? merged : merged.filter((item) => item.type === filter)), [filter, merged]);
-
-  useEffect(() => {
-    document.title = "AI Templates: Video & Image Templates | LazyKiwi";
-    const meta = document.querySelector('meta[name="description"]');
-    const desc = "Browse LazyKiwi video and image templates. Pick a ready-made motion or image template, upload your asset, and generate in one workbench.";
-    if (meta) meta.setAttribute("content", desc);
-  }, []);
 
   const jsonLd = {
     "@context": "https://schema.org",

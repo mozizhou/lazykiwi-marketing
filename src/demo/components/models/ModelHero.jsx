@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { ArrowRight, Pause, Play, ChevronRight, Check } from "lucide-react";
 import { getModelGeneratorHref } from "../../utils/modelGeneratorLink";
 import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
+import LazyVideo from "../common/LazyVideo";
 
 // Renders headline with **highlighted** words wrapped in the kiwi accent.
 function Headline({ text }) {
@@ -115,9 +116,10 @@ export default function ModelHero({ data }) {
             <div className="overflow-hidden rounded-[28px] border border-gray-200 bg-gray-100 shadow-[0_30px_70px_-30px_rgba(15,23,42,0.4)]">
               <div className="relative aspect-[16/10]">
                 {isVideo ? (
-                  <video
+                  <LazyVideo
                     ref={videoRef}
                     src={heroMedia}
+                    poster={data.media?.poster}
                     className="h-full w-full object-cover"
                     autoPlay
                     muted

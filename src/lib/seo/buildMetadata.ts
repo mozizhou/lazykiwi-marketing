@@ -8,6 +8,8 @@ export type SeoFallback = {
   image?: string;
   keywords?: string;
   siteName?: string;
+  /** BCP-47 locale → absolute URL map for hreflang alternates. */
+  languages?: Record<string, string>;
 };
 
 /**
@@ -53,7 +55,12 @@ export function buildMetadata(override: SeoOverride | null, fallback: SeoFallbac
     metadata.keywords = keywords;
   }
   if (canonical) {
-    metadata.alternates = { canonical };
+    metadata.alternates = {
+      canonical,
+      ...(fallback.languages ? { languages: fallback.languages } : {}),
+    };
+  } else if (fallback.languages) {
+    metadata.alternates = { languages: fallback.languages };
   }
   if (noIndex) {
     metadata.robots = { index: false, follow: false };

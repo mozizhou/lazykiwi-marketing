@@ -69,9 +69,9 @@ export default function AuthModal({ mode, onClose, onComplete }) {
 
           <p className="mt-6 text-xs leading-relaxed text-gray-400">
             By continuing, you agree to our{' '}
-            <button type="button" className="font-semibold text-gray-600 underline decoration-gray-300 underline-offset-2">Privacy Policy</button>
+            <a href="/privacy" className="font-semibold text-gray-600 underline decoration-gray-300 underline-offset-2">Privacy Policy</a>
             {' '}&amp;{' '}
-            <button type="button" className="font-semibold text-gray-600 underline decoration-gray-300 underline-offset-2">Terms and Conditions</button>
+            <a href="/terms" className="font-semibold text-gray-600 underline decoration-gray-300 underline-offset-2">Terms and Conditions</a>
             , and confirm that you are at least 18 years of age.
           </p>
         </div>

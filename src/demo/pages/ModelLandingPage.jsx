@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import ModelHero from "../components/models/ModelHero";
 import ModelSteps from "../components/models/ModelSteps";
 import ModelCapabilities from "../components/models/ModelCapabilities";
@@ -6,15 +5,13 @@ import ModelShowcase from "../components/models/ModelShowcase";
 import ModelSpecs from "../components/models/ModelSpecs";
 import ModelComparison from "../components/models/ModelComparison";
 import ModelScenarios from "../components/models/ModelScenarios";
-import ModelTestimonials from "../components/models/ModelTestimonials";
 import ModelCTA from "../components/models/ModelCTA";
-import ModelRelated from "../components/models/ModelRelated";
-import ModelRelatedPosts from "../components/models/ModelRelatedPosts";
-import LandingFAQ from "../components/landing/LandingFAQ";
 import JsonLd from "../components/common/JsonLd";
 import { getModelData, normalizeModelPage } from "../data/modelPages";
 import { getModelCatalogItem } from "../data/modelCatalog";
 import { getModelGeneratorHref } from "../utils/modelGeneratorLink";
+import { ExploreMoreModels, FromTheBlog, ModelFaqSection } from "../components/models/ModelPageModules";
+import { getSpecValue } from "../utils/modelSpecsSoT";
 import ModelBlockRenderer from "@/components/modelBlocks/ModelBlockRenderer";
 
 const ORIGIN = "https://lazykiwi.ai";
@@ -53,34 +50,20 @@ function buildJsonLd(data) {
   return { "@context": "https://schema.org", "@graph": graph };
 }
 
+function heroDescription(data) {
+  const maxDuration = getSpecValue(data.specs, "Max duration");
+  const resolution = getSpecValue(data.specs, "Resolution");
+  if (!maxDuration && !resolution) return data.hero.description;
+  const specBits = [maxDuration && `up to ${maxDuration}`, resolution && `up to ${resolution}`].filter(Boolean).join(", ");
+  return specBits ? `${data.hero.description} Specs: ${specBits}.` : data.hero.description;
+}
+
 export default function ModelLandingPage({ slug, dbData }) {
   const data = dbData ? normalizeModelPage(dbData) : getModelData(slug);
   const catalogItem = getModelCatalogItem(slug);
 
-  useEffect(() => {
-    if (data && data.seo) {
-      document.title = data.seo.title;
-      const meta = document.querySelector('meta[name="description"]');
-      if (meta) meta.setAttribute("content", data.seo.description);
-      else {
-        const m = document.createElement("meta");
-        m.name = "description";
-        m.content = data.seo.description;
-        document.head.appendChild(m);
-      }
-    } else if (catalogItem) {
-      document.title = `${catalogItem.name} AI Model | LazyKiwi`;
-      const meta = document.querySelector('meta[name="description"]');
-      if (meta) meta.setAttribute("content", catalogItem.blurb);
-    }
-  }, [data, catalogItem]);
-
-  if (!data && !catalogItem) {
-    return (
-      <div className="flex h-full items-center justify-center">
-        <h1 className="text-2xl font-bold text-gray-500">Model Not Found</h1>
-      </div>
-    );
+  if (dbData && Array.isArray(dbData.blocks)) {
+    return <ModelBlockRenderer blocks={dbData.blocks} meta={dbData} slug={slug} />;
   }
 
   if (!data && catalogItem) {
@@ -116,25 +99,24 @@ export default function ModelLandingPage({ slug, dbData }) {
     );
   }
 
-  if (dbData && Array.isArray(dbData.blocks)) {
-    return <ModelBlockRenderer blocks={dbData.blocks} meta={dbData} slug={slug} />;
-  }
+  if (!data) return null;
+
+  const hero = { ...data.hero, description: heroDescription(data) };
 
   return (
     <article className="min-h-full bg-white">
       <JsonLd data={buildJsonLd(data)} />
-      <ModelHero data={data.hero} />
+      <ModelHero data={hero} />
       <ModelSteps data={data.steps} resolveCtaHref={getModelGeneratorHref} />
       <ModelCapabilities data={data.capabilities} />
       <ModelShowcase data={data.showcase} />
       <ModelSpecs data={data.specs} />
       <ModelComparison data={data.comparison} />
       <ModelScenarios data={data.scenarios} />
-      <ModelTestimonials data={data.testimonials} />
-      <LandingFAQ data={data.faq} />
+      <ModelFaqSection data={data.faq} />
       <ModelCTA data={data.bottomCta} />
-      <ModelRelated data={data.related} />
-      <ModelRelatedPosts data={data.relatedPosts} />
+      <ExploreMoreModels data={data.related} />
+      <FromTheBlog data={data.relatedPosts} />
     </article>
   );
 }

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -51,15 +50,6 @@ function HeroBlock({ data, meta }) {
             <a href="/tools" className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-5 py-3.5 text-sm font-bold text-gray-600 transition hover:text-gray-950">
               All tools <ArrowUpRight size={16} />
             </a>
-          </div>
-          <div className="mt-7 flex items-center gap-2 text-sm text-gray-500">
-            <span className="flex text-kiwi-green-dark">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <Star key={i} size={14} fill="currentColor" />
-              ))}
-            </span>
-            <span className="font-semibold text-gray-700">4.9</span>
-            <span>· Loved by 120,000+ creators</span>
           </div>
         </div>
 
@@ -306,7 +296,6 @@ export function toolToBlocks(doc) {
   if (doc.features?.length) b.push({ type: "features", data: doc.features });
   if (doc.showcase?.items?.length) b.push({ type: "showcase", data: doc.showcase });
   if (doc.why?.cards?.length) b.push({ type: "why", data: doc.why });
-  if (doc.reviews?.quotes?.length) b.push({ type: "reviews", data: doc.reviews });
   if (doc.faq?.faqs?.length) b.push({ type: "faq", data: doc.faq });
   if (doc.cta && (doc.cta.title || doc.cta.description)) b.push({ type: "cta", data: doc.cta });
   return b;
@@ -315,12 +304,6 @@ export function toolToBlocks(doc) {
 export default function ToolBlockRenderer({ blocks, meta, slug }) {
   const list = Array.isArray(blocks) ? blocks : [];
   const heroData = list.find((b) => b?.type === "hero")?.data || {};
-
-  useEffect(() => {
-    document.title = meta?.seo_title || `${meta?.name || heroData.title} | LazyKiwi`;
-    const el = document.querySelector('meta[name="description"]');
-    if (el && meta?.seo_description) el.setAttribute("content", meta.seo_description);
-  }, [meta, heroData.title]);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -352,8 +335,6 @@ export default function ToolBlockRenderer({ blocks, meta, slug }) {
             return <ShowcaseBlock key={key} data={data} />;
           case "why":
             return <WhyBlock key={key} data={data} />;
-          case "reviews":
-            return <ReviewsBlock key={key} data={data} />;
           case "faq":
             return <FaqBlock key={key} data={data} />;
           case "cta":

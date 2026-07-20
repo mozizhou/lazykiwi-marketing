@@ -91,10 +91,12 @@ export default function SiteFooter() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-gray-100 pt-8 sm:flex-row">
           <p className="text-xs text-gray-400">© 2026 LazyKiwi. All rights reserved.</p>
-          <div className="flex gap-5 text-xs font-medium text-gray-400">
-            {["Privacy", "Terms", "Contact"].map((l) => (
-              <a key={l} href="#" className="transition-colors hover:text-gray-700">{l}</a>
-            ))}
+          <div className="flex flex-wrap gap-5 text-xs font-medium text-gray-400">
+            <a href="/privacy" className="transition-colors hover:text-gray-700">Privacy</a>
+            <a href="/terms" className="transition-colors hover:text-gray-700">Terms</a>
+            <a href="/refund" className="transition-colors hover:text-gray-700">Refund</a>
+            <a href="/about" className="transition-colors hover:text-gray-700">About</a>
+            <a href="mailto:hello@lazykiwi.ai" className="transition-colors hover:text-gray-700">Contact</a>
           </div>
         </div>
       </div>

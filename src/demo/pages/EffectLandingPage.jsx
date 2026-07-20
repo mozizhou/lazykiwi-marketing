@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import LandingHero from "../components/landing/LandingHero";
 import LandingCreationModule from "../components/landing/LandingCreationModule";
 import LandingIntro from "../components/landing/LandingIntro";
@@ -14,21 +13,6 @@ import EffectPremiumPage from "./EffectPremiumPage";
 export default function EffectLandingPage({ slug }) {
   const premium = getEffectPremiumData(slug);
   const data = getEffectData(slug);
-
-  useEffect(() => {
-    if (data && data.seo) {
-      document.title = data.seo.title;
-      const metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute("content", data.seo.description);
-      } else {
-        const meta = document.createElement('meta');
-        meta.name = "description";
-        meta.content = data.seo.description;
-        document.head.appendChild(meta);
-      }
-    }
-  }, [data]);
 
   if (premium) {
     return <EffectPremiumPage slug={slug} />;

@@ -1,0 +1,24 @@
+# LazyKiwi
+
+> LazyKiwi is an all-in-one AI creative studio for images and video — text-to-video, image-to-video, photo tools, templates, and top models in one workbench.
+
+## Primary pages
+
+- Home: https://lazykiwi.ai/
+- AI photo tools: https://lazykiwi.ai/tools
+- AI models: https://lazykiwi.ai/models
+- Templates: https://lazykiwi.ai/templates
+- Blog: https://lazykiwi.ai/blog
+- Video generator: https://lazykiwi.ai/video-generator
+- Image generator: https://lazykiwi.ai/image-generator
+- Pricing: https://lazykiwi.ai/pricing
+
+## Contact
+
+- Email: hello@lazykiwi.ai
+- Website: https://lazykiwi.ai
+
+## Optional
+
+- Sitemap: https://lazykiwi.ai/sitemap.xml
+- Robots: https://lazykiwi.ai/robots.txt

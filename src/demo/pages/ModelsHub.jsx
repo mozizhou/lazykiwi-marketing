@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { ArrowRight, ArrowUpRight, Video, Image as ImageIcon } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
 import { modelPages } from "../data/modelPages";
@@ -87,14 +87,6 @@ export default function ModelsHub(props) {
   );
 
   const filtered = filter === "All" ? items : items.filter((i) => i.type === filter);
-
-  useEffect(() => {
-    document.title = "AI Models: Sora 2, Veo 3, Kling, FLUX & More | LazyKiwi";
-    const meta = document.querySelector('meta[name="description"]');
-    const desc =
-      "Browse every AI video and image model in LazyKiwi: Sora 2, Veo 3, Kling, Seedream, Nano Banana, FLUX and more. Compare their strengths and run any of them in one workbench.";
-    if (meta) meta.setAttribute("content", desc);
-  }, []);
 
   const jsonLd = {
     "@context": "https://schema.org",

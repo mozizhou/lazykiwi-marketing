@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { ArrowRight, ArrowUpRight, Video, Image as ImageIcon } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
 import { effectPremiumPages } from "../data/effectPremiumPages";
@@ -35,14 +35,6 @@ export default function EffectsHub() {
   }, []);
 
   const filtered = filter === "All" ? items : items.filter((i) => i.type === filter);
-
-  useEffect(() => {
-    document.title = "AI Video & Photo Effects: Hug, Explosion, Bullet Time & More | LazyKiwi";
-    const meta = document.querySelector('meta[name="description"]');
-    const desc =
-      "Browse LazyKiwi's AI video and photo effects: AI Hug, AI Headshot, Explosion, Bullet Time, Money Rain and more. Each is a one-click template. Upload a photo and generate.";
-    if (meta) meta.setAttribute("content", desc);
-  }, []);
 
   const jsonLd = {
     "@context": "https://schema.org",

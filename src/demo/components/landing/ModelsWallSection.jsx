@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { modelCountLabel } from '@/lib/seo/siteStats';
 
 const MODEL_BRANDS = [
   { name: 'Seedance', logo: 'https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/assets/landing/logo/processed/seedance.png' },
@@ -51,7 +52,7 @@ export default function ModelsWallSection() {
           className={`models-wall-content${visible ? ' is-visible' : ''}`}
         >
           <h2 className="lk-h2">
-            33+ leading models.<br />
+            {modelCountLabel} leading models.<br />
             <em>One subscription.</em>
           </h2>
           <p>

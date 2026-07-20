@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { DemoSitePage } from "@/components/demo/DemoSitePage";
 import { getModelData } from "@/demo/data/modelPages";
 import { getSeoOverride } from "@/lib/seo/service";
 import { getCmsPageContent } from "@/lib/seo/templatePage";
 import { buildMetadata } from "@/lib/seo/buildMetadata";
+import { pageExists } from "@/lib/seo/pageExists";
 
 type ModelPageProps = {
   params: Promise<{ slug: string }>;
@@ -11,6 +13,10 @@ type ModelPageProps = {
 
 export async function generateMetadata({ params }: ModelPageProps): Promise<Metadata> {
   const { slug } = await params;
+  if (!(await pageExists("model", slug))) {
+    return { title: "Page Not Found | LazyKiwi", robots: { index: false, follow: false } };
+  }
+
   const dbPage = await getCmsPageContent("model", slug);
   const data = (dbPage?.doc || getModelData(slug)) as { seo?: { title?: string; description?: string }; hero?: { name?: string; tagline?: string } } | null;
   const title = data?.seo?.title || (data?.hero?.name ? `${data.hero.name} | LazyKiwi` : "AI Models | LazyKiwi");
@@ -26,6 +32,8 @@ export async function generateMetadata({ params }: ModelPageProps): Promise<Meta
 
 export default async function ModelPage({ params }: ModelPageProps) {
   const { slug } = await params;
+  if (!(await pageExists("model", slug))) notFound();
+
   const dbPage = await getCmsPageContent("model", slug);
   return <DemoSitePage kind="model" slug={slug} dbData={dbPage?.doc ?? undefined} />;
 }

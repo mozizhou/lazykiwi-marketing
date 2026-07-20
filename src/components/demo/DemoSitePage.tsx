@@ -12,6 +12,8 @@ import ToolsHub from "@/demo/pages/ToolsHub";
 import ToolLandingPage from "@/demo/pages/ToolLandingPage";
 import TemplatesHub from "@/demo/pages/TemplatesHub";
 import TemplateLandingPage from "@/demo/pages/TemplateLandingPage";
+import ToolsCategoryHub from "@/demo/pages/ToolsCategoryHub";
+import ModelsCategoryHub from "@/demo/pages/ModelsCategoryHub";
 import type { TemplateBlock, TemplatePageCard } from "@/lib/seo/templatePage";
 
 type CmsDoc = Record<string, unknown> | null;
@@ -25,7 +27,9 @@ type DemoSitePageProps =
   | { kind: "tools-hub"; extra?: TemplatePageCard[] }
   | { kind: "tool"; slug: string; dbData?: CmsDoc }
   | { kind: "templates-hub"; extraTemplates?: TemplatePageCard[] }
-  | { kind: "template"; slug: string; blocks?: TemplateBlock[] | null; name?: string; templateType?: string };
+  | { kind: "template"; slug: string; blocks?: TemplateBlock[] | null; name?: string; templateType?: string }
+  | { kind: "tools-category"; categoryKey: string }
+  | { kind: "models-category"; categoryKey: string };
 
 export function DemoSitePage(props: DemoSitePageProps) {
   const [authModalMode, setAuthModalMode] = useState<null | "login" | "signup">(null);
@@ -57,6 +61,10 @@ export function DemoSitePage(props: DemoSitePageProps) {
             dbTemplateType={props.templateType}
           />
         );
+      case "tools-category":
+        return <ToolsCategoryHub categoryKey={props.categoryKey} />;
+      case "models-category":
+        return <ModelsCategoryHub categoryKey={props.categoryKey} />;
       default:
         return null;
     }

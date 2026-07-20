@@ -120,8 +120,10 @@ export const footerNav = [
   {
     title: "Legal",
     items: [
-      { label: "Privacy" },
-      { label: "Terms" },
+      { label: "Privacy", href: "/privacy" },
+      { label: "Terms", href: "/terms" },
+      { label: "Refund", href: "/refund" },
+      { label: "About", href: "/about" },
       { label: "Contact", href: "mailto:hello@lazykiwi.ai" },
     ],
   },

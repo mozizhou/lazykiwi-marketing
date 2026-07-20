@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import BlogHeader from "@/demo/components/blog/BlogHeader";
 import BlogArticle from "@/demo/components/blog/BlogArticle";
 import BlogKeyTakeaways from "@/demo/components/blog/BlogKeyTakeaways";
@@ -34,14 +33,6 @@ export default function BlogBlockRenderer({ blocks, meta, slug }) {
   const list = Array.isArray(blocks) ? blocks : [];
   const headerData = list.find((b) => b?.type === "header")?.data || {};
   const faqData = list.find((b) => b?.type === "faq")?.data;
-
-  useEffect(() => {
-    if (meta?.seo?.title) {
-      document.title = meta.seo.title;
-      const el = document.querySelector('meta[name="description"]');
-      if (el && meta.seo.description) el.setAttribute("content", meta.seo.description);
-    }
-  }, [meta]);
 
   const graph = [
     {

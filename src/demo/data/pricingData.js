@@ -1,4 +1,7 @@
 // Paid plans aligned with 积分系统.docx (TABLE 2)
+import { templates } from "./templatesList";
+
+const templateCountLabel = `${templates.length}+`;
 
 export const PRICING_PLANS = [
   {
@@ -16,7 +19,7 @@ export const PRICING_PLANS = [
       "2 parallel tasks",
       "No-watermark outputs",
       "Text & image to video",
-      "300+ templates & effects",
+      `${templateCountLabel} templates & effects`,
     ],
     bottomNote: "Great for solo creators testing paid workflows",
   },

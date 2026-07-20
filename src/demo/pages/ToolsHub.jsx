@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { ArrowRight, ArrowUpRight, Wand2, Sparkles, Palette, Smile, Brush } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
 import { tools, toolCategories } from "../data/toolsList";
@@ -39,14 +39,6 @@ export default function ToolsHub(props) {
   const tabs = useMemo(() => ["All", ...toolCategories.map((c) => c.key)], []);
   const labelFor = (key) => toolCategories.find((c) => c.key === key)?.label || key;
   const filtered = filter === "All" ? merged : merged.filter((t) => t.category === filter);
-
-  useEffect(() => {
-    document.title = "AI Photo Tools: Hairstyle, Headshot, Restore & More | LazyKiwi";
-    const meta = document.querySelector('meta[name="description"]');
-    const desc =
-      "Free one-click AI photo tools from LazyKiwi: hairstyle and hair color changers, AI headshots, photo restoration, upscaling, and fun face filters. Upload one photo and go.";
-    if (meta) meta.setAttribute("content", desc);
-  }, []);
 
   const jsonLd = {
     "@context": "https://schema.org",

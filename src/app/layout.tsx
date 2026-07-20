@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import { buildOrganizationJsonLd } from "@/lib/seo/buildJsonLd";
 
 const GA_MEASUREMENT_ID = "G-45JJEWTXHQ";
 
@@ -14,10 +15,16 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationJsonLd = buildOrganizationJsonLd();
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         {children}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -11,6 +10,9 @@ import {
   Zap,
 } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
+import RelatedTemplates from "../components/templates/RelatedTemplates";
+import IpDisclaimer from "../components/common/IpDisclaimer";
+import { isIpRiskSlug } from "@/lib/seo/ipRiskSlugs";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -45,13 +47,6 @@ export default function TemplateRichLanding({ data, slug }) {
   const heroBefore = data.hero?.image_before || data.images?.hero_before;
   const heroAfter = data.hero?.image_after || data.images?.hero_after;
   const hasBeforeAfter = Boolean(heroBefore && heroAfter);
-
-  useEffect(() => {
-    if (!data) return;
-    document.title = `${data.hero?.title || data.template_name} Template | LazyKiwi`;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta && data.hero?.description) meta.setAttribute("content", data.hero.description);
-  }, [data]);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -239,6 +234,8 @@ export default function TemplateRichLanding({ data, slug }) {
           </div>
         </section>
       )}
+      <RelatedTemplates currentSlug={slug} />
+      {isIpRiskSlug(slug) && <IpDisclaimer />}
     </article>
   );
 }

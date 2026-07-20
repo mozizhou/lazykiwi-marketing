@@ -169,7 +169,7 @@ export const sora2Data = {
     description: "LazyKiwi keeps the newest and most popular AI video and image models in one workbench. Switch models without switching tools.",
     models: [
       { name: "Veo 3", type: "Video", link: "/models/veo-3" },
-      { name: "Kling 1.6 Turbo", type: "Video", link: "/models/kling-1-6-turbo" },
+      { name: "Kling 1.6", type: "Video", link: "/models/kling-1-6" },
       { name: "Seedream 5.0", type: "Image", link: "/models/seedream-5" },
       { name: "Nano Banana", type: "Image", link: "/models/nano-banana" },
       { name: "FLUX.1 Schnell", type: "Image", link: "/models/flux-1-schnell" },

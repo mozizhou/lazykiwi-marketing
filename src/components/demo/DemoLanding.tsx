@@ -15,13 +15,7 @@ export function DemoLanding() {
 
   const navigateToPage = (_pageId: string, path?: string) => {
     if (!path) return;
-    if (path.startsWith("/video-generator")) {
-      window.location.assign(appUrl(path.replace("/video-generator", "/app/video-generator")));
-    } else if (path.startsWith("/image-generator")) {
-      window.location.assign(appUrl(path.replace("/image-generator", "/app/image-generator")));
-    } else {
-      router.push(path);
-    }
+    router.push(path);
   };
 
   return (

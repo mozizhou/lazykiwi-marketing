@@ -6,14 +6,22 @@ function siteOrigin(): string {
   return origin.replace(/\/$/, "");
 }
 
+const AI_CRAWLERS = ["GPTBot", "ClaudeBot", "PerplexityBot"];
+
 export default function robots(): MetadataRoute.Robots {
   const origin = siteOrigin();
   return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
-      disallow: ["/auth/", "/api/"],
-    },
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/auth/", "/api/"],
+      },
+      ...AI_CRAWLERS.map((userAgent) => ({
+        userAgent,
+        allow: "/",
+      })),
+    ],
     sitemap: `${origin}/sitemap.xml`,
     host: origin,
   };

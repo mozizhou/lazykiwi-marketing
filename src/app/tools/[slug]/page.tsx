@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { DemoSitePage } from "@/components/demo/DemoSitePage";
 import { getToolPage } from "@/demo/data/toolPages";
 import { tools } from "@/demo/data/toolsList";
 import { getSeoOverride } from "@/lib/seo/service";
 import { getCmsPageContent } from "@/lib/seo/templatePage";
 import { buildMetadata } from "@/lib/seo/buildMetadata";
+import { pageExists } from "@/lib/seo/pageExists";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -14,6 +16,10 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (!(await pageExists("tool", slug))) {
+    return { title: "Page Not Found | LazyKiwi", robots: { index: false, follow: false } };
+  }
+
   const dbPage = await getCmsPageContent("tool", slug);
   const rich = (dbPage?.doc || getToolPage(slug)) as
     | { seo_title?: string; seo_description?: string; hero?: { title?: string; image_after?: string; image_before?: string } }
@@ -41,6 +47,8 @@ export async function generateMetadata({
 
 export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (!(await pageExists("tool", slug))) notFound();
+
   const dbPage = await getCmsPageContent("tool", slug);
   return <DemoSitePage kind="tool" slug={slug} dbData={dbPage?.doc ?? undefined} />;
 }

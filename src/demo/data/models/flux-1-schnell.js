@@ -171,7 +171,7 @@ export const flux1SchnellData = {
       { name: "Nano Banana", type: "Image", link: "/models/nano-banana" },
       { name: "Sora 2", type: "Video", link: "/models/sora-2" },
       { name: "Veo 3", type: "Video", link: "/models/veo-3" },
-      { name: "Kling 1.6 Turbo", type: "Video", link: "/models/kling-1-6-turbo" },
+      { name: "Kling 1.6", type: "Video", link: "/models/kling-1-6" },
     ],
   },
   relatedPosts: {

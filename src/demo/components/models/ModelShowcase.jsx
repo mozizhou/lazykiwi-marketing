@@ -1,6 +1,7 @@
 import { Play, ArrowRight } from "lucide-react";
 import { getModelGeneratorHref } from "../../utils/modelGeneratorLink";
 import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
+import LazyVideo from "../common/LazyVideo";
 
 const isVideoAsset = (url = "") => /\.(mp4|webm|mov)(\?|#|$)/i.test(url);
 
@@ -38,7 +39,7 @@ export default function ModelShowcase({ data }) {
               >
                 <div className={i === 0 ? "aspect-square lg:aspect-auto lg:h-full" : "aspect-[3/4]"}>
                   {videoSrc ? (
-                    <video
+                    <LazyVideo
                       src={videoSrc}
                       poster={poster}
                       className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
@@ -46,7 +47,6 @@ export default function ModelShowcase({ data }) {
                       muted
                       loop
                       playsInline
-                      preload="metadata"
                     />
                   ) : item.image ? (
                     <img src={item.image} alt={item.title} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />

@@ -9,12 +9,9 @@ import {
   Wand2,
   Zap,
 } from "lucide-react";
-import JsonLd from "../components/common/JsonLd";
 import RelatedTemplates from "../components/templates/RelatedTemplates";
 import IpDisclaimer from "../components/common/IpDisclaimer";
 import { isIpRiskSlug } from "@/lib/seo/ipRiskSlugs";
-
-const ORIGIN = "https://lazykiwi.ai";
 
 const ICONS = {
   scene: Layers,
@@ -48,18 +45,8 @@ export default function TemplateRichLanding({ data, slug }) {
   const heroAfter = data.hero?.image_after || data.images?.hero_after;
   const hasBeforeAfter = Boolean(heroBefore && heroAfter);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    name: `${data.hero?.title || data.template_name} Template`,
-    url: `${ORIGIN}/templates/${slug}`,
-    description: data.hero?.description || "",
-  };
-
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={jsonLd} />
-
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-gray-100">
         <div className="pointer-events-none absolute -right-24 -top-24 h-[420px] w-[420px] rounded-full bg-kiwi-green/20 blur-[150px]" />

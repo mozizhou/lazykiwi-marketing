@@ -9,10 +9,7 @@ import {
   Wand2,
   Zap,
 } from "lucide-react";
-import JsonLd from "@/demo/components/common/JsonLd";
 import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
-
-const ORIGIN = "https://lazykiwi.ai";
 
 const ICONS = {
   scene: Layers,
@@ -319,19 +316,8 @@ export default function BlockRenderer({ blocks, slug, templateType, name }) {
   const workbenchHref = `${generatorPath}?mode=template&template=${encodeURIComponent(slug)}`;
   const typeLabel = isImage ? "Image Template" : "Video Template";
 
-  const hero = list.find((b) => b?.type === "hero");
-  const heroData = hero?.data || {};
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    name: `${heroData.title || name || slug} Template`,
-    url: `${ORIGIN}/templates/${slug}`,
-    description: heroData.description || "",
-  };
-
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={jsonLd} />
       {list.map((block, i) => {
         const data = block?.data || {};
         const key = block?.id || `${block?.type}-${i}`;

@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { DemoSitePage } from "@/components/demo/DemoSitePage";
+import JsonLdScript from "@/components/seo/JsonLdScript";
 import { getToolPage } from "@/demo/data/toolPages";
 import { tools } from "@/demo/data/toolsList";
 import { getSeoOverride } from "@/lib/seo/service";
 import { getCmsPageContent } from "@/lib/seo/templatePage";
 import { buildMetadata } from "@/lib/seo/buildMetadata";
 import { pageExists } from "@/lib/seo/pageExists";
+import { resolveToolPageJsonLd } from "@/lib/seo/resolvePageJsonLd";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -50,5 +52,12 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
   if (!(await pageExists("tool", slug))) notFound();
 
   const dbPage = await getCmsPageContent("tool", slug);
-  return <DemoSitePage kind="tool" slug={slug} dbData={dbPage?.doc ?? undefined} />;
+  const jsonLd = resolveToolPageJsonLd(slug, dbPage?.doc ?? null);
+
+  return (
+    <>
+      <JsonLdScript data={jsonLd} />
+      <DemoSitePage kind="tool" slug={slug} dbData={dbPage?.doc ?? undefined} />
+    </>
+  );
 }

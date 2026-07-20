@@ -1,5 +1,4 @@
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import JsonLd from "../components/common/JsonLd";
 import RelatedTemplates from "../components/templates/RelatedTemplates";
 import IpDisclaimer from "../components/common/IpDisclaimer";
 import { isIpRiskSlug } from "@/lib/seo/ipRiskSlugs";
@@ -11,8 +10,6 @@ import EffectPremiumPage from "./EffectPremiumPage";
 import { getEffectData } from "../data/landingPages";
 import { getEffectPremiumData } from "../data/effectPremiumPages";
 import BlockRenderer from "@/components/templateBlocks/BlockRenderer";
-
-const ORIGIN = "https://lazykiwi.ai";
 
 export default function TemplateLandingPage({ slug, dbBlocks, dbName, dbTemplateType }) {
   const hasDbBlocks = Array.isArray(dbBlocks) && dbBlocks.length > 0;
@@ -47,17 +44,8 @@ export default function TemplateLandingPage({ slug, dbBlocks, dbName, dbTemplate
     );
   }
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    name: `${template.name} Template`,
-    url: `${ORIGIN}/templates/${template.slug}`,
-    description: template.blurb,
-  };
-
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={jsonLd} />
       <section className="mx-auto grid max-w-7xl gap-10 px-6 py-16 sm:px-10 lg:grid-cols-[1fr_0.9fr] lg:py-24">
         <div>
           <p className="mb-3 text-sm font-bold uppercase tracking-[0.12em] text-kiwi-green-dark">{template.type} Template</p>

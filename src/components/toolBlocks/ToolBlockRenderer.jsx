@@ -10,10 +10,7 @@ import {
   Wand2,
   Zap,
 } from "lucide-react";
-import JsonLd from "@/demo/components/common/JsonLd";
 import { renderInlineLinks } from "@/lib/cms/renderInlineLinks";
-
-const ORIGIN = "https://lazykiwi.ai";
 const TRY_HREF = "/image-generator";
 const WHY_ICONS = [Zap, ShieldCheck, Check, Heart, Sparkles, Wand2];
 
@@ -303,22 +300,9 @@ export function toolToBlocks(doc) {
 
 export default function ToolBlockRenderer({ blocks, meta, slug }) {
   const list = Array.isArray(blocks) ? blocks : [];
-  const heroData = list.find((b) => b?.type === "hero")?.data || {};
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    name: meta?.seo_title || `${meta?.name} | LazyKiwi`,
-    applicationCategory: "MultimediaApplication",
-    operatingSystem: "Web",
-    url: `${ORIGIN}/tools/${slug}`,
-    description: meta?.seo_description || heroData.description || "",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  };
 
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={jsonLd} />
       {list.map((block, i) => {
         const data = block?.data;
         const key = block?.id || `${block?.type}-${i}`;

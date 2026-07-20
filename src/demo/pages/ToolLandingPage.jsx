@@ -1,5 +1,4 @@
 import { ArrowRight, ArrowUpRight, Upload, Sparkles, Clock } from "lucide-react";
-import JsonLd from "../components/common/JsonLd";
 import { tools } from "../data/toolsList";
 import { getToolPage } from "../data/toolPages";
 import ToolBlockRenderer from "@/components/toolBlocks/ToolBlockRenderer";
@@ -7,7 +6,6 @@ import ToolPageSlots from "../components/tools/ToolPageSlots";
 import IpDisclaimer from "../components/common/IpDisclaimer";
 import { isIpRiskSlug } from "@/lib/seo/ipRiskSlugs";
 
-const ORIGIN = "https://lazykiwi.ai";
 const TRY_HREF = "/image-generator";
 const WHY_ICONS = [Sparkles, Upload, Clock];
 
@@ -23,21 +21,8 @@ function RichToolPage({ data, meta, slug }) {
   const heroBefore = data.hero?.image_before;
   const heroAfter = data.hero?.image_after;
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    name: meta?.seo_title || `${meta?.name} | LazyKiwi`,
-    applicationCategory: "MultimediaApplication",
-    operatingSystem: "Web",
-    url: `${ORIGIN}/tools/${slug}`,
-    description: meta?.seo_description || data.hero?.description || "",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  };
-
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={jsonLd} />
-
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-gray-100">
         <div className="pointer-events-none absolute -right-24 -top-24 h-[460px] w-[460px] rounded-full bg-kiwi-green/20 blur-[140px]" />
@@ -266,20 +251,8 @@ export default function ToolLandingPage({ slug, dbData }) {
 
   if (!tool) return null;
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    name: `${tool.name} | LazyKiwi`,
-    applicationCategory: "MultimediaApplication",
-    operatingSystem: "Web",
-    url: `${ORIGIN}/tools/${tool.slug}`,
-    description: tool.blurb,
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  };
-
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={jsonLd} />
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute -right-24 -top-24 h-[420px] w-[420px] rounded-full bg-kiwi-green/20 blur-[150px]" />
         <div className="relative mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-24">

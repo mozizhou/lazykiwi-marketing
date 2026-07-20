@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { DemoSitePage } from "@/components/demo/DemoSitePage";
+import JsonLdScript from "@/components/seo/JsonLdScript";
 import { getTemplatePage } from "@/demo/data/templatePages";
 import { getSeoOverride } from "@/lib/seo/service";
 import { getTemplatePageContent } from "@/lib/seo/templatePage";
 import { buildMetadata } from "@/lib/seo/buildMetadata";
 import { templateCountLabel } from "@/lib/seo/siteStats";
 import { pageExists } from "@/lib/seo/pageExists";
+import { resolveTemplatePageJsonLd } from "@/lib/seo/resolvePageJsonLd";
 
 type TemplatePageProps = {
   params: Promise<{ slug: string }>;
@@ -51,13 +53,18 @@ export default async function TemplatePage({ params }: TemplatePageProps) {
   if (!(await pageExists("template", slug))) notFound();
 
   const dbPage = await getTemplatePageContent(slug);
+  const jsonLd = resolveTemplatePageJsonLd(slug, dbPage?.blocks ?? null, dbPage?.name);
+
   return (
-    <DemoSitePage
-      kind="template"
-      slug={slug}
-      blocks={dbPage?.blocks ?? null}
-      name={dbPage?.name}
-      templateType={dbPage?.templateType}
-    />
+    <>
+      <JsonLdScript data={jsonLd} />
+      <DemoSitePage
+        kind="template"
+        slug={slug}
+        blocks={dbPage?.blocks ?? null}
+        name={dbPage?.name}
+        templateType={dbPage?.templateType}
+      />
+    </>
   );
 }

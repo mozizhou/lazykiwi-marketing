@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { DemoSitePage } from "@/components/demo/DemoSitePage";
+import JsonLdScript from "@/components/seo/JsonLdScript";
 import { getBlogData } from "@/demo/data/blogPosts";
 import { getSeoOverride } from "@/lib/seo/service";
 import { getCmsPageContent } from "@/lib/seo/templatePage";
 import { buildMetadata } from "@/lib/seo/buildMetadata";
 import { pageExists } from "@/lib/seo/pageExists";
+import { resolveBlogPageJsonLd } from "@/lib/seo/resolvePageJsonLd";
 
 type BlogPageProps = {
   params: Promise<{ slug: string }>;
@@ -35,5 +37,12 @@ export default async function BlogPage({ params }: BlogPageProps) {
   if (!(await pageExists("blog", slug))) notFound();
 
   const dbPage = await getCmsPageContent("blog", slug);
-  return <DemoSitePage kind="blog" slug={slug} dbData={dbPage?.doc ?? undefined} />;
+  const jsonLd = resolveBlogPageJsonLd(slug, dbPage?.doc ?? null);
+
+  return (
+    <>
+      <JsonLdScript data={jsonLd} />
+      <DemoSitePage kind="blog" slug={slug} dbData={dbPage?.doc ?? undefined} />
+    </>
+  );
 }

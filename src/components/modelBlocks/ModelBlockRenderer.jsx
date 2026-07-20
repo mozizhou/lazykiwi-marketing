@@ -7,10 +7,7 @@ import ModelComparison from "@/demo/components/models/ModelComparison";
 import ModelScenarios from "@/demo/components/models/ModelScenarios";
 import ModelCTA from "@/demo/components/models/ModelCTA";
 import LandingFAQ from "@/demo/components/landing/LandingFAQ";
-import JsonLd from "@/demo/components/common/JsonLd";
 import { getModelGeneratorHref } from "@/demo/utils/modelGeneratorLink";
-
-const ORIGIN = "https://lazykiwi.ai";
 
 /**
  * Converts a legacy structured model doc into an ordered block list. Kept in sync
@@ -41,7 +38,6 @@ export default function ModelBlockRenderer({ blocks, meta, slug }) {
 
   const stepsData = list.find((b) => b?.type === "steps")?.data;
   const showcaseData = list.find((b) => b?.type === "showcase")?.data;
-  const faqData = list.find((b) => b?.type === "faq")?.data;
 
   const primaryCta = heroData.primaryCta || stepsData?.cta || showcaseData?.cta || {
     label: `Try ${heroData.name || slug} free`,
@@ -61,31 +57,8 @@ export default function ModelBlockRenderer({ blocks, meta, slug }) {
     buttonLink: data.buttonLink || primaryCta.link || generatorHref,
   });
 
-  const graph = [
-    {
-      "@type": "SoftwareApplication",
-      name: `${heroData.name || slug} — LazyKiwi`,
-      applicationCategory: "MultimediaApplication",
-      operatingSystem: "Web",
-      url: `${ORIGIN}/models/${slug}`,
-      description: meta?.seo?.description || "",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    },
-  ];
-  if (faqData?.length) {
-    graph.push({
-      "@type": "FAQPage",
-      mainEntity: faqData.map((f) => ({
-        "@type": "Question",
-        name: f.question,
-        acceptedAnswer: { "@type": "Answer", text: f.answer },
-      })),
-    });
-  }
-
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={{ "@context": "https://schema.org", "@graph": graph }} />
       {list.map((block, i) => {
         const data = block?.data;
         const key = block?.id || `${block?.type}-${i}`;

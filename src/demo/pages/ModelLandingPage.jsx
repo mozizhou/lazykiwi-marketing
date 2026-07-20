@@ -6,49 +6,12 @@ import ModelSpecs from "../components/models/ModelSpecs";
 import ModelComparison from "../components/models/ModelComparison";
 import ModelScenarios from "../components/models/ModelScenarios";
 import ModelCTA from "../components/models/ModelCTA";
-import JsonLd from "../components/common/JsonLd";
 import { getModelData, normalizeModelPage } from "../data/modelPages";
 import { getModelCatalogItem } from "../data/modelCatalog";
 import { getModelGeneratorHref } from "../utils/modelGeneratorLink";
 import { ExploreMoreModels, FromTheBlog, ModelFaqSection } from "../components/models/ModelPageModules";
 import { getSpecValue } from "../utils/modelSpecsSoT";
 import ModelBlockRenderer from "@/components/modelBlocks/ModelBlockRenderer";
-
-const ORIGIN = "https://lazykiwi.ai";
-
-function buildJsonLd(data) {
-  const url = `${ORIGIN}/models/${data.slug}`;
-  const graph = [
-    {
-      "@type": "SoftwareApplication",
-      name: `${data.hero.name} — LazyKiwi`,
-      applicationCategory: "MultimediaApplication",
-      operatingSystem: "Web",
-      url,
-      description: data.seo.description,
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    },
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: (data.hero.breadcrumb || []).map((name, i) => ({
-        "@type": "ListItem",
-        position: i + 1,
-        name,
-      })),
-    },
-  ];
-  if (data.faq?.length) {
-    graph.push({
-      "@type": "FAQPage",
-      mainEntity: data.faq.map((f) => ({
-        "@type": "Question",
-        name: f.question,
-        acceptedAnswer: { "@type": "Answer", text: f.answer },
-      })),
-    });
-  }
-  return { "@context": "https://schema.org", "@graph": graph };
-}
 
 function heroDescription(data) {
   const maxDuration = getSpecValue(data.specs, "Max duration");
@@ -69,16 +32,6 @@ export default function ModelLandingPage({ slug, dbData }) {
   if (!data && catalogItem) {
     return (
       <article className="min-h-full bg-white">
-        <JsonLd data={{
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          name: `${catalogItem.name} | LazyKiwi`,
-          applicationCategory: "MultimediaApplication",
-          operatingSystem: "Web",
-          url: `${ORIGIN}/models/${catalogItem.slug}`,
-          description: catalogItem.blurb,
-          offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-        }} />
         <section className="relative overflow-hidden">
           <div className="pointer-events-none absolute -right-24 -top-24 h-[420px] w-[420px] rounded-full bg-kiwi-green/20 blur-[150px]" />
           <div className="relative mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-24">
@@ -105,7 +58,6 @@ export default function ModelLandingPage({ slug, dbData }) {
 
   return (
     <article className="min-h-full bg-white">
-      <JsonLd data={buildJsonLd(data)} />
       <ModelHero data={hero} />
       <ModelSteps data={data.steps} resolveCtaHref={getModelGeneratorHref} />
       <ModelCapabilities data={data.capabilities} />

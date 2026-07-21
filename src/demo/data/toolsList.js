@@ -150,3 +150,6 @@ export const tools = [
     image: "https://lazykiwi.oss-accelerate.aliyuncs.com/web-assets/landings/tools/assets/img/ai-age-filter/hero-after.jpg",
   },
 ];
+
+/** Tools shown on /tools hub grid (first 8 core tools). */
+export const hubTools = tools.slice(0, 8);

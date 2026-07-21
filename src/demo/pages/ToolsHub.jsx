@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { ArrowRight, ArrowUpRight, Wand2, Sparkles, Palette, Smile, Brush } from "lucide-react";
 import JsonLd from "../components/common/JsonLd";
-import { tools, toolCategories } from "../data/toolsList";
+import { hubTools, toolCategories } from "../data/toolsList";
 
 const ORIGIN = "https://lazykiwi.ai";
 
@@ -18,11 +18,14 @@ export default function ToolsHub(props) {
   const extra = props?.extra;
   const [filter, setFilter] = useState("All");
 
-  // DB-published tools take priority over the static list when slugs collide.
+  const hubSlugs = useMemo(() => new Set(hubTools.map((t) => t.slug)), []);
+
+  // Hub shows only the 8 core tools; CMS entries can refresh their cards when published.
   const merged = useMemo(() => {
     const bySlug = new Map();
-    tools.forEach((item) => bySlug.set(item.slug, item));
+    hubTools.forEach((item) => bySlug.set(item.slug, item));
     (extra || []).forEach((card) => {
+      if (!hubSlugs.has(card.slug)) return;
       const existing = bySlug.get(card.slug);
       bySlug.set(card.slug, {
         slug: card.slug,
@@ -34,7 +37,7 @@ export default function ToolsHub(props) {
       });
     });
     return Array.from(bySlug.values());
-  }, [extra]);
+  }, [extra, hubSlugs]);
 
   const tabs = useMemo(() => ["All", ...toolCategories.map((c) => c.key)], []);
   const labelFor = (key) => toolCategories.find((c) => c.key === key)?.label || key;

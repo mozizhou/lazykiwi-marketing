@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata(override, {
     title: "Free AI Photo Tools | LazyKiwi",
     description:
-      "Explore LazyKiwi's free online AI photo tools — gender swap, AI outfit generator, photo colorizer, photo to sketch, anime avatar and more. Upload one photo, get results in seconds.",
+      "Explore LazyKiwi's free online AI photo tools — hairstyle changer, hair color, photo restoration, upscaler, passport photo maker, face shape detector, and more. Upload one photo, get results in seconds.",
     canonical: "https://lazykiwi.ai/tools",
   });
 }

@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight, Upload, Sparkles, Clock } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Upload, Sparkles, Clock, Check } from "lucide-react";
 import { tools } from "../data/toolsList";
 import { getToolPage } from "../data/toolPages";
 import ToolBlockRenderer from "@/components/toolBlocks/ToolBlockRenderer";
